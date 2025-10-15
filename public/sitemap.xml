@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Home page in all languages -->
+  <url>
+    <loc>https://www.africaguacanarias.com/</loc>
+    <lastmod>2024-03-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.africaguacanarias.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.africaguacanarias.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.africaguacanarias.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.africaguacanarias.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.africaguacanarias.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.africaguacanarias.com/"/>
+    <image:image>
+      <image:loc>https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/LOGO%20AFRICAGUA.png?alt=media&token=9e8c68b1-211e-4bb4-ac6c-d00193fb057e</image:loc>
+      <image:title>Africagua - Foro Internacional de Agua y Energías Renovables</image:title>
+      <image:caption>Logo oficial de Africagua - Principal Foro Internacional de Agua y Energías Renovables en Fuerteventura</image:caption>
+    </image:image>
+  </url>
+
+  <!-- English version -->
+  <url>
+    <loc>https://www.africaguacanarias.com/en/</loc>
+    <lastmod>2024-03-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.africaguacanarias.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.africaguacanarias.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.africaguacanarias.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.africaguacanarias.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.africaguacanarias.com/de/"/>
+  </url>
+
+  <!-- French version -->
+  <url>
+    <loc>https://www.africaguacanarias.com/fr/</loc>
+    <lastmod>2024-03-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.africaguacanarias.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.africaguacanarias.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.africaguacanarias.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.africaguacanarias.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.africaguacanarias.com/de/"/>
+  </url>
+
+  <!-- Italian version -->
+  <url>
+    <loc>https://www.africaguacanarias.com/it/</loc>
+    <lastmod>2024-03-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.africaguacanarias.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.africaguacanarias.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.africaguacanarias.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.africaguacanarias.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.africaguacanarias.com/de/"/>
+  </url>
+
+  <!-- German version -->
+  <url>
+    <loc>https://www.africaguacanarias.com/de/</loc>
+    <lastmod>2024-03-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.africaguacanarias.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.africaguacanarias.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.africaguacanarias.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.africaguacanarias.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.africaguacanarias.com/it/"/>
+  </url>
+
+  <!-- Startup Competition page -->
+  <url>
+    <loc>https://www.africaguacanarias.com/startup-competition</loc>
+    <lastmod>2024-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/GLOBAL%20STARTUP%2FDise%C3%B1o%20sin%20t%C3%ADtulo%20(1).png?alt=media&token=f52dfccd-d300-43fb-b2e9-e57f1ddff009</image:loc>
+      <image:title>Africagua Global Startup Competition</image:title>
+      <image:caption>Competición global de startups de agua y energías renovables - Africagua</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Additional Africagua related pages -->
+  <url>
+    <loc>https://www.africaguacanarias.com/#about</loc>
+    <lastmod>2024-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.africaguacanarias.com/#b2b</loc>
+    <lastmod>2024-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.africaguacanarias.com/#news</loc>
+    <lastmod>2024-03-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.africaguacanarias.com/#contact</loc>
+    <lastmod>2024-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>

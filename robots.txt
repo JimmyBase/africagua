@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+
+# Important pages
+Allow: /index.html
+Allow: /sitemap.xml
+Allow: /en/
+Allow: /fr/
+
+# Allow search engines to discover the alternate language versions
+Allow: /*?lang=es
+Allow: /*?lang=en
+Allow: /*?lang=fr
+
+# Sitemap location
+Sitemap: https://www.africaguacanarias.com/sitemap.xml
+
+# Optimize crawling
+Crawl-delay: 1
+
+# Specific sections
+Allow: /#about
+Allow: /#program
+Allow: /#b2b
+Allow: /#news
+Allow: /#contact
+
+# Block specific files
+Disallow: /sw.js
+Disallow: /workbox-*.js
+Disallow: /registerSW.js

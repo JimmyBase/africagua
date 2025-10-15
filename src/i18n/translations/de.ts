@@ -1,0 +1,521 @@
+export default {
+  translation: {
+    nav: {
+      about: 'Was ist Africagua?',
+      history: 'Geschichte',
+      program: 'Programm',
+      b2b: 'B2B-Meetings',
+      news: 'Nachrichten',
+      contact: 'Kontakt'
+    },
+    hero: {
+      subtitle: 'Africagua Canarias kehrt zurück',
+      title1: 'IX Forum für Wasser und',
+      title2: 'Erneuerbare Energien',
+      date: '20.-21. November 2025',
+      register: 'Anmelden',
+      program: 'Programm 2025'
+    },
+    about: {
+      title: 'Was ist Africagua?',
+      event_section: {
+        title: 'Über die Veranstaltung',
+        description: 'Africagua ist das wichtigste internationale Forum für Wasser und erneuerbare Energien, das alle zwei Jahre auf Fuerteventura stattfindet. Unser Ziel ist es, Begegnungen zwischen Unternehmen, Experten und Organisationen aus dem Wasser- und Erneuerbare-Energien-Sektor zu fördern.'
+      },
+      mission: {
+        title: 'Unsere Mission',
+        description: 'Wir schaffen Synergien zwischen Europa und Afrika durch effektives Networking und strategische B2B-Meetings und erleichtern die internationale Zusammenarbeit im Wasser- und Erneuerbare-Energien-Sektor.'
+      },
+      objectives: [
+        {
+          title: 'Internationale Zusammenarbeit in Wasser und Energie',
+          description: 'Wir fördern Synergien für nachhaltige Entwicklung zwischen den teilnehmenden Ländern durch Zusammenarbeit im Bereich Wasser und erneuerbare Energien.'
+        },
+        {
+          title: 'Geschäftszentrum auf den Kanaren',
+          description: 'Wir positionieren die Kanaren und Fuerteventura als strategisches Zentrum für die Interaktion zwischen Unternehmen, Partnern und Institutionen auf interkontinentaler Ebene.'
+        },
+        {
+          title: 'Internationale Geschäftsmöglichkeiten',
+          description: 'Wir erleichtern die Internationalisierung durch strategische Allianzen und Geschäftsmöglichkeiten im Wasser- und Erneuerbare-Energien-Sektor.'
+        },
+        {
+          title: 'Innovation und nachhaltige Entwicklung',
+          description: 'Wir fördern den Transfer von Technologie, Wissen und bewährten Praktiken im Management erneuerbarer und nachhaltiger Ressourcen.'
+        }
+      ]
+    },
+    location: {
+      title: 'Warum findet es auf Fuerteventura statt?',
+      description: 'Fuerteventura ist aufgrund seiner geostrategischen Lage Tor und Brücke zu Afrika. Darüber hinaus genießen die Kanarischen Inseln politische Stabilität, Rechtssicherheit und ein von der Europäischen Union genehmigtes differenziertes Steuersystem, das dieses Gebiet zu einem Schlüsselpunkt der Vereinigung und Vereinbarung für diese Art von Initiativen macht.',
+      advantages: [
+        {
+          title: 'Strategische Lage',
+          description: 'Natürlicher Treffpunkt zwischen Europa und Afrika'
+        },
+        {
+          title: 'Natürliche Ressourcen',
+          description: 'Führend bei erneuerbaren Energien und Wassermanagement'
+        },
+        {
+          title: 'Rechtssicherheit',
+          description: 'Stabiler und von der EU garantierter Rechtsrahmen'
+        },
+        {
+          title: 'Steuervorteile',
+          description: 'Besonderes und vorteilhaftes Steuersystem'
+        }
+      ]
+    },
+    b2b: {
+      title: 'B2B-Meetings bei Africagua 2025',
+      description: 'Africagua Canarias 2025 erleichtert strategische B2B-Meetings zwischen Unternehmen aus dem Wasser- und Erneuerbare-Energien-Sektor. Unser Ziel ist es, Begegnungen zwischen Unternehmen, Experten und Organisationen des Sektors zu fördern und Synergien zwischen Europa und Afrika durch Fuerteventura als internationalen Treffpunkt zu schaffen.',
+      participation: {
+        title: 'Teilnahme an den B2B-Meetings von Africagua 2025',
+        steps: [
+          'Vervollständigen Sie Ihre Registrierung auf der B2B-Plattform von Africagua 2025, um Zugang zu internationalen Geschäftstreffen zu erhalten.',
+          'Erstellen Sie ein detailliertes Geschäftsprofil, das Ihre Ziele, Produkte und Dienstleistungen hervorhebt.',
+          'Erkunden Sie Profile teilnehmender Unternehmen und finden Sie potenzielle Partner für internationale Kooperationen.',
+          'Verwalten Sie Ihre Meeting-Anfragen und bestätigen Sie B2B-Meetings, die am besten zu Ihren Geschäftszielen passen.',
+          'Nehmen Sie an persönlichen Meetings während Africagua 2025 auf Fuerteventura teil, dem Treffpunkt zwischen Europa und Afrika.'
+        ],
+        register: 'Für B2B-Meetings registrieren'
+      }
+    },
+    b2b_registration: {
+      title: 'Für B2B-Meetings registrieren',
+      button: 'Für B2B-Meetings registrieren'
+    },
+    news: {
+      title: 'Nachrichten',
+      no_news: 'Derzeit sind keine Nachrichten verfügbar.',
+      read_more: 'Mehr lesen'
+    },
+    sponsors: {
+      title: 'Sponsoren',
+      benefits: {
+        title: 'Sponsoring-Vorteile',
+        list: [
+          'Logo-Integration auf der Website und Africagua-Materialien',
+          'Exklusiver Inhalt auf Kommunikationskanälen',
+          'Erwähnungen in Veranstaltungen und Medien',
+          'Privilegierter Platz bei der Veranstaltung',
+          'Werbevideo während der Präsentationen',
+          'Interview mit Medien',
+          'Präsenz bei Inter-Forum-Aktionen bis 2025'
+        ]
+      },
+      why_sponsor: [
+        {
+          title: 'Strategische Positionierung',
+          description: 'Bewerben Sie Ihre Marke in einem etablierten Forum für Wasser und erneuerbare Energien mit internationaler Reichweite.'
+        },
+        {
+          title: 'Globales Networking',
+          description: 'Vernetzen Sie sich mit potenziellen Partnern und Investoren von den Kanaren, Spanien und Westafrika.'
+        },
+        {
+          title: 'Premium-Sichtbarkeit',
+          description: 'Maximieren Sie Ihre Medienexposition und erhöhen Sie das Profil Ihrer Marke während und nach der Veranstaltung.'
+        }
+      ],
+      become_sponsor: 'Sponsor werden'
+    },
+    useful_info: {
+      title: 'Nützliche Informationen',
+      taxis: {
+        title: 'Taxis',
+        items: [
+          {
+            name: 'Radio Taxi Puerto del Rosario',
+            phone: '928 85 10 10',
+            info: '24-Stunden-Service'
+          },
+          {
+            name: 'Taxis Puerto del Rosario',
+            phone: '928 85 33 55',
+            info: 'Haupthaltestelle an der Plaza de la Paz'
+          }
+        ]
+      },
+      buses: {
+        title: 'Busse',
+        items: [
+          {
+            line: 'Linie 06',
+            route: 'Puerto del Rosario - Corralejo',
+            frequency: 'Alle 30 Minuten'
+          },
+          {
+            line: 'Linie 03',
+            route: 'Puerto del Rosario - Caleta de Fuste',
+            frequency: 'Stündlich'
+          }
+        ],
+        schedules: 'Fahrpläne anzeigen'
+      },
+      hospital: {
+        title: 'Krankenhaus',
+        name: 'Allgemeines Krankenhaus von Fuerteventura',
+        address: 'Carretera del Aeropuerto, Km 1, 35600 Puerto del Rosario',
+        phone: '928 862 000',
+        emergency: 'Notfall: 112'
+      }
+    },
+    contact: {
+      title: 'Kontakt',
+      office: {
+        title: 'TECHNISCHES BÜRO',
+        address: {
+          label: 'Adresse',
+          line1: 'Handelskammer, Industrie, Dienstleistungen und Schifffahrt von Fuerteventura',
+          line2: 'C/ Secundino Alonso, 98 1. Stock',
+          line3: '35600 – Puerto del Rosario, Fuerteventura'
+        },
+        phone: {
+          label: 'Telefon',
+          number: '+34 928 861 070'
+        },
+        email: {
+          label: 'E-Mail',
+          address: 'info@africagua.com'
+        }
+      },
+      registration: {
+        title: 'Melden Sie sich für Africagua 2025 an!',
+        description: 'Verpassen Sie nicht die Gelegenheit, am wichtigsten internationalen Forum für Wasser und erneuerbare Energien teilzunehmen. Registrieren Sie sich jetzt, um Ihren Platz zu sichern und Zugang zu allen Aktivitäten, einschließlich B2B-Meetings, zu erhalten.',
+        button: 'Zum Anmeldeformular',
+        terms: 'Mit der Anmeldung akzeptieren Sie unsere Teilnahmebedingungen.'
+      }
+    },
+    program: {
+      title: 'Programmstruktur',
+      blocks: {
+        sustainability: 'Nachhaltigkeit',
+        innovation: 'Innovation',
+        social: 'Soziales',
+        governance: 'Governance und Finanzierung'
+      },
+      agenda: {
+        title: 'AGENDA 2025',
+        soon: 'Demnächst',
+        note: '*Dieses Programm kann Änderungen unterliegen'
+      }
+    },
+    speakers: {
+      title: 'Redner'
+    },
+    program_page: {
+      title: 'Africagua 2025 Programm',
+      subtitle: 'IX Internationales Forum für Wasser und Erneuerbare Energien',
+      days: {
+        day1: {
+          date: '20. November 2025',
+          venue: 'Symphoniesaal',
+          sessions: [
+            {
+              time: '9:00 – 10:00',
+              title: 'Eröffnungszeremonie',
+              type: 'opening',
+              participants: [
+                'Seine Exzellenz Herr Fernando Clavijo Batlle, Präsident der Regierung der Kanaren',
+                'Seine Exzellenz Herr Nani Juwara, Minister für Energie, Erdöl und Bergbau von Gambia',
+                'Ihre Exzellenz Frau Lola García Martínez, Präsidentin des Inselrats von Fuerteventura',
+                'Seine Exzellenz Herr Cristóbal David de Vera Cabrera, Bürgermeister von Puerto del Rosario',
+                'Herr Juan Jesús Rodríguez Marichal, Präsident der Offiziellen Handelskammer, Industrie, Dienstleistungen und Schifffahrt von Fuerteventura'
+              ]
+            },
+            {
+              time: '10:00 – 11:00',
+              title: 'Integrales Wassermanagement: Politiken, Herausforderungen und regionale Strategien',
+              type: 'panel',
+              moderator: 'Cheik Diouf Faye, Manager von RAESA im Senegal',
+              participants: [
+                'Direktor des Ministeriums für Wasserressourcen, Bauwesen und Wohnungswesen von Ghana | Kwabena Gyasi-Duku',
+                'Nationale Wassergesellschaft des Senegal (SONES) | Cheikh Tidiane Dieye'
+              ]
+            },
+            {
+              time: '11:00 – 11:30',
+              title: 'Kaffeepause',
+              type: 'break'
+            }
+          ],
+          sala_a: {
+            venue: 'Saal A',
+            sessions: [
+              {
+                time: '11:30 – 12:30',
+                title: 'Energiewende und Entwicklung von Energieinfrastrukturen',
+                type: 'panel',
+                moderator: 'Luis Padilla Macabeo, Generaldirektor für Beziehungen mit Afrika der Regierung der Kanaren',
+                participants: [
+                  'Direktor der Senegalesischen Agentur für Ländliche Elektrizität (ASER) | Jean Michel Sené Lat Ndame Ndiaye',
+                  'Minister für Energie, Erdöl und Bergbau von Gambia | Nani Juwara',
+                  'Direktor des Zentrums für Erneuerbare Energien und Energieeffizienz | (Bestätigung ausstehend)'
+                ]
+              },
+              {
+                time: '12:30 – 13:30',
+                title: 'Projektfinanzierung. Ein praktischer Fall: die Entsalzungsanlage von Casablanca',
+                type: 'panel',
+                moderator: 'Loreto Taborga, territoriale Direktorin für Außenhandel und ICEX-Delegierte in Las Palmas',
+                participants: [
+                  'Stellvertretende Generaldirektorin für Finanzinstrumente zur Internationalisierung von FIEM | María Soledad Sendagorta Fernández-Durán',
+                  'Stellvertretende Finanzdirektorin des Investitionsbereichs von COFIDES | Ane Sáenz de Zaitegui Bermeo',
+                  'Generaldirektor für Internationale Unternehmensfinanzierung, Vermittlung und Staatsfonds ICO | Fernando Salazar Palma',
+                  'Acciona Water Casablanca | Adelaida Fernández (Bestätigung ausstehend)'
+                ]
+              },
+              {
+                time: '13:30 – 15:15',
+                title: 'Networking-Mittagessen',
+                type: 'break'
+              },
+              {
+                time: '15:15 – 16:30',
+                title: 'Runde 4: Strategische Allianzen und unternehmerische und technologische Zusammenarbeit',
+                type: 'panel',
+                moderator: 'María José Miranda Martel, Direktorin für Wissenstransfer und Unternehmensbeziehungen der Universität Las Palmas de Gran Canaria',
+                participants: [
+                  'Co-Präsidentin des Bilateralen Ausschusses Mauretanien-Spanien | Ana Suárez',
+                  'Direktor für F&E&I des Technologischen Instituts der Kanaren (ITC) | Gonzalo Piernavieja',
+                  'Koordinator der Forschungsgruppe für Erneuerbare Energiesysteme der ULPGC | Pedro Jesús Cabrera Santana',
+                  'Welysis | Óscar Luengo, Generaldirektor'
+                ]
+              }
+            ]
+          }
+        },
+        day2: {
+          date: '21. November 2025',
+          venue: 'Saal A',
+          sessions: [
+            {
+              time: '9:00 – 10:00',
+              title: 'Ausschreibungen und Internationale Verträge: Geschäftsmöglichkeiten',
+              type: 'panel',
+              moderator: 'Francisco Daniel Martínez, Handelsattaché von Mauretanien',
+              participants: [
+                'Projektdirektor von GESPLAN | Miguel Ángel Pérez',
+                'Verantwortlicher der ICEX-Multilateralen-Antenne in der Elfenbeinküste | Diego Uriel Gálvez',
+                'Techniker für Außenförderung von Canarias Aporta PROEXCA | Dolores Hernández Arenciba',
+                'Wirtschafts- und Handelsberater des Wirtschafts- und Handelsbüros von Spanien in Dakar | Daniel Jacobo Orea'
+              ]
+            },
+            {
+              time: '10:00 – 11:00',
+              title: 'Kaffeepause',
+              type: 'break'
+            },
+            {
+              time: '11:30 – 12:30',
+              title: 'Präsentationen der Finalisten des Global Startup Wettbewerbs',
+              type: 'presentation'
+            },
+            {
+              time: '12:30 – 13:00',
+              title: 'Jury-Beratung',
+              type: 'break'
+            },
+            {
+              time: '13:00 – 13:30',
+              title: 'Preisverleihung',
+              type: 'awards'
+            }
+          ]
+        }
+      }
+    },
+    history: {
+      title: 'Geschichte von Africagua',
+      general: {
+        title: 'Africagua Canarias – Internationales Forum für Wasser und Erneuerbare Energien',
+        first_edition_label: 'Erste Ausgabe:',
+        first_edition: '2011',
+        frequency_label: 'Häufigkeit:',
+        frequency: 'Zweijährlich',
+        location_label: 'Ort:',
+        location: 'Fuerteventura, Kanarische Inseln',
+        organizer_label: 'Veranstalter:',
+        organizer: 'Handelskammer Fuerteventura, mit Unterstützung der Regierung der Kanaren und des Inselrats'
+      },
+      featured_editions: 'Herausragende Ausgaben',
+      editions: [
+        {
+          year: '2023',
+          title: 'VIII Ausgabe - Austausch für den Wandel',
+          description: 'Rekordteilnahme mit Delegationen aus 8 afrikanischen Ländern und Fokus auf erfolgreiche Geschäftsfälle.',
+          details: [
+            'Termine: 23.-24. November 2023',
+            'Teilnehmer: Ghana, Mauretanien, Gambia, Senegal, Kap Verde, Marokko, Elfenbeinküste und São Tomé und Príncipe',
+            'Format: Praktische Workshops, Erfolgsgeschichten, B2B-Networking',
+            'Herausragende Fälle: NOVA STUDIO (Gewinner des Africagua Accelerator), Solo H2O, GESPLAN, Cajamar Innova',
+            'Teilnehmer: 303 registrierte Personen',
+            'B2B-Meetings: 84 Geschäftstreffen'
+          ]
+        },
+        {
+          year: '2021',
+          title: 'VII Ausgabe - Hybrides Format',
+          description: 'Erste Ausgabe mit hybridem Format, angepasst an die neue Post-Pandemie-Realität.',
+          details: [
+            'Termine: 30. November - 1. Dezember 2021',
+            'Format: Präsenz + Online-Streaming',
+            'Schlüsselthemen: Energiewende, Digitalisierung des Wassers, internationale Zusammenarbeit',
+            'Teilnahme: Delegationen aus Westafrika',
+            'Institutionen: Europäische Vertreter und Technologieunternehmen'
+          ]
+        },
+        {
+          year: '2019',
+          title: 'VI Ausgabe - Blaue Wirtschaft',
+          description: 'Fokus auf die blaue Wirtschaft und dreieckige Zusammenarbeit für nachhaltige Entwicklung.',
+          details: [
+            'Hauptfokus: Blaue Wirtschaft und maritime Nachhaltigkeit',
+            'Dreieckige Zusammenarbeit: Europa-Afrika-Kanaren',
+            'Teilnehmende Länder: Senegal, Kap Verde, Marokko, Mauretanien',
+            'Themen: Nachhaltige Bewirtschaftung mariner Ressourcen',
+            'Innovation: Neue Technologien für die blaue Wirtschaft'
+          ]
+        },
+        {
+          year: '2017',
+          title: 'V Ausgabe - Internationale Konsolidierung',
+          description: 'Ausgabe konsolidiert als wichtiges Forum für internationale Zusammenarbeit bei erneuerbaren Energien.',
+          details: [
+            'Zentrale Themen: Wasser, saubere Energien, Investitionsmöglichkeiten in Afrika',
+            'Teilnahme: Mehr als 200 Teilnehmer',
+            'Vertreter: ECOWAS und Europäische Union',
+            'Projekte: Präsentation von Investitionsinitiativen',
+            'Networking: Intensivierung von Geschäftskontakten'
+          ]
+        }
+      ],
+      impact: {
+        title: 'Wirkung und Ziele',
+        description: 'Africagua hat sich als strategische Brücke zwischen Afrika und Europa etabliert, mit den Kanaren als Schlüsselknotenpunkt.',
+        objectives: [
+          'Wissenstransfer zwischen Kontinenten fördern',
+          'Internationalisierung kanarischer Unternehmen vorantreiben',
+          'Süd-Süd- und Nord-Süd-Kooperation fördern',
+          'Innovation in Wasser und erneuerbaren Energien unterstützen'
+        ]
+      }
+    },
+    startup_competition: {
+      title: 'Globaler Startup-Wettbewerb',
+      subtitle: 'Innovation in Wasser und erneuerbaren Energien fördern',
+      description: 'Der Globale Startup-Wettbewerb Africagua sucht Startups mit innovativen und disruptiven Projekten im Bereich Wasser und erneuerbare Energien.',
+      registration: {
+        open: 'Anmeldung geschlossen',
+        deadline: 'Frist: 1. September 2025 (Geschlossen)',
+        download_rules: 'Teilnahmebedingungen herunterladen',
+        submit_project: 'Projekt einreichen'
+      },
+      prizes: {
+        title: 'Preise',
+        first: 'Erster Preis: 10.000€',
+        second: 'Zweiter Preis: 5.000€'
+      },
+      training: {
+        title: 'Schulung',
+        description: 'Die 10 Finalistenprojekte werden eine Schulung zu Steueranreizen und Wissenstransfer zwischen Universität und Unternehmen erhalten'
+      },
+      finalists: {
+        title: 'FINALISTEN',
+        description: 'Die 10 Finalistenunternehmen werden ihre Projekte im Rahmen des Africagua Canarias 2025 Forums präsentieren, mit 5 Minuten für ihren Pitch. Die Veranstaltung findet am 21. November 2025 im Bildungs- und Kongresspalast von Fuerteventura statt.',
+        coming_soon: 'AFRICAGUA CANARIAS 2025 PROGRAMM DEMNÄCHST'
+      },
+      jury: {
+        title: 'Wettbewerbsjury',
+        expert_panel: 'Expertengremium',
+        description: 'Anerkannte Fachleute werden die teilnehmenden Projekte bewerten',
+        expert_in: 'Experte für',
+        view_full_bio: 'Vollständige Biographie anzeigen',
+        members: [
+          {
+            name: 'Gema Báez Espino',
+            position: 'Unternehmensverantwortliche DayOne Canarias Caixabank',
+            expertise: 'Finanzberatung',
+            image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/GLOBAL%20STARTUP%2FMIEMBROS%20DE%20JURADO%2FGema%20B%C3%A1ez%20Espino%2C%20Responsable%20Empresas%20DayOne%20Canarias%20Caixabank.jpg?alt=media&token=585785be-081b-4d30-9844-4746a1cd3a1f',
+            bio: 'Absolventin in Unternehmensführung und -verwaltung (Spezialisierung auf Geschäftsführung und Personalwesen) der Universität Las Palmas de G.C. und Expertin für Finanzberatung, zertifiziert von IEAF und Universitätstitel als Spezialistin für Bankwesen und Finanzberatung über CUNEF.',
+            fullBio: 'Absolventin in Unternehmensführung und -verwaltung (Spezialisierung auf Geschäftsführung und Personalwesen) der Universität Las Palmas de G.C. und Expertin für Finanzberatung, zertifiziert von IEAF und Universitätstitel als Spezialistin für Bankwesen und Finanzberatung über CUNEF. Gema Báez begann ihre berufliche Laufbahn 2005 in der Risikoabteilung der Caja Rural de Canarias und 2007 ihre berufliche Laufbahn bei Caja Madrid, heute Caixabank, wo sie verschiedene Positionen und Beförderungen durchlief. Heute ist sie für das DayOne-Segment auf den Kanaren bei Caixabank verantwortlich. DayOne ist der spezialisierte Bankservice von CaixaBank, der geschaffen wurde, um die Akteure des Innovationsökosystems zu unterstützen. Es hat die Berufung, alle technologiebasierten Unternehmen mit schneller Entwicklung und globalem Aktionsbereich zu entwickeln und zu begleiten, die wertschöpfende Aktivitäten durchführen und ihr Wachstum in den frühen Phasen hauptsächlich mit eigenen Mitteln finanzieren. Kurz gesagt, DayOne ist der Service, der die Art der Beziehung zu allen Akteuren des Ökosystems von Start-ups, Scale-ups und ihren Investoren innoviert.'
+          },
+          {
+            name: 'Patricia Fraile Romero',
+            position: 'Fund Manager von Archipiélago Next',
+            expertise: 'Risikokapital',
+            image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/GLOBAL%20STARTUP%2FMIEMBROS%20DE%20JURADO%2FPatricia%20Fraile%20Romero%2C%20Fund%20Manager%20de%20Archipi%C3%A9lago%20Next.jpg?alt=media&token=d974dd8f-61ba-4c85-9ec0-63b95d0a087c',
+            bio: 'Patricia Fraile ist Fund Manager von Archipélago Next, dem ersten Risikokapitalfonds mit 100% kanarischer DNA. Absolventin in Wirtschaftsrecht von der Universität Deusto, mit einem Master in Internationalem und Vergleichendem Recht.',
+            fullBio: 'Patricia Fraile ist Fund Manager von Archipélago Next, dem ersten Risikokapitalfonds mit 100% kanarischer DNA. Absolventin in Wirtschaftsrecht von der Universität Deusto, mit einem Master in Internationalem und Vergleichendem Recht, verfügt Patricia über eine solide Laufbahn in der Unternehmens- und Finanzführung. Vor ihrer Eingliederung bei Archipélago Next sammelte Patricia umfangreiche Erfahrungen im Technologie- und Innovationssektor. Zwischen 2011 und 2019 war sie als Managerin des Clusters Canarias Excelencia Tecnológica tätig, einer Vereinigung, die Unternehmen des IKT-Sektors in der Region zusammenbringt. Während ihrer Führung konsolidierte sich der Cluster als Referenz im Sektor, förderte F&E&I-Projekte und begünstigte die Zusammenarbeit zwischen Unternehmen zur Förderung des technologischen Unternehmertums auf den Inseln. Arbeit, die sie auch auf nationaler Ebene durchführte, mit ihrer aktiven Teilnahme an FENAEIC und CONETIC.'
+          },
+          {
+            name: 'Pablo Martín Carbajal',
+            position: 'Geschäftsführer von PROEXCA',
+            expertise: 'Internationale Beziehungen',
+            image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/GLOBAL%20STARTUP%2FMIEMBROS%20DE%20JURADO%2FPablo%20Martin%20Carbajal%20consejero%20delegado.jfif?alt=media&token=f1c90bf0-a2fd-4372-8edc-29f9a3af54b7',
+            bio: 'Pablo Martín Carbajal arbeitet seit mehr als 25 Jahren im Bereich der internationalen Beziehungen. Seine Arbeitsbereiche waren Außenhandel, Investitionsanziehung, institutionelle Beziehungen für die Internationalisierung und internationale Zusammenarbeit.',
+            fullBio: 'Pablo Martín Carbajal arbeitet seit mehr als 25 Jahren im Bereich der internationalen Beziehungen. Seine Arbeitsbereiche waren Außenhandel, Investitionsanziehung, institutionelle Beziehungen für die Internationalisierung und internationale Zusammenarbeit. Mit umfangreicher Erfahrung in den afrikanischen Märkten nahe den Kanaren war er 12 Jahre lang Generaldirektor für Beziehungen mit Afrika der Regierung der Kanaren. Derzeit erfüllt er seine zweite Amtszeit als Geschäftsführer von Proexca, dem öffentlichen Unternehmen für die Internationalisierung der kanarischen Regierung, wo er 10 Jahre Erfahrung für die Internationalisierung der Wirtschaft des Archipels sammelt. Pablo spricht Englisch und Französisch und hat in Frankreich, Belgien, Armenien und Georgien gearbeitet und gelebt.'
+          },
+          {
+            name: 'Eduardo Pereira González',
+            position: 'Manager des Technologieparks von Fuerteventura',
+            expertise: 'Technologische Innovation',
+            image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/GLOBAL%20STARTUP%2FMIEMBROS%20DE%20JURADO%2FEduardo%20Pereira%20Gonz%C3%A1lez%2C%20gerente%20del%20Parque%20Tecnol%C3%B3gico%20de%20Fuerteventura.jpg?alt=media&token=09e4e7a3-e576-4ea4-b72c-068a60329f99',
+            bio: 'Eduardo Pereira, geboren in Carballiño, Provinz Ourense 1963, ist Luft- und Raumfahrtingenieur der Polytechnischen Universität Madrid und beurlaubtes Mitglied des Staatlichen Luftfahrtingenieurkorps.',
+            fullBio: 'Eduardo Pereira, geboren in Carballiño, Provinz Ourense 1963, ist Luft- und Raumfahrtingenieur der Polytechnischen Universität Madrid und beurlaubtes Mitglied des Staatlichen Luftfahrtingenieurkorps. Er besitzt einen Master in Business Administration und einen Master in öffentlicher Auftragsvergabe, außerdem ist er Diplom-Finanzmanager und Managementkontrolle. Er hat Positionen von großer Bedeutung besetzt, wie Direktor der Flughäfen von Santiago de Compostela 1994 und Fuerteventura zwischen 1994 und 2006, wo er das Flughafenerweiterungsprojekt mit einer kumulierten Investition von mehr als 500 Millionen Euro leitete. Seit 2010 ist er Manager des Technologieparks Fuerteventura SA und verantwortlich für das Innovationsprogramm Canarias Geo Innovation Program 2030. Seine Laufbahn wurde mit zahlreichen Preisen anerkannt, wie dem Ausgezeichneten Preis des Jahres von Fuerteventura "Onda Cero Radio", dem Goldenen Strände-Preis des Rates von Fuerteventura 2005 und dem Preis der Presseassoziation von Fuerteventura und Lanzarote 1996 und 2004, zusätzlich zur Silbermedaille des Tourismus der Regierung der Kanaren 1996 und dem Preis Actualidad Económica für die Beste Öffentliche Initiative (Smart Strategy) 2026. 2025 wurde er Mitglied des Direktoriums von NEREUS, dem Netzwerk europäischer Regionen für die Nutzung von Weltraumtechnologien.'
+          },
+          {
+            name: 'Gonzalo Piernavieja Izquierdo',
+            position: 'Direktor für F&E&I des Technologischen Instituts der Kanaren',
+            expertise: 'Erneuerbare Energien',
+            image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/GLOBAL%20STARTUP%2FMIEMBROS%20DE%20JURADO%2FGonzalo%20Piernavieja%20oct2021%203.jpg?alt=media&token=0482ecc5-f873-4dc5-9735-9040ea3ad2e7',
+            bio: 'Gonzalo Piernavieja ist Absolvent der Physik von der Ludwig-Maximilians-Universität München (1993) (Spezialisierung auf Solarenergie und Physikalische Chemie) und absolvierte einen Aufbaustudiengang in Energie- und Umweltmanagement an der Technischen Universität Berlin (1994).',
+            fullBio: 'Gonzalo Piernavieja ist Absolvent der Physik von der Ludwig-Maximilians-Universität München (1993) (Spezialisierung auf Solarenergie und Physikalische Chemie) und absolvierte einen Aufbaustudiengang in Energie- und Umweltmanagement an der Technischen Universität Berlin (1994). Seine Abschlussarbeit in München konzentrierte sich auf eine experimentelle 1-kWp-Photovoltaikanlage mit Sonnennachführung, eines der ersten netzgekoppelten Systeme in Deutschland, vor mehr als 30 Jahren. Während seines Aufenthalts in Deutschland arbeitete Gonzalo Piernavieja bei SIEMENS und später bei der Münchener Energieversorgungsgesellschaft "Stadtwerke München". Zurück auf den Kanaren koordinierte er an der Universität Las Palmas de Gran Canaria verschiedene Projekte im Zusammenhang mit erneuerbaren Energien und Wassertechnologien im Rahmen europäischer Programme (1993-1996). Seit 1996 arbeitet er am Technologischen Institut der Kanaren (ITC) in verschiedenen Positionen. Während 2018 und 2019 (bis August) war er Vizeminister für Industrie, Energie und Handel der Regierung der Kanaren. Derzeit ist er Direktor für F&E&I des ITC und koordiniert 9 technologische Abteilungen mit mehr als 180 Personen, mit Aktivitäten in erneuerbaren Energien, Wassertechnologien, Metrologie, Kreislaufwirtschaft, Algenbiotechnologie, Umweltanalyse, Maschinen- und Biomedizintechnik, wissenschaftliches Rechnen, Innovation und Informationssysteme. Sein Hauptspezialisierungsbereich ist die Energie- und Wasserautarkie durch erneuerbare Energien auf Inseln und isolierten Umgebungen im Allgemeinen.'
+          },
+          {
+            name: 'María Teresa Pérez Zaballos',
+            position: 'CEO von Endogene.bio',
+            expertise: 'Biotechnologie',
+            image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/GLOBAL%20STARTUP%2FMIEMBROS%20DE%20JURADO%2FMar%C3%ADa%20Teresa%20P%C3%A9rez%20Zaballos%2C%20CEO%20de%20Endogene.bio.jpg?alt=media&token=d7a276a8-ef0c-43e7-bbdd-3aa714483e8a',
+            bio: 'María Teresa Pérez Zaballos erwarb einen Master in Biosanitary Business, Business und Biotechnologie an der Universität Cambridge und absolvierte eine Professionelle Zertifizierung in Genetik und Genomik an der Stanford University.',
+            fullBio: 'María Teresa Pérez Zaballos erwarb einen Master in Biosanitary Business, Business und Biotechnologie an der Universität Cambridge und absolvierte eine Professionelle Zertifizierung in Genetik und Genomik an der Stanford University. Ihre Erfahrung konzentriert sich auf die Frauengesundheit sowie auf Medizingeräte und Bioelektronik. Ihre Spezialität liegt im Design und in der Ausführung hochregulierter Vermögenswerte. Derzeit ist sie CEO des Unternehmens Endogene.bio, wo sie täglich daran arbeitet, die Lebensqualität von Frauen mit Endometriose zu verbessern.'
+          },
+          {
+            name: 'Pedro Jesús Cabrera Santana',
+            position: 'Ordentlicher Professor des Fachbereichs Maschinenbau der ULPGC',
+            expertise: 'Erneuerbare Energien',
+            image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/GLOBAL%20STARTUP%2FMIEMBROS%20DE%20JURADO%2FPedro%20Jes%C3%BAs%20Cabrera%20Santana%20%E2%80%93%20Profesor%20Titular%E2%80%AFdel%20Departamento%20de%20Ingenier%C3%ADa%20Mec%C3%A1nica%20de%20la%20ULPGC%E2%80%AFde%20la%20Universidad%20de%20Las%20Palmas%20de%20Gran%20Canaria%20(ULPGC).png?alt=media&token=92828b28-b51b-4197-8a22-e5fa93b5682a',
+            bio: 'Ordentlicher Professor des Fachbereichs Maschinenbau der ULPGC, wo er die Group for the Research on Renewable Energy Systems (GRRES) koordiniert. Seine Forschungstätigkeit konzentriert sich auf den Wasser-Energie-Nexus, mit besonderem Schwerpunkt auf der Entwicklung intelligenter Systeme.',
+            fullBio: 'Ordentlicher Professor des Fachbereichs Maschinenbau der ULPGC der Universität Las Palmas de Gran Canaria (ULPGC), wo er die Group for the Research on Renewable Energy Systems (GRRES) koordiniert. Seine Forschungstätigkeit konzentriert sich auf den Wasser-Energie-Nexus, mit besonderem Schwerpunkt auf der Entwicklung intelligenter Systeme, die erneuerbare Energien in Entsalzungsprozesse und effizientes Ressourcenmanagement integrieren. Promovierter Industrieingenieur und Ingenieur für Automatisierung und Industrieelektronik, begann er seine Laufbahn 2008 bei Red Eléctrica de España und trug zum Plan der Integration von Windenergie in die Stromsysteme der Kanaren bei. Seitdem hat er Pionierprojekte beim Antrieb von Entsalzungsanlagen mit erneuerbaren Energien vorangetrieben und dabei Machine-Learning- und intelligente Kontrolltechniken angewendet. Seine Doktorarbeit erhielt den Ehrenpreis für die beste Dissertation in intelligenter Kontrolle vom Spanischen Komitee für Automatisierung. Er hat Führungspositionen als Nationaler Koordinator der Thematischen Gruppe für intelligente Kontrolle des Spanischen Komitees für Automatisierung (2020-2024), Redakteur der Sektion für intelligente Kontrolle der Iberoamerikanischen Zeitschrift für Automatisierung und Industrieinformatik (RIAI) und Technischer Sekretär der F&E&I-Plattform DESAL+ LIVING LAB, einer internationalen Referenz für Innovation in der Entsalzung, bekleidet. Autor und Co-Autor zahlreicher wissenschaftlicher Publikationen und Bücher, kombiniert seine Arbeit angewandte Forschung, Technologietransfer und Unterstützung des Unternehmertums im Bereich sauberer Energien. Derzeit leitet er die Entwicklung von Werkzeugen und Methodologien, die zur Planung nachhaltiger Energiesysteme auf nationaler und internationaler Ebene beitragen.'
+          },
+          {
+            name: 'Luis Suárez León',
+            position: 'Vizepräsident des Konsortiums der Kanarischen Sonderzone (ZEC)',
+            expertise: 'Wirtschaftsentwicklung',
+            image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/GLOBAL%20STARTUP%2FMIEMBROS%20DE%20JURADO%2FLuis%20Su%C3%A1rez%20Le%C3%B3n%20-%20Vicepresidente%20del%20Consorcio%20de%20la%20Zona%20Especial%20Canaria%20(ZEC)%20.png?alt=media&token=351c6802-2594-43a5-8890-61809b7e2769',
+            bio: 'Führungskraft mit herausragender Laufbahn in öffentlicher Verwaltung und Unternehmensführung, derzeit Vizepräsident des Konsortiums der Kanarischen Sonderzone (ZEC), einer Schlüsseleinrichtung für Wirtschaftsentwicklung und Investitionsanziehung im Archipel.',
+            fullBio: 'Luis Suárez León ist eine Führungskraft mit herausragender Laufbahn in öffentlicher Verwaltung und Unternehmensführung, der relevante institutionelle Verantwortungen auf regionaler Ebene übernommen hat und solide Erfahrungen in der Organisationsführung gesammelt hat. Derzeit bekleidet er das Amt des Vizepräsidenten des Konsortiums der Kanarischen Sonderzone (ZEC), einer Schlüsseleinrichtung für Wirtschaftsentwicklung und Investitionsanziehung im Archipel. Er war Geschäftsführer von Unternehmen im Bereich Elektroinstallationen, Industriewartung und Bau; dabei kombinierte er strategische Vision, Kenntnisse des kanarischen Geschäftsumfelds und eine feste Ausrichtung auf nachhaltige und innovative Entwicklung. Während seiner Laufbahn hat er verschiedene Positionen hoher Verantwortung in der Regierung der Kanaren bekleidet, darunter Generaldirektor des Büros der Vizepräsidentschaft, Direktor des Gesundheitsbereichs von Gran Canaria und Kabinettschef in den Ministerien für Gesundheit, Wirtschaft und Industrie, wobei er multidisziplinäre Teams leitete und Initiativen in öffentlicher Politik, Gesundheit und Wirtschaft förderte. Luis Suárez León hat einen Abschluss in Politikwissenschaft und Verwaltung von der Complutense-Universität Madrid und verfügt über postgraduale Ausbildung in Gesundheitssystemen, IKT-Kompetenzen und Finanzierung öffentlicher Dienstleistungen. Darüber hinaus hat er seine internationale Ausbildung an der Universität Essex (Vereinigtes Königreich) und am Institut für Internationale Kommunikation (Deutschland) erweitert.'
+          },
+          {
+            name: 'Ana Torrent Acosta',
+            position: 'Managerin bei Canarias Excelencia Tecnológica',
+            expertise: 'Technologie und Innovation',
+            image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/GLOBAL%20STARTUP%2FMIEMBROS%20DE%20JURADO%2FAna%20Torrent%20Acosta%20%E2%80%93%20%20Gerente%20en%20Canarias%20Excelencia%20Tecnol%C3%B3gica.png?alt=media&token=d6b12a77-86f7-449b-b07b-8dd581882b17',
+            bio: 'Telekommunikationsingenieurin der Universität Las Palmas de Gran Canaria und derzeit Managerin von Canarias Excelencia Tecnológica, dem Cluster, das die wichtigsten Unternehmen des IKT-Sektors im Archipel zusammenbringt.',
+            fullBio: 'Ana Torrent Acosta ist Telekommunikationsingenieurin der Universität Las Palmas de Gran Canaria und arbeitet derzeit als Managerin von Canarias Excelencia Tecnológica, dem Cluster, das die wichtigsten Unternehmen des IKT-Sektors im Archipel zusammenbringt. Von dieser Position aus fördert sie Innovations-, Digitalisierungs- und öffentlich-private Kooperationsprojekte, überzeugt davon, dass Technologie einen strategischen Weg zur Diversifizierung der kanarischen Wirtschaft darstellt. Darüber hinaus ist sie Vizepräsidentin von WISE Canarias, einer Organisation, die die Teilnahme von Frauen in wissenschaftlichen und technologischen Bereichen fördert, und arbeitet an Initiativen mit, die STEAM-Berufungen unter jungen Menschen fördern. Während ihrer Laufbahn hat sie in der Verwaltung von Programmen und Hilfen gearbeitet, die darauf abzielen, die Wettbewerbsfähigkeit und Nachhaltigkeit von Unternehmen zu verbessern, und nimmt aktiv an Foren und Treffen teil, die die Rolle der Innovation in der sozialen und wirtschaftlichen Entwicklung verbreiten. Ihre Arbeit kombiniert die Förderung von Talenten, Geschlechtergleichstellung in der Technologie und das Engagement für ein digitaleres und inklusiveres Entwicklungsmodell für die Kanaren.'
+          },
+          {
+            name: 'María Delgado Segura',
+            position: 'Präsidentin von AJE Las Palmas',
+            expertise: 'Unternehmertum',
+            image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/GLOBAL%20STARTUP%2FMIEMBROS%20DE%20JURADO%2FMar%C3%ADa%20Delgado%20Segura%20es%20Presidenta%20de%20AJE%20Las%20Palmas.png?alt=media&token=a1b16fbb-de9c-41b4-b088-3a7646a44dc2',
+            bio: 'Präsidentin von AJE Las Palmas seit Februar 2023, wo sie daran arbeitet, junges Unternehmertum und institutionelle Zusammenarbeit auf den Kanaren zu stärken. Sie ist Mitbegründerin von Volcán Studio und Geschäftsführerin bei Flatguest.',
+            fullBio: 'María Delgado Segura ist Präsidentin von AJE Las Palmas seit Februar 2023, wo sie daran arbeitet, junges Unternehmertum und institutionelle Zusammenarbeit auf den Kanaren zu stärken. Sie ist Mitbegründerin von Volcán Studio (2015), einem multidisziplinären Kreativstudio, das sich auf technische Projekte, Innenarchitektur und Unternehmensimage für öffentliche und private Einrichtungen spezialisiert hat. Darüber hinaus ist sie seit 2019 Geschäftsführerin bei Flatguest und war zwischen 2021 und 2023 Generalsekretärin von AJE Canarias. Sie hat als Rednerin für das Bildungsministerium der Kanaren mitgearbeitet und Lehrkräfte in digitalen Marketingstrategien für den kommerziellen Bereich ausgebildet. Ingenieurin für Industrieorganisation und Technische Ingenieurin für Industriedesign der Universität Las Palmas de Gran Canaria, kombiniert sie technische Ausbildung mit Erfahrung in Unternehmensführung und Innovation. Mit einer soliden Laufbahn in der Welt des Designs und der Organisation fördert sie Projekte, die Digitalisierung, Kreativität und Nachhaltigkeit unterstützen und dabei immer die Stimme und Rolle der Unternehmerjugend im Archipel verteidigen.'
+          }
+        ]
+      }
+    }
+  }
+};

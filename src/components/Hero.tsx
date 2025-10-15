@@ -152,7 +152,7 @@ const Hero = () => {
               <img
                 src={nobelArticle.imageUrl}
                 alt="Nobel de Química 2025 - Innovación en agua y sostenibilidad"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain bg-white"
               />
             </div>
           </div>

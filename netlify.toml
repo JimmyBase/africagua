@@ -1,0 +1,33 @@
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+[[redirects]]
+  from = "http://africaguacanarias.com/*"
+  to = "https://www.africaguacanarias.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://africaguacanarias.com/*"
+  to = "https://www.africaguacanarias.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+
+[[headers]]
+  for = "/robots.txt"
+  [headers.values]
+    Content-Type = "text/plain"
+
+[build.environment]
+  NODE_VERSION = "18"

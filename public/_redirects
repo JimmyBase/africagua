@@ -1,7 +1,3 @@
-# Redirect domain aliases
-http://africaguacanarias.com/* https://www.africaguacanarias.com/:splat 301!
-https://africaguacanarias.com/* https://www.africaguacanarias.com/:splat 301!
-
 # Serve sitemap.xml and robots.txt with correct content types
 /sitemap.xml /sitemap.xml 200! Content-Type=application/xml
 /robots.txt /robots.txt 200! Content-Type=text/plain

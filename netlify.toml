@@ -3,18 +3,6 @@
   command = "npm run build"
 
 [[redirects]]
-  from = "http://africaguacanarias.com/*"
-  to = "https://www.africaguacanarias.com/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "https://africaguacanarias.com/*"
-  to = "https://www.africaguacanarias.com/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200

@@ -116,12 +116,12 @@
   0%, 100% {
     opacity: 1;
     transform: scale(1);
-    color: rgb(55, 65, 81);
+    color: rgb(220, 38, 38);
   }
   50% {
     opacity: 0.85;
     transform: scale(1.05);
-    color: rgb(13, 148, 136);
+    color: rgb(239, 68, 68);
   }
 }
 

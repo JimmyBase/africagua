@@ -30,7 +30,7 @@ const Hero = () => {
 
       <p>El descubrimiento de los MOF —ahora reconocido con el Nobel— recuerda la relevancia del conocimiento científico en la transformación hacia un futuro más sostenible, una visión compartida por los participantes y entidades que forman parte de Africagua Canarias 2025.</p>
     `,
-    imageUrl: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/news%2FNOTICIAS%20DE%20SLIDESHOW%2Fnobel%20quimica.png?alt=media&token=dfbaa937-02a7-4675-bba8-359b87a68d2f',
+    imageUrl: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/news%2FNOTICIAS%20DE%20SLIDESHOW%2Fnobel%20quimica%20(1).png?alt=media&token=ac9fd254-0eb7-4dec-b962-d8f268c5c763',
     createdAt: new Date('2025-10-15')
   };
 

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ErrorBoundary from './components/ErrorBoundary';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import AboutSection from './components/AboutSection';
@@ -154,14 +155,16 @@ function MainContent() {
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<MainContent />} />
-        <Route path="/startup-competition" element={<StartupCompetition />} />
-        <Route path="/program" element={<ProgramPage />} />
-      </Routes>
-    </Router>
+    <ErrorBoundary>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<MainContent />} />
+          <Route path="/startup-competition" element={<StartupCompetition />} />
+          <Route path="/program" element={<ProgramPage />} />
+        </Routes>
+      </Router>
+    </ErrorBoundary>
   );
 }
 

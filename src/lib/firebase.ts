@@ -1,7 +1,28 @@
 import { initializeApp } from 'firebase/app';
 import { getDatabase, ref as dbRef, get, push, set, remove, update } from 'firebase/database';
 import { getStorage, ref as storageRef, deleteObject } from 'firebase/storage';
-import { getAnalytics } from 'firebase/analytics';
+import { getAnalytics, Analytics } from 'firebase/analytics';
+
+const validateFirebaseConfig = () => {
+  const requiredVars = [
+    'VITE_FIREBASE_API_KEY',
+    'VITE_FIREBASE_AUTH_DOMAIN',
+    'VITE_FIREBASE_PROJECT_ID',
+    'VITE_FIREBASE_STORAGE_BUCKET',
+    'VITE_FIREBASE_MESSAGING_SENDER_ID',
+    'VITE_FIREBASE_APP_ID',
+    'VITE_FIREBASE_DATABASE_URL'
+  ];
+
+  const missing = requiredVars.filter(varName => !import.meta.env[varName]);
+
+  if (missing.length > 0) {
+    console.error('Missing Firebase environment variables:', missing);
+    throw new Error(`Missing required Firebase configuration: ${missing.join(', ')}`);
+  }
+};
+
+validateFirebaseConfig();
 
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
@@ -14,11 +35,20 @@ const firebaseConfig = {
   databaseURL: import.meta.env.VITE_FIREBASE_DATABASE_URL
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const db = getDatabase(app);
 export const storage = getStorage(app);
-export const analytics = getAnalytics(app);
+
+let analytics: Analytics | null = null;
+try {
+  if (typeof window !== 'undefined' && import.meta.env.VITE_FIREBASE_MEASUREMENT_ID) {
+    analytics = getAnalytics(app);
+  }
+} catch (error) {
+  console.warn('Firebase Analytics could not be initialized:', error);
+}
+
+export { analytics };
 
 // Helper function to fetch news with language support
 export const fetchNews = async (language = 'es') => {

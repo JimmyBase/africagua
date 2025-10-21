@@ -28,7 +28,7 @@ function MainContent() {
 
   const handleAdminClick = () => {
     const password = prompt('Introduce la clave de administrador:');
-    if (password === 'AfricaguaCanarias@fuerte') {
+    if (password === import.meta.env.VITE_ADMIN_PASSWORD) {
       setIsAdminPanelOpen(true);
     }
   };

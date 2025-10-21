@@ -21,7 +21,7 @@ export default function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
         </button>
 
         <div className="p-8">
-          <h2 className="text-xl font-semibold text-gray-900 mb-6">Avatar del usuario</h2>
+          <h2 className="text-xl font-semibold text-gray-900 mb-6"></h2>
 
           <div className="flex flex-col items-center">
             <div className="w-32 h-32 rounded-full overflow-hidden mb-6 shadow-lg">

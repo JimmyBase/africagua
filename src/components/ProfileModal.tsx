@@ -11,71 +11,56 @@ export default function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black bg-opacity-50">
-      <div className="relative bg-white rounded-lg shadow-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+      <div className="relative bg-white rounded-lg shadow-xl max-w-md w-full">
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 text-gray-500 hover:text-gray-700 transition-colors"
+          className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 transition-colors z-10"
           aria-label="Cerrar"
         >
-          <X className="w-6 h-6" />
+          <X className="w-5 h-5" />
         </button>
 
-        <div className="p-6 sm:p-8">
-          <div className="flex flex-col sm:flex-row items-center gap-6 mb-6">
-            <img
-              src="/image.png"
-              alt="Jean Michel Jimmy Tordeur"
-              className="w-32 h-32 rounded-full object-cover shadow-lg"
-            />
-            <div className="text-center sm:text-left">
-              <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">
-                Jean Michel Jimmy Tordeur
-              </h2>
-              <p className="text-lg text-teal-600 font-semibold">
-                Técnico Kit Digital
-              </p>
-              <p className="text-gray-600">
-                Cámara de Comercio de Fuerteventura
-              </p>
-            </div>
-          </div>
+        <div className="p-8">
+          <h2 className="text-xl font-semibold text-gray-900 mb-6">Avatar del usuario</h2>
 
-          <div className="space-y-6">
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Perfil</h3>
-              <p className="text-gray-700">Ingeniero informático DUT</p>
+          <div className="flex flex-col items-center">
+            <div className="w-32 h-32 rounded-full overflow-hidden mb-6 shadow-lg">
+              <img
+                src="/image.png"
+                alt="Jean Michel Jimmy Tordeur"
+                className="w-full h-full object-cover"
+              />
             </div>
 
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Especialización</h3>
-              <p className="text-gray-700">Web Designer</p>
-            </div>
+            <h3 className="text-xl font-semibold text-red-600 mb-6">
+              Jean Michel Jimmy Tordeur
+            </h3>
 
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Tecnologías</h3>
-              <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1 bg-teal-100 text-teal-800 rounded-full text-sm font-medium">
-                  SQL
-                </span>
-                <span className="px-3 py-1 bg-teal-100 text-teal-800 rounded-full text-sm font-medium">
-                  JavaScript
-                </span>
-                <span className="px-3 py-1 bg-teal-100 text-teal-800 rounded-full text-sm font-medium">
-                  Python
-                </span>
+            <div className="w-full space-y-3 text-sm">
+              <div className="flex">
+                <span className="font-semibold text-gray-700 min-w-[130px]">Perfil:</span>
+                <span className="text-gray-600">Ingeniero informático DUT</span>
               </div>
-            </div>
 
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Formación</h3>
-              <p className="text-gray-700">Inteligencia Artificial</p>
-            </div>
+              <div className="flex">
+                <span className="font-semibold text-gray-700 min-w-[130px]">Especialización:</span>
+                <span className="text-gray-600">Web Designer</span>
+              </div>
 
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Cargo actual</h3>
-              <p className="text-gray-700">
-                Técnico Kit Digital de la Cámara de Comercio de Fuerteventura
-              </p>
+              <div className="flex">
+                <span className="font-semibold text-gray-700 min-w-[130px]">Tecnologías:</span>
+                <span className="text-gray-600">SQL, JavaScript, Python</span>
+              </div>
+
+              <div className="flex">
+                <span className="font-semibold text-gray-700 min-w-[130px]">Formación:</span>
+                <span className="text-gray-600">Inteligencia Artificial</span>
+              </div>
+
+              <div className="flex">
+                <span className="font-semibold text-gray-700 min-w-[130px]">Cargo actual:</span>
+                <span className="text-gray-600">Responsable informático y desarrollo tecnológico de la Cámara de Comercio de Fuerteventura</span>
+              </div>
             </div>
           </div>
         </div>

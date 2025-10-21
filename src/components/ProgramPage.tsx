@@ -4,6 +4,7 @@ import { Calendar, MapPin, Clock, Users, Coffee, Award, Presentation, ChevronDow
 import CookiePolicy from './CookiePolicy';
 import PrivacyPolicy from './PrivacyPolicy';
 import LegalNotice from './LegalNotice';
+import ProfileModal from './ProfileModal';
 
 const ProgramPage = () => {
   const { t } = useTranslation();
@@ -11,6 +12,7 @@ const ProgramPage = () => {
   const [isCookiePolicyOpen, setIsCookiePolicyOpen] = useState(false);
   const [isPrivacyPolicyOpen, setIsPrivacyPolicyOpen] = useState(false);
   const [isLegalNoticeOpen, setIsLegalNoticeOpen] = useState(false);
+  const [isProfileModalOpen, setIsProfileModalOpen] = useState(false);
   
   const programData = t('program_page', { returnObjects: true });
 
@@ -237,8 +239,19 @@ const ProgramPage = () => {
 
           {/* Credit line and Policy Links */}
           <div className="text-center space-y-4">
-            <div className="text-xs sm:text-sm text-gray-500 px-2">
-              Página web diseñada por J.M Tordeur de la Cámara Oficial de Comercio, Industria y Navegación de Fuerteventura
+            <div className="flex items-center justify-center gap-3 text-xs sm:text-sm text-gray-500 px-2">
+              <span>Página web diseñada por J.M Tordeur de la Cámara Oficial de Comercio, Industria y Navegación de Fuerteventura</span>
+              <button
+                onClick={() => setIsProfileModalOpen(true)}
+                className="transition-transform hover:scale-110"
+                aria-label="Ver perfil de J.M Tordeur"
+              >
+                <img
+                  src="/image.png"
+                  alt="J.M Tordeur"
+                  className="w-8 h-8 sm:w-10 sm:h-10 rounded-full object-cover cursor-pointer"
+                />
+              </button>
             </div>
             <div className="flex flex-wrap justify-center gap-2 sm:gap-4 text-xs sm:text-sm px-2">
               <button
@@ -277,6 +290,11 @@ const ProgramPage = () => {
       <LegalNotice
         isOpen={isLegalNoticeOpen}
         onClose={() => setIsLegalNoticeOpen(false)}
+      />
+
+      <ProfileModal
+        isOpen={isProfileModalOpen}
+        onClose={() => setIsProfileModalOpen(false)}
       />
     </div>
   );

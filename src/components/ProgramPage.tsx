@@ -248,7 +248,7 @@ const ProgramPage = () => {
                 aria-label="Ver perfil de J.M Tordeur"
               >
                 <Avatar
-                  src="/image.png"
+                  src="/Captura de pantalla 2025-10-21 090729.png"
                   alt="J.M Tordeur"
                   name="Jean Michel Jimmy Tordeur"
                   size="medium"

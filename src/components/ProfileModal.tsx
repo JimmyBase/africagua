@@ -27,7 +27,7 @@ export default function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
           <div className="flex flex-col items-center">
             <div className="mb-6 shadow-lg">
               <Avatar
-                src="/image.png"
+                src="/Captura de pantalla 2025-10-21 090729.png"
                 alt="Jean Michel Jimmy Tordeur"
                 name="Jean Michel Jimmy Tordeur"
                 size="large"

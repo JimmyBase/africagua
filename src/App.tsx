@@ -19,6 +19,7 @@ import PrivacyPolicy from './components/PrivacyPolicy';
 import LegalNotice from './components/LegalNotice';
 import ProgramPage from './components/ProgramPage';
 import ProfileModal from './components/ProfileModal';
+import Avatar from './components/Avatar';
 
 function MainContent() {
   const [isAdminPanelOpen, setIsAdminPanelOpen] = useState(false);
@@ -91,10 +92,12 @@ function MainContent() {
                   className="transition-transform hover:scale-110"
                   aria-label="Ver perfil de J.M Tordeur"
                 >
-                  <img
+                  <Avatar
                     src="/image.png"
                     alt="J.M Tordeur"
-                    className="w-8 h-8 sm:w-10 sm:h-10 rounded-full object-cover cursor-pointer"
+                    name="Jean Michel Jimmy Tordeur"
+                    size="medium"
+                    className="cursor-pointer"
                   />
                 </button>
               </div>

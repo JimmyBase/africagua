@@ -1,5 +1,6 @@
 import React from 'react';
 import { X } from 'lucide-react';
+import Avatar from './Avatar';
 
 interface ProfileModalProps {
   isOpen: boolean;
@@ -24,11 +25,12 @@ export default function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
           <h2 className="text-xl font-semibold text-gray-900 mb-6"></h2>
 
           <div className="flex flex-col items-center">
-            <div className="w-32 h-32 rounded-full overflow-hidden mb-6 shadow-lg">
-              <img
+            <div className="mb-6 shadow-lg">
+              <Avatar
                 src="/image.png"
                 alt="Jean Michel Jimmy Tordeur"
-                className="w-full h-full object-cover"
+                name="Jean Michel Jimmy Tordeur"
+                size="large"
               />
             </div>
 

@@ -5,6 +5,7 @@ import CookiePolicy from './CookiePolicy';
 import PrivacyPolicy from './PrivacyPolicy';
 import LegalNotice from './LegalNotice';
 import ProfileModal from './ProfileModal';
+import Avatar from './Avatar';
 
 const ProgramPage = () => {
   const { t } = useTranslation();
@@ -246,10 +247,12 @@ const ProgramPage = () => {
                 className="transition-transform hover:scale-110"
                 aria-label="Ver perfil de J.M Tordeur"
               >
-                <img
+                <Avatar
                   src="/image.png"
                   alt="J.M Tordeur"
-                  className="w-8 h-8 sm:w-10 sm:h-10 rounded-full object-cover cursor-pointer"
+                  name="Jean Michel Jimmy Tordeur"
+                  size="medium"
+                  className="cursor-pointer"
                 />
               </button>
             </div>

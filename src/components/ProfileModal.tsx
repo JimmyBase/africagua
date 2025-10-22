@@ -41,12 +41,12 @@ export default function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
             <div className="w-full space-y-3 text-sm">
               <div className="flex">
                 <span className="font-semibold text-gray-700 min-w-[130px]">Perfil:</span>
-                <span className="text-gray-600">Ingeniero informático DUT</span>
+                <span className="text-gray-600">Ingeniero informático</span>
               </div>
 
               <div className="flex">
                 <span className="font-semibold text-gray-700 min-w-[130px]">Especialización:</span>
-                <span className="text-gray-600">Web Designer</span>
+                <span className="text-gray-600">Software, Web Ap, Web Designer, Ingeniería de hardware</span>
               </div>
 
               <div className="flex">
@@ -56,7 +56,7 @@ export default function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
 
               <div className="flex">
                 <span className="font-semibold text-gray-700 min-w-[130px]">Formación:</span>
-                <span className="text-gray-600">Inteligencia Artificial</span>
+                <span className="text-gray-600">Master en ingeniería de hardware, Programacion Software, Inteligencia Artificial</span>
               </div>
 
               <div className="flex">

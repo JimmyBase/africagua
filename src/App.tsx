@@ -30,8 +30,22 @@ function MainContent() {
 
   const handleAdminClick = () => {
     const password = prompt('Introduce la clave de administrador:');
-    if (password === import.meta.env.VITE_ADMIN_PASSWORD) {
+
+    if (!password) {
+      return;
+    }
+
+    const trimmedPassword = password.trim();
+
+    if (trimmedPassword.length < 8) {
+      alert('Contraseña inválida');
+      return;
+    }
+
+    if (trimmedPassword === import.meta.env.VITE_ADMIN_PASSWORD) {
       setIsAdminPanelOpen(true);
+    } else {
+      alert('Contraseña incorrecta');
     }
   };
 

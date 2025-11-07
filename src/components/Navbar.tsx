@@ -53,7 +53,7 @@ const Navbar = () => {
             
             <div className="hidden lg:block">
               <div className="text-sm text-teal-600 font-medium whitespace-nowrap">
-                Edición 2025
+              
               </div>
             </div>
           </div>

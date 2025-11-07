@@ -6,6 +6,7 @@ export default {
       program: 'Programa',
       b2b: 'Reuniones B2B',
       news: 'Noticias',
+      useful_info: 'Info de interés',
       contact: 'Contacto'
     },
     hero: {

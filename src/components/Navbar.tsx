@@ -75,6 +75,9 @@ const Navbar = () => {
             <a href="#news" onClick={handleClick} className={linkClasses}>
               {t('nav.news')}
             </a>
+            <a href="#info" onClick={handleClick} className={linkClasses}>
+              {t('nav.useful_info')}
+            </a>
             <a href="#contact" onClick={handleClick} className={linkClasses}>
               {t('nav.contact')}
             </a>
@@ -110,9 +113,9 @@ const Navbar = () => {
             </div>
           </div>
           <div className="p-4 space-y-1">
-            <a 
-              href="#about" 
-              onClick={handleClick} 
+            <a
+              href="#about"
+              onClick={handleClick}
               className="block px-4 py-3 text-gray-700 hover:text-teal-600 rounded-lg hover:bg-gray-50 transition-colors duration-300"
             >
               {t('nav.about')}
@@ -124,36 +127,43 @@ const Navbar = () => {
             >
               Programa
             </Link>
-            <a 
-              href="#history" 
-              onClick={handleClick} 
+            <a
+              href="#history"
+              onClick={handleClick}
               className="block px-4 py-3 text-gray-700 hover:text-teal-600 rounded-lg hover:bg-gray-50 transition-colors duration-300"
             >
               {t('nav.history')}
             </a>
-            <a 
-              href="#b2b" 
-              onClick={handleClick} 
+            <a
+              href="#b2b"
+              onClick={handleClick}
               className="block px-4 py-3 text-gray-700 hover:text-teal-600 rounded-lg hover:bg-gray-50 transition-colors duration-300"
             >
               {t('nav.b2b')}
             </a>
-            <a 
-              href="#news" 
-              onClick={handleClick} 
+            <a
+              href="#news"
+              onClick={handleClick}
               className="block px-4 py-3 text-gray-700 hover:text-teal-600 rounded-lg hover:bg-gray-50 transition-colors duration-300"
             >
               {t('nav.news')}
             </a>
-            <a 
-              href="#contact" 
-              onClick={handleClick} 
+            <a
+              href="#info"
+              onClick={handleClick}
+              className="block px-4 py-3 text-gray-700 hover:text-teal-600 rounded-lg hover:bg-gray-50 transition-colors duration-300"
+            >
+              {t('nav.useful_info')}
+            </a>
+            <a
+              href="#contact"
+              onClick={handleClick}
               className="block px-4 py-3 text-gray-700 hover:text-teal-600 rounded-lg hover:bg-gray-50 transition-colors duration-300"
             >
               {t('nav.contact')}
             </a>
-            <Link 
-              to="/startup-competition" 
+            <Link
+              to="/startup-competition"
               className="block px-4 py-3 text-gray-700 hover:text-teal-600 rounded-lg hover:bg-gray-50 transition-colors duration-300"
               onClick={() => setIsOpen(false)}
             >

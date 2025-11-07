@@ -64,15 +64,8 @@ const CookieConsent = ({ onOpenCookiePolicy }: CookieConsentProps) => {
   };
 
   const saveSettings = (newSettings: CookieSettings) => {
-    // Save settings in a secure cookie that expires in 1 year
-    const cookieOptions = {
-      expires: 365,
-      sameSite: 'Strict' as const,
-      secure: window.location.protocol === 'https:',
-      path: '/'
-    };
-
-    Cookies.set('cookie-consent', JSON.stringify(newSettings), cookieOptions);
+    // Save settings in a cookie that expires in 1 year
+    Cookies.set('cookie-consent', JSON.stringify(newSettings), { expires: 365 });
     setSettings(newSettings);
     setShowBanner(false);
     setShowSettings(false);
@@ -130,17 +123,11 @@ const CookieConsent = ({ onOpenCookiePolicy }: CookieConsentProps) => {
   };
 
   const enablePreferences = () => {
-    const cookieOptions = {
-      expires: 365,
-      sameSite: 'Strict' as const,
-      secure: window.location.protocol === 'https:',
-      path: '/'
-    };
-    Cookies.set('preferences-enabled', 'true', cookieOptions);
+    Cookies.set('preferences-enabled', 'true', { expires: 365 });
   };
 
   const disablePreferences = () => {
-    Cookies.remove('preferences-enabled', { path: '/' });
+    Cookies.remove('preferences-enabled');
   };
 
   const handleToggle = (key: keyof CookieSettings) => {

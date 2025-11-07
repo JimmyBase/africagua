@@ -119,7 +119,7 @@ const CookiePolicy = ({ isOpen, onClose }: CookiePolicyProps) => {
                 <td className="px-6 py-4">Opera 10.5 y superior</td>
                 <td className="px-6 py-4">Navegación privada</td>
                 <td className="px-6 py-4">
-                  <a href="https://help.opera.com/en/latest/" className="text-teal-600 hover:text-teal-700">Enlace</a>
+                  <a href="http://help.opera.com/Windows/12.00/es-ES/private.html" className="text-teal-600 hover:text-teal-700">Enlace</a>
                 </td>
               </tr>
               <tr>
@@ -156,14 +156,14 @@ const CookiePolicy = ({ isOpen, onClose }: CookiePolicyProps) => {
             <li><a href="https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias" className="text-teal-600 hover:text-teal-700">Firefox</a></li>
             <li><a href="https://support.apple.com/kb/PH17191?viewlocale=es_ES&locale=es_ES" className="text-teal-600 hover:text-teal-700">Safari</a></li>
             <li><a href="https://support.apple.com/es-es/HT201265" className="text-teal-600 hover:text-teal-700">Safari para IOS</a></li>
-            <li><a href="https://help.opera.com/en/latest/" className="text-teal-600 hover:text-teal-700">Opera</a></li>
+            <li><a href="http://www.opera.com/es/help" className="text-teal-600 hover:text-teal-700">Opera</a></li>
           </ul>
 
           <p>
             Para borrar los datos guardados en el almacenamiento local del navegador, el usuario puede borrar el historial de navegación.
           </p>
           <p>
-            Para conocer cómo borrar el almacenamiento local de Flash o para limitar la cantidad de espacio permitido, consultar las páginas de Ayuda de Adobe: <a href="https://www.adobe.com/es/privacy/cookies.html" className="text-teal-600 hover:text-teal-700">https://www.adobe.com/es/privacy/cookies.html</a>
+            Para conocer cómo borrar el almacenamiento local de Flash o para limitar la cantidad de espacio permitido, consultar las páginas de Ayuda de Adobe: <a href="http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager07.html" className="text-teal-600 hover:text-teal-700">http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager07.html</a>
           </p>
 
           <h3>Información detallada sobre las cookies utilizadas por este sitio web</h3>

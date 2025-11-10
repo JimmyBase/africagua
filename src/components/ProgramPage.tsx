@@ -28,34 +28,34 @@ const ProgramPage = () => {
   const getSessionIcon = (type: string) => {
     switch (type) {
       case 'opening':
-        return <Award className="w-5 h-5 text-yellow-600" />;
+        return <Award className="w-5 h-5 text-cyan-400" />;
       case 'panel':
-        return <Users className="w-5 h-5 text-teal-600" />;
+        return <Users className="w-5 h-5 text-cyan-500" />;
       case 'break':
-        return <Coffee className="w-5 h-5 text-orange-600" />;
+        return <Coffee className="w-5 h-5 text-slate-400" />;
       case 'presentation':
-        return <Presentation className="w-5 h-5 text-purple-600" />;
+        return <Presentation className="w-5 h-5 text-cyan-400" />;
       case 'awards':
-        return <Award className="w-5 h-5 text-gold-600" />;
+        return <Award className="w-5 h-5 text-cyan-300" />;
       default:
-        return <Clock className="w-5 h-5 text-gray-600" />;
+        return <Clock className="w-5 h-5 text-slate-500" />;
     }
   };
 
   const getSessionColor = (type: string) => {
     switch (type) {
       case 'opening':
-        return 'border-l-4 border-l-amber-500 bg-gradient-to-r from-amber-50 to-white hover:from-amber-100 hover:to-amber-50';
+        return 'border-l-4 border-l-cyan-400 bg-gradient-to-r from-slate-800/5 to-white hover:from-cyan-50 hover:to-white';
       case 'panel':
-        return 'border-l-4 border-l-teal-500 bg-gradient-to-r from-teal-50 to-white hover:from-teal-100 hover:to-teal-50';
+        return 'border-l-4 border-l-[#2c5f6f] bg-gradient-to-r from-[#2c5f6f]/5 to-white hover:from-[#2c5f6f]/10 hover:to-white';
       case 'break':
-        return 'border-l-4 border-l-slate-400 bg-gradient-to-r from-slate-50 to-white hover:from-slate-100 hover:to-slate-50';
+        return 'border-l-4 border-l-slate-400 bg-gradient-to-r from-slate-100 to-white hover:from-slate-200 hover:to-slate-50';
       case 'presentation':
-        return 'border-l-4 border-l-blue-500 bg-gradient-to-r from-blue-50 to-white hover:from-blue-100 hover:to-blue-50';
+        return 'border-l-4 border-l-cyan-500 bg-gradient-to-r from-cyan-50 to-white hover:from-cyan-100 hover:to-cyan-50';
       case 'awards':
-        return 'border-l-4 border-l-yellow-500 bg-gradient-to-r from-yellow-50 to-white hover:from-yellow-100 hover:to-yellow-50';
+        return 'border-l-4 border-l-cyan-300 bg-gradient-to-r from-cyan-50/50 to-white hover:from-cyan-100/50 hover:to-cyan-50';
       default:
-        return 'border-l-4 border-l-gray-400 bg-gradient-to-r from-gray-50 to-white hover:from-gray-100 hover:to-gray-50';
+        return 'border-l-4 border-l-slate-400 bg-gradient-to-r from-slate-50 to-white hover:from-slate-100 hover:to-slate-50';
     }
   };
 
@@ -79,9 +79,9 @@ const ProgramPage = () => {
             </div>
             <div className="flex-grow min-w-0">
               <div className="mb-2">
-                <div className="inline-flex items-center gap-2 px-3 py-1 bg-white rounded-full shadow-sm mb-3">
-                  <Clock className="w-4 h-4 text-teal-600" />
-                  <span className="font-semibold text-sm text-gray-900">{session.time}</span>
+                <div className="inline-flex items-center gap-2 px-3 py-1 bg-gradient-to-r from-[#1a3d4a] to-[#2c5f6f] rounded-full shadow-sm mb-3">
+                  <Clock className="w-4 h-4 text-cyan-300" />
+                  <span className="font-semibold text-sm text-white">{session.time}</span>
                 </div>
                 <h3 className="text-lg sm:text-xl font-bold text-gray-900 leading-snug">{session.title}</h3>
               </div>
@@ -97,25 +97,25 @@ const ProgramPage = () => {
         {hasDetails && isExpanded && (
           <div className="mt-6 pt-6 border-t-2 border-gray-200/50 animate-fadeIn">
             {session.moderator && (
-              <div className="mb-6 p-4 bg-white rounded-lg shadow-sm">
+              <div className="mb-6 p-4 bg-gradient-to-r from-[#1a3d4a]/5 to-white rounded-lg shadow-sm border border-[#2c5f6f]/20">
                 <div className="flex items-center gap-2 mb-2">
-                  <Users className="w-4 h-4 text-teal-600" />
-                  <h4 className="font-bold text-sm uppercase tracking-wide text-teal-700">Moderador</h4>
+                  <Users className="w-4 h-4 text-cyan-500" />
+                  <h4 className="font-bold text-sm uppercase tracking-wide text-[#2c5f6f]">Moderador</h4>
                 </div>
                 <p className="text-gray-800 font-medium ml-6">{session.moderator}</p>
               </div>
             )}
 
             {session.participants && session.participants.length > 0 && (
-              <div className="p-4 bg-white rounded-lg shadow-sm">
+              <div className="p-4 bg-gradient-to-r from-[#1a3d4a]/5 to-white rounded-lg shadow-sm border border-[#2c5f6f]/20">
                 <div className="flex items-center gap-2 mb-3">
-                  <Sparkles className="w-4 h-4 text-teal-600" />
-                  <h4 className="font-bold text-sm uppercase tracking-wide text-teal-700">Participantes</h4>
+                  <Sparkles className="w-4 h-4 text-cyan-500" />
+                  <h4 className="font-bold text-sm uppercase tracking-wide text-[#2c5f6f]">Participantes</h4>
                 </div>
                 <ul className="space-y-3 ml-6">
                   {session.participants.map((participant: string, idx: number) => (
                     <li key={idx} className="flex items-start gap-3 group/item">
-                      <div className="w-1.5 h-1.5 bg-teal-600 rounded-full flex-shrink-0 mt-2 group-hover/item:scale-125 transition-transform"></div>
+                      <div className="w-1.5 h-1.5 bg-cyan-500 rounded-full flex-shrink-0 mt-2 group-hover/item:scale-125 transition-transform"></div>
                       <span className="text-gray-700 leading-relaxed">{participant}</span>
                     </li>
                   ))}
@@ -129,15 +129,16 @@ const ProgramPage = () => {
   };
 
   return (
-    <div className="min-h-screen pt-24 bg-gradient-to-br from-slate-50 via-white to-teal-50">
+    <div className="min-h-screen pt-24 bg-gradient-to-br from-slate-100 via-slate-50 to-cyan-50/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 relative">
           <div className="inline-block relative">
-            <h1 className="text-6xl font-extrabold text-teal-600 mb-4 leading-tight">
+            <div className="absolute inset-0 bg-gradient-to-r from-[#1a3d4a] to-[#2c5f6f] blur-3xl opacity-20 rounded-full"></div>
+            <h1 className="text-6xl font-extrabold bg-gradient-to-r from-[#1a3d4a] to-[#2c5f6f] bg-clip-text text-transparent mb-4 leading-tight relative">
               {programData.title}
             </h1>
-            <p className="text-2xl text-gray-700 font-light">
+            <p className="text-2xl text-slate-700 font-light relative">
               {programData.subtitle}
             </p>
           </div>
@@ -145,17 +146,17 @@ const ProgramPage = () => {
 
         {/* Day 1 */}
         <div className="mb-20">
-          <div className="bg-gradient-to-r from-teal-600 to-teal-700 text-white p-10 rounded-t-3xl shadow-xl relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent"></div>
+          <div className="bg-gradient-to-r from-[#1a3d4a] via-[#2c5f6f] to-[#1a3d4a] text-white p-10 rounded-t-3xl shadow-xl relative overflow-hidden">
+            <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxwYXR0ZXJuIGlkPSJ3YXZlcyIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIyMCI+PHBhdGggZD0iTTAgMTBjMjUgMCAyNSAxMCA1MCAxMHMyNS0xMCA1MC0xMCA1MCAxMCA1MCAxMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJyZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMDUpIiBzdHJva2Utd2lkdGg9IjEiLz48L3BhdHRlcm4+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjd2F2ZXMpIi8+PC9zdmc+')] opacity-40"></div>
             <div className="relative flex items-center gap-6">
-              <div className="p-4 bg-white/20 rounded-2xl backdrop-blur-sm">
-                <Calendar className="w-10 h-10" />
+              <div className="p-4 bg-cyan-400/20 rounded-2xl backdrop-blur-sm border border-cyan-300/30">
+                <Calendar className="w-10 h-10 text-cyan-300" />
               </div>
               <div>
-                <h2 className="text-4xl font-extrabold mb-2">{programData.days.day1.date}</h2>
+                <h2 className="text-4xl font-extrabold mb-2 text-white">{programData.days.day1.date}</h2>
                 <div className="flex items-center gap-2">
-                  <MapPin className="w-5 h-5" />
-                  <span className="text-xl font-medium opacity-95">{programData.days.day1.venue}</span>
+                  <MapPin className="w-5 h-5 text-cyan-300" />
+                  <span className="text-xl font-medium text-cyan-50">{programData.days.day1.venue}</span>
                 </div>
               </div>
             </div>
@@ -170,11 +171,12 @@ const ProgramPage = () => {
             {/* Sala A Sessions */}
             {programData.days.day1.sala_a && (
               <div className="mt-10">
-                <div className="flex items-center gap-4 mb-8 p-6 bg-teal-600 rounded-2xl shadow-lg">
-                  <div className="p-3 bg-white rounded-xl shadow-md">
-                    <MapPin className="w-6 h-6 text-teal-600" />
+                <div className="flex items-center gap-4 mb-8 p-6 bg-gradient-to-r from-[#1a3d4a] to-[#2c5f6f] rounded-2xl shadow-lg relative overflow-hidden">
+                  <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxwYXR0ZXJuIGlkPSJ3YXZlcyIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIyMCI+PHBhdGggZD0iTTAgMTBjMjUgMCAyNSAxMCA1MCAxMHMyNS0xMCA1MC0xMCA1MCAxMCA1MCAxMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJyZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMDUpIiBzdHJva2Utd2lkdGg9IjEiLz48L3BhdHRlcm4+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjd2F2ZXMpIi8+PC9zdmc+')] opacity-30"></div>
+                  <div className="p-3 bg-cyan-400/20 rounded-xl shadow-md border border-cyan-300/30 relative z-10">
+                    <MapPin className="w-6 h-6 text-cyan-300" />
                   </div>
-                  <h3 className="text-3xl font-extrabold text-white">{programData.days.day1.sala_a.venue}</h3>
+                  <h3 className="text-3xl font-extrabold text-white relative z-10">{programData.days.day1.sala_a.venue}</h3>
                 </div>
                 {programData.days.day1.sala_a.sessions.map((session: any, index: number) =>
                   renderSession(session, index, 'day1', 'sala_a')
@@ -186,17 +188,17 @@ const ProgramPage = () => {
 
         {/* Day 2 */}
         <div className="mb-20">
-          <div className="bg-gradient-to-r from-teal-600 to-teal-700 text-white p-10 rounded-t-3xl shadow-xl relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent"></div>
+          <div className="bg-gradient-to-r from-[#1a3d4a] via-[#2c5f6f] to-[#1a3d4a] text-white p-10 rounded-t-3xl shadow-xl relative overflow-hidden">
+            <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxwYXR0ZXJuIGlkPSJ3YXZlcyIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIyMCI+PHBhdGggZD0iTTAgMTBjMjUgMCAyNSAxMCA1MCAxMHMyNS0xMCA1MC0xMCA1MCAxMCA1MCAxMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJyZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMDUpIiBzdHJva2Utd2lkdGg9IjEiLz48L3BhdHRlcm4+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjd2F2ZXMpIi8+PC9zdmc+')] opacity-40"></div>
             <div className="relative flex items-center gap-6">
-              <div className="p-4 bg-white/20 rounded-2xl backdrop-blur-sm">
-                <Calendar className="w-10 h-10" />
+              <div className="p-4 bg-cyan-400/20 rounded-2xl backdrop-blur-sm border border-cyan-300/30">
+                <Calendar className="w-10 h-10 text-cyan-300" />
               </div>
               <div>
-                <h2 className="text-4xl font-extrabold mb-2">{programData.days.day2.date}</h2>
+                <h2 className="text-4xl font-extrabold mb-2 text-white">{programData.days.day2.date}</h2>
                 <div className="flex items-center gap-2">
-                  <MapPin className="w-5 h-5" />
-                  <span className="text-xl font-medium opacity-95">{programData.days.day2.venue}</span>
+                  <MapPin className="w-5 h-5 text-cyan-300" />
+                  <span className="text-xl font-medium text-cyan-50">{programData.days.day2.venue}</span>
                 </div>
               </div>
             </div>
@@ -259,19 +261,19 @@ const ProgramPage = () => {
             <div className="flex flex-wrap justify-center gap-2 sm:gap-4 text-xs sm:text-sm px-2">
               <button
                 onClick={() => setIsCookiePolicyOpen(true)}
-                className="text-teal-600 hover:text-teal-700 transition-colors py-1"
+                className="text-[#2c5f6f] hover:text-cyan-600 transition-colors py-1"
               >
                 Política de cookies
               </button>
               <button
                 onClick={() => setIsPrivacyPolicyOpen(true)}
-                className="text-teal-600 hover:text-teal-700 transition-colors py-1"
+                className="text-[#2c5f6f] hover:text-cyan-600 transition-colors py-1"
               >
                 Política de privacidad
               </button>
               <button
                 onClick={() => setIsLegalNoticeOpen(true)}
-                className="text-teal-600 hover:text-teal-700 transition-colors py-1"
+                className="text-[#2c5f6f] hover:text-cyan-600 transition-colors py-1"
               >
                 Aviso legal
               </button>

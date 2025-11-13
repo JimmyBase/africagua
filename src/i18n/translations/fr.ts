@@ -267,7 +267,7 @@ export default {
                 participants: [
                   'Sous-directrice Générale Adjointe des Instruments Financiers pour l\'Internationalisation de FIEM | María Soledad Sendagorta Fernández-Durán',
                   'Sous-directrice des Financements Structurés de COFIDES | Ane Sáenz de Zaitegui Bermeo',
-                  'Directeur Général du Financement d\'Entreprise International, Médiation et Fonds d\'État ICO | Fernando Salazar Palma',
+                  'Technicienne du Secteur de Gestion des Fonds d\'État pour l\'Internationalisation de l\'ICO | Iciar La Casta Muñoa',
                   'Acciona Water Casablanca | Adelaida Fernández (En attente de confirmation)'
                 ]
               },
@@ -437,6 +437,12 @@ export default {
         title: 'Sous-directrice des Financements Structurés de COFIDES',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FANE%20SAENZ.png?alt=media&token=4f598de2-3d87-4855-9568-78e8a207a39e',
         bio: 'Professionnelle du secteur financier avec une solide expérience en analyse économique et financière, structuration et financement de projets, notamment sous des schémas de Project Finance et de Partenariats Public-Privé (PPP). Elle fait actuellement partie de l\'équipe de COFIDES, où elle a élargi ses compétences en analyse de crédit et en financement de projets à l\'échelle internationale, participant activement à des opérations de dette et de capital dans les secteurs de l\'infrastructure et de l\'énergie sur divers marchés.'
+      },
+      'Iciar La Casta Muñoa': {
+        name: 'Iciar La Casta Muñoa',
+        title: 'Technicienne du Secteur de Gestion des Fonds d\'État pour l\'Internationalisation de l\'Institut de Crédit Officiel d\'Espagne',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FIc%C3%ADar%20La%20Casta%20Mu%C3%B1oa.png?alt=media&token=5436d2e8-1df0-4d9c-88a4-a782fb3e782f',
+        bio: 'Diplômée en Sciences Économiques et Commerciales de CUNEF, elle est Technicienne dans le Secteur de Gestion des Fonds d\'État pour l\'Internationalisation de l\'Institut de Crédit Officiel d\'Espagne, dans son rôle d\'Agence Financière de l\'État, secteur dans lequel elle travaille au Front Office des opérations de Fonds d\'État (FIEM et FEDES) depuis dix ans. Auparavant, de 2009 à 2015, elle a été Chef du Département des Politiques et de l\'Admission des Risques de Crédit de l\'ICO, dans son rôle de Banque Nationale de Promotion, et Membre du Comité d\'Investissement de FOND ICO PYME de AXIS, du Groupe ICO, après neuf ans en Analyse des Risques de Crédit, tant Corporatifs que Project Finance, à l\'Institut et, avant de rejoindre l\'ICO, à l\'institution financière BNP Paribas. Chez BNP Paribas, elle a été Chef de la Division de Contrôle des Risques et Reporting et, auparavant, Chef d\'Équipe d\'Audit chez KPMG.'
       }
     },
     startup_competition: {

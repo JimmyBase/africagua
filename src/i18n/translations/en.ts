@@ -267,7 +267,7 @@ export default {
                 participants: [
                   'Deputy General Director of Financial Instruments for Internationalization of FIEM | María Soledad Sendagorta Fernández-Durán',
                   'Deputy Director of Structured Finance at COFIDES | Ane Sáenz de Zaitegui Bermeo',
-                  'General Director of International Corporate Finance, Mediation and State Funds ICO | Fernando Salazar Palma',
+                  'Technician of the State Funds Management Area for Internationalization at ICO | Iciar La Casta Muñoa',
                   'Acciona Water Casablanca | Adelaida Fernández (Pending confirmation)'
                 ]
               },
@@ -445,6 +445,12 @@ export default {
         title: 'Deputy Director of Structured Finance at COFIDES',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FANE%20SAENZ.png?alt=media&token=4f598de2-3d87-4855-9568-78e8a207a39e',
         bio: 'Financial professional with a solid background in economic-financial analysis, structuring and project finance, especially under Project Finance schemes and Public-Private Partnerships (PPP). She is currently part of the COFIDES team, where she has expanded her skills in credit analysis and international project finance, actively participating in debt and equity operations in the infrastructure and energy sectors in various markets.'
+      },
+      'Iciar La Casta Muñoa': {
+        name: 'Iciar La Casta Muñoa',
+        title: 'Technician of the State Funds Management Area for Internationalization at the Official Credit Institute of Spain',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FIc%C3%ADar%20La%20Casta%20Mu%C3%B1oa.png?alt=media&token=5436d2e8-1df0-4d9c-88a4-a782fb3e782f',
+        bio: 'Graduate in Economics and Business from CUNEF, she is a Technician in the State Funds Management Area for Internationalization at the Official Credit Institute of Spain, in its role as State Financial Agency, where she has been working in the Front Office of State Funds operations (FIEM and FEDES) for ten years. Previously, from 2009 to 2015, she was Head of the Credit Risk Policies and Admission Department of ICO, in its role as National Development Bank, and Member of the Investment Committee of FOND ICO PYME de AXIS, of the ICO Group, after nine years in Credit Risk Analysis, both Corporate and Project Finance, at the Institute and, before joining ICO, at the financial institution BNP Paribas. At BNP Paribas, she was Head of the Risk Control and Reporting Division and, previously, was Audit Team Leader at KPMG.'
       }
     },
     startup_competition: {

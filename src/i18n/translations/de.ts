@@ -267,7 +267,7 @@ export default {
                 participants: [
                   'Stellvertretende Generaldirektorin für Finanzinstrumente zur Internationalisierung von FIEM | María Soledad Sendagorta Fernández-Durán',
                   'Stellvertretende Direktorin für Strukturierte Finanzierungen bei COFIDES | Ane Sáenz de Zaitegui Bermeo',
-                  'Generaldirektor für Internationale Unternehmensfinanzierung, Vermittlung und Staatsfonds ICO | Fernando Salazar Palma',
+                  'Technikerin im Bereich Verwaltung von Staatsfonds für Internationalisierung beim ICO | Iciar La Casta Muñoa',
                   'Acciona Water Casablanca | Adelaida Fernández (Bestätigung ausstehend)'
                 ]
               },
@@ -437,6 +437,12 @@ export default {
         title: 'Stellvertretende Direktorin für Strukturierte Finanzierungen bei COFIDES',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FANE%20SAENZ.png?alt=media&token=4f598de2-3d87-4855-9568-78e8a207a39e',
         bio: 'Finanzfachfrau mit fundierter Erfahrung in wirtschaftlicher und finanzieller Analyse, Strukturierung und Projektfinanzierung, insbesondere im Rahmen von Project Finance und Öffentlich-Privaten Partnerschaften (PPP). Sie ist derzeit Teil des COFIDES-Teams, wo sie ihre Kompetenzen in Kreditanalyse und internationaler Projektfinanzierung erweitert hat und aktiv an Schulden- und Kapitaloperationen in den Infrastruktur- und Energiesektoren auf verschiedenen Märkten teilnimmt.'
+      },
+      'Iciar La Casta Muñoa': {
+        name: 'Iciar La Casta Muñoa',
+        title: 'Technikerin im Bereich Verwaltung von Staatsfonds für Internationalisierung beim Offiziellen Kreditinstitut Spaniens',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FIc%C3%ADar%20La%20Casta%20Mu%C3%B1oa.png?alt=media&token=5436d2e8-1df0-4d9c-88a4-a782fb3e782f',
+        bio: 'Absolventin der Wirtschafts- und Betriebswissenschaften an der CUNEF, ist Technikerin im Bereich Verwaltung von Staatsfonds für Internationalisierung beim Offiziellen Kreditinstitut Spaniens in seiner Funktion als Staatliche Finanzagentur, wo sie seit zehn Jahren im Front Office der Staatsfonds-Operationen (FIEM und FEDES) arbeitet. Zuvor war sie von 2009 bis 2015 Leiterin der Abteilung für Kreditrisikopolitik und -zulassung des ICO in seiner Funktion als Nationale Förderbank und Mitglied des Investitionsausschusses von FOND ICO PYME de AXIS der ICO-Gruppe, nach neun Jahren in der Kreditrisikoanalyse, sowohl Corporate als auch Project Finance, am Institut und, bevor sie zur ICO kam, beim Finanzinstitut BNP Paribas. Bei BNP Paribas war sie Leiterin der Abteilung Risikokontrolle und Reporting und zuvor Teamleiterin Audit bei KPMG.'
       }
     },
     startup_competition: {

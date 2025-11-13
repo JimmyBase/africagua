@@ -467,6 +467,12 @@ export default {
         title: 'Subdirectora de Financiaciones Estructuradas de COFIDES',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FANE%20SAENZ.png?alt=media&token=4f598de2-3d87-4855-9568-78e8a207a39e',
         bio: 'Profesional del ámbito financiero con una sólida trayectoria en análisis económico-financiero, estructuración y financiación de proyectos, especialmente bajo esquemas de Project Finance y Asociaciones Público-Privadas (APP). Actualmente forma parte del equipo de COFIDES, donde ha ampliado sus competencias en análisis crediticio y financiación de proyectos a nivel internacional, participando activamente en operaciones de deuda y capital en los sectores de infraestructura y energía en diversos mercados.'
+      },
+      'Iciar La Casta Muñoa': {
+        name: 'Iciar La Casta Muñoa',
+        title: 'Técnico del Área de Gestión de Fondos del Estado para la Internacionalización del Instituto de Crédito Oficial de España',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FIc%C3%ADar%20La%20Casta%20Mu%C3%B1oa.png?alt=media&token=5436d2e8-1df0-4d9c-88a4-a782fb3e782f',
+        bio: 'Licenciada en Ciencias Económicas y Empresariales por CUNEF, es Técnico en el Área de Gestión de los Fondos del Estado para la Internacionalización del Instituto de Crédito Oficial de España, en su vertiente de Agencia Financiera del Estado, Área en la que trabaja en el Front Office de las operaciones de Fondos del Estado (FIEM y FEDES) desde hace diez años. Previamente fue, de 2009 a 2015, Jefa del Departamento de Políticas y Admisión de Riesgos de Crédito del ICO, en su vertiente de Banco Nacional de Promoción, y Miembro del Comité de Inversiones de FOND ICO PYME de AXIS, del Grupo ICO, después de nueve años en Análisis de Riesgos de Crédito, tanto Corporativos como Project Finance, en el Instituto y, antes de incorporarse al ICO, en la entidad financiera BNP Paribas. En BNP Paribas, fue Jefa de la División de Control de Riesgos y Reporting y, anteriormente, fue Jefe de Equipo de Auditoría en KPMG.'
       }
     },
     startup_competition: {

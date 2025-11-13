@@ -418,6 +418,12 @@ export default {
         title: 'Director of the Ministry of Water Resources, Works and Housing of Ghana',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FKwabena%20Asare%20Gyasi.png?alt=media&token=af180bbf-9eb8-411b-b4a3-0384e9425168',
         bio: 'Civil engineer with experience in water supply and environmental engineering, with degrees from Kwame Nkrumah University of Science and Technology in Ghana and Technische Universität Bergakademie Freiberg in Germany. He currently heads the Water Directorate of the Ministry of Works, Housing and Water Resources of Ghana, bringing over 20 years of experience in the design and implementation of water supply, sanitation and environmental projects in both the public and private sectors. He represents Ghana on numerous local and international platforms, including serving as the country\'s focal person for Sustainable Development Goal 6 and as a member of the Technical Advisory Committee of the African Ministers\' Council on Water (AMCOW). He is also the co-lead of Ghana\'s engagement in the Sanitation and Water for All (SWA) initiative.'
+      },
+      'Mohamed Kankou': {
+        name: 'Mohamed Kankou',
+        title: 'Advisor to the Prime Minister in charge of Water and Sanitation',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FMohamed%20Kankou.png?alt=media&token=8a962404-72b3-46f0-9678-210c372f7f46',
+        bio: 'Advisor to the Prime Minister in charge of Water and Sanitation since June 8, 2022 to the present. Specialized in Water Chemistry, Organic Chemistry and Synthesis, Chemical Kinetics, Analytical Chemistry, Natural Substances Technology and Industrial Chemistry. Coordinator of the Research Unit: Water, Pollution and Environment: Direction of several Doctoral Theses and Master\'s Theses in the field of Water and the Environment.'
       }
     },
     startup_competition: {

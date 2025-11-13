@@ -410,6 +410,12 @@ export default {
         title: 'Direktor des Ministeriums für Wasserressourcen, Bauwesen und Wohnungswesen von Ghana',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FKwabena%20Asare%20Gyasi.png?alt=media&token=af180bbf-9eb8-411b-b4a3-0384e9425168',
         bio: 'Bauingenieur mit Erfahrung in Wasserversorgung und Umwelttechnik, mit Abschlüssen der Kwame Nkrumah University of Science and Technology in Ghana und der Technischen Universität Bergakademie Freiberg in Deutschland. Er leitet derzeit die Wasserdirektion des Ministeriums für Bauwesen, Wohnungswesen und Wasserressourcen in Ghana und bringt über 20 Jahre Erfahrung in der Planung und Umsetzung von Wasserversorgungs-, Sanitär- und Umweltprojekten im öffentlichen und privaten Sektor mit. Er vertritt Ghana auf zahlreichen lokalen und internationalen Plattformen, unter anderem als nationale Kontaktperson für das Nachhaltige Entwicklungsziel 6 und als Mitglied des Technischen Beratungsausschusses des Afrikanischen Ministerrats für Wasser (AMCOW). Er ist auch Co-Leiter von Ghanas Engagement in der Initiative Sanitärversorgung und Wasser für Alle (SWA).'
+      },
+      'Mohamed Kankou': {
+        name: 'Mohamed Kankou',
+        title: 'Berater des Premierministers für Wasserbau und Sanitärversorgung',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FMohamed%20Kankou.png?alt=media&token=8a962404-72b3-46f0-9678-210c372f7f46',
+        bio: 'Berater des Premierministers für Wasserbau und Sanitärversorgung seit dem 08.06.2022 bis heute. Spezialisiert auf Wasserchemie, Organische Chemie und Synthese, Chemische Kinetik, Analytische Chemie, Naturstofftechnologie und Industriechemie. Koordinator der Forschungseinheit: Wasser, Umweltverschmutzung und Umwelt: Betreuung mehrerer Doktorarbeiten und Masterarbeiten im Bereich Wasser und Umwelt.'
       }
     },
     startup_competition: {

@@ -410,6 +410,12 @@ export default {
         title: 'Direttore del Ministero delle Risorse Idriche, Lavori e Abitazioni del Ghana',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FKwabena%20Asare%20Gyasi.png?alt=media&token=af180bbf-9eb8-411b-b4a3-0384e9425168',
         bio: 'Ingegnere civile con esperienza nell\'approvvigionamento idrico e nell\'ingegneria ambientale, con lauree presso l\'Università di Scienza e Tecnologia Kwame Nkrumah in Ghana e la Technische Universität Bergakademie Freiberg in Germania. Attualmente dirige la Direzione delle Acque del Ministero dei Lavori, dell\'Edilizia e delle Risorse Idriche del Ghana, portando oltre 20 anni di esperienza nella progettazione e implementazione di progetti di approvvigionamento idrico, servizi igienico-sanitari e ambiente nei settori pubblico e privato. Rappresenta il Ghana in numerose piattaforme locali e internazionali, incluso il ruolo di punto focale del paese per l\'Obiettivo di Sviluppo Sostenibile 6 e come membro del Comitato Consultivo Tecnico del Consiglio dei Ministri Africani sull\'Acqua (AMCOW). È anche co-responsabile dell\'impegno del Ghana nell\'iniziativa Servizi Igienico-Sanitari e Acqua per Tutti (SWA).'
+      },
+      'Mohamed Kankou': {
+        name: 'Mohamed Kankou',
+        title: 'Consigliere del Primo Ministro responsabile dell\'Idraulica e dei Servizi Igienico-Sanitari',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FMohamed%20Kankou.png?alt=media&token=8a962404-72b3-46f0-9678-210c372f7f46',
+        bio: 'Consigliere del Primo Ministro responsabile dell\'Idraulica e dei Servizi Igienico-Sanitari dall\'08/06/2022 ad oggi. Specializzato in Chimica dell\'acqua, Chimica organica e sintesi, Cinetica chimica, Chimica analitica, Tecnologia delle sostanze naturali e Chimica industriale. Coordinatore dell\'Unità di Ricerca: Acqua, Inquinamento e Ambiente: Direzione di diverse Tesi di Dottorato e Tesi di Master nell\'ambito dell\'Acqua e dell\'Ambiente.'
       }
     },
     startup_competition: {

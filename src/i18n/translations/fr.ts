@@ -410,6 +410,12 @@ export default {
         title: 'Directeur du Ministère des Ressources en Eau, Travaux et Logement du Ghana',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FKwabena%20Asare%20Gyasi.png?alt=media&token=af180bbf-9eb8-411b-b4a3-0384e9425168',
         bio: 'Ingénieur civil avec une expérience dans l\'approvisionnement en eau et l\'ingénierie environnementale, titulaire de diplômes de l\'Université de Sciences et Technologies Kwame Nkrumah au Ghana et de la Technische Universität Bergakademie Freiberg en Allemagne. Il dirige actuellement la Direction de l\'Eau du Ministère des Travaux, du Logement et des Ressources en Eau du Ghana, apportant plus de 20 ans d\'expérience dans la conception et la mise en œuvre de projets d\'approvisionnement en eau, d\'assainissement et d\'environnement dans les secteurs public et privé. Il représente le Ghana sur de nombreuses plateformes locales et internationales, notamment en tant que point focal du pays pour l\'Objectif de Développement Durable 6 et en tant que membre du Comité Consultatif Technique du Conseil des Ministres Africains sur l\'Eau (AMCOW). Il est également co-responsable de l\'engagement du Ghana dans l\'initiative Assainissement et Eau pour Tous (SWA).'
+      },
+      'Mohamed Kankou': {
+        name: 'Mohamed Kankou',
+        title: 'Conseiller du Premier Ministre chargé de l\'Hydraulique et de l\'Assainissement',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FMohamed%20Kankou.png?alt=media&token=8a962404-72b3-46f0-9678-210c372f7f46',
+        bio: 'Conseiller du Premier Ministre chargé de l\'Hydraulique et de l\'Assainissement depuis le 08/06/2022 jusqu\'à présent. Spécialisé en Chimie de l\'eau, Chimie organique et synthèse, Cinétique chimique, Chimie analytique, Technologie des substances naturelles et Chimie industrielle. Coordinateur de l\'Unité de Recherche : Eau, Pollution et Environnement : Direction de plusieurs thèses de doctorat et thèses de master dans le domaine de l\'eau et de l\'environnement.'
       }
     },
     startup_competition: {

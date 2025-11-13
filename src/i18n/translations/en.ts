@@ -481,6 +481,12 @@ export default {
         title: 'Foreign Promotion Area',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FMar%20Naranjo%20Suarez.png?alt=media&token=6a54a61c-3ae3-4346-af0e-de9194e06f4d',
         bio: 'With training in Law, Diplomacy and International Relations, Business Internationalization and Business Administration and Management, she began her professional career as legal representative of the Canary Foundation for External Action (Fucaex) in Mauritania, where she worked on economic promotion and institutional and business cooperation between the Canary Islands and this West African country. With over seven years of experience in international business development, she has led expansion projects, investment attraction and foreign promotion in strategic sectors in the region. Currently, as part of Proexca\'s Foreign Promotion Area team, she focuses on promoting Canary Islands companies abroad, driving, among other sectors, the export of knowledge and experience from our business network.'
+      },
+      'Daniel Jacobo Orea': {
+        name: 'Daniel Jacobo Orea',
+        title: 'Economic and Commercial Counselor of the Embassy of Dakar in Spain',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FDANIEL%20JACOBO%20OREA.png?alt=media&token=c0141f5a-a255-4b56-ab15-7d491d1da744',
+        bio: 'He joined the body of Commercial Technicians and State Economists in 2016. In 2021, he joined the State Secretariat for International Cooperation of the MAEC, working as Director of the Division for Evaluation of Policies for Sustainable Development between 2022 and 2024. Since then, he has served as Economic and Commercial Counselor of the Spanish Embassy in Dakar, with jurisdiction in Senegal, Mauritania, Cape Verde, Gambia, Mali and Guinea-Bissau.'
       }
     },
     startup_competition: {

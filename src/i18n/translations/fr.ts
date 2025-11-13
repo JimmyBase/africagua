@@ -473,6 +473,12 @@ export default {
         title: 'Département de Promotion Extérieure',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FMar%20Naranjo%20Suarez.png?alt=media&token=6a54a61c-3ae3-4346-af0e-de9194e06f4d',
         bio: 'Avec une formation en Droit, Diplomatie et Relations Internationales, Internationalisation des Entreprises et Administration et Direction d\'Entreprises, elle a commencé sa carrière professionnelle comme représentante légale de la Fondation Canarienne pour l\'Action Extérieure (Fucaex) en Mauritanie, où elle a travaillé sur la promotion économique et la coopération institutionnelle et entrepreneuriale entre les Canaries et ce pays d\'Afrique de l\'Ouest. Avec plus de sept ans d\'expérience dans le développement commercial international, elle a dirigé des projets d\'expansion, d\'attraction d\'investissement et de promotion extérieure dans des secteurs stratégiques de la région. Actuellement, dans le cadre de l\'équipe du Département de Promotion Extérieure de Proexca, elle concentre son travail sur la promotion des entreprises canariennes à l\'étranger, favorisant, entre autres secteurs, l\'exportation des connaissances et de l\'expérience de notre tissu entrepreneurial.'
+      },
+      'Daniel Jacobo Orea': {
+        name: 'Daniel Jacobo Orea',
+        title: 'Conseiller Économique et Commercial de l\'Ambassade de Dakar en Espagne',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FDANIEL%20JACOBO%20OREA.png?alt=media&token=c0141f5a-a255-4b56-ab15-7d491d1da744',
+        bio: 'Il a intégré en 2016 le corps des Techniciens Commerciaux et Économistes de l\'État. En 2021, il a rejoint le Secrétariat d\'État à la Coopération Internationale du MAEC, travaillant comme Directeur de la Division d\'Évaluation des Politiques pour le Développement Durable entre 2022 et 2024. Depuis lors, il exerce en tant que Conseiller Économique et Commercial de l\'Ambassade d\'Espagne à Dakar, avec juridiction au Sénégal, en Mauritanie, au Cap-Vert, en Gambie, au Mali et en Guinée-Bissau.'
       }
     },
     startup_competition: {

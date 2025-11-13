@@ -473,6 +473,12 @@ export default {
         title: 'Area di Promozione Estera',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FMar%20Naranjo%20Suarez.png?alt=media&token=6a54a61c-3ae3-4346-af0e-de9194e06f4d',
         bio: 'Con formazione in Giurisprudenza, Diplomazia e Relazioni Internazionali, Internazionalizzazione di Imprese e Amministrazione e Direzione di Imprese, ha iniziato la sua carriera professionale come rappresentante legale della Fondazione Canaria per l\'Azione Estera (Fucaex) in Mauritania, dove ha lavorato nella promozione economica e nella cooperazione istituzionale e imprenditoriale tra le Canarie e questo paese dell\'Africa Occidentale. Con oltre sette anni di esperienza nello sviluppo di business internazionale, ha guidato progetti di espansione, attrazione di investimenti e promozione estera in settori strategici della regione. Attualmente, come parte del team dell\'Area di Promozione Estera di Proexca, concentra il suo lavoro sulla promozione delle imprese canarie all\'estero, promuovendo, tra gli altri settori, l\'esportazione della conoscenza e dell\'esperienza del nostro tessuto imprenditoriale.'
+      },
+      'Daniel Jacobo Orea': {
+        name: 'Daniel Jacobo Orea',
+        title: 'Consigliere Economico e Commerciale dell\'Ambasciata di Dakar in Spagna',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FDANIEL%20JACOBO%20OREA.png?alt=media&token=c0141f5a-a255-4b56-ab15-7d491d1da744',
+        bio: 'È entrato nel 2016 nel corpo dei Tecnici Commerciali ed Economisti dello Stato. Nel 2021, è entrato nella Segreteria di Stato per la Cooperazione Internazionale del MAEC, lavorando come Direttore della Divisione di Valutazione delle Politiche per lo Sviluppo Sostenibile tra il 2022 e il 2024. Da allora, svolge il ruolo di Consigliere Economico e Commerciale dell\'Ambasciata di Spagna a Dakar, con giurisdizione in Senegal, Mauritania, Capo Verde, Gambia, Mali e Guinea-Bissau.'
       }
     },
     startup_competition: {

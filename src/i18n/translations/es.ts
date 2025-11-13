@@ -503,6 +503,12 @@ export default {
         title: 'Área de Promoción Exterior',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FMar%20Naranjo%20Suarez.png?alt=media&token=6a54a61c-3ae3-4346-af0e-de9194e06f4d',
         bio: 'Con formación en Derecho, Diplomacia y Relaciones Internacionales, Internacionalización de Empresas y Administración y Dirección de Empresas, inició su trayectoria profesional como representante legal de la Fundación Canaria para la Acción Exterior (Fucaex) en Mauritania, donde trabajó en la promoción económica y la cooperación institucional y empresarial entre Canarias y este país de África Occidental. Con más de siete años de experiencia en desarrollo de negocio internacional, ha liderado proyectos de expansión, atracción de inversión y promoción exterior en sectores estratégicos en la región. Actualmente, como parte del equipo del Área de Promoción Exterior de Proexca, centra su labor en la promoción de las empresas canarias en el exterior, impulsando, entre otros sectores, la exportación del conocimiento y la experiencia de nuestro tejido empresarial.'
+      },
+      'Daniel Jacobo Orea': {
+        name: 'Daniel Jacobo Orea',
+        title: 'Consejero Económico y Comercial de la Embajada de Dakar en España',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FDANIEL%20JACOBO%20OREA.png?alt=media&token=c0141f5a-a255-4b56-ab15-7d491d1da744',
+        bio: 'Ingresó en 2016 en el cuerpo de Técnicos Comerciales y Economistas del Estado. En 2021, ingresó en la Secretaría de Estado de Cooperación Internacional del MAEC, trabajando como Director de la División de Evaluación de Políticas para el Desarrollo Sostenible entre 2022 y 2024. Desde entonces, ejerce como Consejero Económico y Comercial de la Embajada de España en Dakar, con demarcación en Senegal, Mauritania, Cabo Verde, Gambia, Mali y Guinea-Bissau.'
       }
     },
     startup_competition: {

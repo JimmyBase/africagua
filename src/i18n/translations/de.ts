@@ -473,6 +473,12 @@ export default {
         title: 'Abteilung Außenförderung',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FMar%20Naranjo%20Suarez.png?alt=media&token=6a54a61c-3ae3-4346-af0e-de9194e06f4d',
         bio: 'Mit Ausbildung in Jura, Diplomatie und Internationalen Beziehungen, Internationalisierung von Unternehmen und Unternehmensführung und -verwaltung begann sie ihre berufliche Laufbahn als Rechtsvertreterin der Kanarischen Stiftung für Außenpolitik (Fucaex) in Mauretanien, wo sie an der wirtschaftlichen Förderung und der institutionellen und unternehmerischen Zusammenarbeit zwischen den Kanarischen Inseln und diesem westafrikanischen Land arbeitete. Mit über sieben Jahren Erfahrung in der internationalen Geschäftsentwicklung hat sie Expansionsprojekte, Investitionsanwerbung und Außenförderung in strategischen Sektoren der Region geleitet. Derzeit konzentriert sie sich als Teil des Teams der Abteilung Außenförderung von Proexca auf die Förderung kanarischer Unternehmen im Ausland und treibt unter anderem den Export von Wissen und Erfahrung unseres Unternehmensnetzwerks voran.'
+      },
+      'Daniel Jacobo Orea': {
+        name: 'Daniel Jacobo Orea',
+        title: 'Wirtschafts- und Handelsberater der Botschaft von Dakar in Spanien',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FDANIEL%20JACOBO%20OREA.png?alt=media&token=c0141f5a-a255-4b56-ab15-7d491d1da744',
+        bio: 'Er trat 2016 in den Körper der Handelstechniker und Staatsökonomen ein. Im Jahr 2021 trat er in das Staatssekretariat für Internationale Zusammenarbeit des MAEC ein und arbeitete zwischen 2022 und 2024 als Direktor der Abteilung für Evaluierung von Politiken für nachhaltige Entwicklung. Seitdem ist er als Wirtschafts- und Handelsberater der spanischen Botschaft in Dakar tätig, mit Zuständigkeit für Senegal, Mauretanien, Kap Verde, Gambia, Mali und Guinea-Bissau.'
       }
     },
     startup_competition: {

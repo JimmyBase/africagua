@@ -256,7 +256,7 @@ export default {
                 participants: [
                   'Director of the Senegalese Rural Electricity Agency (ASER) | Jean Michel Sené Lat Ndame Ndiaye',
                   'Minister of Energy, Petroleum and Mines of Gambia | Nani Juwara',
-                  'Director of the Center for Renewable Energy and Energy Efficiency | (Pending confirmation)'
+                  'Sustainable Energy Policy Officer, ECOWAS Centre for Renewable Energy and Energy Efficiency (ECREEE) | Hyacinth Elayo'
                 ]
               },
               {
@@ -433,6 +433,12 @@ export default {
         title: 'Executive Director of the Board of Directors of the National Water and Sanitation Agency of Cape Verde (ANAS)',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FHip%C3%B3lito%20Gon%C3%A7alves.png?alt=media&token=a781e4b1-7ce0-489d-8f22-2437e3c4ffcf',
         bio: 'Mechanical engineer specialized in Energy and Thermodynamics, graduated from the Higher Institute of Engineering of Lisbon. Since February 2025, he has served as Executive Administrator of the National Water and Sanitation Agency (ANAS) of Cape Verde, where he leads the technical and strategic areas of the water and sanitation sector. With over two decades of experience in engineering, project management and university teaching, he has worked on key initiatives such as the Water Supply Systems Development Project on Santiago Island, funded by JICA. He is also a professor at the University of Cape Verde and has participated in various international training programs in desalination, renewable energy and water resource management. His work focuses on promoting sustainability, innovation and modernization of public water management in the country.'
+      },
+      'Hyacinth Elayo': {
+        name: 'Hyacinth Elayo',
+        title: 'Sustainable Energy Policy Officer, ECOWAS Centre for Renewable Energy and Energy Efficiency (ECREEE)',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FHyacinth%20Elayo.png?alt=media&token=e44136b3-89c5-4679-b6dc-e18409bcb366',
+        bio: 'Hyacinth Elayo is the Sustainable Energy Policy Officer at the ECOWAS Centre for Renewable Energy and Energy Efficiency (ECREEE), based in Praia, Cape Verde. She leads the ECOWAS Sustainable Energy Policy Programme, driving initiatives that promote sustainable energy investments in ECOWAS member states. With over 15 years of experience in the energy sector, she has extensive expertise in research, energy policy formulation, and promoting affordable energy solutions to drive socio-economic development. She holds a Master\'s degree in International Relations from Lancaster University and a Master\'s degree in Energy Studies from the University of Dundee.'
       }
     },
     startup_competition: {

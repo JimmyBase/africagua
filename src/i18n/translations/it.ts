@@ -256,7 +256,7 @@ export default {
                 participants: [
                   'Direttore dell\'Agenzia Senegalese di Elettricità Rurale (ASER) | Jean Michel Sené Lat Ndame Ndiaye',
                   'Ministro dell\'Energia, Petrolio e Miniere del Gambia | Nani Juwara',
-                  'Direttore del Centro per le Energie Rinnovabili e l\'Efficienza Energetica | (In attesa di conferma)'
+                  'Responsabile delle Politiche per l\'Energia Sostenibile, Centro ECOWAS per le Energie Rinnovabili e l\'Efficienza Energetica (ECREEE) | Hyacinth Elayo'
                 ]
               },
               {
@@ -425,6 +425,12 @@ export default {
         title: 'Direttore Esecutivo del Consiglio di Amministrazione dell\'Agenzia Nazionale per l\'Acqua e i Servizi Igienico-Sanitari di Capo Verde (ANAS)',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FHip%C3%B3lito%20Gon%C3%A7alves.png?alt=media&token=a781e4b1-7ce0-489d-8f22-2437e3c4ffcf',
         bio: 'Ingegnere meccanico specializzato in Energia e Termodinamica, laureato presso l\'Istituto Superiore di Ingegneria di Lisbona. Dal febbraio 2025 ricopre la carica di Amministratore Esecutivo dell\'Agenzia Nazionale per l\'Acqua e i Servizi Igienico-Sanitari (ANAS) di Capo Verde, dove guida le aree tecniche e strategiche del settore idrico e igienico-sanitario. Con oltre due decenni di esperienza in ingegneria, gestione di progetti e insegnamento universitario, ha lavorato a iniziative chiave come il Progetto di Sviluppo dei Sistemi di Approvvigionamento Idrico sull\'Isola di Santiago, finanziato dalla JICA. È anche professore presso l\'Università di Capo Verde e ha partecipato a varie formazioni internazionali in dissalazione, energie rinnovabili e gestione delle risorse idriche. Il suo lavoro si concentra sulla promozione della sostenibilità, dell\'innovazione e della modernizzazione della gestione pubblica dell\'acqua nel paese.'
+      },
+      'Hyacinth Elayo': {
+        name: 'Hyacinth Elayo',
+        title: 'Responsabile delle Politiche per l\'Energia Sostenibile, Centro ECOWAS per le Energie Rinnovabili e l\'Efficienza Energetica (ECREEE)',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FHyacinth%20Elayo.png?alt=media&token=e44136b3-89c5-4679-b6dc-e18409bcb366',
+        bio: 'Hyacinth Elayo è Responsabile delle Politiche per l\'Energia Sostenibile presso il Centro ECOWAS per le Energie Rinnovabili e l\'Efficienza Energetica (ECREEE), con sede a Praia, Capo Verde. Guida il Programma di Politiche per l\'Energia Sostenibile dell\'ECOWAS, promuovendo iniziative che favoriscono investimenti in energia sostenibile negli stati membri dell\'ECOWAS. Con oltre 15 anni di esperienza nel settore energetico, possiede ampie competenze in ricerca, formulazione di politiche energetiche e promozione di soluzioni energetiche accessibili per promuovere lo sviluppo socio-economico. Possiede un Master in Relazioni Internazionali dall\'Università di Lancaster e un Master in Studi Energetici dall\'Università di Dundee.'
       }
     },
     startup_competition: {

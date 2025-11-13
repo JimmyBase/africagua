@@ -256,7 +256,7 @@ export default {
                 participants: [
                   'Directeur de l\'Agence Sénégalaise d\'Électricité Rurale (ASER) | Jean Michel Sené Lat Ndame Ndiaye',
                   'Ministre de l\'Énergie, du Pétrole et des Mines de Gambie | Nani Juwara',
-                  'Directeur du Centre pour les Énergies Renouvelables et l\'Efficacité Énergétique | (En attente de confirmation)'
+                  'Responsable des Politiques d\'Énergie Durable, Centre de la CEDEAO pour les Énergies Renouvelables et l\'Efficacité Énergétique (ECREEE) | Hyacinth Elayo'
                 ]
               },
               {
@@ -425,6 +425,12 @@ export default {
         title: 'Directeur Exécutif du Conseil d\'Administration de l\'Agence Nationale de l\'Eau et de l\'Assainissement du Cap-Vert (ANAS)',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FHip%C3%B3lito%20Gon%C3%A7alves.png?alt=media&token=a781e4b1-7ce0-489d-8f22-2437e3c4ffcf',
         bio: 'Ingénieur mécanique spécialisé en Énergie et Thermodynamique, diplômé de l\'Institut Supérieur d\'Ingénierie de Lisbonne. Depuis février 2025, il exerce en tant qu\'Administrateur Exécutif de l\'Agence Nationale de l\'Eau et de l\'Assainissement (ANAS) du Cap-Vert, où il dirige les domaines techniques et stratégiques du secteur de l\'eau et de l\'assainissement. Avec plus de deux décennies d\'expérience en ingénierie, gestion de projets et enseignement universitaire, il a travaillé sur des initiatives clés telles que le Projet de Développement des Systèmes d\'Approvisionnement en Eau sur l\'Ile de Santiago, financé par la JICA. Il est également professeur à l\'Université du Cap-Vert et a participé à diverses formations internationales en dessalement, énergies renouvelables et gestion des ressources en eau. Son travail se concentre sur la promotion de la durabilité, l\'innovation et la modernisation de la gestion publique de l\'eau dans le pays.'
+      },
+      'Hyacinth Elayo': {
+        name: 'Hyacinth Elayo',
+        title: 'Responsable des Politiques d\'Énergie Durable, Centre de la CEDEAO pour les Énergies Renouvelables et l\'Efficacité Énergétique (ECREEE)',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FHyacinth%20Elayo.png?alt=media&token=e44136b3-89c5-4679-b6dc-e18409bcb366',
+        bio: 'Hyacinth Elayo est Responsable des Politiques d\'Énergie Durable au Centre de la CEDEAO pour les Énergies Renouvelables et l\'Efficacité Énergétique (ECREEE), basé à Praia, au Cap-Vert. Elle dirige le Programme de Politiques d\'Énergie Durable de la CEDEAO, conduisant des initiatives qui favorisent les investissements en énergie durable dans les États membres de la CEDEAO. Avec plus de 15 ans d\'expérience dans le secteur de l\'énergie, elle possède une vaste expertise en recherche, formulation de politiques énergétiques et promotion de solutions énergétiques abordables pour stimuler le développement socio-économique. Elle détient une maîtrise en Relations Internationales de l\'Université de Lancaster et une maîtrise en Études Énergétiques de l\'Université de Dundee.'
       }
     },
     startup_competition: {

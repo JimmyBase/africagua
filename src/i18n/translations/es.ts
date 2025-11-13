@@ -257,7 +257,7 @@ export default {
                   'Ministro de Energía, Petróleo y Minas de Gambia | Nani Juwara',
                   'Director de la Agencia Senegalesa de Electricidad Rural de Senegal (ASER) | Jean Michel Sené Lat Ndame Ndiaye',
                   'Vicepresidente de la Federación de Energía y Electricidad y Director general del Grupo SOMACOS S.A | Moktar Mohamed el Moctar',
-                  'Oficial de Política y regulaciones del Centro de la CEDEAO para Energías Renovables y Eficiencia Energética (ECREEE) | Elayo Hyacinth Onyatikpo'
+                  'Responsable de Políticas de Energía Sostenible del Centro de la CEDEAO para Energías Renovables y Eficiencia Energética (ECREEE) | Hyacinth Elayo'
                 ]
               },
               {
@@ -455,6 +455,12 @@ export default {
         title: 'Director Ejecutivo del Consejo de Administración de la Agencia Nacional de Agua y Saneamiento de Cabo Verde (ANAS)',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FHip%C3%B3lito%20Gon%C3%A7alves.png?alt=media&token=a781e4b1-7ce0-489d-8f22-2437e3c4ffcf',
         bio: 'Ingeniero mecánico especializado en Energía y Termodinámica, licenciado por el Instituto Superior de Ingeniería de Lisboa. Desde febrero de 2025 ejerce como Administrador Ejecutivo de la Agencia Nacional de Agua y Saneamiento (ANAS) de Cabo Verde, donde lidera las áreas técnicas y estratégicas del sector del agua y saneamiento. Con más de dos décadas de experiencia en ingeniería, gestión de proyectos y docencia universitaria, ha trabajado en iniciativas clave como el Proyecto de Desarrollo de los Sistemas de Abastecimiento de Agua en la Isla de Santiago, financiado por la JICA. Es también profesor en la Universidad de Cabo Verde y ha participado en diversas formaciones internacionales en desalinización, energías renovables y gestión de recursos hídricos. Su labor se centra en promover la sostenibilidad, la innovación y la modernización de la gestión pública del agua en el país.'
+      },
+      'Hyacinth Elayo': {
+        name: 'Hyacinth Elayo',
+        title: 'Responsable de Políticas de Energía Sostenible, Centro de Energías Renovables y Eficiencia Energética de la CEDEAO (ECREEE)',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FHyacinth%20Elayo.png?alt=media&token=e44136b3-89c5-4679-b6dc-e18409bcb366',
+        bio: 'Hyacinth Elayo es Responsable de Políticas de Energía Sostenible en el Centro de Energías Renovables y Eficiencia Energética de la CEDEAO (ECREEE), con sede en Praia, Cabo Verde. Lidera el Programa de Políticas de Energía Sostenible de la CEDEAO, impulsando iniciativas que fomentan inversiones en energía sostenible en los estados miembros de la CEDEAO. Con más de 15 años de experiencia en el sector energético, cuenta con amplias competencias en investigación, formulación de políticas energéticas y promoción de soluciones energéticas asequibles para impulsar el desarrollo socioeconómico. Posee una Maestría en Relaciones Internacionales por la Universidad de Lancaster y una Maestría en Estudios Energéticos por la Universidad de Dundee.'
       }
     },
     startup_competition: {

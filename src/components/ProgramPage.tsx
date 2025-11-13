@@ -163,7 +163,7 @@ const ProgramPage = () => {
                         {profile && isProfileExpanded && (
                           <div className="ml-5 mt-2 p-4 bg-white rounded-lg shadow-lg border-2 border-teal-100 animate-fadeIn">
                             <div className="flex flex-col md:flex-row gap-4">
-                              <div className="flex-shrink-0">
+                              <div className="flex-shrink-0 flex items-center justify-center md:items-start">
                                 <img
                                   src={profile.image}
                                   alt={profile.name}
@@ -173,7 +173,7 @@ const ProgramPage = () => {
                               <div className="flex-grow">
                                 <h5 className="text-lg font-bold text-gray-900 mb-1">{profile.name}</h5>
                                 <p className="text-sm font-semibold text-teal-600 mb-3">{profile.title}</p>
-                                <p className="text-sm text-gray-700 leading-relaxed">{profile.bio}</p>
+                                <p className="text-sm text-gray-700 leading-relaxed text-justify">{profile.bio}</p>
                               </div>
                             </div>
                           </div>

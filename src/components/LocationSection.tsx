@@ -13,11 +13,11 @@ const LocationSection = () => {
         
         <div className="flex flex-col lg:flex-row gap-16 items-center">
           <div className="lg:w-1/2">
-            <div className="relative overflow-hidden rounded-3xl shadow-2xl group">
+            <div className="relative overflow-hidden rounded-3xl shadow-2xl group bg-gradient-to-b from-gray-900 via-blue-950 to-black">
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/Fuerteventura_from_space.jpg?alt=media&token=74c5f84d-92a0-442f-993f-13e914d18276"
                 alt="Fuerteventura desde el espacio - Ubicación de Africagua, foro internacional de agua y energías renovables"
-                className="w-full h-[600px] object-cover transform transition-all duration-700 group-hover:scale-110"
+                className="w-full h-[600px] object-contain transform transition-all duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="absolute inset-0 bg-gradient-to-br from-teal-500/20 to-blue-500/20 mix-blend-overlay opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>

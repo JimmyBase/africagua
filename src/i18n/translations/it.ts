@@ -233,7 +233,10 @@ export default {
               moderator: 'Cheik Diouf Faye, Direttore di RAESA in Senegal',
               participants: [
                 'Direttore del Ministero delle Risorse Idriche, Lavori e Abitazioni del Ghana | Kwabena Gyasi-Duku',
-                'Società Nazionale delle Acque del Senegal (SONES) | Cheikh Tidiane Dieye'
+                'Coordinatore Tecnico della Società Nazionale delle Acque del Senegal (SONES) | El Hadj Ada NDAO',
+                'Consigliere del Primo Ministro responsabile dell\'Idraulica e dei Servizi Igienico-Sanitari | Mohamed Kankou',
+                'Direttore Esecutivo del Consiglio di Amministrazione dell\'Agenzia Nazionale per l\'Acqua e i Servizi Igienico-Sanitari di Capo Verde (ANAS) | Hipólito Gonçalves',
+                'Direttore Generale dell\'Ufficio Nazionale dell\'Elettricità e dell\'Acqua Potabile (ONEE) | Tarik Hammane (in attesa)'
               ]
             },
             {
@@ -416,6 +419,12 @@ export default {
         title: 'Consigliere del Primo Ministro responsabile dell\'Idraulica e dei Servizi Igienico-Sanitari',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FMohamed%20Kankou.png?alt=media&token=8a962404-72b3-46f0-9678-210c372f7f46',
         bio: 'Consigliere del Primo Ministro responsabile dell\'Idraulica e dei Servizi Igienico-Sanitari dall\'08/06/2022 ad oggi. Specializzato in Chimica dell\'acqua, Chimica organica e sintesi, Cinetica chimica, Chimica analitica, Tecnologia delle sostanze naturali e Chimica industriale. Coordinatore dell\'Unità di Ricerca: Acqua, Inquinamento e Ambiente: Direzione di diverse Tesi di Dottorato e Tesi di Master nell\'ambito dell\'Acqua e dell\'Ambiente.'
+      },
+      'Hipólito Gonçalves': {
+        name: 'Hipólito Gonçalves',
+        title: 'Direttore Esecutivo del Consiglio di Amministrazione dell\'Agenzia Nazionale per l\'Acqua e i Servizi Igienico-Sanitari di Capo Verde (ANAS)',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FHip%C3%B3lito%20Gon%C3%A7alves.png?alt=media&token=a781e4b1-7ce0-489d-8f22-2437e3c4ffcf',
+        bio: 'Ingegnere meccanico specializzato in Energia e Termodinamica, laureato presso l\'Istituto Superiore di Ingegneria di Lisbona. Dal febbraio 2025 ricopre la carica di Amministratore Esecutivo dell\'Agenzia Nazionale per l\'Acqua e i Servizi Igienico-Sanitari (ANAS) di Capo Verde, dove guida le aree tecniche e strategiche del settore idrico e igienico-sanitario. Con oltre due decenni di esperienza in ingegneria, gestione di progetti e insegnamento universitario, ha lavorato a iniziative chiave come il Progetto di Sviluppo dei Sistemi di Approvvigionamento Idrico sull\'Isola di Santiago, finanziato dalla JICA. È anche professore presso l\'Università di Capo Verde e ha partecipato a varie formazioni internazionali in dissalazione, energie rinnovabili e gestione delle risorse idriche. Il suo lavoro si concentra sulla promozione della sostenibilità, dell\'innovazione e della modernizzazione della gestione pubblica dell\'acqua nel paese.'
       }
     },
     startup_competition: {

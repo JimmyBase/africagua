@@ -449,6 +449,12 @@ export default {
         title: 'Asesor del Primer Ministro encargado de Hidráulica y Saneamiento',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FMohamed%20Kankou.png?alt=media&token=8a962404-72b3-46f0-9678-210c372f7f46',
         bio: 'Asesor del Primer Ministro encargado de Hidráulica y Saneamiento desde el 08/06/2022 hasta la actualidad. Especializado en Química del agua, Química orgánica y síntesis, Cinética química, Química analítica, Tecnología de sustancias naturales y Química industrial. Coordinador de la Unidad de Investigación: Agua, Contaminación y Medio Ambiente: Dirección de varias Tesis Doctorales y Tesis de Máster en el ámbito del Agua y el Medio Ambiente.'
+      },
+      'Hipólito Gonçalves': {
+        name: 'Hipólito Gonçalves',
+        title: 'Director Ejecutivo del Consejo de Administración de la Agencia Nacional de Agua y Saneamiento de Cabo Verde (ANAS)',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FHip%C3%B3lito%20Gon%C3%A7alves.png?alt=media&token=a781e4b1-7ce0-489d-8f22-2437e3c4ffcf',
+        bio: 'Ingeniero mecánico especializado en Energía y Termodinámica, licenciado por el Instituto Superior de Ingeniería de Lisboa. Desde febrero de 2025 ejerce como Administrador Ejecutivo de la Agencia Nacional de Agua y Saneamiento (ANAS) de Cabo Verde, donde lidera las áreas técnicas y estratégicas del sector del agua y saneamiento. Con más de dos décadas de experiencia en ingeniería, gestión de proyectos y docencia universitaria, ha trabajado en iniciativas clave como el Proyecto de Desarrollo de los Sistemas de Abastecimiento de Agua en la Isla de Santiago, financiado por la JICA. Es también profesor en la Universidad de Cabo Verde y ha participado en diversas formaciones internacionales en desalinización, energías renovables y gestión de recursos hídricos. Su labor se centra en promover la sostenibilidad, la innovación y la modernización de la gestión pública del agua en el país.'
       }
     },
     startup_competition: {

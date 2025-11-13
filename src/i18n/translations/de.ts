@@ -233,7 +233,10 @@ export default {
               moderator: 'Cheik Diouf Faye, Manager von RAESA im Senegal',
               participants: [
                 'Direktor des Ministeriums für Wasserressourcen, Bauwesen und Wohnungswesen von Ghana | Kwabena Gyasi-Duku',
-                'Nationale Wassergesellschaft des Senegal (SONES) | Cheikh Tidiane Dieye'
+                'Technischer Koordinator der Nationalen Wassergesellschaft des Senegal (SONES) | El Hadj Ada NDAO',
+                'Berater des Premierministers für Wasserbau und Sanitärversorgung | Mohamed Kankou',
+                'Geschäftsführender Direktor des Verwaltungsrats der Nationalen Wasser- und Sanitäragentur von Kap Verde (ANAS) | Hipólito Gonçalves',
+                'Generaldirektor des Nationalen Büros für Elektrizität und Trinkwasser (ONEE) | Tarik Hammane (ausstehend)'
               ]
             },
             {
@@ -416,6 +419,12 @@ export default {
         title: 'Berater des Premierministers für Wasserbau und Sanitärversorgung',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FMohamed%20Kankou.png?alt=media&token=8a962404-72b3-46f0-9678-210c372f7f46',
         bio: 'Berater des Premierministers für Wasserbau und Sanitärversorgung seit dem 08.06.2022 bis heute. Spezialisiert auf Wasserchemie, Organische Chemie und Synthese, Chemische Kinetik, Analytische Chemie, Naturstofftechnologie und Industriechemie. Koordinator der Forschungseinheit: Wasser, Umweltverschmutzung und Umwelt: Betreuung mehrerer Doktorarbeiten und Masterarbeiten im Bereich Wasser und Umwelt.'
+      },
+      'Hipólito Gonçalves': {
+        name: 'Hipólito Gonçalves',
+        title: 'Geschäftsführender Direktor des Verwaltungsrats der Nationalen Wasser- und Sanitäragentur von Kap Verde (ANAS)',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FHip%C3%B3lito%20Gon%C3%A7alves.png?alt=media&token=a781e4b1-7ce0-489d-8f22-2437e3c4ffcf',
+        bio: 'Maschinenbauingenieur mit Spezialisierung auf Energie und Thermodynamik, Absolvent des Höheren Ingenieurinstituts von Lissabon. Seit Februar 2025 ist er als Geschäftsführender Direktor der Nationalen Wasser- und Sanitäragentur (ANAS) von Kap Verde tätig, wo er die technischen und strategischen Bereiche des Wasser- und Sanitärsektors leitet. Mit über zwei Jahrzehnten Erfahrung in Ingenieurwesen, Projektmanagement und Hochschullehre hat er an wichtigen Initiativen wie dem Projekt zur Entwicklung der Wasserversorgungssysteme auf der Insel Santiago, finanziert von der JICA, gearbeitet. Er ist auch Professor an der Universität von Kap Verde und hat an verschiedenen internationalen Schulungen in Entsalzung, erneuerbaren Energien und Wasserressourcenmanagement teilgenommen. Seine Arbeit konzentriert sich auf die Förderung von Nachhaltigkeit, Innovation und Modernisierung der öffentlichen Wasserwirtschaft im Land.'
       }
     },
     startup_competition: {

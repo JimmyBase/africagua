@@ -233,7 +233,10 @@ export default {
               moderator: 'Cheik Diouf Faye, Directeur de RAESA au Sénégal',
               participants: [
                 'Directeur du Ministère des Ressources en Eau, Travaux et Logement du Ghana | Kwabena Gyasi-Duku',
-                'Société Nationale des Eaux du Sénégal (SONES) | Cheikh Tidiane Dieye'
+                'Coordinateur Technique de la Société Nationale des Eaux du Sénégal (SONES) | El Hadj Ada NDAO',
+                'Conseiller du Premier Ministre chargé de l\'Hydraulique et de l\'Assainissement | Mohamed Kankou',
+                'Directeur Exécutif du Conseil d\'Administration de l\'Agence Nationale de l\'Eau et de l\'Assainissement du Cap-Vert (ANAS) | Hipólito Gonçalves',
+                'Directeur Général de l\'Office National de l\'Electricité et de l\'Eau Potable (ONEE) | Tarik Hammane (en attente)'
               ]
             },
             {
@@ -416,6 +419,12 @@ export default {
         title: 'Conseiller du Premier Ministre chargé de l\'Hydraulique et de l\'Assainissement',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FMohamed%20Kankou.png?alt=media&token=8a962404-72b3-46f0-9678-210c372f7f46',
         bio: 'Conseiller du Premier Ministre chargé de l\'Hydraulique et de l\'Assainissement depuis le 08/06/2022 jusqu\'à présent. Spécialisé en Chimie de l\'eau, Chimie organique et synthèse, Cinétique chimique, Chimie analytique, Technologie des substances naturelles et Chimie industrielle. Coordinateur de l\'Unité de Recherche : Eau, Pollution et Environnement : Direction de plusieurs thèses de doctorat et thèses de master dans le domaine de l\'eau et de l\'environnement.'
+      },
+      'Hipólito Gonçalves': {
+        name: 'Hipólito Gonçalves',
+        title: 'Directeur Exécutif du Conseil d\'Administration de l\'Agence Nationale de l\'Eau et de l\'Assainissement du Cap-Vert (ANAS)',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FHip%C3%B3lito%20Gon%C3%A7alves.png?alt=media&token=a781e4b1-7ce0-489d-8f22-2437e3c4ffcf',
+        bio: 'Ingénieur mécanique spécialisé en Énergie et Thermodynamique, diplômé de l\'Institut Supérieur d\'Ingénierie de Lisbonne. Depuis février 2025, il exerce en tant qu\'Administrateur Exécutif de l\'Agence Nationale de l\'Eau et de l\'Assainissement (ANAS) du Cap-Vert, où il dirige les domaines techniques et stratégiques du secteur de l\'eau et de l\'assainissement. Avec plus de deux décennies d\'expérience en ingénierie, gestion de projets et enseignement universitaire, il a travaillé sur des initiatives clés telles que le Projet de Développement des Systèmes d\'Approvisionnement en Eau sur l\'Ile de Santiago, financé par la JICA. Il est également professeur à l\'Université du Cap-Vert et a participé à diverses formations internationales en dessalement, énergies renouvelables et gestion des ressources en eau. Son travail se concentre sur la promotion de la durabilité, l\'innovation et la modernisation de la gestion publique de l\'eau dans le pays.'
       }
     },
     startup_competition: {

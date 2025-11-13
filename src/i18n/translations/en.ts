@@ -233,7 +233,10 @@ export default {
               moderator: 'Cheik Diouf Faye, Manager of RAESA in Senegal',
               participants: [
                 'Director of the Ministry of Water Resources, Works and Housing of Ghana | Kwabena Gyasi-Duku',
-                'National Water Company of Senegal (SONES) | Cheikh Tidiane Dieye'
+                'Technical Coordinator of the National Water Company of Senegal (SONES) | El Hadj Ada NDAO',
+                'Advisor to the Prime Minister in charge of Water and Sanitation | Mohamed Kankou',
+                'Executive Director of the Board of Directors of the National Water and Sanitation Agency of Cape Verde (ANAS) | Hipólito Gonçalves',
+                'Director General of the National Office of Electricity and Drinking Water (ONEE) | Tarik Hammane (pending)'
               ]
             },
             {
@@ -424,6 +427,12 @@ export default {
         title: 'Advisor to the Prime Minister in charge of Water and Sanitation',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FMohamed%20Kankou.png?alt=media&token=8a962404-72b3-46f0-9678-210c372f7f46',
         bio: 'Advisor to the Prime Minister in charge of Water and Sanitation since June 8, 2022 to the present. Specialized in Water Chemistry, Organic Chemistry and Synthesis, Chemical Kinetics, Analytical Chemistry, Natural Substances Technology and Industrial Chemistry. Coordinator of the Research Unit: Water, Pollution and Environment: Direction of several Doctoral Theses and Master\'s Theses in the field of Water and the Environment.'
+      },
+      'Hipólito Gonçalves': {
+        name: 'Hipólito Gonçalves',
+        title: 'Executive Director of the Board of Directors of the National Water and Sanitation Agency of Cape Verde (ANAS)',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FHip%C3%B3lito%20Gon%C3%A7alves.png?alt=media&token=a781e4b1-7ce0-489d-8f22-2437e3c4ffcf',
+        bio: 'Mechanical engineer specialized in Energy and Thermodynamics, graduated from the Higher Institute of Engineering of Lisbon. Since February 2025, he has served as Executive Administrator of the National Water and Sanitation Agency (ANAS) of Cape Verde, where he leads the technical and strategic areas of the water and sanitation sector. With over two decades of experience in engineering, project management and university teaching, he has worked on key initiatives such as the Water Supply Systems Development Project on Santiago Island, funded by JICA. He is also a professor at the University of Cape Verde and has participated in various international training programs in desalination, renewable energy and water resource management. His work focuses on promoting sustainability, innovation and modernization of public water management in the country.'
       }
     },
     startup_competition: {

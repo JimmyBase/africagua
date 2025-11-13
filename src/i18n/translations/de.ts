@@ -449,6 +449,12 @@ export default {
         title: 'Ko-Präsidentin des Bilateralen Ausschusses Spanien-Mauretanien und Präsidentin des Sozialrats der ULPGC',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FANA%20SUAREZ%20CALVO.png?alt=media&token=c3a2ad83-b315-4f87-91a9-000216df5414',
         bio: 'Absolventin der Wirtschafts- und Betriebswissenschaften an der Päpstlichen Universität Comillas, ist sie seit 2024 Präsidentin des Sozialrats der ULPGC und Ko-Präsidentin auf spanischer Seite des Bilateralen Ausschusses Spanien-Mauretanien als Mitglied der Spanischen Handelskammer. Sie leitet die SUARIS Capital Gruppe, ein Family Office mit Präsenz in strategischen Sektoren der Kanarischen Inseln wie Tourismus, Luftverkehr, neue Technologien, Gesundheitssektor und audiovisuelle Produktion.'
+      },
+      'Pedro Jesús Cabrera Santana': {
+        name: 'Pedro Jesús Cabrera Santana',
+        title: 'Koordinator der Forschungsgruppe für Erneuerbare Energiesysteme der Universität Las Palmas de Gran Canaria',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FPedro%20Jes%C3%BAs%20Cabrera.png?alt=media&token=437bc603-08cf-44f5-a810-5409a679b7df',
+        bio: 'Ordentlicher Professor des Fachbereichs Maschinenbau der ULPGC der Universität Las Palmas de Gran Canaria (ULPGC), wo er die Group for the Research on Renewable Energy Systems (GRRES) koordiniert. Er hat Führungspositionen als Nationaler Koordinator der Thematischen Gruppe für intelligente Kontrolle des Spanischen Komitees für Automatisierung (2020-2024), Redakteur der Sektion für intelligente Kontrolle der Iberoamerikanischen Zeitschrift für Automatisierung und Industrieinformatik (RIAI) und Technischer Sekretär der F&E&I-Plattform DESAL+ LIVING LAB, einer internationalen Referenz für Innovation in der Entsalzung, bekleidet. Autor und Co-Autor zahlreicher wissenschaftlicher Publikationen und Bücher, kombiniert seine Arbeit angewandte Forschung, Technologietransfer und Unterstützung des Unternehmertums im Bereich sauberer Energien. Derzeit leitet er die Entwicklung von Werkzeugen und Methodologien, die zur Planung nachhaltiger Energiesysteme auf nationaler und internationaler Ebene beitragen.'
       }
     },
     startup_competition: {

@@ -479,6 +479,12 @@ export default {
         title: 'Copresidenta del Comité Bilateral España - Mauritania y Presidenta del Consejo Social de la ULPGC',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FANA%20SUAREZ%20CALVO.png?alt=media&token=c3a2ad83-b315-4f87-91a9-000216df5414',
         bio: 'Licenciada en Ciencias Económicas y Empresariales por la Universidad Pontificia de Comillas es desde 2024 la presidenta del Consejo Social de la ULPGC y Copresidenta, por la parte española, del Comité Bilateral España – Mauritania, en calidad de Miembro de Cámara de España. Lidera el grupo SUARIS Capital, family office con presencia en sectores estratégicos de canarias como el turismo, trasporte aéreo, nuevas tecnologías, sector sanitario y producción audiovisual.'
+      },
+      'Pedro Jesús Cabrera Santana': {
+        name: 'Pedro Jesús Cabrera Santana',
+        title: 'Coordinador del Grupo de Investigación de Sistemas Energéticos Renovables de la Universidad de Las Palmas de Gran Canaria',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FPedro%20Jes%C3%BAs%20Cabrera.png?alt=media&token=437bc603-08cf-44f5-a810-5409a679b7df',
+        bio: 'Profesor Titular del Departamento de Ingeniería Mecánica de la ULPGC de la Universidad de Las Palmas de Gran Canaria (ULPGC), donde coordina el Group for the Research on Renewable Energy Systems (GRRES). Ha desempeñado cargos de responsabilidad como Coordinador Nacional del Grupo Temático de Control Inteligente del Comité Español de Automática (2020-2024), Editor de la Sección de Control Inteligente de la Revista Iberoamericana de Automática e Informática Industrial (RIAI) y Secretario Técnico de la Plataforma I+D+i DESAL+ LIVING LAB, referencia internacional en innovación en desalación. Autor y coautor de múltiples publicaciones científicas y libros, su trabajo combina investigación aplicada, transferencia tecnológica y apoyo al emprendimiento en el sector de las energías limpias. Actualmente lidera el desarrollo de herramientas y metodologías que contribuyen a la planificación de sistemas energéticos sostenibles a escala nacional e internacional.'
       }
     },
     startup_competition: {

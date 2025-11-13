@@ -457,6 +457,12 @@ export default {
         title: 'Co-president of the Spain-Mauritania Bilateral Committee and President of the Social Council of ULPGC',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FANA%20SUAREZ%20CALVO.png?alt=media&token=c3a2ad83-b315-4f87-91a9-000216df5414',
         bio: 'Graduate in Economics and Business from the Pontifical University of Comillas, she has been the President of the Social Council of ULPGC since 2024 and Co-president, on the Spanish side, of the Spain-Mauritania Bilateral Committee, as a Member of the Spanish Chamber of Commerce. She leads the SUARIS Capital group, a family office with presence in strategic sectors of the Canary Islands such as tourism, air transport, new technologies, healthcare sector and audiovisual production.'
+      },
+      'Pedro Jesús Cabrera Santana': {
+        name: 'Pedro Jesús Cabrera Santana',
+        title: 'Coordinator of the Renewable Energy Systems Research Group at the University of Las Palmas de Gran Canaria',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FPedro%20Jes%C3%BAs%20Cabrera.png?alt=media&token=437bc603-08cf-44f5-a810-5409a679b7df',
+        bio: 'Associate Professor at the Department of Mechanical Engineering of ULPGC at the University of Las Palmas de Gran Canaria (ULPGC), where he coordinates the Group for the Research on Renewable Energy Systems (GRRES). He has held positions of responsibility as National Coordinator of the Intelligent Control Thematic Group of the Spanish Committee of Automatic Control (2020-2024), Editor of the Intelligent Control Section of the Ibero-American Journal of Automation and Industrial Informatics (RIAI) and Technical Secretary of the DESAL+ LIVING LAB R&D&I Platform, an international reference in desalination innovation. Author and co-author of multiple scientific publications and books, his work combines applied research, technology transfer and support for entrepreneurship in the clean energy sector. He currently leads the development of tools and methodologies that contribute to the planning of sustainable energy systems at national and international scale.'
       }
     },
     startup_competition: {

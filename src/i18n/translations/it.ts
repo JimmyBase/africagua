@@ -449,6 +449,12 @@ export default {
         title: 'Copresidente del Comitato Bilaterale Spagna-Mauritania e Presidente del Consiglio Sociale dell\'ULPGC',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FANA%20SUAREZ%20CALVO.png?alt=media&token=c3a2ad83-b315-4f87-91a9-000216df5414',
         bio: 'Laureata in Scienze Economiche e Aziendali presso l\'Università Pontificia di Comillas, dal 2024 è la Presidente del Consiglio Sociale dell\'ULPGC e Copresidente, dalla parte spagnola, del Comitato Bilaterale Spagna-Mauritania, in qualità di Membro della Camera di Spagna. Guida il gruppo SUARIS Capital, family office con presenza in settori strategici delle Canarie come il turismo, il trasporto aereo, le nuove tecnologie, il settore sanitario e la produzione audiovisiva.'
+      },
+      'Pedro Jesús Cabrera Santana': {
+        name: 'Pedro Jesús Cabrera Santana',
+        title: 'Coordinatore del Gruppo di Ricerca sui Sistemi Energetici Rinnovabili dell\'Università di Las Palmas de Gran Canaria',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FPedro%20Jes%C3%BAs%20Cabrera.png?alt=media&token=437bc603-08cf-44f5-a810-5409a679b7df',
+        bio: 'Professore Ordinario del Dipartimento di Ingegneria Meccanica dell\'ULPGC dell\'Università di Las Palmas de Gran Canaria (ULPGC), dove coordina il Group for the Research on Renewable Energy Systems (GRRES). Ha ricoperto cariche di responsabilità come Coordinatore Nazionale del Gruppo Tematico di Controllo Intelligente del Comitato Spagnolo di Automatica (2020-2024), Editore della Sezione di Controllo Intelligente della Rivista Ibero-americana di Automatica e Informatica Industriale (RIAI) e Segretario Tecnico della Piattaforma R&S&I DESAL+ LIVING LAB, riferimento internazionale nell\'innovazione nella dissalazione. Autore e co-autore di multiple pubblicazioni scientifiche e libri, il suo lavoro combina ricerca applicata, trasferimento tecnologico e sostegno all\'imprenditorialità nel settore delle energie pulite. Attualmente guida lo sviluppo di strumenti e metodologie che contribuiscono alla pianificazione di sistemi energetici sostenibili a scala nazionale e internazionale.'
       }
     },
     startup_competition: {

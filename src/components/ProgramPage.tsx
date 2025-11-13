@@ -135,7 +135,7 @@ const ProgramPage = () => {
         <div className="text-center mb-16 relative">
           <div className="inline-block relative">
             <div className="absolute inset-0 bg-gradient-to-r from-[#1a3d4a] to-[#2c5f6f] blur-3xl opacity-20 rounded-full"></div>
-            <h1 className="text-6xl font-extrabold bg-gradient-to-r from-[#1a3d4a] to-[#2c5f6f] bg-clip-text text-transparent mb-4 leading-tight relative">
+            <h1 className="text-6xl font-extrabold bg-gradient-to-r from-[#1a3d4a] to-[#2c5f6f] bg-clip-text text-transparent mb-4 leading-relaxed pb-2 relative">
               {programData.title}
             </h1>
             <p className="text-2xl text-slate-700 font-light relative">

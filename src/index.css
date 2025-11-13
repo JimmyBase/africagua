@@ -34,6 +34,8 @@
 
   .section-title.gradient-text {
     @apply bg-gradient-to-r from-africagua-dark-teal to-blue-600 bg-clip-text text-transparent;
+    padding-bottom: 0.5rem;
+    line-height: 1.5;
   }
 
   .section-title::after {

@@ -267,7 +267,7 @@ export default {
                 moderator: 'Loreto Taborga, Directora Territorial de Comercio Exterior y Delegada de ICEX en Las Palmas',
                 participants: [
                   'Subdirectora General Adjunta de Instrumentos Financieros para la Internacionalización de FIEM | María Soledad Sendagorta Fernández-Durán',
-                  'Subdirectora Financiera del Área de Inversiones de COFIDES | Ane Sáenz de Zaitegui Bermeo',
+                  'Subdirectora de Financiaciones Estructuradas de COFIDES | Ane Sáenz de Zaitegui Bermeo',
                   'Técnico del Área de Gestión de Fondos del Estado para la Internacionalización de ICO | Iciar La Casta Muñoa',
                   'Acciona, Directora Financiera | Eva González'
                 ]
@@ -461,6 +461,12 @@ export default {
         title: 'Responsable de Políticas de Energía Sostenible, Centro de Energías Renovables y Eficiencia Energética de la CEDEAO (ECREEE)',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FHyacinth%20Elayo.png?alt=media&token=e44136b3-89c5-4679-b6dc-e18409bcb366',
         bio: 'Hyacinth Elayo es Responsable de Políticas de Energía Sostenible en el Centro de Energías Renovables y Eficiencia Energética de la CEDEAO (ECREEE), con sede en Praia, Cabo Verde. Lidera el Programa de Políticas de Energía Sostenible de la CEDEAO, impulsando iniciativas que fomentan inversiones en energía sostenible en los estados miembros de la CEDEAO. Con más de 15 años de experiencia en el sector energético, cuenta con amplias competencias en investigación, formulación de políticas energéticas y promoción de soluciones energéticas asequibles para impulsar el desarrollo socioeconómico. Posee una Maestría en Relaciones Internacionales por la Universidad de Lancaster y una Maestría en Estudios Energéticos por la Universidad de Dundee.'
+      },
+      'Ane Sáenz de Zaitegui Bermeo': {
+        name: 'Ane Sáenz de Zaitegui Bermeo',
+        title: 'Subdirectora de Financiaciones Estructuradas de COFIDES',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FANE%20SAENZ.png?alt=media&token=4f598de2-3d87-4855-9568-78e8a207a39e',
+        bio: 'Profesional del ámbito financiero con una sólida trayectoria en análisis económico-financiero, estructuración y financiación de proyectos, especialmente bajo esquemas de Project Finance y Asociaciones Público-Privadas (APP). Actualmente forma parte del equipo de COFIDES, donde ha ampliado sus competencias en análisis crediticio y financiación de proyectos a nivel internacional, participando activamente en operaciones de deuda y capital en los sectores de infraestructura y energía en diversos mercados.'
       }
     },
     startup_competition: {

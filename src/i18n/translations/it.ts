@@ -266,7 +266,7 @@ export default {
                 moderator: 'Loreto Taborga, direttrice territoriale del Commercio Estero e delegata ICEX a Las Palmas',
                 participants: [
                   'Sottodirrettrice Generale Aggiunta degli Strumenti Finanziari per l\'Internazionalizzazione di FIEM | María Soledad Sendagorta Fernández-Durán',
-                  'Sottodirrettrice Finanziaria dell\'Area Investimenti di COFIDES | Ane Sáenz de Zaitegui Bermeo',
+                  'Vicedirettrice dei Finanziamenti Strutturati di COFIDES | Ane Sáenz de Zaitegui Bermeo',
                   'Direttore Generale del Finanziamento Aziendale Internazionale, Mediazione e Fondi dello Stato ICO | Fernando Salazar Palma',
                   'Acciona Water Casablanca | Adelaida Fernández (In attesa di conferma)'
                 ]
@@ -431,6 +431,12 @@ export default {
         title: 'Responsabile delle Politiche per l\'Energia Sostenibile, Centro ECOWAS per le Energie Rinnovabili e l\'Efficienza Energetica (ECREEE)',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FHyacinth%20Elayo.png?alt=media&token=e44136b3-89c5-4679-b6dc-e18409bcb366',
         bio: 'Hyacinth Elayo è Responsabile delle Politiche per l\'Energia Sostenibile presso il Centro ECOWAS per le Energie Rinnovabili e l\'Efficienza Energetica (ECREEE), con sede a Praia, Capo Verde. Guida il Programma di Politiche per l\'Energia Sostenibile dell\'ECOWAS, promuovendo iniziative che favoriscono investimenti in energia sostenibile negli stati membri dell\'ECOWAS. Con oltre 15 anni di esperienza nel settore energetico, possiede ampie competenze in ricerca, formulazione di politiche energetiche e promozione di soluzioni energetiche accessibili per promuovere lo sviluppo socio-economico. Possiede un Master in Relazioni Internazionali dall\'Università di Lancaster e un Master in Studi Energetici dall\'Università di Dundee.'
+      },
+      'Ane Sáenz de Zaitegui Bermeo': {
+        name: 'Ane Sáenz de Zaitegui Bermeo',
+        title: 'Vicedirettrice dei Finanziamenti Strutturati di COFIDES',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FANE%20SAENZ.png?alt=media&token=4f598de2-3d87-4855-9568-78e8a207a39e',
+        bio: 'Professionista del settore finanziario con una solida esperienza in analisi economico-finanziaria, strutturazione e finanziamento di progetti, in particolare nell\'ambito del Project Finance e dei Partenariati Pubblico-Privati (PPP). Attualmente fa parte del team di COFIDES, dove ha ampliato le sue competenze in analisi del credito e finanziamento di progetti a livello internazionale, partecipando attivamente a operazioni di debito e capitale nei settori delle infrastrutture e dell\'energia in vari mercati.'
       }
     },
     startup_competition: {

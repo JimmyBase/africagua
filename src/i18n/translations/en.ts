@@ -266,7 +266,7 @@ export default {
                 moderator: 'Loreto Taborga, territorial director of Foreign Trade and ICEX delegate in Las Palmas',
                 participants: [
                   'Deputy General Director of Financial Instruments for Internationalization of FIEM | María Soledad Sendagorta Fernández-Durán',
-                  'Financial Deputy Director of the COFIDES Investment Area | Ane Sáenz de Zaitegui Bermeo',
+                  'Deputy Director of Structured Finance at COFIDES | Ane Sáenz de Zaitegui Bermeo',
                   'General Director of International Corporate Finance, Mediation and State Funds ICO | Fernando Salazar Palma',
                   'Acciona Water Casablanca | Adelaida Fernández (Pending confirmation)'
                 ]
@@ -439,6 +439,12 @@ export default {
         title: 'Sustainable Energy Policy Officer, ECOWAS Centre for Renewable Energy and Energy Efficiency (ECREEE)',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FHyacinth%20Elayo.png?alt=media&token=e44136b3-89c5-4679-b6dc-e18409bcb366',
         bio: 'Hyacinth Elayo is the Sustainable Energy Policy Officer at the ECOWAS Centre for Renewable Energy and Energy Efficiency (ECREEE), based in Praia, Cape Verde. She leads the ECOWAS Sustainable Energy Policy Programme, driving initiatives that promote sustainable energy investments in ECOWAS member states. With over 15 years of experience in the energy sector, she has extensive expertise in research, energy policy formulation, and promoting affordable energy solutions to drive socio-economic development. She holds a Master\'s degree in International Relations from Lancaster University and a Master\'s degree in Energy Studies from the University of Dundee.'
+      },
+      'Ane Sáenz de Zaitegui Bermeo': {
+        name: 'Ane Sáenz de Zaitegui Bermeo',
+        title: 'Deputy Director of Structured Finance at COFIDES',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FANE%20SAENZ.png?alt=media&token=4f598de2-3d87-4855-9568-78e8a207a39e',
+        bio: 'Financial professional with a solid background in economic-financial analysis, structuring and project finance, especially under Project Finance schemes and Public-Private Partnerships (PPP). She is currently part of the COFIDES team, where she has expanded her skills in credit analysis and international project finance, actively participating in debt and equity operations in the infrastructure and energy sectors in various markets.'
       }
     },
     startup_competition: {

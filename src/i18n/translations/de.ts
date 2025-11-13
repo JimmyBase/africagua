@@ -467,6 +467,12 @@ export default {
         title: 'Verantwortlicher der ICEX-Multilateralen-Antenne',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FDiego%20Uriel%20G%C3%A1lvez.png?alt=media&token=4176033e-a987-4835-ab05-570a57f634e4',
         bio: 'Absolvent der Wirtschaftswissenschaften an der Universidad Carlos III de Madrid. Blue Book bei der Europäischen Kommission in Marktanwendungen für das Galileo- und EGNOS-System. Anschließend Marktanalyst im Wirtschafts- und Handelsbüro Spaniens in Peking für sieben Jahre, zunächst in der Abteilung Agribusiness und dann für Invest in Spain. Seit 2023 Professor im Master für Geopolitik und Internationale Analyse am LISA Institute und Freiwilliger vor Ort in internationalen Kooperationsprojekten. Bekleidet derzeit die Position des Abteilungsleiters für Multilaterale Finanzinstitutionen für ICEX im Wirtschafts- und Handelsbüro Spaniens in Abidjan.'
+      },
+      'Mar Naranjo Suárez': {
+        name: 'Mar Naranjo Suárez',
+        title: 'Abteilung Außenförderung',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FMar%20Naranjo%20Suarez.png?alt=media&token=6a54a61c-3ae3-4346-af0e-de9194e06f4d',
+        bio: 'Mit Ausbildung in Jura, Diplomatie und Internationalen Beziehungen, Internationalisierung von Unternehmen und Unternehmensführung und -verwaltung begann sie ihre berufliche Laufbahn als Rechtsvertreterin der Kanarischen Stiftung für Außenpolitik (Fucaex) in Mauretanien, wo sie an der wirtschaftlichen Förderung und der institutionellen und unternehmerischen Zusammenarbeit zwischen den Kanarischen Inseln und diesem westafrikanischen Land arbeitete. Mit über sieben Jahren Erfahrung in der internationalen Geschäftsentwicklung hat sie Expansionsprojekte, Investitionsanwerbung und Außenförderung in strategischen Sektoren der Region geleitet. Derzeit konzentriert sie sich als Teil des Teams der Abteilung Außenförderung von Proexca auf die Förderung kanarischer Unternehmen im Ausland und treibt unter anderem den Export von Wissen und Erfahrung unseres Unternehmensnetzwerks voran.'
       }
     },
     startup_competition: {

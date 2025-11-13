@@ -497,6 +497,12 @@ export default {
         title: 'Responsable de la Antena Multilateral de ICEX',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FDiego%20Uriel%20G%C3%A1lvez.png?alt=media&token=4176033e-a987-4835-ab05-570a57f634e4',
         bio: 'Graduado en Economía por la Universidad Carlos III de Madrid. Blue Book de la Comisión Europea en aplicaciones de mercado para el sistema Galileo y EGNOS. Posteriormente Analista de Mercado en la Oficina Económica y Comercial de España en Pekín durante siete años, primero en el Departamento de agribusiness y después para Invest in Spain. Desde 2023, profesor en el máster de Geopolítica y Análisis Internacional de LISA Institute y voluntario en terreno en proyectos de cooperación internacional. Actualmente ocupa el puesto de Jefe de Departamento de Instituciones Financieras Multilaterales para ICEX en la Oficina Económica y Comercial de España en Abiyán.'
+      },
+      'Mar Naranjo Suárez': {
+        name: 'Mar Naranjo Suárez',
+        title: 'Área de Promoción Exterior',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FMar%20Naranjo%20Suarez.png?alt=media&token=6a54a61c-3ae3-4346-af0e-de9194e06f4d',
+        bio: 'Con formación en Derecho, Diplomacia y Relaciones Internacionales, Internacionalización de Empresas y Administración y Dirección de Empresas, inició su trayectoria profesional como representante legal de la Fundación Canaria para la Acción Exterior (Fucaex) en Mauritania, donde trabajó en la promoción económica y la cooperación institucional y empresarial entre Canarias y este país de África Occidental. Con más de siete años de experiencia en desarrollo de negocio internacional, ha liderado proyectos de expansión, atracción de inversión y promoción exterior en sectores estratégicos en la región. Actualmente, como parte del equipo del Área de Promoción Exterior de Proexca, centra su labor en la promoción de las empresas canarias en el exterior, impulsando, entre otros sectores, la exportación del conocimiento y la experiencia de nuestro tejido empresarial.'
       }
     },
     startup_competition: {

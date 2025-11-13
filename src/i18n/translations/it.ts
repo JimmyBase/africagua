@@ -467,6 +467,12 @@ export default {
         title: 'Responsabile dell\'Antenna Multilaterale ICEX',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FDiego%20Uriel%20G%C3%A1lvez.png?alt=media&token=4176033e-a987-4835-ab05-570a57f634e4',
         bio: 'Laureato in Economia presso l\'Università Carlos III di Madrid. Blue Book alla Commissione Europea in applicazioni di mercato per il sistema Galileo ed EGNOS. Successivamente Analista di Mercato presso l\'Ufficio Economico e Commerciale di Spagna a Pechino per sette anni, prima nel Dipartimento di agribusiness e poi per Invest in Spain. Dal 2023, professore nel master di Geopolitica e Analisi Internazionale presso LISA Institute e volontario sul campo in progetti di cooperazione internazionale. Attualmente ricopre la posizione di Capo Dipartimento delle Istituzioni Finanziarie Multilaterali per ICEX presso l\'Ufficio Economico e Commerciale di Spagna ad Abidjan.'
+      },
+      'Mar Naranjo Suárez': {
+        name: 'Mar Naranjo Suárez',
+        title: 'Area di Promozione Estera',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FMar%20Naranjo%20Suarez.png?alt=media&token=6a54a61c-3ae3-4346-af0e-de9194e06f4d',
+        bio: 'Con formazione in Giurisprudenza, Diplomazia e Relazioni Internazionali, Internazionalizzazione di Imprese e Amministrazione e Direzione di Imprese, ha iniziato la sua carriera professionale come rappresentante legale della Fondazione Canaria per l\'Azione Estera (Fucaex) in Mauritania, dove ha lavorato nella promozione economica e nella cooperazione istituzionale e imprenditoriale tra le Canarie e questo paese dell\'Africa Occidentale. Con oltre sette anni di esperienza nello sviluppo di business internazionale, ha guidato progetti di espansione, attrazione di investimenti e promozione estera in settori strategici della regione. Attualmente, come parte del team dell\'Area di Promozione Estera di Proexca, concentra il suo lavoro sulla promozione delle imprese canarie all\'estero, promuovendo, tra gli altri settori, l\'esportazione della conoscenza e dell\'esperienza del nostro tessuto imprenditoriale.'
       }
     },
     startup_competition: {

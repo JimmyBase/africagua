@@ -475,6 +475,12 @@ export default {
         title: 'Manager of the ICEX Multilateral Antenna',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FDiego%20Uriel%20G%C3%A1lvez.png?alt=media&token=4176033e-a987-4835-ab05-570a57f634e4',
         bio: 'Graduate in Economics from Universidad Carlos III de Madrid. Blue Book at the European Commission in market applications for the Galileo and EGNOS system. Subsequently Market Analyst at the Economic and Commercial Office of Spain in Beijing for seven years, first in the agribusiness Department and then for Invest in Spain. Since 2023, professor in the Master\'s in Geopolitics and International Analysis at LISA Institute and field volunteer in international cooperation projects. Currently holds the position of Head of Department of Multilateral Financial Institutions for ICEX at the Economic and Commercial Office of Spain in Abidjan.'
+      },
+      'Mar Naranjo Suárez': {
+        name: 'Mar Naranjo Suárez',
+        title: 'Foreign Promotion Area',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FMar%20Naranjo%20Suarez.png?alt=media&token=6a54a61c-3ae3-4346-af0e-de9194e06f4d',
+        bio: 'With training in Law, Diplomacy and International Relations, Business Internationalization and Business Administration and Management, she began her professional career as legal representative of the Canary Foundation for External Action (Fucaex) in Mauritania, where she worked on economic promotion and institutional and business cooperation between the Canary Islands and this West African country. With over seven years of experience in international business development, she has led expansion projects, investment attraction and foreign promotion in strategic sectors in the region. Currently, as part of Proexca\'s Foreign Promotion Area team, she focuses on promoting Canary Islands companies abroad, driving, among other sectors, the export of knowledge and experience from our business network.'
       }
     },
     startup_competition: {

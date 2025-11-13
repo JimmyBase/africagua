@@ -412,6 +412,14 @@ export default {
         ]
       }
     },
+    speaker_profiles: {
+      'Kwabena Gyasi-Duku': {
+        name: 'Kwabena Gyasi-Duku',
+        title: 'Director del Ministerio de Recursos Hídricos, Obras y Vivienda de Ghana',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FKwabena%20Asare%20Gyasi.png?alt=media&token=af180bbf-9eb8-411b-b4a3-0384e9425168',
+        bio: 'Ingeniero civil con experiencia en suministro de agua e ingeniería ambiental, con títulos de la Universidad de Ciencia y Tecnología Kwame Nkrumah en Ghana y la Technische Universität Bergakademie Freiberg en Alemania. Actualmente dirige la Dirección de Agua del Ministerio de Obras, Vivienda y Recursos Hídricos de Ghana, aportando más de 20 años de experiencia en el diseño e implementación de proyectos de suministro de agua, saneamiento y medio ambiente en los sectores público y privado. Representa a Ghana en numerosas plataformas locales e internacionales, incluido el desempeño como persona focal del país para el Objetivo de Desarrollo Sostenible 6 y como miembro del Comité Asesor Técnico del Consejo de Ministros Africanos sobre el Agua (AMCOW). También es el codirector de la participación de Ghana en la iniciativa Saneamiento y Agua para Todos (SWA).'
+      }
+    },
     startup_competition: {
       title: 'Global Startup Competition',
       subtitle: 'Impulsando la innovación en agua y energías renovables',

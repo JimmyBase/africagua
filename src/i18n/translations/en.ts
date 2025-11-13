@@ -412,6 +412,14 @@ export default {
         ]
       }
     },
+    speaker_profiles: {
+      'Kwabena Gyasi-Duku': {
+        name: 'Kwabena Gyasi-Duku',
+        title: 'Director of the Ministry of Water Resources, Works and Housing of Ghana',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FKwabena%20Asare%20Gyasi.png?alt=media&token=af180bbf-9eb8-411b-b4a3-0384e9425168',
+        bio: 'Civil engineer with experience in water supply and environmental engineering, with degrees from Kwame Nkrumah University of Science and Technology in Ghana and Technische Universität Bergakademie Freiberg in Germany. He currently heads the Water Directorate of the Ministry of Works, Housing and Water Resources of Ghana, bringing over 20 years of experience in the design and implementation of water supply, sanitation and environmental projects in both the public and private sectors. He represents Ghana on numerous local and international platforms, including serving as the country\'s focal person for Sustainable Development Goal 6 and as a member of the Technical Advisory Committee of the African Ministers\' Council on Water (AMCOW). He is also the co-lead of Ghana\'s engagement in the Sanitation and Water for All (SWA) initiative.'
+      }
+    },
     startup_competition: {
       title: 'Global Startup Competition',
       subtitle: 'Driving innovation in water and renewable energy',

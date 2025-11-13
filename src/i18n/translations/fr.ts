@@ -404,6 +404,14 @@ export default {
         ]
       }
     },
+    speaker_profiles: {
+      'Kwabena Gyasi-Duku': {
+        name: 'Kwabena Gyasi-Duku',
+        title: 'Directeur du Ministère des Ressources en Eau, Travaux et Logement du Ghana',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FKwabena%20Asare%20Gyasi.png?alt=media&token=af180bbf-9eb8-411b-b4a3-0384e9425168',
+        bio: 'Ingénieur civil avec une expérience dans l\'approvisionnement en eau et l\'ingénierie environnementale, titulaire de diplômes de l\'Université de Sciences et Technologies Kwame Nkrumah au Ghana et de la Technische Universität Bergakademie Freiberg en Allemagne. Il dirige actuellement la Direction de l\'Eau du Ministère des Travaux, du Logement et des Ressources en Eau du Ghana, apportant plus de 20 ans d\'expérience dans la conception et la mise en œuvre de projets d\'approvisionnement en eau, d\'assainissement et d\'environnement dans les secteurs public et privé. Il représente le Ghana sur de nombreuses plateformes locales et internationales, notamment en tant que point focal du pays pour l\'Objectif de Développement Durable 6 et en tant que membre du Comité Consultatif Technique du Conseil des Ministres Africains sur l\'Eau (AMCOW). Il est également co-responsable de l\'engagement du Ghana dans l\'initiative Assainissement et Eau pour Tous (SWA).'
+      }
+    },
     startup_competition: {
       title: 'Concours Global de Startups',
       subtitle: 'Favoriser l\'innovation dans l\'eau et les énergies renouvelables',

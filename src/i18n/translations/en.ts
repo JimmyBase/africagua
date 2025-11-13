@@ -469,6 +469,12 @@ export default {
         title: 'Professor of Inorganic Chemistry at the University of Granada',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FJorge%20Andr%C3%A9s%20Rodr%C3%ADguez%20Navarro.png?alt=media&token=6d106076-5ea2-4bd4-b202-815bfc4e60b2',
         bio: 'Professor of Inorganic Chemistry at the University of Granada. He has made pioneering contributions in the field of synthesis of discrete and extended metal-organic architectures with advanced biomedical applications (controlled release of drugs and signaling gases) and in environmental remediation and climate change (CO2 and SO2 capture and degradation of toxic compounds). These results have been published in high-impact international journals including Nature, Science, Journal of the American Chemical Society, Advanced Materials, receiving nearly 11,000 citations. He has been visiting professor at the Universities of Wroclaw (2025), UC Berkeley (2022, 2013), U. Versailles (2016) and is co-founder of the Spin-off Porous Materials in Action.'
+      },
+      'Diego Uriel Gálvez': {
+        name: 'Diego Uriel Gálvez',
+        title: 'Manager of the ICEX Multilateral Antenna',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FDiego%20Uriel%20G%C3%A1lvez.png?alt=media&token=4176033e-a987-4835-ab05-570a57f634e4',
+        bio: 'Graduate in Economics from Universidad Carlos III de Madrid. Blue Book at the European Commission in market applications for the Galileo and EGNOS system. Subsequently Market Analyst at the Economic and Commercial Office of Spain in Beijing for seven years, first in the agribusiness Department and then for Invest in Spain. Since 2023, professor in the Master\'s in Geopolitics and International Analysis at LISA Institute and field volunteer in international cooperation projects. Currently holds the position of Head of Department of Multilateral Financial Institutions for ICEX at the Economic and Commercial Office of Spain in Abidjan.'
       }
     },
     startup_competition: {

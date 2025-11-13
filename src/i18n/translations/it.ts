@@ -461,6 +461,12 @@ export default {
         title: 'Professore di Chimica Inorganica presso l\'Università di Granada',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FJorge%20Andr%C3%A9s%20Rodr%C3%ADguez%20Navarro.png?alt=media&token=6d106076-5ea2-4bd4-b202-815bfc4e60b2',
         bio: 'Professore di Chimica Inorganica presso l\'Università di Granada. Ha realizzato contributi pionieristici nel campo della sintesi di architetture metallo-organiche discrete ed estese con applicazioni biomediche avanzate (rilascio controllato di farmaci e gas segnale) e nella bonifica ambientale e cambiamento climatico (cattura di CO2 e SO2 e degradazione di composti tossici). Questi risultati sono stati pubblicati in riviste internazionali ad alta diffusione tra cui Nature, Science, Journal of the American Chemical Society, Advanced Materials, ricevendo quasi 11.000 citazioni. È stato professore invitato presso le Università di Wroclaw (2025), UC Berkeley (2022, 2013), U. Versailles (2016) ed è cofondatore della Spin-off Porous Materials in Action.'
+      },
+      'Diego Uriel Gálvez': {
+        name: 'Diego Uriel Gálvez',
+        title: 'Responsabile dell\'Antenna Multilaterale ICEX',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FDiego%20Uriel%20G%C3%A1lvez.png?alt=media&token=4176033e-a987-4835-ab05-570a57f634e4',
+        bio: 'Laureato in Economia presso l\'Università Carlos III di Madrid. Blue Book alla Commissione Europea in applicazioni di mercato per il sistema Galileo ed EGNOS. Successivamente Analista di Mercato presso l\'Ufficio Economico e Commerciale di Spagna a Pechino per sette anni, prima nel Dipartimento di agribusiness e poi per Invest in Spain. Dal 2023, professore nel master di Geopolitica e Analisi Internazionale presso LISA Institute e volontario sul campo in progetti di cooperazione internazionale. Attualmente ricopre la posizione di Capo Dipartimento delle Istituzioni Finanziarie Multilaterali per ICEX presso l\'Ufficio Economico e Commerciale di Spagna ad Abidjan.'
       }
     },
     startup_competition: {

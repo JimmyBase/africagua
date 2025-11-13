@@ -461,6 +461,12 @@ export default {
         title: 'Professor für Anorganische Chemie an der Universität Granada',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FJorge%20Andr%C3%A9s%20Rodr%C3%ADguez%20Navarro.png?alt=media&token=6d106076-5ea2-4bd4-b202-815bfc4e60b2',
         bio: 'Professor für Anorganische Chemie an der Universität Granada. Er hat Pionierbeiträge auf dem Gebiet der Synthese diskreter und erweiterter metall-organischer Architekturen mit fortgeschrittenen biomedizinischen Anwendungen (kontrollierte Freisetzung von Medikamenten und Signalgasen) und in der Umweltsanierung und im Klimawandel (CO2- und SO2-Abscheidung und Abbau toxischer Verbindungen) geleistet. Diese Ergebnisse wurden in hochrangigen internationalen Zeitschriften veröffentlicht, darunter Nature, Science, Journal of the American Chemical Society, Advanced Materials, und haben fast 11.000 Zitierungen erhalten. Er war Gastprofessor an den Universitäten Wroclaw (2025), UC Berkeley (2022, 2013), U. Versailles (2016) und ist Mitbegründer des Spin-offs Porous Materials in Action.'
+      },
+      'Diego Uriel Gálvez': {
+        name: 'Diego Uriel Gálvez',
+        title: 'Verantwortlicher der ICEX-Multilateralen-Antenne',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FDiego%20Uriel%20G%C3%A1lvez.png?alt=media&token=4176033e-a987-4835-ab05-570a57f634e4',
+        bio: 'Absolvent der Wirtschaftswissenschaften an der Universidad Carlos III de Madrid. Blue Book bei der Europäischen Kommission in Marktanwendungen für das Galileo- und EGNOS-System. Anschließend Marktanalyst im Wirtschafts- und Handelsbüro Spaniens in Peking für sieben Jahre, zunächst in der Abteilung Agribusiness und dann für Invest in Spain. Seit 2023 Professor im Master für Geopolitik und Internationale Analyse am LISA Institute und Freiwilliger vor Ort in internationalen Kooperationsprojekten. Bekleidet derzeit die Position des Abteilungsleiters für Multilaterale Finanzinstitutionen für ICEX im Wirtschafts- und Handelsbüro Spaniens in Abidjan.'
       }
     },
     startup_competition: {

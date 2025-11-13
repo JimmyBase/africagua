@@ -461,6 +461,12 @@ export default {
         title: 'Professeur de Chimie Inorganique à l\'Université de Grenade',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FJorge%20Andr%C3%A9s%20Rodr%C3%ADguez%20Navarro.png?alt=media&token=6d106076-5ea2-4bd4-b202-815bfc4e60b2',
         bio: 'Professeur de Chimie Inorganique à l\'Université de Grenade. Il a réalisé des contributions pionnières dans le domaine de la synthèse d\'architectures métallo-organiques discrètes et étendues avec des applications biomédicales avancées (libération contrôlée de médicaments et de gaz de signalisation) et en remédiation environnementale et changement climatique (capture de CO2 et SO2 et dégradation de composés toxiques). Ces résultats ont été publiés dans des revues internationales à haute diffusion, notamment Nature, Science, Journal of the American Chemical Society, Advanced Materials, recevant près de 11 000 citations. Il a été professeur invité aux Universités de Wroclaw (2025), UC Berkeley (2022, 2013), U. Versailles (2016) et est cofondateur de la Spin-off Porous Materials in Action.'
+      },
+      'Diego Uriel Gálvez': {
+        name: 'Diego Uriel Gálvez',
+        title: 'Responsable de l\'Antenne Multilatérale d\'ICEX',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FDiego%20Uriel%20G%C3%A1lvez.png?alt=media&token=4176033e-a987-4835-ab05-570a57f634e4',
+        bio: 'Diplômé en Économie de l\'Université Carlos III de Madrid. Blue Book à la Commission Européenne en applications de marché pour le système Galileo et EGNOS. Par la suite Analyste de Marché au Bureau Économique et Commercial d\'Espagne à Pékin pendant sept ans, d\'abord au Département d\'agribusiness puis pour Invest in Spain. Depuis 2023, professeur au master de Géopolitique et Analyse Internationale à LISA Institute et volontaire sur le terrain dans des projets de coopération internationale. Occupe actuellement le poste de Chef de Département des Institutions Financières Multilatérales pour ICEX au Bureau Économique et Commercial d\'Espagne à Abidjan.'
       }
     },
     startup_competition: {

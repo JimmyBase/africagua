@@ -491,6 +491,12 @@ export default {
         title: 'Catedrático de Química Inorgánica de la Universidad de Granada',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FJorge%20Andr%C3%A9s%20Rodr%C3%ADguez%20Navarro.png?alt=media&token=6d106076-5ea2-4bd4-b202-815bfc4e60b2',
         bio: 'Catedrático de Química Inorgánica de la Universidad de Granada. Ha realizado contribuciones pioneras en el campo de la síntesis de arquitecturas metal-orgánicas discretas y extendidas con aplicaciones avanzadas biomédicas (liberación controlada de fármacos y gases señal) y en remediación medioambiental y cambio climático (captura de CO2 y SO2 y degradación de compuestos tóxicos). Estos resultados se han publicados en revistas internacionales de alta difusión entre las que se incluyen Nature, Science, Journal of the American Chemical Society, Advanced Materials habiendo recibido casi 11.000 citaciones. Ha sido profesor invitado en las Universidades de Wroclaw (2025), UC Berkeley (2022, 2013). U. Versailles (2016) y es cofundador de la Spin-off Porous Materials in Action.'
+      },
+      'Diego Uriel Gálvez': {
+        name: 'Diego Uriel Gálvez',
+        title: 'Responsable de la Antena Multilateral de ICEX',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FDiego%20Uriel%20G%C3%A1lvez.png?alt=media&token=4176033e-a987-4835-ab05-570a57f634e4',
+        bio: 'Graduado en Economía por la Universidad Carlos III de Madrid. Blue Book de la Comisión Europea en aplicaciones de mercado para el sistema Galileo y EGNOS. Posteriormente Analista de Mercado en la Oficina Económica y Comercial de España en Pekín durante siete años, primero en el Departamento de agribusiness y después para Invest in Spain. Desde 2023, profesor en el máster de Geopolítica y Análisis Internacional de LISA Institute y voluntario en terreno en proyectos de cooperación internacional. Actualmente ocupa el puesto de Jefe de Departamento de Instituciones Financieras Multilaterales para ICEX en la Oficina Económica y Comercial de España en Abiyán.'
       }
     },
     startup_competition: {

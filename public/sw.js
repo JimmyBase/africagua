@@ -1,5 +1,5 @@
 // Service Worker version
-const CACHE_VERSION = 'v1';
+const CACHE_VERSION = 'v2';
 const CACHE_NAME = `africagua-${CACHE_VERSION}`;
 
 // Resources to cache
@@ -7,10 +7,10 @@ const RESOURCES_TO_CACHE = [
   '/',
   '/index.html',
   '/manifest.webmanifest',
-  '/pwa-64x64.png',
-  '/pwa-192x192.png',
-  '/pwa-512x512.png',
-  '/maskable-icon-512x512.png'
+  '/pwa-64x64.svg',
+  '/pwa-192x192.svg',
+  '/pwa-512x512.svg',
+  '/maskable-icon-512x512.svg'
 ];
 
 // Google Analytics domains to bypass caching

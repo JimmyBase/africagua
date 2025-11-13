@@ -233,7 +233,10 @@ export default {
               moderator: 'Cheik Diouf Faye, Gerente de RAESA en Senegal',
               participants: [
                 'Director del Ministerio de Recursos Hídricos, Obras y Vivienda de Ghana | Kwabena Gyasi-Duku',
-                'Sociedad Nacional de Agua de Senegal (SONES) | Cheikh Tidiane Dieye'
+                'Coordinador Técnico de la Sociedad Nacional de Agua de Senegal (SONES) | El Hadj Ada NDAO',
+                'Asesor del Primer Ministro, Encargado de Hidráulica y Saneamiento | Mohamed Kankou',
+                'Director Ejecutivo del Consejo de Administración de la Agencia Nacional de Agua y Saneamiento de Cabo Verde (ANAS) | Hipólito Gonçalves',
+                'Director General de l\'Office National de l\'Electricité et de l\'Eau Potable (ONEE) | Tarik Hammane (pendiente)'
               ]
             },
             {
@@ -247,25 +250,26 @@ export default {
             sessions: [
               {
                 time: '11:30 – 12:30',
-                title: 'Transición Energética y Desarrollo de Infraestructuras energéticas',
+                title: 'Transición Energética y Desarrollo de Infraestructuras',
                 type: 'panel',
                 moderator: 'Luis Padilla Macabeo, Director General de Relaciones con África del Gobierno de Canarias',
                 participants: [
-                  'Director de la Agencia Senegalesa de Electricidad Rural (ASER) | Jean Michel Sené Lat Ndame Ndiaye',
                   'Ministro de Energía, Petróleo y Minas de Gambia | Nani Juwara',
-                  'Director del Centro para Energías Renovables y Eficiencia Energética | (Pendiente confirmación)'
+                  'Director de la Agencia Senegalesa de Electricidad Rural de Senegal (ASER) | Jean Michel Sené Lat Ndame Ndiaye',
+                  'Vicepresidente de la Federación de Energía y Electricidad y Director general del Grupo SOMACOS S.A | Moktar Mohamed el Moctar',
+                  'Oficial de Política y regulaciones del Centro de la CEDEAO para Energías Renovables y Eficiencia Energética (ECREEE) | Elayo Hyacinth Onyatikpo'
                 ]
               },
               {
                 time: '12:30 – 13:30',
                 title: 'Financiación de Proyectos. Un caso práctico: la desaladora de Casablanca',
                 type: 'panel',
-                moderator: 'Loreto Taborga directora territorial de Comercio Exterior y delegada del ICEX en Las Palmas',
+                moderator: 'Loreto Taborga, Directora Territorial de Comercio Exterior y Delegada de ICEX en Las Palmas',
                 participants: [
                   'Subdirectora General Adjunta de Instrumentos Financieros para la Internacionalización de FIEM | María Soledad Sendagorta Fernández-Durán',
                   'Subdirectora Financiera del Área de Inversiones de COFIDES | Ane Sáenz de Zaitegui Bermeo',
-                  'Director General de Financiación Corporativa Internacional, Mediación y Fondos del Estado ICO | Fernando Salazar Palma',
-                  'Acciona Water Casablanca | Adelaida Fernández (Pendiente de confirmación)'
+                  'Técnico del Área de Gestión de Fondos del Estado para la Internacionalización de ICO | Iciar La Casta Muñoa',
+                  'Acciona, Directora Financiera | Eva González'
                 ]
               },
               {
@@ -275,15 +279,26 @@ export default {
               },
               {
                 time: '15:15 – 16:30',
-                title: 'Mesa 4: Alianzas estratégicas y cooperación empresarial y tecnológica',
+                title: 'Alianzas estratégicas y cooperación empresarial y tecnológica',
                 type: 'panel',
-                moderator: 'María José Miranda Martel, Directora de Transferencia de Conocimiento y Relaciones con las Empresas de la Universidad de la Palmas de Gran Canaria',
+                moderator: 'María José Miranda Martel, Directora de Transferencia de Conocimiento y Relaciones con las Empresas de la Universidad de las Palmas de Gran Canaria',
                 participants: [
-                  'Copresidenta del Comité Bilateral Mauritania–España | Ana Suárez',
+                  'Copresidenta del Comité Bilateral Mauritania – España y Presidenta del Consejo Social de la ULPGC | Ana Suárez',
                   'Director de I+D+I del Instituto Tecnológico de Canarias (ITC) | Gonzalo Piernavieja',
                   'Coordinador de Grupo de Investigación de Sistemas Energéticos Renovables de la ULPGC | Pedro Jesús Cabrera Santana',
-                  'Welysis | Óscar Luengo, Director General'
+                  'Welysis | Óscar Luengo, Director de Desarrollo Internacional',
+                  'Catedrático de Química Inorgánica de la Universidad de Granada | Jorge Andrés Rodríguez Navarro'
                 ]
+              },
+              {
+                time: '16:30',
+                title: 'Cierre de la jornada',
+                type: 'break'
+              },
+              {
+                time: '20:30',
+                title: 'Cóctel de bienvenida',
+                type: 'break'
               }
             ]
           }
@@ -298,18 +313,19 @@ export default {
               type: 'panel',
               moderator: 'Francisco Daniel Martínez, Agregado Comercial de Mauritania',
               participants: [
+                'Área de Promoción de Proexca. Programa Canarias Know How | Mar Naranjo Suárez y Silvia Camacho Martín',
                 'Director de Proyectos de GESPLAN | Miguel Ángel Pérez',
                 'Responsable de la Antena ICEX Multilaterales en Costa de Marfil | Diego Uriel Gálvez'
               ]
             },
             {
               time: '10:00 – 11:00',
-              title: 'Mesa 6: Escalando al Exterior / Herramientas de Apoyo a la Internacionalización Empresarial',
+              title: 'Escalando al Exterior. Herramientas de Apoyo a la Internacionalización Empresarial',
               type: 'panel',
-              moderator: 'Ana Guersi, Analista de Mercado de la Oficina Económica y Comercial de Ghana',
               participants: [
                 'Técnico de Promoción Exterior de Canarias Aporta PROEXCA | Dolores Hernández Arenciba',
-                'Consejero Económico y Comercial de la Oficina Económica y Comercial de España en Dakar | Daniel Jacobo Orea'
+                'Consejero Económico y Comercial de la Oficina Económica y Comercial de España en Dakar | Daniel Jacobo Orea',
+                'INTERREG MAC (pendiente)'
               ]
             },
             {
@@ -329,8 +345,17 @@ export default {
             },
             {
               time: '13:00 – 13:30',
-              title: 'Acto de entrega de Premios',
-              type: 'awards'
+              title: 'Acto de entrega de los Premios Global Startup Competition',
+              type: 'awards',
+              participants: [
+                'Juan Jesús Rodríguez Marichal, Presidente de la Cámara de Comercio',
+                'Javier Franco Hormiga, Agencia Canaria de Investigación, Innovación y Sociedad de la Información'
+              ]
+            },
+            {
+              time: '13:30',
+              title: 'Cóctel y fin del evento',
+              type: 'break'
             }
           ]
         }

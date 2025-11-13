@@ -70,7 +70,7 @@ export default function Avatar({ src, alt, name, size = 'medium', className = ''
           <img
             src={src}
             alt={alt}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-top"
             onLoad={handleImageLoad}
             onError={handleImageError}
           />

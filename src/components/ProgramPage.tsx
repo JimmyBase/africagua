@@ -167,7 +167,7 @@ const ProgramPage = () => {
                                 <img
                                   src={profile.image}
                                   alt={profile.name}
-                                  className="w-32 h-32 rounded-lg object-cover shadow-md"
+                                  className="w-32 h-32 rounded-lg object-cover object-top shadow-md"
                                 />
                               </div>
                               <div className="flex-grow">

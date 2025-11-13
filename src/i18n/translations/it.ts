@@ -443,6 +443,12 @@ export default {
         title: 'Tecnico dell\'Area di Gestione dei Fondi dello Stato per l\'Internazionalizzazione dell\'Istituto di Credito Ufficiale di Spagna',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FIc%C3%ADar%20La%20Casta%20Mu%C3%B1oa.png?alt=media&token=5436d2e8-1df0-4d9c-88a4-a782fb3e782f',
         bio: 'Laureata in Scienze Economiche e Aziendali presso CUNEF, è Tecnico nell\'Area di Gestione dei Fondi dello Stato per l\'Internazionalizzazione dell\'Istituto di Credito Ufficiale di Spagna, nel suo ruolo di Agenzia Finanziaria dello Stato, area in cui lavora nel Front Office delle operazioni dei Fondi dello Stato (FIEM e FEDES) da dieci anni. In precedenza, dal 2009 al 2015, è stata Responsabile del Dipartimento di Politiche e Ammissione dei Rischi di Credito dell\'ICO, nel suo ruolo di Banca Nazionale di Promozione, e Membro del Comitato di Investimento di FOND ICO PYME de AXIS, del Gruppo ICO, dopo nove anni in Analisi dei Rischi di Credito, sia Corporate che Project Finance, presso l\'Istituto e, prima di entrare in ICO, presso l\'istituzione finanziaria BNP Paribas. In BNP Paribas, è stata Responsabile della Divisione Controllo Rischi e Reporting e, in precedenza, Responsabile del Team di Audit presso KPMG.'
+      },
+      'Ana Suárez': {
+        name: 'Ana B. Suárez Calvo',
+        title: 'Copresidente del Comitato Bilaterale Spagna-Mauritania e Presidente del Consiglio Sociale dell\'ULPGC',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FANA%20SUAREZ%20CALVO.png?alt=media&token=c3a2ad83-b315-4f87-91a9-000216df5414',
+        bio: 'Laureata in Scienze Economiche e Aziendali presso l\'Università Pontificia di Comillas, dal 2024 è la Presidente del Consiglio Sociale dell\'ULPGC e Copresidente, dalla parte spagnola, del Comitato Bilaterale Spagna-Mauritania, in qualità di Membro della Camera di Spagna. Guida il gruppo SUARIS Capital, family office con presenza in settori strategici delle Canarie come il turismo, il trasporto aereo, le nuove tecnologie, il settore sanitario e la produzione audiovisiva.'
       }
     },
     startup_competition: {

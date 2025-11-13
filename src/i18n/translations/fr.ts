@@ -443,6 +443,12 @@ export default {
         title: 'Technicienne du Secteur de Gestion des Fonds d\'État pour l\'Internationalisation de l\'Institut de Crédit Officiel d\'Espagne',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FIc%C3%ADar%20La%20Casta%20Mu%C3%B1oa.png?alt=media&token=5436d2e8-1df0-4d9c-88a4-a782fb3e782f',
         bio: 'Diplômée en Sciences Économiques et Commerciales de CUNEF, elle est Technicienne dans le Secteur de Gestion des Fonds d\'État pour l\'Internationalisation de l\'Institut de Crédit Officiel d\'Espagne, dans son rôle d\'Agence Financière de l\'État, secteur dans lequel elle travaille au Front Office des opérations de Fonds d\'État (FIEM et FEDES) depuis dix ans. Auparavant, de 2009 à 2015, elle a été Chef du Département des Politiques et de l\'Admission des Risques de Crédit de l\'ICO, dans son rôle de Banque Nationale de Promotion, et Membre du Comité d\'Investissement de FOND ICO PYME de AXIS, du Groupe ICO, après neuf ans en Analyse des Risques de Crédit, tant Corporatifs que Project Finance, à l\'Institut et, avant de rejoindre l\'ICO, à l\'institution financière BNP Paribas. Chez BNP Paribas, elle a été Chef de la Division de Contrôle des Risques et Reporting et, auparavant, Chef d\'Équipe d\'Audit chez KPMG.'
+      },
+      'Ana Suárez': {
+        name: 'Ana B. Suárez Calvo',
+        title: 'Coprésidente du Comité Bilatéral Espagne-Mauritanie et Présidente du Conseil Social de l\'ULPGC',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FANA%20SUAREZ%20CALVO.png?alt=media&token=c3a2ad83-b315-4f87-91a9-000216df5414',
+        bio: 'Diplômée en Sciences Économiques et Commerciales de l\'Université Pontificale de Comillas, elle est depuis 2024 la Présidente du Conseil Social de l\'ULPGC et Coprésidente, du côté espagnol, du Comité Bilatéral Espagne-Mauritanie, en tant que Membre de la Chambre d\'Espagne. Elle dirige le groupe SUARIS Capital, family office présent dans des secteurs stratégiques des îles Canaries tels que le tourisme, le transport aérien, les nouvelles technologies, le secteur de la santé et la production audiovisuelle.'
       }
     },
     startup_competition: {

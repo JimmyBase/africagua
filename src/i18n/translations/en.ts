@@ -487,6 +487,12 @@ export default {
         title: 'Economic and Commercial Counselor of the Embassy of Dakar in Spain',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FDANIEL%20JACOBO%20OREA.png?alt=media&token=c0141f5a-a255-4b56-ab15-7d491d1da744',
         bio: 'He joined the body of Commercial Technicians and State Economists in 2016. In 2021, he joined the State Secretariat for International Cooperation of the MAEC, working as Director of the Division for Evaluation of Policies for Sustainable Development between 2022 and 2024. Since then, he has served as Economic and Commercial Counselor of the Spanish Embassy in Dakar, with jurisdiction in Senegal, Mauritania, Cape Verde, Gambia, Mali and Guinea-Bissau.'
+      },
+      'Eva González': {
+        name: 'Eva González',
+        title: 'Chief Financial Officer of Acciona',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FEva%20Gonz%C3%A1lez%20Moreno.png?alt=media&token=2e14761c-cf5e-42c4-be53-b7375ca9a799',
+        bio: 'She has over 12 years of experience in the international energy sector, specializing in financial structuring, project financing and corporate management. She has developed her career in Colombia, France, Spain and currently in Morocco, holding key positions in financial departments of leading companies in the sector. She currently leads the Financial Management of Al Baidaa Desalination Company, the company responsible for the Casablanca desalination project, one of the most relevant in Africa in its category.'
       }
     },
     startup_competition: {

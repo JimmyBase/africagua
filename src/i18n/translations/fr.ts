@@ -479,6 +479,12 @@ export default {
         title: 'Conseiller Économique et Commercial de l\'Ambassade de Dakar en Espagne',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FDANIEL%20JACOBO%20OREA.png?alt=media&token=c0141f5a-a255-4b56-ab15-7d491d1da744',
         bio: 'Il a intégré en 2016 le corps des Techniciens Commerciaux et Économistes de l\'État. En 2021, il a rejoint le Secrétariat d\'État à la Coopération Internationale du MAEC, travaillant comme Directeur de la Division d\'Évaluation des Politiques pour le Développement Durable entre 2022 et 2024. Depuis lors, il exerce en tant que Conseiller Économique et Commercial de l\'Ambassade d\'Espagne à Dakar, avec juridiction au Sénégal, en Mauritanie, au Cap-Vert, en Gambie, au Mali et en Guinée-Bissau.'
+      },
+      'Eva González': {
+        name: 'Eva González',
+        title: 'Directrice Financière d\'Acciona',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FEva%20Gonz%C3%A1lez%20Moreno.png?alt=media&token=2e14761c-cf5e-42c4-be53-b7375ca9a799',
+        bio: 'Elle possède plus de 12 ans d\'expérience dans le secteur énergétique international, spécialisée en structuration financière, financement de projets et direction d\'entreprise. Elle a développé sa carrière en Colombie, en France, en Espagne et actuellement au Maroc, occupant des postes clés dans les départements financiers d\'entreprises leaders du secteur. Elle dirige actuellement la Direction Financière d\'Al Baidaa Desalination Company, société responsable du projet de dessalement de Casablanca, l\'un des plus importants d\'Afrique dans sa catégorie.'
       }
     },
     startup_competition: {

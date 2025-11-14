@@ -515,6 +515,12 @@ export default {
         title: 'Directora Financiera de Acciona',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FEva%20Gonz%C3%A1lez%20Moreno.png?alt=media&token=2e14761c-cf5e-42c4-be53-b7375ca9a799',
         bio: 'Cuenta con más de 12 años de experiencia en el sector energético internacional, especializada en estructuración financiera, financiación de proyectos y dirección corporativa. Ha desarrollado su carrera en Colombia, Francia, España y actualmente en Marruecos, ocupando puestos clave en departamentos financieros de empresas líderes del sector. Actualmente lidera la Dirección Financiera de Al Baidaa Desalination Company, sociedad responsable del proyecto de desalación de Casablanca, uno de los más relevantes de África en su categoría.'
+      },
+      'Nani Juwara': {
+        name: 'Nani Juwara',
+        title: 'Ministro de Petróleo y Energía, Gobierno de la República de Gambia',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FNani%20Juwara.png?alt=media&token=d4f8f07b-2dde-4458-9216-368fb136b8b0',
+        bio: 'Es un líder con amplia experiencia en el sector energético de Gambia, respaldado por formación internacional en administración, desarrollo y gestión estratégica. Ha ocupado puestos clave en NAWEC, desde Subdirector hasta Director General, y actualmente se desempeña como Ministro de Petróleo y Energía. A lo largo de su carrera ha dirigido importantes proyectos de modernización eléctrica financiados por organismos internacionales —incluidos el Banco Mundial, ECOWAS y el AfDB— y ha impulsado la meta nacional de lograr el acceso universal a la electricidad para 2025. Su trayectoria combina gestión ejecutiva, supervisión de proyectos de infraestructura y certificaciones técnicas y financieras que fortalecen su liderazgo en el desarrollo energético del país.'
       }
     },
     startup_competition: {

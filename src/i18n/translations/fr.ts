@@ -485,6 +485,12 @@ export default {
         title: 'Directrice Financière d\'Acciona',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FEva%20Gonz%C3%A1lez%20Moreno.png?alt=media&token=2e14761c-cf5e-42c4-be53-b7375ca9a799',
         bio: 'Elle possède plus de 12 ans d\'expérience dans le secteur énergétique international, spécialisée en structuration financière, financement de projets et direction d\'entreprise. Elle a développé sa carrière en Colombie, en France, en Espagne et actuellement au Maroc, occupant des postes clés dans les départements financiers d\'entreprises leaders du secteur. Elle dirige actuellement la Direction Financière d\'Al Baidaa Desalination Company, société responsable du projet de dessalement de Casablanca, l\'un des plus importants d\'Afrique dans sa catégorie.'
+      },
+      'Nani Juwara': {
+        name: 'Nani Juwara',
+        title: 'Ministre du Pétrole et de l\'Énergie, Gouvernement de la République de Gambie',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FNani%20Juwara.png?alt=media&token=d4f8f07b-2dde-4458-9216-368fb136b8b0',
+        bio: 'C\'est un leader possédant une vaste expérience dans le secteur énergétique de la Gambie, soutenu par une formation internationale en administration, développement et gestion stratégique. Il a occupé des postes clés à NAWEC, de Directeur adjoint à Directeur général, et exerce actuellement en tant que Ministre du Pétrole et de l\'Énergie. Tout au long de sa carrière, il a dirigé d\'importants projets de modernisation électrique financés par des organisations internationales —dont la Banque mondiale, la CEDEAO et la BAD— et a promu l\'objectif national d\'accès universel à l\'électricité d\'ici 2025. Son parcours combine gestion exécutive, supervision de projets d\'infrastructure et certifications techniques et financières qui renforcent son leadership dans le développement énergétique du pays.'
       }
     },
     startup_competition: {

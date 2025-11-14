@@ -485,6 +485,12 @@ export default {
         title: 'Direttrice Finanziaria di Acciona',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FEva%20Gonz%C3%A1lez%20Moreno.png?alt=media&token=2e14761c-cf5e-42c4-be53-b7375ca9a799',
         bio: 'Ha più di 12 anni di esperienza nel settore energetico internazionale, specializzata in strutturazione finanziaria, finanziamento di progetti e direzione aziendale. Ha sviluppato la sua carriera in Colombia, Francia, Spagna e attualmente in Marocco, ricoprendo posizioni chiave in dipartimenti finanziari di aziende leader del settore. Attualmente dirige la Direzione Finanziaria di Al Baidaa Desalination Company, società responsabile del progetto di dissalazione di Casablanca, uno dei più rilevanti in Africa nella sua categoria.'
+      },
+      'Nani Juwara': {
+        name: 'Nani Juwara',
+        title: 'Ministro del Petrolio e dell\'Energia, Governo della Repubblica del Gambia',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FNani%20Juwara.png?alt=media&token=d4f8f07b-2dde-4458-9216-368fb136b8b0',
+        bio: 'È un leader con vasta esperienza nel settore energetico del Gambia, supportato da formazione internazionale in amministrazione, sviluppo e gestione strategica. Ha ricoperto posizioni chiave in NAWEC, da Vice Direttore a Direttore Generale, e attualmente ricopre il ruolo di Ministro del Petrolio e dell\'Energia. Nel corso della sua carriera ha guidato importanti progetti di modernizzazione elettrica finanziati da organizzazioni internazionali —tra cui la Banca Mondiale, ECOWAS e AfDB— e ha promosso l\'obiettivo nazionale di raggiungere l\'accesso universale all\'elettricità entro il 2025. La sua traiettoria combina gestione esecutiva, supervisione di progetti infrastrutturali e certificazioni tecniche e finanziarie che rafforzano la sua leadership nello sviluppo energetico del paese.'
       }
     },
     startup_competition: {

@@ -493,6 +493,12 @@ export default {
         title: 'Chief Financial Officer of Acciona',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FEva%20Gonz%C3%A1lez%20Moreno.png?alt=media&token=2e14761c-cf5e-42c4-be53-b7375ca9a799',
         bio: 'She has over 12 years of experience in the international energy sector, specializing in financial structuring, project financing and corporate management. She has developed her career in Colombia, France, Spain and currently in Morocco, holding key positions in financial departments of leading companies in the sector. She currently leads the Financial Management of Al Baidaa Desalination Company, the company responsible for the Casablanca desalination project, one of the most relevant in Africa in its category.'
+      },
+      'Nani Juwara': {
+        name: 'Nani Juwara',
+        title: 'Minister of Petroleum and Energy, Government of the Republic of The Gambia',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FNani%20Juwara.png?alt=media&token=d4f8f07b-2dde-4458-9216-368fb136b8b0',
+        bio: 'He is a leader with extensive experience in Gambia\'s energy sector, supported by international training in administration, development and strategic management. He has held key positions at NAWEC, from Deputy Director to Managing Director, and currently serves as Minister of Petroleum and Energy. Throughout his career he has led important electricity modernization projects funded by international organizations —including the World Bank, ECOWAS and AfDB— and has promoted the national goal of achieving universal access to electricity by 2025. His trajectory combines executive management, infrastructure project oversight and technical and financial certifications that strengthen his leadership in the country\'s energy development.'
       }
     },
     startup_competition: {

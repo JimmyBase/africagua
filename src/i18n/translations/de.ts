@@ -485,6 +485,12 @@ export default {
         title: 'Finanzdirektorin von Acciona',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FEva%20Gonz%C3%A1lez%20Moreno.png?alt=media&token=2e14761c-cf5e-42c4-be53-b7375ca9a799',
         bio: 'Sie verfügt über mehr als 12 Jahre Erfahrung im internationalen Energiesektor, spezialisiert auf Finanzstrukturierung, Projektfinanzierung und Unternehmensführung. Sie hat ihre Karriere in Kolumbien, Frankreich, Spanien und derzeit in Marokko entwickelt und Schlüsselstellen in Finanzabteilungen führender Unternehmen des Sektors besetzt. Derzeit leitet sie die Finanzabteilung von Al Baidaa Desalination Company, dem Unternehmen, das für das Entsalzungsprojekt von Casablanca verantwortlich ist, eines der wichtigsten in Afrika in seiner Kategorie.'
+      },
+      'Nani Juwara': {
+        name: 'Nani Juwara',
+        title: 'Minister für Erdöl und Energie, Regierung der Republik Gambia',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FNani%20Juwara.png?alt=media&token=d4f8f07b-2dde-4458-9216-368fb136b8b0',
+        bio: 'Er ist eine Führungspersönlichkeit mit umfangreicher Erfahrung im Energiesektor Gambias, unterstützt durch internationale Ausbildung in Verwaltung, Entwicklung und strategischem Management. Er hat Schlüsselpositionen bei NAWEC inne, vom stellvertretenden Direktor bis zum Geschäftsführer, und ist derzeit Minister für Erdöl und Energie. Im Laufe seiner Karriere hat er wichtige Projekte zur Elektrifizierungsmodernisierung geleitet, die von internationalen Organisationen —einschließlich der Weltbank, ECOWAS und AfDB— finanziert wurden, und hat das nationale Ziel des universellen Zugangs zu Elektrizität bis 2025 vorangetrieben. Seine Laufbahn verbindet Führungsmanagement, Überwachung von Infrastrukturprojekten und technische und finanzielle Zertifizierungen, die seine Führungsrolle in der Energieentwicklung des Landes stärken.'
       }
     },
     startup_competition: {

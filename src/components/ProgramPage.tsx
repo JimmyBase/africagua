@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import {
   Calendar, MapPin, Clock, Users, Coffee, Award, Presentation,
   ChevronDown, ChevronUp, Sparkles, User, Bookmark, Search,
-  Filter, Download, Share2, X, Star, Building2
+  Filter, Share2, X, Star, Building2
 } from 'lucide-react';
 import CookiePolicy from './CookiePolicy';
 import PrivacyPolicy from './PrivacyPolicy';
@@ -291,12 +291,6 @@ const ProgramPage = () => {
               >
                 <Filter className="w-5 h-5" />
                 Filtros
-              </button>
-              <button
-                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-white border-2 border-slate-300 hover:border-navy-500 hover:bg-slate-50 text-slate-900 font-semibold shadow-lg hover:shadow-xl transition-all hover:scale-105"
-              >
-                <Download className="w-5 h-5 text-slate-900" />
-                <span className="hidden sm:inline text-slate-900">Descargar PDF</span>
               </button>
             </div>
           </div>

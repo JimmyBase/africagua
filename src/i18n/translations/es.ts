@@ -349,6 +349,7 @@ export default {
               time: '13:00 – 13:30',
               title: 'Acto de entrega de los Premios Global Startup Competition',
               type: 'awards',
+              description: 'Las presentaciones del Global Startup Competition reunirán a los proyectos finalistas de diversas startups internacionales. Los equipos presentarán sus iniciativas tanto de forma presencial como en línea, ya que las empresas participantes provienen de países como Marruecos, Etiopía, Kenia, España, India y Congo. Será una oportunidad para conocer propuestas innovadoras y conectar con talento emprendedor de todo el mundo.',
               participants: [
                 'Juan Jesús Rodríguez Marichal, Presidente de la Cámara de Comercio',
                 'Javier Franco Hormiga, Agencia Canaria de Investigación, Innovación y Sociedad de la Información'

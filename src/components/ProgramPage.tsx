@@ -81,7 +81,7 @@ const ProgramPage = () => {
   const renderSession = (session: any, index: number, dayKey: string, venueKey: string = '') => {
     const sessionId = `${dayKey}-${venueKey}-${index}`;
     const isExpanded = expandedSessions.includes(sessionId);
-    const hasDetails = session.moderator || (session.participants && session.participants.length > 0);
+    const hasDetails = session.moderator || (session.participants && session.participants.length > 0) || session.description;
 
     return (
       <div
@@ -115,6 +115,12 @@ const ProgramPage = () => {
 
         {hasDetails && isExpanded && (
           <div className="mt-6 pt-6 border-t-2 border-gray-200/50 animate-fadeIn">
+            {session.description && (
+              <div className="mb-6 p-4 bg-gradient-to-r from-cyan-50/70 to-white rounded-lg shadow-sm border border-cyan-200/50">
+                <p className="text-gray-700 leading-relaxed text-justify">{session.description}</p>
+              </div>
+            )}
+
             {session.moderator && (
               <div className="mb-6 p-4 bg-gradient-to-r from-[#1a3d4a]/5 to-white rounded-lg shadow-sm border border-[#2c5f6f]/20">
                 <div className="flex items-center gap-2 mb-2">

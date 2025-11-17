@@ -491,6 +491,12 @@ export default {
         title: 'Ministro del Petrolio e dell\'Energia, Governo della Repubblica del Gambia',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FNani%20Juwara.png?alt=media&token=d4f8f07b-2dde-4458-9216-368fb136b8b0',
         bio: 'È un leader con vasta esperienza nel settore energetico del Gambia, supportato da formazione internazionale in amministrazione, sviluppo e gestione strategica. Ha ricoperto posizioni chiave in NAWEC, da Vice Direttore a Direttore Generale, e attualmente ricopre il ruolo di Ministro del Petrolio e dell\'Energia. Nel corso della sua carriera ha guidato importanti progetti di modernizzazione elettrica finanziati da organizzazioni internazionali —tra cui la Banca Mondiale, ECOWAS e AfDB— e ha promosso l\'obiettivo nazionale di raggiungere l\'accesso universale all\'elettricità entro il 2025. La sua traiettoria combina gestione esecutiva, supervisione di progetti infrastrutturali e certificazioni tecniche e finanziarie che rafforzano la sua leadership nello sviluppo energetico del paese.'
+      },
+      'Lamin Camara': {
+        name: 'Lamin Camara',
+        title: 'Segretario Permanente del Ministero del Petrolio e dell\'Energia del Gambia',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FLamin%20Camara.png?alt=media&token=5a2bb33b-9e5c-4e76-b000-dbcd2f8a8e45',
+        bio: 'Lamin Camara è un amministratore pubblico di alto livello, riconosciuto per la sua leadership strategica e la sua capacità di trasformare le istituzioni attraverso l\'innovazione tecnologica. Dal 2017 ricopre il ruolo di Segretario Permanente del Ministero del Petrolio e dell\'Energia della Repubblica del Gambia, dove dirige funzioni esecutive, promuove la modernizzazione amministrativa e garantisce l\'esecuzione efficiente delle iniziative governative chiave. Con una solida formazione internazionale in gestione delle comunicazioni e amministrazione aziendale, si distingue per la sua padronanza nella Gestione del Cambiamento e nell\'integrazione di tecnologie che ottimizzano i servizi pubblici. Il suo profilo combina visione strategica, capacità operativa e un fermo impegno per l\'eccellenza nella governance pubblica.'
       }
     },
     startup_competition: {

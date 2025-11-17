@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { fetchNews, deleteNews } from '../lib/firebase';
-import { Calendar, Lock, Trash2, Loader, CreditCard as Edit } from 'lucide-react';
+import { Calendar, Lock, Trash2, Loader, Edit2 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import NewsModal from './NewsModal';
 import AdminNewsPanel from './AdminNewsPanel';
@@ -47,7 +47,7 @@ const NewsSection = ({ onAdminClick }: NewsProps) => {
 
   const handleAdminClick = () => {
     const password = prompt('Introduce la clave de administrador:');
-    if (password === 'AfricaguaCanarias@fuerte') {
+    if (password === import.meta.env.VITE_ADMIN_PASSWORD) {
       setIsAdmin(true);
       setIsAdminPanelOpen(true);
     }
@@ -82,62 +82,52 @@ const NewsSection = ({ onAdminClick }: NewsProps) => {
   };
 
   return (
-    <section className="py-32 relative" id="news">
-      <div className="absolute inset-0 z-0">
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/612-scaled.jpg?alt=media&token=0eed06cc-b14b-4466-bbb5-6105597c5ba2"
-          alt=""
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-white/80 backdrop-blur-sm"></div>
-        <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-white to-transparent"></div>
-      </div>
-
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <section className="section-bg-alt" id="news">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-center gap-4 mb-12">
-          <h2 className="section-title mb-0">Noticias Africagua</h2>
+          <h2 className="section-title mb-0">{t('news.title')}</h2>
           <button
             onClick={isAdmin ? () => setIsAdminPanelOpen(true) : handleAdminClick}
-            className={`w-8 h-8 flex items-center justify-center rounded-full transition-colors ${
-              isAdmin ? 'bg-teal-100 hover:bg-teal-200' : 'hover:bg-gray-100'
+            className={`w-10 h-10 flex items-center justify-center rounded-lg transition-colors ${
+              isAdmin ? 'bg-ocean-100 hover:bg-ocean-200 text-ocean-600' : 'hover:bg-neutral-100 text-neutral-400'
             }`}
-            title="Administrador de noticias Africagua"
+            title="Administrador de noticias"
           >
-            <Lock className={`w-4 h-4 ${isAdmin ? 'text-teal-600' : 'text-gray-400'}`} />
+            <Lock className="w-5 h-5" />
           </button>
         </div>
 
         {loading ? (
-          <div className="flex justify-center items-center min-h-[200px]">
-            <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-teal-600"></div>
+          <div className="flex justify-center items-center min-h-[300px]">
+            <div className="animate-spin rounded-full h-12 w-12 border-4 border-ocean-200 border-t-ocean-600"></div>
           </div>
         ) : news.length > 0 ? (
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {news.map((item) => (
               <article
                 key={item.id}
-                className="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-xl transition-shadow duration-300"
+                className="card-elevated overflow-hidden group"
               >
                 <div className="aspect-video overflow-hidden relative">
                   <img
                     src={item.imageUrl}
-                    alt={`Noticia Africagua: ${item.title}`}
-                    className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
+                    alt={item.title}
+                    className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
                   />
                   {isAdmin && (
-                    <div className="absolute top-2 right-2 flex gap-2">
+                    <div className="absolute top-3 right-3 flex gap-2">
                       <button
                         onClick={() => handleEdit(item)}
-                        className="w-8 h-8 bg-teal-500 text-white rounded-full flex items-center justify-center hover:bg-teal-600 transition-colors"
-                        title="Editar noticia Africagua"
+                        className="w-9 h-9 bg-ocean-600 text-white rounded-lg flex items-center justify-center hover:bg-ocean-700 transition-colors shadow-medium"
+                        title="Editar noticia"
                       >
-                        <Edit className="w-4 h-4" />
+                        <Edit2 className="w-4 h-4" />
                       </button>
                       <button
                         onClick={() => handleDelete(item.id, item.imageUrl)}
                         disabled={deletingId === item.id}
-                        className="w-8 h-8 bg-red-500 text-white rounded-full flex items-center justify-center hover:bg-red-600 transition-colors"
-                        title="Eliminar noticia Africagua"
+                        className="w-9 h-9 bg-coral-600 text-white rounded-lg flex items-center justify-center hover:bg-coral-700 transition-colors shadow-medium"
+                        title="Eliminar noticia"
                       >
                         {deletingId === item.id ? (
                           <Loader className="w-4 h-4 animate-spin" />
@@ -149,41 +139,41 @@ const NewsSection = ({ onAdminClick }: NewsProps) => {
                   )}
                 </div>
                 <div className="p-6">
-                  <div className="flex items-center gap-4 text-sm text-gray-500 mb-4">
-                    <span className="flex items-center gap-1">
-                      <Calendar className="w-4 h-4" />
-                      {formatDate(item.createdAt)}
-                    </span>
+                  <div className="flex items-center gap-2 text-body-sm text-neutral-500 mb-3">
+                    <Calendar className="w-4 h-4" />
+                    {formatDate(item.createdAt)}
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">{item.title}</h3>
-                  <div 
-                    className="text-gray-600 line-clamp-3"
+                  <h3 className="text-h4 mb-3 line-clamp-2">{item.title}</h3>
+                  <div
+                    className="text-body text-neutral-600 line-clamp-3 mb-4"
                     dangerouslySetInnerHTML={{ __html: item.content }}
                   />
-                  <button 
+                  <button
                     onClick={() => setSelectedNews(item)}
-                    className="mt-4 text-teal-600 font-medium hover:text-teal-700 transition-colors"
-                    title={`Leer más sobre ${item.title}`}
+                    className="text-ocean-600 font-semibold hover:text-ocean-700 transition-colors inline-flex items-center gap-1"
                   >
                     {t('news.read_more')}
+                    <span className="transform group-hover:translate-x-1 transition-transform">→</span>
                   </button>
                 </div>
               </article>
             ))}
           </div>
         ) : (
-          <div className="text-center py-12">
-            <p className="text-gray-600">No hay noticias de Africagua disponibles en este momento.</p>
+          <div className="text-center py-20">
+            <p className="text-body-lg text-neutral-600">
+              {t('news.no_news')}
+            </p>
           </div>
         )}
       </div>
 
-      <NewsModal 
-        news={selectedNews} 
-        onClose={() => setSelectedNews(null)} 
+      <NewsModal
+        news={selectedNews}
+        onClose={() => setSelectedNews(null)}
       />
 
-      <AdminNewsPanel 
+      <AdminNewsPanel
         isOpen={isAdminPanelOpen}
         onClose={() => {
           setIsAdminPanelOpen(false);

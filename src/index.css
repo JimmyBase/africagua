@@ -7,81 +7,75 @@
     scroll-behavior: smooth;
     @apply h-full;
   }
-  
+
   body {
-    @apply antialiased min-h-screen h-full overflow-x-hidden font-sans text-gray-900;
+    @apply antialiased min-h-screen h-full overflow-x-hidden font-sans text-neutral-800 bg-white;
   }
 
   #root {
     @apply h-full;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-bold;
+  h1 {
+    @apply text-h1 text-neutral-900;
+  }
+
+  h2 {
+    @apply text-h2 text-neutral-900;
+  }
+
+  h3 {
+    @apply text-h3 text-neutral-800;
+  }
+
+  h4 {
+    @apply text-h4 text-neutral-800;
+  }
+
+  p {
+    @apply text-body text-neutral-700 leading-relaxed;
   }
 }
 
 @layer components {
   .section-title {
-    @apply text-4xl md:text-5xl font-bold text-center text-africagua-dark-teal relative;
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeInUp 0.6s ease forwards;
-    padding-bottom: 2rem;
-    line-height: 1.4;
-    margin-bottom: 4rem;
+    @apply text-h2 md:text-h1 text-center text-neutral-900 mb-12;
   }
 
-  .section-title.gradient-text {
-    @apply bg-gradient-to-r from-africagua-dark-teal to-blue-600 bg-clip-text text-transparent;
-    padding-bottom: 0.5rem;
-    line-height: 1.5;
-  }
-
-  .section-title::after {
-    content: '';
-    @apply absolute bottom-0 left-1/2 -translate-x-1/2 w-24 h-1 bg-africagua-dark-teal;
+  .section-subtitle {
+    @apply text-body-lg text-center text-neutral-600 max-w-3xl mx-auto mb-16;
   }
   
-  .card-hover {
-    @apply transition-all duration-500 hover:shadow-xl backdrop-blur-sm bg-white/90 hover:scale-[1.02];
-    animation: fadeIn 0.6s ease backwards;
+  .card {
+    @apply bg-white rounded-lg border border-neutral-200 shadow-soft hover:shadow-medium transition-all duration-300;
+  }
+
+  .card-elevated {
+    @apply bg-white rounded-xl shadow-medium hover:shadow-large transition-all duration-300;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 bg-ocean-600 text-white font-medium rounded-lg hover:bg-ocean-700 transition-all duration-300 shadow-ocean hover:shadow-large;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 bg-coral-500 text-white font-medium rounded-lg hover:bg-coral-600 transition-all duration-300 shadow-coral hover:shadow-large;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 border-2 border-ocean-600 text-ocean-600 font-medium rounded-lg hover:bg-ocean-50 transition-all duration-300;
+  }
+
+  .icon-container {
+    @apply w-12 h-12 rounded-lg bg-ocean-100 flex items-center justify-center text-ocean-600;
   }
 
   .section-bg {
-    @apply relative z-10;
+    @apply py-20 md:py-32 bg-white;
   }
 
-  .modern-grid {
-    @apply grid gap-8 md:grid-cols-2 lg:grid-cols-3;
-  }
-
-  .modern-card {
-    @apply bg-white shadow-lg overflow-hidden transform transition-all duration-300 hover:shadow-2xl hover:scale-[1.02];
-  }
-
-  .modern-icon-container {
-    @apply w-14 h-14 bg-teal-600 flex items-center justify-center text-white mb-6;
-  }
-
-  .modern-text {
-    @apply text-gray-700 leading-relaxed;
-  }
-
-  .modern-title {
-    @apply text-xl font-bold text-gray-900 mb-4;
-  }
-
-  .modern-subtitle {
-    @apply text-lg font-semibold text-gray-800 mb-3;
-  }
-
-  .modern-link {
-    @apply text-teal-600 hover:text-teal-700 transition-colors inline-flex items-center gap-2;
-  }
-
-  .modern-button {
-    @apply bg-teal-600 text-white px-8 py-3 font-medium transition-all duration-300 hover:shadow-lg hover:scale-105 hover:bg-teal-700 inline-flex items-center gap-2;
+  .section-bg-alt {
+    @apply py-20 md:py-32 bg-neutral-50;
   }
 }
 
@@ -114,93 +108,57 @@
   to { opacity: 1; }
 }
 
-@keyframes pulse-glow {
-  0%, 100% {
-    opacity: 1;
-    transform: scale(1);
-    color: rgb(220, 38, 38);
-  }
-  50% {
-    opacity: 0.85;
-    transform: scale(1.05);
-    color: rgb(239, 68, 68);
-  }
-}
-
-.pulse-attention {
-  animation: pulse-glow 1.5s ease-in-out infinite;
-  font-weight: 600;
-}
-
-/* Modern Grid Layout Animations */
-.grid-item-appear {
-  animation: gridItemAppear 0.6s ease forwards;
-  opacity: 0;
-  transform: translateY(20px);
-}
-
-@keyframes gridItemAppear {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 /* Prose Styles */
 .prose {
-  @apply text-gray-700;
+  @apply text-neutral-700;
 }
 
 .prose h1, .prose h2, .prose h3, .prose h4 {
-  @apply text-gray-900 font-bold mt-8 mb-4;
+  @apply text-neutral-900 font-bold mt-8 mb-4;
 }
 
 .prose h1 {
-  @apply text-3xl;
+  @apply text-h2;
 }
 
 .prose h2 {
-  @apply text-2xl;
+  @apply text-h3;
 }
 
 .prose h3 {
-  @apply text-xl;
+  @apply text-h4;
 }
 
 .prose h4 {
-  @apply text-lg;
+  @apply text-xl;
 }
 
 .prose p {
-  @apply mb-4 text-justify leading-relaxed;
+  @apply mb-6 leading-relaxed text-body-lg;
 }
 
 .prose ul {
-  @apply list-disc pl-6 mb-4;
+  @apply list-disc pl-6 mb-6 space-y-2;
 }
 
 .prose li {
-  @apply mb-2 text-justify;
+  @apply text-body-lg;
 }
 
 .prose a {
-  @apply text-teal-600 hover:text-teal-700 transition-colors;
+  @apply text-ocean-600 hover:text-ocean-700 underline transition-colors;
 }
 
 .prose table {
-  @apply w-full mb-4;
+  @apply w-full mb-6 border border-neutral-200 rounded-lg overflow-hidden;
 }
 
 .prose table th {
-  @apply px-4 py-2 bg-gray-50 text-left font-medium text-gray-700;
+  @apply px-4 py-3 bg-neutral-100 text-left font-semibold text-neutral-900 border-b border-neutral-200;
 }
 
 .prose table td {
-  @apply px-4 py-2 border-t border-gray-200;
+  @apply px-4 py-3 border-b border-neutral-200;
 }
 
 /* Premium Program Page Styles */

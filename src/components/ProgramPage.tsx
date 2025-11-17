@@ -139,9 +139,9 @@ const ProgramPage = () => {
                 {getSessionIcon(session.type)}
               </div>
               <div className="flex flex-col sm:flex-row sm:items-center gap-2 flex-wrap">
-                <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-gradient-to-r from-navy-700 to-navy-800 rounded-full shadow-md border border-navy-600">
-                  <Clock className="w-4 h-4 text-gold-300" />
-                  <span className="font-semibold text-sm text-white">{session.time}</span>
+                <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-white rounded-full shadow-md border-2 border-slate-300">
+                  <Clock className="w-4 h-4 text-slate-900" />
+                  <span className="font-semibold text-sm text-slate-900">{session.time}</span>
                 </div>
                 {getSessionBadge(session.type)}
               </div>

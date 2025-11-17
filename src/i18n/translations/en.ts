@@ -542,8 +542,8 @@ export default {
       'Juanma Revuelta': {
         name: 'Juanma Revuelta',
         title: 'General Director of Finnova Foundation',
-        image: 'https://via.placeholder.com/400x400?text=Juanma+Revuelta',
-        bio: 'Biography pending update.'
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FJuan%20Manuel%20Revuelta.png?alt=media&token=cf0d8c58-ca2e-421c-a717-52f30ee97e93',
+        bio: 'With over 25 years of experience in Brussels, he leads European cooperation projects between Europe, the Canary Islands and Africa, such as sustainable mobility initiatives, clean energy and technology transfer. Under his direction, Finnova promotes programs such as StartUp Europe Awards and FU-Tourism Accelerator, in addition to participating in LIFE and Horizon Europe projects that strengthen international collaboration in the Atlantic and African sphere.'
       },
       'Silvia Rodríguez Pérez': {
         name: 'Silvia Rodríguez Pérez',

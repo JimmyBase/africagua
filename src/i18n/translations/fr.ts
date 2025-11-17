@@ -223,7 +223,7 @@ export default {
                 'Son Excellence M. Nani Juwara, Ministre de l\'Énergie, du Pétrole et des Mines de Gambie',
                 'Son Excellence Mme Lola García Martínez, Présidente du Conseil Insulaire de Fuerteventura',
                 'Son Excellence M. Cristóbal David de Vera Cabrera, Maire de Puerto del Rosario',
-                'M. Juan Jesús Rodríguez Marichal, Président de la Chambre Officielle de Commerce, Industrie, Services et Navigation de Fuerteventura'
+                'Président de la Chambre Officielle de Commerce, Industrie, Services et Navigation de Fuerteventura | Juan Jesús Rodríguez Marichal'
               ]
             },
             {
@@ -324,8 +324,13 @@ export default {
             },
             {
               time: '13:00 – 13:30',
-              title: 'Cérémonie de remise des Prix',
-              type: 'awards'
+              title: 'Cérémonie de remise des Prix Global Startup Competition',
+              type: 'awards',
+              description: 'Les présentations du Global Startup Competition réuniront les projets finalistes de diverses startups internationales. Les équipes présenteront leurs initiatives en présentiel et en ligne, car les entreprises participantes proviennent de pays tels que le Maroc, l\'\u00c9thiopie, le Kenya, l\'Espagne, l\'Inde et le Congo. Ce sera une opportunité de découvrir des propositions innovantes et de se connecter avec des talents entrepreneuriaux du monde entier.',
+              participants: [
+                'Président de la Chambre de Commerce | Juan Jesús Rodríguez Marichal',
+                'Javier Franco Hormiga, Agence Canarienne pour la Recherche, l\'Innovation et la Société de l\'Information'
+              ]
             }
           ]
         }
@@ -497,6 +502,12 @@ export default {
         title: 'Secrétaire Permanent du Ministère du Pétrole et de l\'Énergie de Gambie',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FLamin%20Camara.png?alt=media&token=5a2bb33b-9e5c-4e76-b000-dbcd2f8a8e45',
         bio: 'Lamin Camara est un administrateur public de haut niveau, reconnu pour son leadership stratégique et sa capacité à transformer les institutions grâce à l\'innovation technologique. Depuis 2017, il exerce en tant que Secrétaire Permanent du Ministère du Pétrole et de l\'Énergie de la République de Gambie, où il dirige les fonctions exécutives, impulse la modernisation administrative et garantit l\'exécution efficace des initiatives gouvernementales clés. Avec une solide formation internationale en gestion des communications et en administration des affaires, il se distingue par sa maîtrise de la Gestion du Changement et de l\'intégration de technologies qui optimisent les services publics. Son profil combine vision stratégique, capacité opérationnelle et un ferme engagement envers l\'excellence dans la gouvernance publique.'
+      },
+      'Juan Jesús Rodríguez Marichal': {
+        name: 'Juan Jesús Rodríguez Marichal',
+        title: 'Président de la Chambre de Commerce de Fuerteventura',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FJUAN%20JESUS.png?alt=media&token=59447b83-82ca-4487-b948-a673b82437f7',
+        bio: 'Président de la Chambre de Commerce de Fuerteventura depuis 2022. Économiste et expert en urbanisme, avec une vaste expérience dans le secteur entrepreneurial et de la construction. Il a dirigé des initiatives pour promouvoir l\'internationalisation, la connectivité et le développement durable aux Canaries. Il représente actuellement la Chambre auprès de l\'Autorité Portuaire et préside le Conseil Général des Chambres de Commerce des Canaries.'
       }
     },
     startup_competition: {

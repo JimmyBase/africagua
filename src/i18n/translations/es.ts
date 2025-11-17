@@ -223,7 +223,7 @@ export default {
                 'Excmo. Sr. D Nani Juwara, Ministro de Energía, Petróleo y Minas de Gambia',
                 'Ilma. Sra. Dª. Lola García Martínez, Presidenta del Cabildo de Fuerteventura',
                 'Ilmo. Sr. D. Cristóbal David de Vera Cabrera, Alcalde del Ayuntamiento de Puerto del Rosario',
-                'Sr. D. Juan Jesús Rodríguez Marichal, Presidente de la Cámara Oficial de Comercio, Industria, Servicios y Navegación de Fuerteventura'
+                'Presidente de la Cámara Oficial de Comercio, Industria, Servicios y Navegación de Fuerteventura | Juan Jesús Rodríguez Marichal'
               ]
             },
             {
@@ -351,7 +351,7 @@ export default {
               type: 'awards',
               description: 'Las presentaciones del Global Startup Competition reunirán a los proyectos finalistas de diversas startups internacionales. Los equipos presentarán sus iniciativas tanto de forma presencial como en línea, ya que las empresas participantes provienen de países como Marruecos, Etiopía, Kenia, España, India y Congo. Será una oportunidad para conocer propuestas innovadoras y conectar con talento emprendedor de todo el mundo.',
               participants: [
-                'Juan Jesús Rodríguez Marichal, Presidente de la Cámara de Comercio',
+                'Presidente de la Cámara de Comercio | Juan Jesús Rodríguez Marichal',
                 'Javier Franco Hormiga, Agencia Canaria de Investigación, Innovación y Sociedad de la Información'
               ]
             },
@@ -578,6 +578,12 @@ export default {
         title: 'Técnico Jurídico Dirección de Régimen Jurídico y Apoyo Legal a Internacionalización de GESPLAN',
         image: 'https://via.placeholder.com/400x400?text=Silvia+Rodriguez',
         bio: 'Biografía pendiente de actualización.'
+      },
+      'Juan Jesús Rodríguez Marichal': {
+        name: 'Juan Jesús Rodríguez Marichal',
+        title: 'Presidente de la Cámara de Comercio de Fuerteventura',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FJUAN%20JESUS.png?alt=media&token=59447b83-82ca-4487-b948-a673b82437f7',
+        bio: 'Presidente de la Cámara de Comercio de Fuerteventura desde 2022. Economista y experto en urbanismo, con amplia trayectoria en el sector empresarial y la construcción. Ha liderado iniciativas para impulsar la internacionalización, la conectividad y el desarrollo sostenible en Canarias. Actualmente representa a la Cámara en la Autoridad Portuaria y preside el Consejo General de Cámaras Canarias.'
       }
     },
     startup_competition: {

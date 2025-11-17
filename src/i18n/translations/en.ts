@@ -223,7 +223,7 @@ export default {
                 'His Excellency Mr. Nani Juwara, Minister of Energy, Petroleum and Mines of Gambia',
                 'Her Excellency Mrs. Lola García Martínez, President of the Fuerteventura Island Council',
                 'His Excellency Mr. Cristóbal David de Vera Cabrera, Mayor of Puerto del Rosario',
-                'Mr. Juan Jesús Rodríguez Marichal, President of the Official Chamber of Commerce, Industry, Services and Navigation of Fuerteventura'
+                'President of the Official Chamber of Commerce, Industry, Services and Navigation of Fuerteventura | Juan Jesús Rodríguez Marichal'
               ]
             },
             {
@@ -336,8 +336,13 @@ export default {
             },
             {
               time: '13:00 – 13:30',
-              title: 'Awards ceremony',
-              type: 'awards'
+              title: 'Global Startup Competition Awards Ceremony',
+              type: 'awards',
+              description: 'The Global Startup Competition presentations will bring together finalist projects from various international startups. Teams will present their initiatives both in person and online, as participating companies come from countries such as Morocco, Ethiopia, Kenya, Spain, India, and Congo. It will be an opportunity to discover innovative proposals and connect with entrepreneurial talent from around the world.',
+              participants: [
+                'President of the Chamber of Commerce | Juan Jesús Rodríguez Marichal',
+                'Javier Franco Hormiga, Canary Islands Agency for Research, Innovation and Information Society'
+              ]
             }
           ]
         }
@@ -545,6 +550,12 @@ export default {
         title: 'Legal Technician Legal Regime and Legal Support for Internationalization at GESPLAN',
         image: 'https://via.placeholder.com/400x400?text=Silvia+Rodriguez',
         bio: 'Biography pending update.'
+      },
+      'Juan Jesús Rodríguez Marichal': {
+        name: 'Juan Jesús Rodríguez Marichal',
+        title: 'President of the Fuerteventura Chamber of Commerce',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FJUAN%20JESUS.png?alt=media&token=59447b83-82ca-4487-b948-a673b82437f7',
+        bio: 'President of the Fuerteventura Chamber of Commerce since 2022. Economist and urban planning expert with extensive experience in the business and construction sectors. He has led initiatives to promote internationalization, connectivity, and sustainable development in the Canary Islands. He currently represents the Chamber at the Port Authority and chairs the General Council of Canary Island Chambers of Commerce.'
       }
     },
     startup_competition: {

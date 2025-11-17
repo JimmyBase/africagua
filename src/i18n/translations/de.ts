@@ -491,12 +491,6 @@ export default {
         title: 'Minister für Erdöl und Energie, Regierung der Republik Gambia',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FNani%20Juwara.png?alt=media&token=d4f8f07b-2dde-4458-9216-368fb136b8b0',
         bio: 'Er ist eine Führungspersönlichkeit mit umfangreicher Erfahrung im Energiesektor Gambias, unterstützt durch internationale Ausbildung in Verwaltung, Entwicklung und strategischem Management. Er hat Schlüsselpositionen bei NAWEC inne, vom stellvertretenden Direktor bis zum Geschäftsführer, und ist derzeit Minister für Erdöl und Energie. Im Laufe seiner Karriere hat er wichtige Projekte zur Elektrifizierungsmodernisierung geleitet, die von internationalen Organisationen —einschließlich der Weltbank, ECOWAS und AfDB— finanziert wurden, und hat das nationale Ziel des universellen Zugangs zu Elektrizität bis 2025 vorangetrieben. Seine Laufbahn verbindet Führungsmanagement, Überwachung von Infrastrukturprojekten und technische und finanzielle Zertifizierungen, die seine Führungsrolle in der Energieentwicklung des Landes stärken.'
-      },
-      'Lamin Camara': {
-        name: 'Lamin Camara',
-        title: 'Ständiger Sekretär des Ministeriums für Erdöl und Energie von Gambia',
-        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FLamin%20Camara.png?alt=media&token=5a2bb33b-9e5c-4e76-b000-dbcd2f8a8e45',
-        bio: 'Lamin Camara ist ein hochrangiger öffentlicher Verwaltungsbeamter, anerkannt für seine strategische Führung und seine Fähigkeit, Institutionen durch technologische Innovation zu transformieren. Seit 2017 ist er als Ständiger Sekretär des Ministeriums für Erdöl und Energie der Republik Gambia tätig, wo er Führungsfunktionen leitet, die administrative Modernisierung vorantreibt und die effiziente Umsetzung wichtiger Regierungsinitiativen gewährleistet. Mit einer soliden internationalen Ausbildung in Kommunikationsmanagement und Betriebswirtschaft zeichnet er sich durch seine Expertise im Change Management und in der Integration von Technologien zur Optimierung öffentlicher Dienstleistungen aus. Sein Profil vereint strategische Vision, operative Fähigkeiten und ein festes Engagement für Exzellenz in der öffentlichen Verwaltung.'
       }
     },
     startup_competition: {

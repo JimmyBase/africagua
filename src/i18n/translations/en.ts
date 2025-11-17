@@ -507,8 +507,8 @@ export default {
       'Lamin Camara': {
         name: 'Lamin Camara',
         title: 'Permanent Secretary of the Ministry of Petroleum and Energy of Gambia',
-        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FLamin%20Camara.png?alt=media&token=5a2bb33b-9e5c-4e76-b000-dbcd2f8a8e45',
-        bio: 'Lamin Camara is a senior public administrator recognized for his strategic leadership and ability to transform institutions through technological innovation. Since 2017, he has served as Permanent Secretary of the Ministry of Petroleum and Energy of the Republic of The Gambia, where he directs executive functions, drives administrative modernization, and ensures the efficient execution of key government initiatives. With solid international training in communications management and business administration, he stands out for his expertise in Change Management and in the integration of technologies that optimize public services. His profile combines strategic vision, operational capability, and a firm commitment to excellence in public governance.'
+        image: 'https://via.placeholder.com/400x400?text=Lamin+Camara',
+        bio: 'Biography pending update.'
       },
       'Tarik Hamane': {
         name: 'Tarik Hamane',

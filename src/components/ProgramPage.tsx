@@ -32,12 +32,29 @@ const ProgramPage = () => {
     setExpandedSpeaker(prev => prev === profileKey ? null : profileKey);
   };
 
-  const extractSpeakerName = (participantText: string): string => {
+  const extractSpeakerNames = (participantText: string): string[] => {
     const parts = participantText.split('|');
     if (parts.length > 1) {
-      return parts[1].trim();
+      const namesText = parts[1].trim();
+      const separators = [' y ', ' and ', ' und ', ' et ', ' e '];
+
+      for (const separator of separators) {
+        if (namesText.includes(separator)) {
+          return namesText.split(separator).map(name => name.trim());
+        }
+      }
+
+      return [namesText];
     }
-    return '';
+    return [];
+  };
+
+  const extractRolePrefix = (participantText: string): string => {
+    const parts = participantText.split('|');
+    if (parts.length > 1) {
+      return parts[0].trim();
+    }
+    return participantText;
   };
 
   const getSpeakerProfile = (speakerName: string) => {
@@ -139,51 +156,117 @@ const ProgramPage = () => {
                 </div>
                 <ul className="space-y-3 ml-6">
                   {session.participants.map((participant: string, idx: number) => {
-                    const speakerName = extractSpeakerName(participant);
-                    const profile = getSpeakerProfile(speakerName);
-                    const profileKey = `${sessionId}-${idx}`;
-                    const isProfileExpanded = expandedSpeaker === profileKey;
+                    const speakerNames = extractSpeakerNames(participant);
+                    const rolePrefix = extractRolePrefix(participant);
+                    const hasSeparator = participant.includes('|');
 
                     return (
                       <li key={idx} className="flex flex-col gap-3">
                         <div className="flex items-start gap-3 group/item">
                           <div className="w-1.5 h-1.5 bg-cyan-500 rounded-full flex-shrink-0 mt-2 group-hover/item:scale-125 transition-transform"></div>
                           <div className="flex-grow">
-                            <span className="text-gray-700 leading-relaxed">{participant}</span>
-                            {profile && (
-                              <button
-                                onClick={(e) => {
-                                  e.stopPropagation();
-                                  toggleSpeakerProfile(sessionId, idx.toString());
-                                }}
-                                className="ml-3 inline-flex items-center gap-1 text-xs text-teal-600 hover:text-teal-700 font-medium transition-colors"
-                              >
-                                <User className="w-3.5 h-3.5" />
-                                {isProfileExpanded ? 'Ocultar' : 'Ver'} biografía
-                                <ChevronDown className={`w-3.5 h-3.5 transition-transform ${isProfileExpanded ? 'rotate-180' : ''}`} />
-                              </button>
+                            {hasSeparator && speakerNames.length > 0 ? (
+                              <div className="text-gray-700 leading-relaxed">
+                                <span>{rolePrefix} | </span>
+                                {speakerNames.map((name, nameIdx) => {
+                                  const profile = getSpeakerProfile(name);
+                                  const profileKey = `${sessionId}-${idx}-${nameIdx}`;
+                                  const isProfileExpanded = expandedSpeaker === profileKey;
+
+                                  return (
+                                    <span key={nameIdx}>
+                                      <span className="font-medium">{name}</span>
+                                      {profile && (
+                                        <>
+                                          <button
+                                            onClick={(e) => {
+                                              e.stopPropagation();
+                                              toggleSpeakerProfile(sessionId, `${idx}-${nameIdx}`);
+                                            }}
+                                            className="ml-2 inline-flex items-center gap-1 text-xs text-teal-600 hover:text-teal-700 font-medium transition-colors"
+                                          >
+                                            <User className="w-3.5 h-3.5" />
+                                            {isProfileExpanded ? 'Ocultar' : 'Ver'} biografía
+                                            <ChevronDown className={`w-3.5 h-3.5 transition-transform ${isProfileExpanded ? 'rotate-180' : ''}`} />
+                                          </button>
+                                          {isProfileExpanded && (
+                                            <div className="ml-5 mt-3 mb-3 p-4 bg-white rounded-lg shadow-lg border-2 border-teal-100 animate-fadeIn">
+                                              <div className="flex flex-col md:flex-row gap-4">
+                                                <div className="flex-shrink-0 flex items-center justify-center md:items-start">
+                                                  <img
+                                                    src={profile.image}
+                                                    alt={profile.name}
+                                                    className="w-32 h-32 rounded-lg object-cover object-top shadow-md"
+                                                  />
+                                                </div>
+                                                <div className="flex-grow">
+                                                  <h5 className="text-lg font-bold text-gray-900 mb-1">{profile.name}</h5>
+                                                  <p className="text-sm font-semibold text-teal-600 mb-3">{profile.title}</p>
+                                                  <p className="text-sm text-gray-700 leading-relaxed text-justify">{profile.bio}</p>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          )}
+                                        </>
+                                      )}
+                                      {nameIdx < speakerNames.length - 1 && (
+                                        <span className="mx-1">
+                                          {participant.includes(' y ') ? ' y ' :
+                                           participant.includes(' and ') ? ' and ' :
+                                           participant.includes(' und ') ? ' und ' :
+                                           participant.includes(' et ') ? ' et ' : ' e '}
+                                        </span>
+                                      )}
+                                    </span>
+                                  );
+                                })}
+                              </div>
+                            ) : (
+                              <>
+                                <span className="text-gray-700 leading-relaxed">{participant}</span>
+                                {speakerNames.length === 1 && (() => {
+                                  const profile = getSpeakerProfile(speakerNames[0]);
+                                  const profileKey = `${sessionId}-${idx}`;
+                                  const isProfileExpanded = expandedSpeaker === profileKey;
+
+                                  return profile ? (
+                                    <>
+                                      <button
+                                        onClick={(e) => {
+                                          e.stopPropagation();
+                                          toggleSpeakerProfile(sessionId, idx.toString());
+                                        }}
+                                        className="ml-3 inline-flex items-center gap-1 text-xs text-teal-600 hover:text-teal-700 font-medium transition-colors"
+                                      >
+                                        <User className="w-3.5 h-3.5" />
+                                        {isProfileExpanded ? 'Ocultar' : 'Ver'} biografía
+                                        <ChevronDown className={`w-3.5 h-3.5 transition-transform ${isProfileExpanded ? 'rotate-180' : ''}`} />
+                                      </button>
+                                      {isProfileExpanded && (
+                                        <div className="ml-5 mt-2 p-4 bg-white rounded-lg shadow-lg border-2 border-teal-100 animate-fadeIn">
+                                          <div className="flex flex-col md:flex-row gap-4">
+                                            <div className="flex-shrink-0 flex items-center justify-center md:items-start">
+                                              <img
+                                                src={profile.image}
+                                                alt={profile.name}
+                                                className="w-32 h-32 rounded-lg object-cover object-top shadow-md"
+                                              />
+                                            </div>
+                                            <div className="flex-grow">
+                                              <h5 className="text-lg font-bold text-gray-900 mb-1">{profile.name}</h5>
+                                              <p className="text-sm font-semibold text-teal-600 mb-3">{profile.title}</p>
+                                              <p className="text-sm text-gray-700 leading-relaxed text-justify">{profile.bio}</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      )}
+                                    </>
+                                  ) : null;
+                                })()}
+                              </>
                             )}
                           </div>
                         </div>
-
-                        {profile && isProfileExpanded && (
-                          <div className="ml-5 mt-2 p-4 bg-white rounded-lg shadow-lg border-2 border-teal-100 animate-fadeIn">
-                            <div className="flex flex-col md:flex-row gap-4">
-                              <div className="flex-shrink-0 flex items-center justify-center md:items-start">
-                                <img
-                                  src={profile.image}
-                                  alt={profile.name}
-                                  className="w-32 h-32 rounded-lg object-cover object-top shadow-md"
-                                />
-                              </div>
-                              <div className="flex-grow">
-                                <h5 className="text-lg font-bold text-gray-900 mb-1">{profile.name}</h5>
-                                <p className="text-sm font-semibold text-teal-600 mb-3">{profile.title}</p>
-                                <p className="text-sm text-gray-700 leading-relaxed text-justify">{profile.bio}</p>
-                              </div>
-                            </div>
-                          </div>
-                        )}
                       </li>
                     );
                   })}

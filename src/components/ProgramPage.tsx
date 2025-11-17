@@ -95,22 +95,6 @@ const ProgramPage = () => {
     }
   };
 
-  const getSessionBadge = (type: string) => {
-    switch (type) {
-      case 'opening':
-        return <span className="premium-badge badge-keynote">Apertura</span>;
-      case 'panel':
-        return <span className="premium-badge badge-panel">Panel</span>;
-      case 'presentation':
-        return <span className="premium-badge badge-workshop">Presentación</span>;
-      case 'awards':
-        return <span className="premium-badge badge-keynote">Premios</span>;
-      case 'break':
-        return <span className="premium-badge badge-break">Pausa</span>;
-      default:
-        return null;
-    }
-  };
 
   const renderSession = (session: any, index: number, dayKey: string, venueKey: string = '') => {
     const sessionId = `${dayKey}-${venueKey}-${index}`;
@@ -143,7 +127,6 @@ const ProgramPage = () => {
                   <Clock className="w-4 h-4 text-slate-900" />
                   <span className="font-semibold text-sm text-slate-900">{session.time}</span>
                 </div>
-                {getSessionBadge(session.type)}
               </div>
             </div>
 

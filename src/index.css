@@ -202,3 +202,126 @@
 .prose table td {
   @apply px-4 py-2 border-t border-gray-200;
 }
+
+/* Premium Program Page Styles */
+.glass-effect {
+  @apply bg-white/10 backdrop-blur-lg border border-white/20;
+}
+
+.gradient-navy-gold {
+  @apply bg-gradient-to-br from-navy-800 via-navy-700 to-navy-900;
+}
+
+.gradient-gold-shimmer {
+  background: linear-gradient(
+    90deg,
+    rgba(245, 158, 11, 0.1) 0%,
+    rgba(245, 158, 11, 0.3) 50%,
+    rgba(245, 158, 11, 0.1) 100%
+  );
+  background-size: 200% 100%;
+}
+
+.text-gradient-gold {
+  @apply bg-gradient-to-r from-gold-400 via-gold-500 to-gold-600 bg-clip-text text-transparent;
+}
+
+.text-gradient-navy {
+  @apply bg-gradient-to-r from-navy-600 via-navy-700 to-navy-800 bg-clip-text text-transparent;
+}
+
+.session-card-premium {
+  @apply relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] overflow-hidden;
+  border: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+.session-card-premium::before {
+  content: '';
+  @apply absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-navy-600 via-gold-500 to-navy-600;
+  background-size: 200% 100%;
+}
+
+.floating-nav {
+  @apply fixed right-8 top-1/2 -translate-y-1/2 z-40 space-y-3;
+}
+
+.timeline-connector {
+  @apply absolute left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-navy-300 via-gold-400 to-navy-300;
+}
+
+.speaker-card-hover {
+  @apply transition-all duration-300 hover:scale-105 hover:shadow-xl cursor-pointer;
+}
+
+.bookmark-button {
+  @apply p-2 rounded-full transition-all duration-300 hover:bg-gold-50 hover:scale-110;
+}
+
+.bookmark-button.active {
+  @apply bg-gold-100 text-gold-600;
+  animation: pulse 1s ease-in-out;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+.filter-chip {
+  @apply px-4 py-2 rounded-full border-2 border-slate-200 bg-white text-slate-700 cursor-pointer transition-all duration-300 hover:border-navy-500 hover:bg-navy-50 hover:text-navy-700;
+}
+
+.filter-chip.active {
+  @apply border-navy-600 bg-navy-600 text-white shadow-lg;
+}
+
+.day-selector {
+  @apply inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold transition-all duration-300 cursor-pointer;
+}
+
+.day-selector.active {
+  @apply bg-gradient-to-r from-navy-700 to-navy-800 text-white shadow-xl;
+}
+
+.day-selector:not(.active) {
+  @apply bg-slate-100 text-slate-700 hover:bg-slate-200;
+}
+
+.premium-badge {
+  @apply inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide;
+}
+
+.badge-keynote {
+  @apply bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-glow-gold;
+}
+
+.badge-panel {
+  @apply bg-gradient-to-r from-navy-600 to-navy-700 text-white;
+}
+
+.badge-workshop {
+  @apply bg-gradient-to-r from-blue-500 to-blue-600 text-white;
+}
+
+.badge-break {
+  @apply bg-slate-200 text-slate-700;
+}
+
+.skeleton-loader {
+  @apply bg-gradient-to-r from-slate-200 via-slate-300 to-slate-200 animate-shimmer bg-200;
+}
+
+.parallax-bg {
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .session-card-premium,
+  .speaker-card-hover,
+  .filter-chip,
+  .day-selector {
+    transition: none;
+    animation: none;
+  }
+}

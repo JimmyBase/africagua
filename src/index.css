@@ -17,35 +17,35 @@
   }
 
   h1 {
-    @apply text-h1 text-neutral-900;
+    @apply text-5xl font-bold text-neutral-900;
   }
 
   h2 {
-    @apply text-h2 text-neutral-900;
+    @apply text-4xl font-bold text-neutral-900;
   }
 
   h3 {
-    @apply text-h3 text-neutral-800;
+    @apply text-3xl font-semibold text-neutral-800;
   }
 
   h4 {
-    @apply text-h4 text-neutral-800;
+    @apply text-2xl font-semibold text-neutral-800;
   }
 
   p {
-    @apply text-body text-neutral-700 leading-relaxed;
+    @apply text-base text-neutral-700 leading-relaxed;
   }
 }
 
 @layer components {
   .section-title {
-    @apply text-h2 md:text-h1 text-center text-neutral-900 mb-12;
+    @apply text-3xl md:text-5xl font-bold text-center text-neutral-900 mb-12;
   }
 
   .section-subtitle {
-    @apply text-body-lg text-center text-neutral-600 max-w-3xl mx-auto mb-16;
+    @apply text-lg text-center text-neutral-600 max-w-3xl mx-auto mb-16 leading-relaxed;
   }
-  
+
   .card {
     @apply bg-white rounded-lg border border-neutral-200 shadow-soft hover:shadow-medium transition-all duration-300;
   }
@@ -118,23 +118,23 @@
 }
 
 .prose h1 {
-  @apply text-h2;
+  @apply text-3xl;
 }
 
 .prose h2 {
-  @apply text-h3;
+  @apply text-2xl;
 }
 
 .prose h3 {
-  @apply text-h4;
-}
-
-.prose h4 {
   @apply text-xl;
 }
 
+.prose h4 {
+  @apply text-lg;
+}
+
 .prose p {
-  @apply mb-6 leading-relaxed text-body-lg;
+  @apply mb-6 leading-relaxed text-lg;
 }
 
 .prose ul {
@@ -142,7 +142,7 @@
 }
 
 .prose li {
-  @apply text-body-lg;
+  @apply text-lg;
 }
 
 .prose a {

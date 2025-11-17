@@ -378,11 +378,11 @@ const ProgramPage = () => {
 
                 {programData.days.day1.sala_a && (
                   <div className="mt-12">
-                    <div className="flex items-center gap-4 mb-8 p-6 bg-gradient-to-r from-navy-700 to-navy-800 rounded-2xl shadow-xl">
-                      <div className="p-3 bg-gold-500/20 rounded-xl shadow-md border-2 border-gold-400/30">
-                        <Building2 className="w-6 h-6 text-gold-300" />
+                    <div className="flex items-center gap-4 mb-8 p-6 bg-white rounded-2xl shadow-xl border-2 border-slate-300">
+                      <div className="p-3 bg-slate-100 rounded-xl shadow-md border-2 border-slate-300">
+                        <Building2 className="w-6 h-6 text-slate-900" />
                       </div>
-                      <h3 className="text-2xl sm:text-3xl font-extrabold text-white">{programData.days.day1.sala_a.venue}</h3>
+                      <h3 className="text-2xl sm:text-3xl font-extrabold text-slate-900">{programData.days.day1.sala_a.venue}</h3>
                     </div>
                     {programData.days.day1.sala_a.sessions.map((session: any, index: number) =>
                       renderSession(session, index, 'day1', 'sala_a')

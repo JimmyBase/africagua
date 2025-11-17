@@ -313,7 +313,8 @@ export default {
               type: 'panel',
               moderator: 'Francisco Daniel Martínez, Agregado Comercial de Mauritania',
               participants: [
-                'Área de Promoción de Proexca. Programa Canarias Know How | Mar Naranjo Suárez y Silvia Camacho Martín',
+                'Área de Promoción de Proexca. Programa Canarias Know How | Mar Naranjo Suárez',
+                'Área de Promoción de Proexca. Programa Canarias Know How | Silvia Camacho Martín',
                 'Director de Proyectos de GESPLAN | Miguel Ángel Pérez',
                 'Responsable de la Antena ICEX Multilaterales en Costa de Marfil | Diego Uriel Gálvez'
               ]
@@ -503,6 +504,12 @@ export default {
         title: 'Área de Promoción Exterior',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FMar%20Naranjo%20Suarez.png?alt=media&token=6a54a61c-3ae3-4346-af0e-de9194e06f4d',
         bio: 'Con formación en Derecho, Diplomacia y Relaciones Internacionales, Internacionalización de Empresas y Administración y Dirección de Empresas, inició su trayectoria profesional como representante legal de la Fundación Canaria para la Acción Exterior (Fucaex) en Mauritania, donde trabajó en la promoción económica y la cooperación institucional y empresarial entre Canarias y este país de África Occidental. Con más de siete años de experiencia en desarrollo de negocio internacional, ha liderado proyectos de expansión, atracción de inversión y promoción exterior en sectores estratégicos en la región. Actualmente, como parte del equipo del Área de Promoción Exterior de Proexca, centra su labor en la promoción de las empresas canarias en el exterior, impulsando, entre otros sectores, la exportación del conocimiento y la experiencia de nuestro tejido empresarial.'
+      },
+      'Silvia Camacho Martín': {
+        name: 'Silvia Camacho Martín',
+        title: 'Técnico en Promoción Exterior en Proexca',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FSilvia%20Camacho%20-%20Mart%C3%ADn.png?alt=media&token=506943ff-cf22-424a-a3df-680c27cfcab7',
+        bio: 'Técnico en Promoción Exterior en Proexca. Ha sido coordinadora del programa de licitaciones internacionales durante 3 años. Ha visitado diferentes organismos multilaterales, tales como la sede del Banco Mundial en Washington D.C. y el Banco Africano de Desarrollo en Abidjan, acercándose a sus políticas, normativas y prioridades, así como países beneficiarios, en los que hay proyectados o se están desarrollando proyectos. Ha formado parte de redes globales para la detección de oportunidades y acercamiento entre socios la participación en procesos de licitaciones internacionales. Previamente, ha desempeñado otros roles clave en este ámbito, como responsable de desarrollo de negocio internacional. Silvia posee un Máster en International Business y una Licenciatura en Administración y Dirección de Empresas Internacionales, y diversas experiencias profesionales a nivel internacional, siempre en el ámbito del desarrollo de negocio para los sectores prioritarios de la economía canaria.'
       },
       'Daniel Jacobo Orea': {
         name: 'Daniel Jacobo Orea',

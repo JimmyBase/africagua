@@ -315,7 +315,7 @@ export default {
               participants: [
                 'Consejero Delegado Proexca | Pablo Martín Carbajal',
                 'Consejero Económico y Comercial de la Oficina Económica y Comercial de España en Dakar | Daniel Jacobo Orea',
-                'Director General de la Fundación Finnova | Juanma Revuelta',
+                'Director General de la Fundación Finnova | Juan Manuel Revuelta',
                 'ITERREG MAC (pendiente)'
               ]
             },
@@ -567,8 +567,8 @@ export default {
         image: 'https://via.placeholder.com/400x400?text=Rafael+Molina',
         bio: 'Biografía pendiente de actualización.'
       },
-      'Juanma Revuelta': {
-        name: 'Juanma Revuelta',
+      'Juan Manuel Revuelta': {
+        name: 'Juan Manuel Revuelta',
         title: 'Director General de la Fundación Finnova',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FJuan%20Manuel%20Revuelta.png?alt=media&token=cf0d8c58-ca2e-421c-a717-52f30ee97e93',
         bio: 'Con más de 25 años de experiencia en Bruselas, lidera proyectos europeos de cooperación entre Europa, Canarias y África, como iniciativas de movilidad sostenible, energías limpias y transferencia tecnológica. Bajo su dirección, Finnova promueve programas como StartUp Europe Awards y FU-Tourism Accelerator, además de participar en proyectos LIFE y Horizon Europe que fortalecen la colaboración internacional en el ámbito atlántico y africano.'

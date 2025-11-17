@@ -509,8 +509,8 @@ export default {
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FJUAN%20JESUS.png?alt=media&token=59447b83-82ca-4487-b948-a673b82437f7',
         bio: 'Président de la Chambre de Commerce de Fuerteventura depuis 2022. Économiste et expert en urbanisme, avec une vaste expérience dans le secteur entrepreneurial et de la construction. Il a dirigé des initiatives pour promouvoir l\'internationalisation, la connectivité et le développement durable aux Canaries. Il représente actuellement la Chambre auprès de l\'Autorité Portuaire et préside le Conseil Général des Chambres de Commerce des Canaries.'
       },
-      'Juanma Revuelta': {
-        name: 'Juanma Revuelta',
+      'Juan Manuel Revuelta': {
+        name: 'Juan Manuel Revuelta',
         title: 'Directeur Général de la Fondation Finnova',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FJuan%20Manuel%20Revuelta.png?alt=media&token=cf0d8c58-ca2e-421c-a717-52f30ee97e93',
         bio: 'Avec plus de 25 ans d\'expérience à Bruxelles, il dirige des projets européens de coopération entre l\'Europe, les Canaries et l\'Afrique, tels que des initiatives de mobilité durable, d\'énergies propres et de transfert technologique. Sous sa direction, Finnova promeut des programmes comme StartUp Europe Awards et FU-Tourism Accelerator, en plus de participer à des projets LIFE et Horizon Europe qui renforcent la collaboration internationale dans le domaine atlantique et africain.'

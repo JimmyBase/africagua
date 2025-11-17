@@ -509,8 +509,8 @@ export default {
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FJUAN%20JESUS.png?alt=media&token=59447b83-82ca-4487-b948-a673b82437f7',
         bio: 'Präsident der Handelskammer von Fuerteventura seit 2022. Ökonom und Experte für Stadtplanung, mit umfangreicher Erfahrung im Unternehmens- und Bausektor. Er hat Initiativen zur Förderung der Internationalisierung, Konnektivität und nachhaltigen Entwicklung auf den Kanarischen Inseln geleitet. Er vertritt derzeit die Kammer in der Hafenbehörde und präsidiert den Generalrat der Kanarischen Handelskammern.'
       },
-      'Juanma Revuelta': {
-        name: 'Juanma Revuelta',
+      'Juan Manuel Revuelta': {
+        name: 'Juan Manuel Revuelta',
         title: 'Generaldirektor der Finnova-Stiftung',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FJuan%20Manuel%20Revuelta.png?alt=media&token=cf0d8c58-ca2e-421c-a717-52f30ee97e93',
         bio: 'Mit über 25 Jahren Erfahrung in Brüssel leitet er europäische Kooperationsprojekte zwischen Europa, den Kanarischen Inseln und Afrika, wie Initiativen für nachhaltige Mobilität, saubere Energie und Technologietransfer. Unter seiner Leitung fördert Finnova Programme wie StartUp Europe Awards und FU-Tourism Accelerator sowie die Teilnahme an LIFE- und Horizon Europe-Projekten, die die internationale Zusammenarbeit im atlantischen und afrikanischen Raum stärken.'

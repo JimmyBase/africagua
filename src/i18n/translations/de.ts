@@ -315,7 +315,8 @@ export default {
             {
               time: '11:30 – 12:30',
               title: 'Präsentationen der Finalisten des Global Startup Wettbewerbs',
-              type: 'presentation'
+              type: 'presentation',
+              description: 'Die Präsentationen des Global Startup Competition werden Finalistenprojekte verschiedener internationaler Startups zusammenbringen. Die Teams werden ihre Initiativen sowohl persönlich als auch online präsentieren, da die teilnehmenden Unternehmen aus Ländern wie Marokko, Äthiopien, Kenia, Spanien, Indien und Kongo stammen. Es wird eine Gelegenheit sein, innovative Vorschläge zu entdecken und sich mit unternehmerischem Talent aus der ganzen Welt zu vernetzen.'
             },
             {
               time: '12:30 – 13:00',
@@ -326,7 +327,6 @@ export default {
               time: '13:00 – 13:30',
               title: 'Preisverleihung Global Startup Competition',
               type: 'awards',
-              description: 'Die Präsentationen des Global Startup Competition werden Finalistenprojekte verschiedener internationaler Startups zusammenbringen. Die Teams werden ihre Initiativen sowohl persönlich als auch online präsentieren, da die teilnehmenden Unternehmen aus Ländern wie Marokko, Äthiopien, Kenia, Spanien, Indien und Kongo stammen. Es wird eine Gelegenheit sein, innovative Vorschläge zu entdecken und sich mit unternehmerischem Talent aus der ganzen Welt zu vernetzen.',
               participants: [
                 'Präsident der Handelskammer | Juan Jesús Rodríguez Marichal',
                 'Javier Franco Hormiga, Kanarische Agentur für Forschung, Innovation und Informationsgesellschaft'

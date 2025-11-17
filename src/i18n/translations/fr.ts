@@ -315,7 +315,8 @@ export default {
             {
               time: '11:30 – 12:30',
               title: 'Présentations des finalistes de la Global startup competition',
-              type: 'presentation'
+              type: 'presentation',
+              description: 'Les présentations du Global Startup Competition réuniront les projets finalistes de diverses startups internationales. Les équipes présenteront leurs initiatives en présentiel et en ligne, car les entreprises participantes proviennent de pays tels que le Maroc, l\'\u00c9thiopie, le Kenya, l\'Espagne, l\'Inde et le Congo. Ce sera une opportunité de découvrir des propositions innovantes et de se connecter avec des talents entrepreneuriaux du monde entier.'
             },
             {
               time: '12:30 – 13:00',
@@ -326,7 +327,6 @@ export default {
               time: '13:00 – 13:30',
               title: 'Cérémonie de remise des Prix Global Startup Competition',
               type: 'awards',
-              description: 'Les présentations du Global Startup Competition réuniront les projets finalistes de diverses startups internationales. Les équipes présenteront leurs initiatives en présentiel et en ligne, car les entreprises participantes proviennent de pays tels que le Maroc, l\'\u00c9thiopie, le Kenya, l\'Espagne, l\'Inde et le Congo. Ce sera une opportunité de découvrir des propositions innovantes et de se connecter avec des talents entrepreneuriaux du monde entier.',
               participants: [
                 'Président de la Chambre de Commerce | Juan Jesús Rodríguez Marichal',
                 'Javier Franco Hormiga, Agence Canarienne pour la Recherche, l\'Innovation et la Société de l\'Information'

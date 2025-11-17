@@ -232,11 +232,11 @@ export default {
               type: 'panel',
               moderator: 'Cheik Diouf Faye, Manager of RAESA in Senegal',
               participants: [
-                'Director of the Ministry of Water Resources, Works and Housing of Ghana | Kwabena Gyasi-Duku',
+                'Permanent Secretary of the Ministry of Petroleum and Energy of Gambia | Lamin Camara',
                 'Technical Coordinator of the National Water Company of Senegal (SONES) | El Hadj Ada NDAO',
-                'Advisor to the Prime Minister in charge of Water and Sanitation | Mohamed Kankou',
+                'Advisor to the Prime Minister in charge of Water and Sanitation of Mauritania | Mohamed Kankou',
                 'Executive Director of the Board of Directors of the National Water and Sanitation Agency of Cape Verde (ANAS) | Hipólito Gonçalves',
-                'Director General of the National Office of Electricity and Drinking Water (ONEE) | Tarik Hammane (pending)'
+                'Director General of the National Office of Electricity and Drinking Water of Morocco (ONEE) | Tarik Hamane'
               ]
             },
             {
@@ -254,9 +254,10 @@ export default {
                 type: 'panel',
                 moderator: 'Luis Padilla Macabeo, General Director of Relations with Africa of the Government of the Canary Islands',
                 participants: [
-                  'Director of the Senegalese Rural Electricity Agency (ASER) | Jean Michel Sené Lat Ndame Ndiaye',
                   'Minister of Energy, Petroleum and Mines of Gambia | Nani Juwara',
-                  'Sustainable Energy Policy Officer, ECOWAS Centre for Renewable Energy and Energy Efficiency (ECREEE) | Hyacinth Elayo'
+                  'Director of the Senegalese Rural Electricity Agency (ASER) | Jean Michel Sené',
+                  'Vice President of the Energy and Electricity Federation of Mauritania and Managing Director of the SOMACOS S.A Group | Moktar Mohamed el Moctar',
+                  'Policy and Regulation Officer of the ECOWAS Centre for Renewable Energy and Energy Efficiency (ECREEE) | Elayo Hyacinth'
                 ]
               },
               {
@@ -266,9 +267,9 @@ export default {
                 moderator: 'Loreto Taborga, territorial director of Foreign Trade and ICEX delegate in Las Palmas',
                 participants: [
                   'Deputy General Director of Financial Instruments for Internationalization of FIEM | María Soledad Sendagorta Fernández-Durán',
-                  'Deputy Director of Structured Finance at COFIDES | Ane Sáenz de Zaitegui Bermeo',
+                  'Deputy Financial Director of the Investment Area at COFIDES | Ane Sáenz de Zaitegui Bermeo',
                   'Technician of the State Funds Management Area for Internationalization at ICO | Iciar La Casta Muñoa',
-                  'Acciona Water Casablanca | Adelaida Fernández (Pending confirmation)'
+                  'Acciona, Chief Financial Officer | Eva González'
                 ]
               },
               {
@@ -297,22 +298,25 @@ export default {
           sessions: [
             {
               time: '9:00 – 10:00',
-              title: 'Tenders and International Contracting: Business Opportunities',
+              title: 'Scaling Abroad. Tools for Supporting Business Internationalization',
               type: 'panel',
-              moderator: 'Francisco Daniel Martínez, Commercial Attaché of Mauritania',
+              moderator: 'Rafael Molina Petit, Former Territorial Director of Foreign Trade',
               participants: [
-                'Projects Director of GESPLAN | Miguel Ángel Pérez',
-                'Manager of the ICEX Multilateral Antenna in Ivory Coast | Diego Uriel Gálvez'
+                'CEO Proexca | Pablo Martín Carbajal',
+                'Economic and Commercial Counselor of the Economic and Commercial Office of Spain in Dakar | Daniel Jacobo Orea',
+                'General Director of Finnova Foundation | Juanma Revuelta',
+                'ITERREG MAC (pending)'
               ]
             },
             {
               time: '10:00 – 11:00',
-              title: 'Panel 6: Scaling Abroad / Tools for Supporting Business Internationalization',
+              title: 'Tenders and International Contracting: Business Opportunities',
               type: 'panel',
-              moderator: 'Ana Guersi, Market Analyst at the Economic and Commercial Office of Ghana',
+              moderator: 'Silvia Rodríguez Pérez, Legal Technician Legal Regime and Legal Support for Internationalization at GESPLAN',
               participants: [
-                'External Promotion Technician of Canarias Aporta PROEXCA | Dolores Hernández Arenciba',
-                'Economic and Commercial Counselor of the Economic and Commercial Office of Spain in Dakar | Daniel Jacobo Orea'
+                'Promotion Area of Proexca. Canarias Know How Program | Mar Naranjo Suárez and Silvia Camacho Martín',
+                'CEO of GESPLAN | Miguel Ángel Pérez',
+                'Manager of the ICEX Multilateral Antenna in Ivory Coast | Diego Uriel Gálvez'
               ]
             },
             {
@@ -442,7 +446,7 @@ export default {
       },
       'Ane Sáenz de Zaitegui Bermeo': {
         name: 'Ane Sáenz de Zaitegui Bermeo',
-        title: 'Deputy Director of Structured Finance at COFIDES',
+        title: 'Deputy Financial Director of the Investment Area at COFIDES',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FANE%20SAENZ.png?alt=media&token=4f598de2-3d87-4855-9568-78e8a207a39e',
         bio: 'Financial professional with a solid background in economic-financial analysis, structuring and project finance, especially under Project Finance schemes and Public-Private Partnerships (PPP). She is currently part of the COFIDES team, where she has expanded her skills in credit analysis and international project finance, actively participating in debt and equity operations in the infrastructure and energy sectors in various markets.'
       },
@@ -499,6 +503,48 @@ export default {
         title: 'Minister of Petroleum and Energy, Government of the Republic of The Gambia',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FNani%20Juwara.png?alt=media&token=d4f8f07b-2dde-4458-9216-368fb136b8b0',
         bio: 'He is a leader with extensive experience in Gambia\'s energy sector, supported by international training in administration, development and strategic management. He has held key positions at NAWEC, from Deputy Director to Managing Director, and currently serves as Minister of Petroleum and Energy. Throughout his career he has led important electricity modernization projects funded by international organizations —including the World Bank, ECOWAS and AfDB— and has promoted the national goal of achieving universal access to electricity by 2025. His trajectory combines executive management, infrastructure project oversight and technical and financial certifications that strengthen his leadership in the country\'s energy development.'
+      },
+      'Lamin Camara': {
+        name: 'Lamin Camara',
+        title: 'Permanent Secretary of the Ministry of Petroleum and Energy of Gambia',
+        image: 'https://via.placeholder.com/400x400?text=Lamin+Camara',
+        bio: 'Biography pending update.'
+      },
+      'Tarik Hamane': {
+        name: 'Tarik Hamane',
+        title: 'Director General of the National Office of Electricity and Drinking Water of Morocco (ONEE)',
+        image: 'https://via.placeholder.com/400x400?text=Tarik+Hamane',
+        bio: 'Biography pending update.'
+      },
+      'Jean Michel Sené': {
+        name: 'Jean Michel Sené',
+        title: 'Director of the Senegalese Rural Electricity Agency (ASER)',
+        image: 'https://via.placeholder.com/400x400?text=Jean+Michel+Sene',
+        bio: 'Biography pending update.'
+      },
+      'Moktar Mohamed el Moctar': {
+        name: 'Moktar Mohamed el Moctar',
+        title: 'Vice President of the Energy and Electricity Federation of Mauritania and Managing Director of the SOMACOS S.A Group',
+        image: 'https://via.placeholder.com/400x400?text=Moktar+Mohamed',
+        bio: 'Biography pending update.'
+      },
+      'Rafael Molina Petit': {
+        name: 'Rafael Molina Petit',
+        title: 'Former Territorial Director of Foreign Trade',
+        image: 'https://via.placeholder.com/400x400?text=Rafael+Molina',
+        bio: 'Biography pending update.'
+      },
+      'Juanma Revuelta': {
+        name: 'Juanma Revuelta',
+        title: 'General Director of Finnova Foundation',
+        image: 'https://via.placeholder.com/400x400?text=Juanma+Revuelta',
+        bio: 'Biography pending update.'
+      },
+      'Silvia Rodríguez Pérez': {
+        name: 'Silvia Rodríguez Pérez',
+        title: 'Legal Technician Legal Regime and Legal Support for Internationalization at GESPLAN',
+        image: 'https://via.placeholder.com/400x400?text=Silvia+Rodriguez',
+        bio: 'Biography pending update.'
       }
     },
     startup_competition: {

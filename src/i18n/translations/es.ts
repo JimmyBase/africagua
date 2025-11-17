@@ -220,7 +220,7 @@ export default {
               type: 'opening',
               participants: [
                 'Excmo. Sr. D. Fernando Clavijo Batlle, Presidente del Gobierno de Canarias',
-                'Ministro de Energía, Petróleo y Minas de Gambia | Nani Juwara',
+                'Excmo. Sr. D Nani Juwara, Ministro de Energía, Petróleo y Minas de Gambia',
                 'Ilma. Sra. Dª. Lola García Martínez, Presidenta del Cabildo de Fuerteventura',
                 'Ilmo. Sr. D. Cristóbal David de Vera Cabrera, Alcalde del Ayuntamiento de Puerto del Rosario',
                 'Sr. D. Juan Jesús Rodríguez Marichal, Presidente de la Cámara Oficial de Comercio, Industria, Servicios y Navegación de Fuerteventura'
@@ -232,11 +232,11 @@ export default {
               type: 'panel',
               moderator: 'Cheik Diouf Faye, Gerente de RAESA en Senegal',
               participants: [
-                'Director del Ministerio de Recursos Hídricos, Obras y Vivienda de Ghana | Kwabena Gyasi-Duku',
+                'Secretario Permanente del Ministerio de Petróleo y Energía de Gambia | Lamin Camara',
                 'Coordinador Técnico de la Sociedad Nacional de Agua de Senegal (SONES) | El Hadj Ada NDAO',
-                'Asesor del Primer Ministro, Encargado de Hidráulica y Saneamiento | Mohamed Kankou',
+                'Asesor del Primer Ministro, Encargado de Hidráulica y Saneamiento de Mauritania | Mohamed Kankou',
                 'Director Ejecutivo del Consejo de Administración de la Agencia Nacional de Agua y Saneamiento de Cabo Verde (ANAS) | Hipólito Gonçalves',
-                'Director General de l\'Office National de l\'Electricité et de l\'Eau Potable (ONEE) | Tarik Hammane (pendiente)'
+                'Director General de la Oficina Nacional de Electricidad y Agua Potable de Marruecos (ONEE) | Tarik Hamane'
               ]
             },
             {
@@ -255,9 +255,9 @@ export default {
                 moderator: 'Luis Padilla Macabeo, Director General de Relaciones con África del Gobierno de Canarias',
                 participants: [
                   'Ministro de Energía, Petróleo y Minas de Gambia | Nani Juwara',
-                  'Director de la Agencia Senegalesa de Electricidad Rural de Senegal (ASER) | Jean Michel Sené Lat Ndame Ndiaye',
-                  'Vicepresidente de la Federación de Energía y Electricidad y Director general del Grupo SOMACOS S.A | Moktar Mohamed el Moctar',
-                  'Responsable de Políticas de Energía Sostenible del Centro de la CEDEAO para Energías Renovables y Eficiencia Energética (ECREEE) | Hyacinth Elayo'
+                  'Director de la Agencia Senegalesa de Electricidad Rural de Senegal (ASER) | Jean Michel Sené',
+                  'Vicepresidente de la Federación de Energía y Electricidad de Mauritania y Director general del Grupo SOMACOS S.A | Moktar Mohamed el Moctar',
+                  'Oficial de Política y regulaciones del Centro del la CEDEAO para Energías Renovables y Eficiencia Energética (ECREEE) | Elayo Hyacinth'
                 ]
               },
               {
@@ -267,9 +267,9 @@ export default {
                 moderator: 'Loreto Taborga, Directora Territorial de Comercio Exterior y Delegada de ICEX en Las Palmas',
                 participants: [
                   'Subdirectora General Adjunta de Instrumentos Financieros para la Internacionalización de FIEM | María Soledad Sendagorta Fernández-Durán',
-                  'Subdirectora de Financiaciones Estructuradas de COFIDES | Ane Sáenz de Zaitegui Bermeo',
+                  'Subdirectora Financiera del Área de Inversiones de COFIDES | Ane Sáenz de Zaitegui Bermeo',
                   'Técnico del Área de Gestión de Fondos del Estado para la Internacionalización de ICO | Iciar La Casta Muñoa',
-                  'Acciona, Directora Financiera | Eva González Moreno'
+                  'Acciona , Directora Financiera | Eva González'
                 ]
               },
               {
@@ -309,24 +309,25 @@ export default {
           sessions: [
             {
               time: '9:00 – 10:00',
-              title: 'Licitaciones y Contratación Internacional: Oportunidades de negocio',
+              title: 'Escalando al Exterior. Herramientas de Apoyo a la Internacionalización Empresarial',
               type: 'panel',
-              moderator: 'Francisco Daniel Martínez, Agregado Comercial de Mauritania',
+              moderator: 'Rafael Molina Petit, Ex Director Territorial de Comercio Exterior',
               participants: [
-                'Área de Promoción de Proexca. Programa Canarias Know How | Mar Naranjo Suárez',
-                'Área de Promoción de Proexca. Programa Canarias Know How | Silvia Camacho Martín',
-                'Director de Proyectos de GESPLAN | Miguel Ángel Pérez',
-                'Responsable de la Antena ICEX Multilaterales en Costa de Marfil | Diego Uriel Gálvez'
+                'Consejero Delegado Proexca | Pablo Martín Carbajal',
+                'Consejero Económico y Comercial de la Oficina Económica y Comercial de España en Dakar | Daniel Jacobo Orea',
+                'Director General de la Fundación Finnova | Juanma Revuelta',
+                'ITERREG MAC (pendiente)'
               ]
             },
             {
               time: '10:00 – 11:00',
-              title: 'Escalando al Exterior. Herramientas de Apoyo a la Internacionalización Empresarial',
+              title: 'Licitaciones y Contratación Internacional: Oportunidades de negocio',
               type: 'panel',
+              moderator: 'Silvia Rodríguez Pérez, Técnico Jurídico Dirección de Régimen Jurídico y Apoyo Legal a Internacionalización de GESPLAN',
               participants: [
-                'Técnico de Promoción Exterior de Canarias Aporta PROEXCA | Dolores Hernández Arenciba',
-                'Consejero Económico y Comercial de la Oficina Económica y Comercial de España en Dakar | Daniel Jacobo Orea',
-                'INTERREG MAC (pendiente)'
+                'Área de Promoción de Proexca. Programa Canarias Know How | Mar Naranjo Suárez y Silvia Camacho Martín',
+                'Consejero Delegado de GESPLAN | Miguel Ángel Pérez',
+                'Responsable de la Antena ICEX Multilaterales en Costa de Marfil | Diego Uriel Gálvez'
               ]
             },
             {
@@ -465,7 +466,7 @@ export default {
       },
       'Ane Sáenz de Zaitegui Bermeo': {
         name: 'Ane Sáenz de Zaitegui Bermeo',
-        title: 'Subdirectora de Financiaciones Estructuradas de COFIDES',
+        title: 'Subdirectora Financiera del Área de Inversiones de COFIDES',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FANE%20SAENZ.png?alt=media&token=4f598de2-3d87-4855-9568-78e8a207a39e',
         bio: 'Profesional del ámbito financiero con una sólida trayectoria en análisis económico-financiero, estructuración y financiación de proyectos, especialmente bajo esquemas de Project Finance y Asociaciones Público-Privadas (APP). Actualmente forma parte del equipo de COFIDES, donde ha ampliado sus competencias en análisis crediticio y financiación de proyectos a nivel internacional, participando activamente en operaciones de deuda y capital en los sectores de infraestructura y energía en diversos mercados.'
       },
@@ -534,6 +535,48 @@ export default {
         title: 'Ministro de Petróleo y Energía, Gobierno de la República de Gambia',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FNani%20Juwara.png?alt=media&token=d4f8f07b-2dde-4458-9216-368fb136b8b0',
         bio: 'Es un líder con amplia experiencia en el sector energético de Gambia, respaldado por formación internacional en administración, desarrollo y gestión estratégica. Ha ocupado puestos clave en NAWEC, desde Subdirector hasta Director General, y actualmente se desempeña como Ministro de Petróleo y Energía. A lo largo de su carrera ha dirigido importantes proyectos de modernización eléctrica financiados por organismos internacionales —incluidos el Banco Mundial, ECOWAS y el AfDB— y ha impulsado la meta nacional de lograr el acceso universal a la electricidad para 2025. Su trayectoria combina gestión ejecutiva, supervisión de proyectos de infraestructura y certificaciones técnicas y financieras que fortalecen su liderazgo en el desarrollo energético del país.'
+      },
+      'Lamin Camara': {
+        name: 'Lamin Camara',
+        title: 'Secretario Permanente del Ministerio de Petróleo y Energía de Gambia',
+        image: 'https://via.placeholder.com/400x400?text=Lamin+Camara',
+        bio: 'Biografía pendiente de actualización.'
+      },
+      'Tarik Hamane': {
+        name: 'Tarik Hamane',
+        title: 'Director General de la Oficina Nacional de Electricidad y Agua Potable de Marruecos (ONEE)',
+        image: 'https://via.placeholder.com/400x400?text=Tarik+Hamane',
+        bio: 'Biografía pendiente de actualización.'
+      },
+      'Jean Michel Sené': {
+        name: 'Jean Michel Sené',
+        title: 'Director de la Agencia Senegalesa de Electricidad Rural de Senegal (ASER)',
+        image: 'https://via.placeholder.com/400x400?text=Jean+Michel+Sene',
+        bio: 'Biografía pendiente de actualización.'
+      },
+      'Moktar Mohamed el Moctar': {
+        name: 'Moktar Mohamed el Moctar',
+        title: 'Vicepresidente de la Federación de Energía y Electricidad de Mauritania y Director general del Grupo SOMACOS S.A',
+        image: 'https://via.placeholder.com/400x400?text=Moktar+Mohamed',
+        bio: 'Biografía pendiente de actualización.'
+      },
+      'Rafael Molina Petit': {
+        name: 'Rafael Molina Petit',
+        title: 'Ex Director Territorial de Comercio Exterior',
+        image: 'https://via.placeholder.com/400x400?text=Rafael+Molina',
+        bio: 'Biografía pendiente de actualización.'
+      },
+      'Juanma Revuelta': {
+        name: 'Juanma Revuelta',
+        title: 'Director General de la Fundación Finnova',
+        image: 'https://via.placeholder.com/400x400?text=Juanma+Revuelta',
+        bio: 'Biografía pendiente de actualización.'
+      },
+      'Silvia Rodríguez Pérez': {
+        name: 'Silvia Rodríguez Pérez',
+        title: 'Técnico Jurídico Dirección de Régimen Jurídico y Apoyo Legal a Internacionalización de GESPLAN',
+        image: 'https://via.placeholder.com/400x400?text=Silvia+Rodriguez',
+        bio: 'Biografía pendiente de actualización.'
       }
     },
     startup_competition: {

@@ -286,7 +286,7 @@ export default {
                   'Co-president of the Mauritania-Spain Bilateral Committee | Ana Suárez',
                   'Director of R&D&I at the Canary Islands Institute of Technology (ITC) | Gonzalo Piernavieja',
                   'Coordinator of the Renewable Energy Systems Research Group at ULPGC | Pedro Jesús Cabrera Santana',
-                  'Welysis | Óscar Luengo, General Director'
+                  'Óscar Luengo, General Director Welysis'
                 ]
               }
             ]

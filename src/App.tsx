@@ -39,40 +39,58 @@ function MainContent() {
     <div className="relative min-h-screen w-full overflow-x-hidden">
       <div className="relative z-10">
         <Hero />
-        <AboutSection />
-        <HistoricalSection />
-        <LocationSection />
-        <B2BMeetings />
-        <NewsSection onAdminClick={handleAdminClick} />
-        <Sponsors />
-        <UsefulInfo />
-        <ContactSection />
+        <div className="section-bg water-effect">
+          <AboutSection />
+        </div>
+        <div className="section-bg solar-shimmer">
+          <HistoricalSection />
+        </div>
+        <div className="section-bg solar-shimmer">
+          <LocationSection />
+        </div>
+        <div className="section-bg wind-rotate">
+          <B2BMeetings />
+        </div>
+        <div className="section-bg energy-pulse">
+          <NewsSection onAdminClick={handleAdminClick} />
+        </div>
+        <div className="section-bg wind-rotate">
+          <Sponsors />
+        </div>
+        <div className="section-bg solar-shimmer">
+          <UsefulInfo />
+        </div>
+        <div className="section-bg water-effect">
+          <ContactSection />
+        </div>
 
         {/* Footer */}
-        <footer className="bg-neutral-50 border-t border-neutral-200 py-12">
+        <footer className="bg-white py-6 sm:py-8 border-t">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex flex-col sm:flex-row justify-center items-center gap-8 mb-10">
-              <img
+            {/* Logos */}
+            <div className="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-12 mb-6 sm:mb-8">
+              <img 
                 src="https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/LOGO%20AFRICAGUA.png?alt=media&token=9e8c68b1-211e-4bb4-ac6c-d00193fb057e"
                 alt="Africagua Logo"
-                className="h-14 w-auto"
+                className="h-12 sm:h-16 w-auto"
               />
               <a href="https://www.camaradefuerteventura.org" target="_blank" rel="noopener noreferrer">
                 <img
                   src="https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/logo-camara-fuerteventura-email.png?alt=media&token=64a09d59-abce-4a3e-96fa-88aca412d19c"
                   alt="Cámara de Comercio de Fuerteventura"
-                  className="h-14 w-auto hover:opacity-80 transition-opacity"
+                  className="h-12 sm:h-16 w-auto hover:opacity-80 transition-opacity"
                 />
               </a>
             </div>
-
-            <div className="text-center space-y-6">
-              <div className="flex items-center justify-center gap-3 text-sm text-neutral-600">
-                <span>Página web diseñada por J.M Tordeur</span>
+            
+            {/* Credit line and Policy Links */}
+            <div className="text-center space-y-4">
+              <div className="flex items-center justify-center gap-3 text-xs sm:text-sm text-gray-500 px-2">
+                <span>Página web diseñada por J.M Tordeur de la Cámara Oficial de Comercio, Industria y Navegación de Fuerteventura</span>
                 <button
                   onClick={() => setIsProfileModalOpen(true)}
                   className="transition-transform hover:scale-110"
-                  aria-label="Ver perfil"
+                  aria-label="Ver perfil de J.M Tordeur"
                 >
                   <Avatar
                     src="/Captura de pantalla 2025-10-21 090729.png"
@@ -83,22 +101,22 @@ function MainContent() {
                   />
                 </button>
               </div>
-              <div className="flex flex-wrap justify-center gap-6 text-sm">
-                <button
+              <div className="flex flex-wrap justify-center gap-2 sm:gap-4 text-xs sm:text-sm px-2">
+                <button 
                   onClick={() => setIsCookiePolicyOpen(true)}
-                  className="text-ocean-600 hover:text-ocean-700 font-medium transition-colors"
+                  className="text-teal-600 hover:text-teal-700 transition-colors py-1"
                 >
                   Política de cookies
                 </button>
-                <button
+                <button 
                   onClick={() => setIsPrivacyPolicyOpen(true)}
-                  className="text-ocean-600 hover:text-ocean-700 font-medium transition-colors"
+                  className="text-teal-600 hover:text-teal-700 transition-colors py-1"
                 >
                   Política de privacidad
                 </button>
-                <button
+                <button 
                   onClick={() => setIsLegalNoticeOpen(true)}
-                  className="text-ocean-600 hover:text-ocean-700 font-medium transition-colors"
+                  className="text-teal-600 hover:text-teal-700 transition-colors py-1"
                 >
                   Aviso legal
                 </button>

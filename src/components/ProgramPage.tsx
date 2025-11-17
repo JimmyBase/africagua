@@ -310,11 +310,10 @@ const ProgramPage = () => {
                 Filtros
               </button>
               <button
-                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-gradient-to-r from-navy-700 to-navy-800 text-white font-semibold shadow-lg hover:shadow-xl transition-all hover:scale-105 border border-navy-600"
-                style={{ textShadow: '0 1px 2px rgba(0, 0, 0, 0.3)' }}
+                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-white border-2 border-slate-300 hover:border-navy-500 hover:bg-slate-50 text-slate-900 font-semibold shadow-lg hover:shadow-xl transition-all hover:scale-105"
               >
-                <Download className="w-5 h-5 text-white" />
-                <span className="hidden sm:inline text-white">Descargar PDF</span>
+                <Download className="w-5 h-5 text-slate-900" />
+                <span className="hidden sm:inline text-slate-900">Descargar PDF</span>
               </button>
             </div>
           </div>

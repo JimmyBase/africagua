@@ -509,6 +509,12 @@ export default {
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FLamin%20Camara.png?alt=media&token=5a2bb33b-9e5c-4e76-b000-dbcd2f8a8e45',
         bio: 'Lamin Camara est un administrateur public de haut niveau, reconnu pour son leadership stratégique et sa capacité à transformer les institutions grâce à l\'innovation technologique. Depuis 2017, il exerce en tant que Secrétaire Permanent du Ministère du Pétrole et de l\'Énergie de la République de Gambie, où il dirige les fonctions exécutives, impulse la modernisation administrative et garantit l\'exécution efficace des initiatives gouvernementales clés. Avec une solide formation internationale en gestion des communications et en administration des affaires, il se distingue par sa maîtrise de la Gestion du Changement et de l\'intégration de technologies qui optimisent les services publics. Son profil combine vision stratégique, capacité opérationnelle et un ferme engagement envers l\'excellence dans la gouvernance publique.'
       },
+      'El Hadj Ada NDAO': {
+        name: 'El Hadj Ada NDAO',
+        title: 'Coordinateur Technique de la Société Nationale des Eaux du Sénégal (SONES)',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FEl%20Hadi%20Ada%20Ndao.png?alt=media&token=85d3ffe1-8b77-421c-bb78-de3612dd9b95',
+        bio: 'Il est ingénieur de conception en génie civil, diplômé de l\'École Polytechnique de Thiès (Sénégal). Il compte 30 ans d\'expérience dans la gestion de l\'eau, dont 10 ans d\'expérience en tant que directeur à la Société Nationale des Eaux du Sénégal, au cours desquels il a dirigé des projets de développement avec des banques bilatérales et multilatérales (BM, AFD, BEI, BID, BAD, JICA, BOAD) dans les phases d\'identification, d\'études de faisabilité technico-économique, d\'évaluations environnementales et sociales, d\'études détaillées, de recherche de financement, de négociation d\'accords de financement, ainsi que dans la gestion des travaux et/ou la direction de projets.'
+      },
       'Juan Jesús Rodríguez Marichal': {
         name: 'Juan Jesús Rodríguez Marichal',
         title: 'Président de la Chambre de Commerce de Fuerteventura',

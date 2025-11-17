@@ -509,6 +509,12 @@ export default {
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FLamin%20Camara.png?alt=media&token=5a2bb33b-9e5c-4e76-b000-dbcd2f8a8e45',
         bio: 'Lamin Camara ist ein hochrangiger öffentlicher Verwaltungsbeamter, anerkannt für seine strategische Führung und seine Fähigkeit, Institutionen durch technologische Innovation zu transformieren. Seit 2017 ist er als Ständiger Sekretär des Ministeriums für Erdöl und Energie der Republik Gambia tätig, wo er Führungsfunktionen leitet, die administrative Modernisierung vorantreibt und die effiziente Umsetzung wichtiger Regierungsinitiativen gewährleistet. Mit einer soliden internationalen Ausbildung in Kommunikationsmanagement und Betriebswirtschaft zeichnet er sich durch seine Expertise im Change Management und in der Integration von Technologien zur Optimierung öffentlicher Dienstleistungen aus. Sein Profil vereint strategische Vision, operative Fähigkeiten und ein festes Engagement für Exzellenz in der öffentlichen Verwaltung.'
       },
+      'El Hadj Ada NDAO': {
+        name: 'El Hadj Ada NDAO',
+        title: 'Technischer Koordinator der Nationalen Wassergesellschaft des Senegal (SONES)',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FEl%20Hadi%20Ada%20Ndao.png?alt=media&token=85d3ffe1-8b77-421c-bb78-de3612dd9b95',
+        bio: 'Er ist Entwurfsingenieur im Bauingenieurwesen und Absolvent der Polytechnischen Schule von Thiès (Senegal). Er verfügt über 30 Jahre Erfahrung im Wassermanagement, darunter 10 Jahre Erfahrung als Direktor bei der Nationalen Wassergesellschaft des Senegal, während derer er Entwicklungsprojekte mit bilateralen und multilateralen Banken (Weltbank, AFD, EIB, IDB, AfDB, JICA, WADB) in den Phasen der Identifizierung, technisch-wirtschaftlicher Machbarkeitsstudien, Umwelt- und Sozialbewertungen, Detailstudien, Finanzierungssuche, Verhandlung von Finanzierungsvereinbarungen sowie im Baumanagement und/oder Projektleitung geleitet hat.'
+      },
       'Juan Jesús Rodríguez Marichal': {
         name: 'Juan Jesús Rodríguez Marichal',
         title: 'Präsident der Handelskammer von Fuerteventura',

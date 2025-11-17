@@ -521,6 +521,12 @@ export default {
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FLamin%20Camara.png?alt=media&token=5a2bb33b-9e5c-4e76-b000-dbcd2f8a8e45',
         bio: 'Lamin Camara is a senior public administrator recognized for his strategic leadership and ability to transform institutions through technological innovation. Since 2017, he has served as Permanent Secretary of the Ministry of Petroleum and Energy of the Republic of The Gambia, where he directs executive functions, drives administrative modernization, and ensures the efficient execution of key government initiatives. With solid international training in communications management and business administration, he stands out for his expertise in Change Management and in the integration of technologies that optimize public services. His profile combines strategic vision, operational capability, and a firm commitment to excellence in public governance.'
       },
+      'El Hadj Ada NDAO': {
+        name: 'El Hadj Ada NDAO',
+        title: 'Technical Coordinator of the National Water Company of Senegal (SONES)',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FEl%20Hadi%20Ada%20Ndao.png?alt=media&token=85d3ffe1-8b77-421c-bb78-de3612dd9b95',
+        bio: 'He is a design engineer in civil engineering, graduated from the Polytechnic School of Thiès (Senegal). He has 30 years of experience in water management, including 10 years of experience as director at the National Water Company of Senegal, during which he has led development projects with bilateral and multilateral banks (WB, AFD, EIB, IDB, AfDB, JICA, WADB) in the stages of identification, technical-economic feasibility studies, environmental and social assessments, detailed studies, financing search, negotiation of financing agreements, as well as in works management and/or project management.'
+      },
       'Tarik Hamane': {
         name: 'Tarik Hamane',
         title: 'Director General of the National Office of Electricity and Drinking Water of Morocco (ONEE)',

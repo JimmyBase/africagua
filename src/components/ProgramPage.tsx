@@ -139,8 +139,8 @@ const ProgramPage = () => {
                 {getSessionIcon(session.type)}
               </div>
               <div className="flex flex-col sm:flex-row sm:items-center gap-2 flex-wrap">
-                <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-gradient-to-r from-navy-700 to-navy-800 rounded-full shadow-md">
-                  <Clock className="w-4 h-4 text-gold-400" />
+                <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-gradient-to-r from-navy-700 to-navy-800 rounded-full shadow-md border border-navy-600">
+                  <Clock className="w-4 h-4 text-gold-300" />
                   <span className="font-semibold text-sm text-white">{session.time}</span>
                 </div>
                 {getSessionBadge(session.type)}
@@ -304,7 +304,7 @@ const ProgramPage = () => {
             <div className="flex items-center gap-3">
               <button
                 onClick={() => setShowFilters(!showFilters)}
-                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-white border-2 border-slate-200 hover:border-navy-500 text-slate-700 hover:text-navy-700 font-medium transition-all shadow-sm hover:shadow-md"
+                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-slate-100 border-2 border-slate-300 hover:border-navy-500 hover:bg-slate-200 text-slate-700 hover:text-navy-800 font-semibold transition-all shadow-sm hover:shadow-md"
               >
                 <Filter className="w-5 h-5" />
                 Filtros

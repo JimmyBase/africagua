@@ -220,7 +220,7 @@ export default {
               type: 'opening',
               participants: [
                 'Excmo. Sr. D. Fernando Clavijo Batlle, Presidente del Gobierno de Canarias',
-                'Excmo. Sr. D Nani Juwara, Ministro de Energía, Petróleo y Minas de Gambia',
+                'Ministro de Energía, Petróleo y Minas de Gambia | Nani Juwara',
                 'Ilma. Sra. Dª. Lola García Martínez, Presidenta del Cabildo de Fuerteventura',
                 'Ilmo. Sr. D. Cristóbal David de Vera Cabrera, Alcalde del Ayuntamiento de Puerto del Rosario',
                 'Sr. D. Juan Jesús Rodríguez Marichal, Presidente de la Cámara Oficial de Comercio, Industria, Servicios y Navegación de Fuerteventura'

@@ -510,8 +510,8 @@ export default {
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FDANIEL%20JACOBO%20OREA.png?alt=media&token=c0141f5a-a255-4b56-ab15-7d491d1da744',
         bio: 'Ingresó en 2016 en el cuerpo de Técnicos Comerciales y Economistas del Estado. En 2021, ingresó en la Secretaría de Estado de Cooperación Internacional del MAEC, trabajando como Director de la División de Evaluación de Políticas para el Desarrollo Sostenible entre 2022 y 2024. Desde entonces, ejerce como Consejero Económico y Comercial de la Embajada de España en Dakar, con demarcación en Senegal, Mauritania, Cabo Verde, Gambia, Mali y Guinea-Bissau.'
       },
-      'Eva González': {
-        name: 'Eva González',
+      'Eva González Moreno': {
+        name: 'Eva González Moreno',
         title: 'Directora Financiera de Acciona',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FEva%20Gonz%C3%A1lez%20Moreno.png?alt=media&token=2e14761c-cf5e-42c4-be53-b7375ca9a799',
         bio: 'Cuenta con más de 12 años de experiencia en el sector energético internacional, especializada en estructuración financiera, financiación de proyectos y dirección corporativa. Ha desarrollado su carrera en Colombia, Francia, España y actualmente en Marruecos, ocupando puestos clave en departamentos financieros de empresas líderes del sector. Actualmente lidera la Dirección Financiera de Al Baidaa Desalination Company, sociedad responsable del proyecto de desalación de Casablanca, uno de los más relevantes de África en su categoría.'

@@ -285,7 +285,7 @@ export default {
                   'Co-Präsidentin des Bilateralen Ausschusses Mauretanien-Spanien | Ana Suárez',
                   'Direktor für F&E&I des Technologischen Instituts der Kanaren (ITC) | Gonzalo Piernavieja',
                   'Koordinator der Forschungsgruppe für Erneuerbare Energiesysteme der ULPGC | Pedro Jesús Cabrera Santana',
-                  'Welysis | Óscar Luengo, Generaldirektor'
+                  'Óscar Luengo, Generaldirektor Welysis'
                 ]
               }
             ]

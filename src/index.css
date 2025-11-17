@@ -47,19 +47,19 @@
   }
 
   .card {
-    @apply bg-white rounded-lg border border-neutral-200 shadow-soft hover:shadow-medium transition-all duration-300;
+    @apply bg-white rounded-lg border border-neutral-200 shadow-sm hover:shadow-md transition-all duration-300;
   }
 
   .card-elevated {
-    @apply bg-white rounded-xl shadow-medium hover:shadow-large transition-all duration-300;
+    @apply bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300;
   }
 
   .btn-primary {
-    @apply inline-flex items-center justify-center gap-2 px-6 py-3 bg-ocean-600 text-white font-medium rounded-lg hover:bg-ocean-700 transition-all duration-300 shadow-ocean hover:shadow-large;
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 bg-ocean-600 text-white font-medium rounded-lg hover:bg-ocean-700 transition-all duration-300 shadow-md hover:shadow-lg;
   }
 
   .btn-secondary {
-    @apply inline-flex items-center justify-center gap-2 px-6 py-3 bg-coral-500 text-white font-medium rounded-lg hover:bg-coral-600 transition-all duration-300 shadow-coral hover:shadow-large;
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 bg-coral-500 text-white font-medium rounded-lg hover:bg-coral-600 transition-all duration-300 shadow-md hover:shadow-lg;
   }
 
   .btn-outline {

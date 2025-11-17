@@ -511,6 +511,12 @@ export default {
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FSilvia%20Camacho%20-%20Mart%C3%ADn.png?alt=media&token=506943ff-cf22-424a-a3df-680c27cfcab7',
         bio: 'Técnico en Promoción Exterior en Proexca. Ha sido coordinadora del programa de licitaciones internacionales durante 3 años. Ha visitado diferentes organismos multilaterales, tales como la sede del Banco Mundial en Washington D.C. y el Banco Africano de Desarrollo en Abidjan, acercándose a sus políticas, normativas y prioridades, así como países beneficiarios, en los que hay proyectados o se están desarrollando proyectos. Ha formado parte de redes globales para la detección de oportunidades y acercamiento entre socios la participación en procesos de licitaciones internacionales. Previamente, ha desempeñado otros roles clave en este ámbito, como responsable de desarrollo de negocio internacional. Silvia posee un Máster en International Business y una Licenciatura en Administración y Dirección de Empresas Internacionales, y diversas experiencias profesionales a nivel internacional, siempre en el ámbito del desarrollo de negocio para los sectores prioritarios de la economía canaria.'
       },
+      'Miguel Ángel Pérez': {
+        name: 'Miguel Ángel Pérez',
+        title: 'Consejero Delegado de GESPLAN',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FMiguel%20%C3%81ngel%20P%C3%A9rez.png?alt=media&token=50109552-8e45-4bdf-a120-79573fc6f7a5',
+        bio: 'Alto cargo especializado en planificación territorial, medio ambiente y administración pública, con una sólida formación en derecho y gestión urbanística. Ha ocupado puestos de máxima responsabilidad como Viceconsejero de Lucha contra el Cambio Climático del Gobierno de Canarias y Consejero Insular de Política Territorial de Tenerife. Su trayectoria incluye participación en numerosos consejos de administración vinculados a energías renovables, ordenación del territorio, patrimonio y gestión pública. Cuenta además con una amplia experiencia como consultor jurídico en derecho administrativo y urbanístico. Actualmente es Consejero Delegado de GESPLAN, asumiendo las principales facultades ejecutivas de la entidad.'
+      },
       'Daniel Jacobo Orea': {
         name: 'Daniel Jacobo Orea',
         title: 'Consejero Económico y Comercial de la Embajada de Dakar en España',

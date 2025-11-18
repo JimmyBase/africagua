@@ -36,24 +36,10 @@ const Navbar = () => {
   return (
     <nav className={navClasses}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
-          {/* Logo */}
-          <div className="flex items-center">
-            <Link
-              to="/"
-              className="flex-shrink-0 flex items-center transform hover:scale-105 transition-transform duration-300"
-             title="Africagua - Inicio"
-            >
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/LOGO%20AFRICAGUA.png?alt=media&token=9e8c68b1-211e-4bb4-ac6c-d00193fb057e"
-                alt="Logo Africagua - Foro Internacional de Agua y Energías Renovables"
-                className="h-10 w-auto"
-              />
-            </Link>
-          </div>
-          
-          {/* Desktop menu */}
-          <div className="hidden md:flex items-center space-x-1">
+        <div className="flex items-center justify-between h-20">
+
+          {/* Left side navigation - Desktop */}
+          <div className="hidden lg:flex items-center space-x-1 flex-1 justify-end pr-6">
             <a href="#about" onClick={handleClick} className={linkClasses}>
               {t('nav.about')}
             </a>
@@ -69,6 +55,25 @@ const Navbar = () => {
             <a href="#news" onClick={handleClick} className={linkClasses}>
               {t('nav.news')}
             </a>
+          </div>
+
+          {/* Center Logo */}
+          <div className="flex items-center justify-center flex-shrink-0">
+            <Link
+              to="/"
+              className="flex items-center transform hover:scale-105 transition-transform duration-300"
+              title="Africagua - Inicio"
+            >
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/LOGO%20AFRICAGUA.png?alt=media&token=9e8c68b1-211e-4bb4-ac6c-d00193fb057e"
+                alt="Logo Africagua - Foro Internacional de Agua y Energías Renovables"
+                className="h-12 w-auto"
+              />
+            </Link>
+          </div>
+
+          {/* Right side navigation - Desktop */}
+          <div className="hidden lg:flex items-center space-x-1 flex-1 pl-6">
             <a href="#participants" onClick={handleClick} className={linkClasses}>
               Participantes
             </a>
@@ -79,13 +84,13 @@ const Navbar = () => {
               {t('nav.contact')}
             </a>
             <Link to="/startup-competition" className={linkClasses}>
-              Startup Competition Africagua
+              Startup Competition
             </Link>
             <LanguageSelector />
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden flex items-center">
+          <div className="lg:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="inline-flex items-center justify-center p-2 rounded-lg text-gray-700 hover:text-teal-600 hover:bg-gray-100 focus:outline-none transition-colors duration-300"

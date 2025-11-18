@@ -533,12 +533,6 @@ export default {
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FTARIK%20HAMANE.png?alt=media&token=bb65c530-f183-408a-ab18-967f95d44c4e',
         bio: 'Tarik Hamane is a renowned expert in the energy sector and current Director General of ONEE, having previously served as interim CEO of Masen. He has held senior positions in global companies such as TOTAL Energies, where he led the worldwide development of green hydrogen, and TOTAL Eren for North Africa. He has performed key roles at Masen and ONEE, and began his career in research at CNRS and CERN. Additionally, he holds important international responsibilities: he is Governor of the World Water Council, Vice President of AfWASA and Co-President of OMEC. He also chairs AMEPA and has led organizations such as the Association of African Electricity Public Services and the Arab Union of Electricity. He holds a degree in electrical and automation engineering from INSA Lyon, with a master\'s degree in Industrial Information Systems.'
       },
-      'Jean Michel Sené': {
-        name: 'Jean Michel Sené',
-        title: 'Director of the Senegalese Rural Electricity Agency (ASER)',
-        image: 'https://via.placeholder.com/400x400?text=Jean+Michel+Sene',
-        bio: 'Biography pending update.'
-      },
       'Moktar Mohamed el Moctar': {
         name: 'Moktar Mohamed el Moctar',
         title: 'Vice President of the Energy and Electricity Federation of Mauritania and Managing Director of the SOMACOS S.A Group',

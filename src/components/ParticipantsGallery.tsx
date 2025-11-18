@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Search, Filter, MapPin, Briefcase, Award, User, X, Globe, Mail, Linkedin, ExternalLink } from 'lucide-react';
+import { Search, Filter, MapPin, Briefcase, Award, User, X, ChevronRight, Building2 } from 'lucide-react';
 
 interface Participant {
   name: string;
@@ -22,88 +22,87 @@ const ParticipantModal: React.FC<ParticipantModalProps> = ({ participant, onClos
   if (!participant) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fadeIn">
-      <div className="relative w-full max-w-4xl max-h-[90vh] overflow-y-auto bg-white rounded-3xl shadow-2xl">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/70 backdrop-blur-md animate-fadeIn">
+      <div className="relative w-full max-w-5xl max-h-[90vh] overflow-y-auto bg-white rounded-2xl shadow-2xl">
         <button
           onClick={onClose}
-          className="sticky top-4 right-4 float-right z-10 p-2 bg-white rounded-full shadow-lg hover:shadow-xl transition-all hover:rotate-90 duration-300"
+          className="sticky top-6 right-6 float-right z-10 p-2.5 bg-white rounded-full shadow-lg hover:shadow-xl transition-all hover:rotate-90 duration-300 border border-gray-200"
           aria-label="Cerrar"
         >
-          <X className="w-6 h-6 text-gray-600" />
+          <X className="w-5 h-5 text-slate-600" />
         </button>
 
         <div className="p-8 md:p-12">
           <div className="flex flex-col md:flex-row gap-8 mb-8">
             <div className="flex-shrink-0">
-              <div className="relative group">
-                <div className="absolute -inset-2 bg-gradient-to-r from-cyan-500 via-teal-500 to-cyan-500 rounded-3xl blur-lg opacity-75 group-hover:opacity-100 transition duration-300"></div>
+              <div className="relative">
                 <div className="relative">
                   <img
                     src={participant.image}
                     alt={participant.name}
-                    className="w-48 h-48 rounded-2xl object-cover object-top shadow-xl ring-4 ring-white"
+                    className="w-56 h-56 rounded-xl object-cover object-top shadow-lg ring-4 ring-slate-100"
                   />
-                  <div className="absolute -bottom-3 -right-3 bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-xl shadow-lg">
+                  <div className="absolute -bottom-3 -right-3 bg-gradient-to-br from-slate-700 to-slate-900 text-white px-4 py-2 rounded-lg shadow-lg">
                     <User className="w-5 h-5" />
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="flex-grow space-y-4">
+            <div className="flex-grow space-y-5">
               <div>
-                <h2 className="text-3xl font-extrabold text-gray-900 mb-2">{participant.name}</h2>
-                <p className="text-lg font-semibold bg-gradient-to-r from-cyan-600 to-teal-600 bg-clip-text text-transparent mb-4">
+                <h2 className="text-4xl font-bold text-slate-900 mb-3 leading-tight">{participant.name}</h2>
+                <p className="text-lg font-medium text-slate-700 mb-4 leading-relaxed">
                   {participant.title}
                 </p>
               </div>
 
               <div className="flex flex-wrap gap-3">
                 {participant.organization && (
-                  <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-cyan-50 to-teal-50 border border-cyan-200 rounded-xl">
-                    <Briefcase className="w-4 h-4 text-cyan-600" />
-                    <span className="text-sm font-medium text-gray-700">{participant.organization}</span>
+                  <div className="inline-flex items-center gap-2 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg">
+                    <Building2 className="w-4 h-4 text-slate-600" />
+                    <span className="text-sm font-medium text-slate-700">{participant.organization}</span>
                   </div>
                 )}
                 {participant.country && (
-                  <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-teal-50 to-cyan-50 border border-teal-200 rounded-xl">
-                    <MapPin className="w-4 h-4 text-teal-600" />
-                    <span className="text-sm font-medium text-gray-700">{participant.country}</span>
+                  <div className="inline-flex items-center gap-2 px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg">
+                    <MapPin className="w-4 h-4 text-slate-600" />
+                    <span className="text-sm font-medium text-slate-700">{participant.country}</span>
                   </div>
                 )}
                 {participant.role && (
-                  <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-cyan-500 to-teal-500 text-white rounded-xl shadow-md">
+                  <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-lg shadow-md">
                     <Award className="w-4 h-4" />
-                    <span className="text-sm font-medium">{participant.role}</span>
+                    <span className="text-sm font-semibold">{participant.role}</span>
                   </div>
                 )}
               </div>
             </div>
           </div>
 
-          <div className="h-px bg-gradient-to-r from-transparent via-teal-300 to-transparent mb-6"></div>
+          <div className="h-px bg-gradient-to-r from-transparent via-slate-300 to-transparent mb-8"></div>
 
           <div>
-            <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-              <User className="w-5 h-5 text-teal-600" />
+            <h3 className="text-2xl font-bold text-slate-900 mb-5 flex items-center gap-2">
+              <User className="w-6 h-6 text-slate-700" />
               Biografía
             </h3>
-            <p className="text-gray-700 leading-relaxed text-justify">{participant.bio}</p>
+            <p className="text-slate-700 leading-relaxed text-justify text-base">{participant.bio}</p>
           </div>
 
           {participant.expertise && participant.expertise.length > 0 && (
             <>
-              <div className="h-px bg-gradient-to-r from-transparent via-cyan-300 to-transparent my-6"></div>
+              <div className="h-px bg-gradient-to-r from-transparent via-slate-300 to-transparent my-8"></div>
               <div>
-                <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-                  <Award className="w-5 h-5 text-cyan-600" />
+                <h3 className="text-2xl font-bold text-slate-900 mb-5 flex items-center gap-2">
+                  <Award className="w-6 h-6 text-slate-700" />
                   Áreas de Expertise
                 </h3>
                 <div className="flex flex-wrap gap-2">
                   {participant.expertise.map((exp, idx) => (
                     <span
                       key={idx}
-                      className="px-3 py-1 bg-gradient-to-r from-cyan-100 to-teal-100 text-cyan-800 text-sm font-medium rounded-full border border-cyan-200"
+                      className="px-4 py-2 bg-slate-100 text-slate-800 text-sm font-medium rounded-lg border border-slate-200"
                     >
                       {exp}
                     </span>
@@ -146,40 +145,39 @@ const ParticipantsGallery = () => {
   });
 
   return (
-    <section className="py-20 bg-gradient-to-br from-slate-50 via-white to-cyan-50/30" id="participants">
+    <section className="py-20 bg-gradient-to-br from-slate-50 via-gray-50 to-slate-100" id="participants">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="inline-block relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-teal-500 blur-3xl opacity-20 rounded-full"></div>
-            <h2 className="text-5xl font-extrabold bg-gradient-to-r from-[#1a3d4a] to-[#2c5f6f] bg-clip-text text-transparent mb-4 relative">
+            <h2 className="text-5xl font-bold text-slate-900 mb-4 relative">
               Participantes
             </h2>
-            <p className="text-xl text-slate-600 relative">
+            <p className="text-xl text-slate-600 relative font-medium">
               Expertos internacionales en agua y energías renovables
             </p>
           </div>
         </div>
 
-        <div className="mb-8 space-y-4">
+        <div className="mb-10 space-y-5">
           <div className="flex flex-col md:flex-row gap-4">
             <div className="flex-grow relative">
-              <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
+              <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
               <input
                 type="text"
                 placeholder="Buscar por nombre, cargo u organización..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full pl-12 pr-4 py-3 border-2 border-gray-200 rounded-xl focus:border-teal-500 focus:ring-2 focus:ring-teal-200 transition-all outline-none"
+                className="w-full pl-12 pr-4 py-3.5 border border-slate-300 rounded-lg focus:border-slate-500 focus:ring-2 focus:ring-slate-200 transition-all outline-none bg-white shadow-sm"
               />
             </div>
 
             <div className="flex gap-4">
               <div className="relative">
-                <Filter className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" />
+                <Filter className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 pointer-events-none" />
                 <select
                   value={selectedRole}
                   onChange={(e) => setSelectedRole(e.target.value)}
-                  className="pl-10 pr-8 py-3 border-2 border-gray-200 rounded-xl focus:border-cyan-500 focus:ring-2 focus:ring-cyan-200 transition-all outline-none appearance-none bg-white cursor-pointer"
+                  className="pl-10 pr-8 py-3.5 border border-slate-300 rounded-lg focus:border-slate-500 focus:ring-2 focus:ring-slate-200 transition-all outline-none appearance-none bg-white cursor-pointer shadow-sm"
                 >
                   <option value="all">Todos los roles</option>
                   {roles.map(role => (
@@ -189,11 +187,11 @@ const ParticipantsGallery = () => {
               </div>
 
               <div className="relative">
-                <MapPin className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" />
+                <MapPin className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 pointer-events-none" />
                 <select
                   value={selectedCountry}
                   onChange={(e) => setSelectedCountry(e.target.value)}
-                  className="pl-10 pr-8 py-3 border-2 border-gray-200 rounded-xl focus:border-teal-500 focus:ring-2 focus:ring-teal-200 transition-all outline-none appearance-none bg-white cursor-pointer"
+                  className="pl-10 pr-8 py-3.5 border border-slate-300 rounded-lg focus:border-slate-500 focus:ring-2 focus:ring-slate-200 transition-all outline-none appearance-none bg-white cursor-pointer shadow-sm"
                 >
                   <option value="all">Todos los países</option>
                   {countries.map(country => (
@@ -205,8 +203,8 @@ const ParticipantsGallery = () => {
           </div>
 
           <div className="text-center">
-            <p className="text-sm text-gray-600">
-              Mostrando <span className="font-bold text-teal-600">{filteredParticipants.length}</span> de <span className="font-bold">{participants.length}</span> participantes
+            <p className="text-sm text-slate-600 font-medium">
+              Mostrando <span className="font-bold text-slate-900">{filteredParticipants.length}</span> de <span className="font-bold text-slate-900">{participants.length}</span> participantes
             </p>
           </div>
         </div>
@@ -216,57 +214,56 @@ const ParticipantsGallery = () => {
             <div
               key={index}
               onClick={() => setSelectedParticipant(participant)}
-              className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 cursor-pointer overflow-hidden border border-gray-100 hover:border-teal-200"
+              className="group relative bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer overflow-hidden border border-slate-200 hover:border-slate-400"
             >
-              <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 to-teal-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-
               <div className="relative p-6">
                 <div className="flex items-start gap-4 mb-4">
                   <div className="relative flex-shrink-0">
-                    <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-teal-500 rounded-xl blur opacity-0 group-hover:opacity-75 transition duration-300"></div>
                     <img
                       src={participant.image}
                       alt={participant.name}
-                      className="relative w-20 h-20 rounded-xl object-cover object-top shadow-md ring-2 ring-white"
+                      className="w-24 h-24 rounded-lg object-cover object-top shadow-sm ring-2 ring-slate-100 group-hover:ring-slate-300 transition-all duration-300"
                     />
                   </div>
 
                   <div className="flex-grow min-w-0">
-                    <h3 className="text-lg font-bold text-gray-900 mb-1 group-hover:text-teal-600 transition-colors line-clamp-2">
+                    <h3 className="text-lg font-bold text-slate-900 mb-1.5 group-hover:text-slate-700 transition-colors line-clamp-2 leading-tight">
                       {participant.name}
                     </h3>
-                    <p className="text-sm text-teal-600 font-medium line-clamp-2">
+                    <p className="text-sm text-slate-600 font-medium line-clamp-2 leading-relaxed">
                       {participant.title}
                     </p>
                   </div>
                 </div>
 
-                <div className="space-y-2 mb-4">
+                <div className="space-y-2.5 mb-4">
                   {participant.organization && (
-                    <div className="flex items-center gap-2 text-sm text-gray-600">
-                      <Briefcase className="w-4 h-4 text-gray-400 flex-shrink-0" />
+                    <div className="flex items-center gap-2 text-sm text-slate-600">
+                      <Building2 className="w-4 h-4 text-slate-400 flex-shrink-0" />
                       <span className="line-clamp-1">{participant.organization}</span>
                     </div>
                   )}
                   {participant.country && (
-                    <div className="flex items-center gap-2 text-sm text-gray-600">
-                      <MapPin className="w-4 h-4 text-gray-400 flex-shrink-0" />
+                    <div className="flex items-center gap-2 text-sm text-slate-600">
+                      <MapPin className="w-4 h-4 text-slate-400 flex-shrink-0" />
                       <span>{participant.country}</span>
                     </div>
                   )}
                 </div>
 
-                {participant.role && (
-                  <div className="inline-flex items-center gap-1 px-3 py-1 bg-gradient-to-r from-cyan-500 to-teal-500 text-white text-xs font-medium rounded-full shadow-sm">
-                    <Award className="w-3 h-3" />
-                    {participant.role}
-                  </div>
-                )}
+                <div className="flex items-center justify-between">
+                  {participant.role && (
+                    <div className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-gradient-to-r from-amber-500 to-amber-600 text-white text-xs font-semibold rounded-lg shadow-sm">
+                      <Award className="w-3 h-3" />
+                      {participant.role}
+                    </div>
+                  )}
 
-                <div className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
-                  <div className="flex items-center gap-1 text-xs font-medium text-teal-600">
-                    Ver perfil
-                    <ExternalLink className="w-3 h-3" />
+                  <div className="ml-auto opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <div className="flex items-center gap-1 text-xs font-semibold text-slate-700">
+                      Ver más
+                      <ChevronRight className="w-4 h-4" />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -275,12 +272,12 @@ const ParticipantsGallery = () => {
         </div>
 
         {filteredParticipants.length === 0 && (
-          <div className="text-center py-16">
-            <div className="inline-flex items-center justify-center w-20 h-20 bg-gray-100 rounded-full mb-4">
-              <Search className="w-10 h-10 text-gray-400" />
+          <div className="text-center py-20">
+            <div className="inline-flex items-center justify-center w-24 h-24 bg-slate-100 rounded-full mb-5">
+              <Search className="w-12 h-12 text-slate-400" />
             </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-2">No se encontraron participantes</h3>
-            <p className="text-gray-600">Intenta ajustar los filtros de búsqueda</p>
+            <h3 className="text-2xl font-bold text-slate-900 mb-3">No se encontraron participantes</h3>
+            <p className="text-slate-600 font-medium">Intenta ajustar los filtros de búsqueda</p>
           </div>
         )}
       </div>

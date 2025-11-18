@@ -531,9 +531,9 @@ const ProgramPage = () => {
       />
 
       {selectedJuryMember && (
-        <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4">
-          <div className="bg-white rounded-2xl shadow-xl w-full max-w-3xl max-h-[90vh] overflow-y-auto">
-            <div className="sticky top-0 bg-white z-10 p-6 border-b flex justify-between items-center">
+        <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-start justify-center p-4 overflow-y-auto">
+          <div className="bg-white rounded-2xl shadow-xl w-full max-w-3xl my-8 flex flex-col max-h-[calc(100vh-4rem)]">
+            <div className="flex-shrink-0 bg-white z-10 p-6 border-b flex justify-between items-center rounded-t-2xl">
               <div>
                 <h3 className="text-2xl font-bold text-gray-900">{selectedJuryMember.name}</h3>
                 <p className="text-teal-600 font-medium">{selectedJuryMember.position}</p>
@@ -545,7 +545,7 @@ const ProgramPage = () => {
                 <X className="w-6 h-6" />
               </button>
             </div>
-            <div className="p-6">
+            <div className="p-6 overflow-y-auto flex-grow">
               <div className="prose max-w-none">
                 <p className="text-gray-600 leading-relaxed">
                   {selectedJuryMember.fullBio || selectedJuryMember.bio}

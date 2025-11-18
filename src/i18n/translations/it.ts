@@ -521,6 +521,24 @@ export default {
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FTARIK%20HAMANE.png?alt=media&token=bb65c530-f183-408a-ab18-967f95d44c4e',
         bio: 'Tarik Hamane è un esperto riconosciuto del settore energetico e attuale Direttore Generale dell\'ONEE, dopo essere stato CEO ad interim di Masen. Ha ricoperto posizioni di alto livello in aziende globali come TOTAL Energies, dove ha diretto lo sviluppo mondiale dell\'idrogeno verde, e TOTAL Eren per il Nord Africa. Ha svolto funzioni chiave presso Masen e l\'ONEE, oltre ad aver iniziato la sua carriera nella ricerca presso il CNRS e il CERN. Parallelamente, ricopre importanti responsabilità internazionali: è Governatore del World Water Council, Vicepresidente di AfWASA e Co-Presidente dell\'OMEC. Presiede anche AMEPA e ha guidato entità come l\'Associazione dei Servizi Pubblici di Elettricità dell\'Africa e l\'Unione Araba dell\'Elettricità. È ingegnere elettrico e automatico presso l\'INSA Lione, con un master in Sistemi di Informazione Industriale.'
       },
+      'Moktar Mohamed el Moctar': {
+        name: 'Moktar Mohamed el Moctar',
+        title: 'Vicepresidente della Federazione di Energia ed Elettricità della Mauritania e Direttore Generale del Gruppo SOMACOS S.A',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FMoktar%20Mohamed%20el%20Moctar.png?alt=media&token=placeholder',
+        bio: 'Vicepresidente della Federazione di Energia ed Elettricità della Mauritania e Direttore Generale del Gruppo SOMACOS S.A. Leader imprenditoriale con ampia esperienza nel settore energetico mauritano, specializzato nella gestione e nello sviluppo di infrastrutture elettriche. La sua carriera è caratterizzata dalla promozione di progetti di modernizzazione energetica e dalla promozione della cooperazione regionale nel settore dell\'energia e dell\'elettricità.'
+      },
+      'Jean Michel Sené': {
+        name: 'Jean Michel Sené',
+        title: 'Direttore dell\'Agenzia Senegalese per l\'Elettrificazione Rurale (ASER)',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FJean%20Michel%20Sen%C3%A9.png?alt=media&token=placeholder',
+        bio: 'Direttore dell\'Agenzia Senegalese per l\'Elettrificazione Rurale (ASER), un\'istituzione chiave nell\'elettrificazione delle aree rurali in Senegal. Con una solida formazione tecnica ed esperienza nel settore energetico, guida progetti di accesso all\'elettricità nelle comunità rurali, promuovendo lo sviluppo sostenibile e l\'integrazione delle energie rinnovabili in aree tradizionalmente poco servite.'
+      },
+      'Elayo Hyacinth': {
+        name: 'Elayo Hyacinth',
+        title: 'Responsabile delle Politiche e delle Normative del Centro ECOWAS per le Energie Rinnovabili e l\'Efficienza Energetica (ECREEE)',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FHyacinth%20Elayo.png?alt=media&token=e44136b3-89c5-4679-b6dc-e18409bcb366',
+        bio: 'Responsabile delle Politiche Energetiche Sostenibili presso il Centro ECOWAS per le Energie Rinnovabili e l\'Efficienza Energetica (ECREEE), con sede a Praia, Capo Verde. Guida il Programma di Politiche Energetiche Sostenibili dell\'ECOWAS, promuovendo iniziative che favoriscono gli investimenti in energia sostenibile negli stati membri dell\'ECOWAS. Con oltre 15 anni di esperienza nel settore energetico, possiede un\'ampia competenza nella ricerca, formulazione di politiche energetiche e promozione di soluzioni energetiche accessibili per promuovere lo sviluppo socio-economico. Possiede un Master in Relazioni Internazionali presso l\'Università di Lancaster e un Master in Studi Energetici presso l\'Università di Dundee.'
+      },
       'Juan Jesús Rodríguez Marichal': {
         name: 'Juan Jesús Rodríguez Marichal',
         title: 'Presidente della Camera di Commercio di Fuerteventura',

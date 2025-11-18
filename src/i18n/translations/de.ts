@@ -521,6 +521,24 @@ export default {
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FTARIK%20HAMANE.png?alt=media&token=bb65c530-f183-408a-ab18-967f95d44c4e',
         bio: 'Tarik Hamane ist ein anerkannter Experte im Energiesektor und derzeit Generaldirektor der ONEE, nachdem er zuvor als Interim-CEO von Masen tätig war. Er hatte hochrangige Positionen in globalen Unternehmen wie TOTAL Energies inne, wo er die weltweite Entwicklung von grünem Wasserstoff leitete, und bei TOTAL Eren für Nordafrika. Er hat Schlüsselfunktionen bei Masen und der ONEE ausgeübt und seine Karriere in der Forschung am CNRS und am CERN begonnen. Parallel dazu hat er wichtige internationale Verantwortlichkeiten: Er ist Gouverneur des World Water Council, Vizepräsident von AfWASA und Ko-Präsident der OMEC. Er ist auch Präsident von AMEPA und hat Organisationen wie die Vereinigung der afrikanischen Elektrizitätsversorgungsunternehmen und die Arabische Union der Elektrizität geleitet. Er ist Elektro- und Automatisierungsingenieur der INSA Lyon mit einem Master in Industriellen Informationssystemen.'
       },
+      'Moktar Mohamed el Moctar': {
+        name: 'Moktar Mohamed el Moctar',
+        title: 'Vizepräsident der Energie- und Elektrizitätsföderation Mauretaniens und Geschäftsführer der SOMACOS S.A Gruppe',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FMoktar%20Mohamed%20el%20Moctar.png?alt=media&token=placeholder',
+        bio: 'Vizepräsident der Energie- und Elektrizitätsföderation Mauretaniens und Geschäftsführer der SOMACOS S.A Gruppe. Unternehmensführer mit umfangreicher Erfahrung im mauretanischen Energiesektor, spezialisiert auf das Management und die Entwicklung elektrischer Infrastruktur. Seine Karriere ist gekennzeichnet durch die Förderung von Energiemodernisierungsprojekten und die Förderung der regionalen Zusammenarbeit im Energie- und Elektrizitätssektor.'
+      },
+      'Jean Michel Sené': {
+        name: 'Jean Michel Sené',
+        title: 'Direktor der Senegalesischen Agentur für Ländliche Elektrifizierung (ASER)',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FJean%20Michel%20Sen%C3%A9.png?alt=media&token=placeholder',
+        bio: 'Direktor der Senegalesischen Agentur für Ländliche Elektrifizierung (ASER), einer Schlüsselinstitution bei der Elektrifizierung ländlicher Gebiete im Senegal. Mit solider technischer Ausbildung und Erfahrung im Energiesektor leitet er Elektrifizierungsprojekte in ländlichen Gemeinden und fördert nachhaltige Entwicklung und die Integration erneuerbarer Energien in traditionell unterversorgten Gebieten.'
+      },
+      'Elayo Hyacinth': {
+        name: 'Elayo Hyacinth',
+        title: 'Politik- und Regulierungsbeauftragter des ECOWAS-Zentrums für Erneuerbare Energien und Energieeffizienz (ECREEE)',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FHyacinth%20Elayo.png?alt=media&token=e44136b3-89c5-4679-b6dc-e18409bcb366',
+        bio: 'Beauftragter für nachhaltige Energiepolitik beim ECOWAS-Zentrum für Erneuerbare Energien und Energieeffizienz (ECREEE) mit Sitz in Praia, Kap Verde. Leitet das ECOWAS-Programm für nachhaltige Energiepolitik und treibt Initiativen voran, die Investitionen in nachhaltige Energie in den ECOWAS-Mitgliedstaaten fördern. Mit über 15 Jahren Erfahrung im Energiesektor verfügt er über umfangreiche Expertise in Forschung, Energiepolitikformulierung und Förderung erschwinglicher Energielösungen zur Förderung der sozioökonomischen Entwicklung. Besitzt einen Master-Abschluss in Internationalen Beziehungen von der Universität Lancaster und einen Master-Abschluss in Energiestudien von der Universität Dundee.'
+      },
       'Juan Jesús Rodríguez Marichal': {
         name: 'Juan Jesús Rodríguez Marichal',
         title: 'Präsident der Handelskammer von Fuerteventura',

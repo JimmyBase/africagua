@@ -558,8 +558,20 @@ export default {
       'Moktar Mohamed el Moctar': {
         name: 'Moktar Mohamed el Moctar',
         title: 'Vicepresidente de la Federación de Energía y Electricidad de Mauritania y Director general del Grupo SOMACOS S.A',
-        image: 'https://via.placeholder.com/400x400?text=Moktar+Mohamed',
-        bio: 'Biografía pendiente de actualización.'
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FMoktar%20Mohamed%20el%20Moctar.png?alt=media&token=placeholder',
+        bio: 'Vicepresidente de la Federación de Energía y Electricidad de Mauritania y Director General del Grupo SOMACOS S.A. Líder empresarial con amplia experiencia en el sector energético mauritano, especializado en la gestión y desarrollo de infraestructuras eléctricas. Su trayectoria se caracteriza por impulsar proyectos de modernización energética y promover la cooperación regional en el sector de la energía y la electricidad.'
+      },
+      'Jean Michel Sené': {
+        name: 'Jean Michel Sené',
+        title: 'Director de la Agencia Senegalesa de Electricidad Rural de Senegal (ASER)',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FJean%20Michel%20Sen%C3%A9.png?alt=media&token=placeholder',
+        bio: 'Director de la Agencia Senegalesa de Electricidad Rural (ASER), institución clave en la electrificación de zonas rurales en Senegal. Con una sólida formación técnica y experiencia en el sector energético, lidera proyectos de acceso a la electricidad en comunidades rurales, promoviendo el desarrollo sostenible y la integración de energías renovables en áreas tradicionalmente desatendidas.'
+      },
+      'Elayo Hyacinth': {
+        name: 'Elayo Hyacinth',
+        title: 'Oficial de Política y regulaciones del Centro del la CEDEAO para Energías Renovables y Eficiencia Energética (ECREEE)',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FHyacinth%20Elayo.png?alt=media&token=e44136b3-89c5-4679-b6dc-e18409bcb366',
+        bio: 'Responsable de Políticas de Energía Sostenible en el Centro de Energías Renovables y Eficiencia Energética de la CEDEAO (ECREEE), con sede en Praia, Cabo Verde. Lidera el Programa de Políticas de Energía Sostenible de la CEDEAO, impulsando iniciativas que fomentan inversiones en energía sostenible en los estados miembros de la CEDEAO. Con más de 15 años de experiencia en el sector energético, cuenta con amplias competencias en investigación, formulación de políticas energéticas y promoción de soluciones energéticas asequibles para impulsar el desarrollo socioeconómico. Posee una Maestría en Relaciones Internacionales por la Universidad de Lancaster y una Maestría en Estudios Energéticos por la Universidad de Dundee.'
       },
       'Rafael Molina Petit': {
         name: 'Rafael Molina Petit',

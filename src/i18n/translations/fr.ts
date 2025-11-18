@@ -521,6 +521,24 @@ export default {
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FTARIK%20HAMANE.png?alt=media&token=bb65c530-f183-408a-ab18-967f95d44c4e',
         bio: 'Tarik Hamane est un expert reconnu du secteur énergétique et actuel Directeur Général de l\'ONEE, après avoir été PDG par intérim de Masen. Il a occupé des postes de haut niveau dans des entreprises mondiales comme TOTAL Energies, où il a dirigé le développement mondial de l\'hydrogène vert, et TOTAL Eren pour l\'Afrique du Nord. Il a exercé des fonctions clés à Masen et à l\'ONEE, et a débuté sa carrière dans la recherche au CNRS et au CERN. Parallèlement, il occupe d\'importantes responsabilités internationales : il est Gouverneur du Conseil Mondial de l\'Eau, Vice-président d\'AfWASA et Co-président de l\'OMEC. Il préside également AMEPA et a dirigé des entités telles que l\'Association des Services Publics d\'Électricité d\'Afrique et l\'Union Arabe de l\'Électricité. Il est ingénieur électrique et automatique diplômé de l\'INSA Lyon, avec un master en Systèmes d\'Information Industrielle.'
       },
+      'Moktar Mohamed el Moctar': {
+        name: 'Moktar Mohamed el Moctar',
+        title: 'Vice-président de la Fédération de l\'Énergie et de l\'Électricité de Mauritanie et Directeur Général du Groupe SOMACOS S.A',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FMoktar%20Mohamed%20el%20Moctar.png?alt=media&token=placeholder',
+        bio: 'Vice-président de la Fédération de l\'Énergie et de l\'Électricité de Mauritanie et Directeur Général du Groupe SOMACOS S.A. Leader d\'entreprise possédant une vaste expérience dans le secteur énergétique mauritanien, spécialisé dans la gestion et le développement d\'infrastructures électriques. Son parcours se caractérise par la promotion de projets de modernisation énergétique et la promotion de la coopération régionale dans le secteur de l\'énergie et de l\'électricité.'
+      },
+      'Jean Michel Sené': {
+        name: 'Jean Michel Sené',
+        title: 'Directeur de l\'Agence Sénégalaise d\'Électrification Rurale (ASER)',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FJean%20Michel%20Sen%C3%A9.png?alt=media&token=placeholder',
+        bio: 'Directeur de l\'Agence Sénégalaise d\'Électrification Rurale (ASER), institution clé dans l\'électrification des zones rurales au Sénégal. Avec une solide formation technique et une expérience dans le secteur énergétique, il dirige des projets d\'accès à l\'électricité dans les communautés rurales, promouvant le développement durable et l\'intégration des énergies renouvelables dans les zones traditionnellement mal desservies.'
+      },
+      'Elayo Hyacinth': {
+        name: 'Elayo Hyacinth',
+        title: 'Responsable des Politiques et de la Réglementation du Centre de la CEDEAO pour les Énergies Renouvelables et l\'Efficacité Énergétique (ECREEE)',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FHyacinth%20Elayo.png?alt=media&token=e44136b3-89c5-4679-b6dc-e18409bcb366',
+        bio: 'Responsable des Politiques d\'Énergie Durable au Centre de la CEDEAO pour les Énergies Renouvelables et l\'Efficacité Énergétique (ECREEE), basé à Praia, au Cap-Vert. Dirige le Programme de Politiques d\'Énergie Durable de la CEDEAO, conduisant des initiatives qui favorisent les investissements en énergie durable dans les États membres de la CEDEAO. Avec plus de 15 ans d\'expérience dans le secteur de l\'énergie, possède une vaste expertise en recherche, formulation de politiques énergétiques et promotion de solutions énergétiques abordables pour stimuler le développement socio-économique. Détient une maîtrise en Relations Internationales de l\'Université de Lancaster et une maîtrise en Études Énergétiques de l\'Université de Dundee.'
+      },
       'Juan Jesús Rodríguez Marichal': {
         name: 'Juan Jesús Rodríguez Marichal',
         title: 'Président de la Chambre de Commerce de Fuerteventura',

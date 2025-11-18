@@ -536,8 +536,20 @@ export default {
       'Moktar Mohamed el Moctar': {
         name: 'Moktar Mohamed el Moctar',
         title: 'Vice President of the Energy and Electricity Federation of Mauritania and Managing Director of the SOMACOS S.A Group',
-        image: 'https://via.placeholder.com/400x400?text=Moktar+Mohamed',
-        bio: 'Biography pending update.'
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FMoktar%20Mohamed%20el%20Moctar.png?alt=media&token=placeholder',
+        bio: 'Vice President of the Energy and Electricity Federation of Mauritania and Managing Director of the SOMACOS S.A Group. Business leader with extensive experience in the Mauritanian energy sector, specialized in the management and development of electrical infrastructure. His career is characterized by driving energy modernization projects and promoting regional cooperation in the energy and electricity sector.'
+      },
+      'Jean Michel Sené': {
+        name: 'Jean Michel Sené',
+        title: 'Director of the Senegalese Rural Electricity Agency (ASER)',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FJean%20Michel%20Sen%C3%A9.png?alt=media&token=placeholder',
+        bio: 'Director of the Senegalese Rural Electricity Agency (ASER), a key institution in the electrification of rural areas in Senegal. With solid technical training and experience in the energy sector, he leads electricity access projects in rural communities, promoting sustainable development and the integration of renewable energy in traditionally underserved areas.'
+      },
+      'Elayo Hyacinth': {
+        name: 'Elayo Hyacinth',
+        title: 'Policy and Regulation Officer of the ECOWAS Centre for Renewable Energy and Energy Efficiency (ECREEE)',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FHyacinth%20Elayo.png?alt=media&token=e44136b3-89c5-4679-b6dc-e18409bcb366',
+        bio: 'Sustainable Energy Policy Officer at the ECOWAS Centre for Renewable Energy and Energy Efficiency (ECREEE), based in Praia, Cape Verde. Leads the ECOWAS Sustainable Energy Policy Programme, driving initiatives that foster sustainable energy investments in ECOWAS member states. With over 15 years of experience in the energy sector, possesses extensive expertise in research, energy policy formulation and promotion of affordable energy solutions to drive socio-economic development. Holds a Master\'s degree in International Relations from the University of Lancaster and a Master\'s degree in Energy Studies from the University of Dundee.'
       },
       'Rafael Molina Petit': {
         name: 'Rafael Molina Petit',

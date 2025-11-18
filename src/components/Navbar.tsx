@@ -75,6 +75,9 @@ const Navbar = () => {
             <a href="#news" onClick={handleClick} className={linkClasses}>
               {t('nav.news')}
             </a>
+            <a href="#participants" onClick={handleClick} className={linkClasses}>
+              Participantes
+            </a>
             <a href="#info" onClick={handleClick} className={linkClasses}>
               {t('nav.useful_info')}
             </a>
@@ -147,6 +150,13 @@ const Navbar = () => {
               className="block px-4 py-3 text-gray-700 hover:text-teal-600 rounded-lg hover:bg-gray-50 transition-colors duration-300"
             >
               {t('nav.news')}
+            </a>
+            <a
+              href="#participants"
+              onClick={handleClick}
+              className="block px-4 py-3 text-gray-700 hover:text-teal-600 rounded-lg hover:bg-gray-50 transition-colors duration-300"
+            >
+              Participantes
             </a>
             <a
               href="#info"

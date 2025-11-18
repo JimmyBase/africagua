@@ -1,19 +1,25 @@
 import React, { useState } from 'react';
-import { Info, ChevronDown } from 'lucide-react';
+import { Info, ChevronDown, User, Briefcase, Award, ExternalLink } from 'lucide-react';
 
 const SpeakersSection = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <section className="py-32 bg-gradient-to-b from-white to-gray-50" id="speakers">
+    <section className="py-32 bg-gradient-to-br from-slate-50 via-white to-cyan-50/30" id="speakers">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <button 
-          onClick={() => setIsOpen(!isOpen)} 
-          className="w-full flex items-center justify-center gap-4 group cursor-pointer"
-        >
-          <h2 className="section-title gradient-text mb-0">Ponentes</h2>
-          <ChevronDown className={`w-8 h-8 text-teal-600 transition-transform duration-500 ${isOpen ? 'rotate-180' : ''}`} />
-        </button>
+        <div className="text-center mb-12">
+          <div className="inline-block relative">
+            <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-teal-500 blur-3xl opacity-20 rounded-full"></div>
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="flex items-center justify-center gap-4 group cursor-pointer relative"
+            >
+              <h2 className="text-5xl font-extrabold bg-gradient-to-r from-[#1a3d4a] to-[#2c5f6f] bg-clip-text text-transparent">Ponentes</h2>
+              <ChevronDown className={`w-8 h-8 text-teal-600 transition-transform duration-500 ${isOpen ? 'rotate-180' : ''}`} />
+            </button>
+            <p className="text-xl text-slate-600 mt-4 relative">Expertos líderes en agua y energías renovables</p>
+          </div>
+        </div>
         
         <div className={`
           relative transition-all duration-700 ease-in-out
@@ -35,25 +41,50 @@ const SpeakersSection = () => {
             ${isOpen ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}
           `}>
             {speakers.map((speaker, index) => (
-              <div 
+              <div
                 key={index}
-                className="bg-white rounded-xl shadow-lg overflow-hidden group card-hover"
+                className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-teal-200"
                 style={{
                   transitionDelay: `${index * 50}ms`,
                   opacity: 0,
                   animation: isOpen ? `fadeInUp 0.6s ease ${index * 50}ms forwards` : 'none'
                 }}
               >
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-900 mb-1">{speaker.name}</h3>
-                  <div className="text-teal-600 font-medium mb-4">{speaker.organization}</div>
-                  <p className="text-gray-600 text-sm leading-relaxed mb-4">
+                <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 to-teal-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+                <div className="relative p-6">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="relative flex-shrink-0">
+                      <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-teal-500 rounded-xl blur opacity-0 group-hover:opacity-75 transition duration-300"></div>
+                      <div className="relative w-16 h-16 rounded-xl bg-gradient-to-br from-cyan-100 to-teal-100 flex items-center justify-center shadow-md">
+                        <User className="w-8 h-8 text-teal-600" />
+                      </div>
+                    </div>
+
+                    <div className="flex-grow min-w-0">
+                      <h3 className="text-lg font-bold text-gray-900 mb-1 group-hover:text-teal-600 transition-colors line-clamp-2">{speaker.name}</h3>
+                      <div className="flex items-center gap-2 text-sm text-teal-600 font-medium">
+                        <Briefcase className="w-4 h-4" />
+                        <span className="line-clamp-1">{speaker.organization}</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <p className="text-gray-600 text-sm leading-relaxed mb-4 line-clamp-3">
                     {speaker.description}
                   </p>
-                  <button className="inline-flex items-center gap-2 text-teal-600 hover:text-teal-700 text-sm font-medium transition-colors">
-                    <Info className="w-4 h-4" />
-                    + info
-                  </button>
+
+                  <div className="flex items-center justify-between">
+                    <button className="inline-flex items-center gap-2 text-teal-600 hover:text-teal-700 text-sm font-medium transition-colors group/btn">
+                      <Info className="w-4 h-4 group-hover/btn:scale-110 transition-transform" />
+                      Ver más
+                    </button>
+
+                    <div className="inline-flex items-center gap-1 px-3 py-1 bg-gradient-to-r from-cyan-500 to-teal-500 text-white text-xs font-medium rounded-full shadow-sm opacity-0 group-hover:opacity-100 transition-opacity">
+                      <Award className="w-3 h-3" />
+                      Ponente
+                    </div>
+                  </div>
                 </div>
               </div>
             ))}

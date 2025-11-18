@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Calendar, MapPin, Clock, Users, Coffee, Award, Presentation, ChevronDown, ChevronUp, Sparkles, User } from 'lucide-react';
+import { Calendar, MapPin, Clock, Users, Coffee, Award, Presentation, ChevronDown, ChevronUp, Sparkles, User, Globe, Linkedin, Mail, ExternalLink } from 'lucide-react';
 import CookiePolicy from './CookiePolicy';
 import PrivacyPolicy from './PrivacyPolicy';
 import LegalNotice from './LegalNotice';
@@ -190,18 +190,39 @@ const ProgramPage = () => {
                                             <ChevronDown className={`w-3.5 h-3.5 transition-transform ${isProfileExpanded ? 'rotate-180' : ''}`} />
                                           </button>
                                           {isProfileExpanded && (
-                                            <div className="ml-5 mt-3 mb-3 p-4 bg-white rounded-lg shadow-lg border-2 border-teal-100 animate-fadeIn">
-                                              <div className="flex flex-col md:flex-row gap-4">
+                                            <div className="ml-5 mt-3 mb-3 p-6 bg-gradient-to-br from-white via-cyan-50/30 to-teal-50/40 rounded-2xl shadow-2xl border border-teal-200/50 animate-fadeIn relative overflow-hidden">
+                                              {/* Decorative elements */}
+                                              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-cyan-400/10 to-teal-400/10 rounded-full blur-3xl"></div>
+                                              <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-teal-400/10 to-cyan-400/10 rounded-full blur-2xl"></div>
+
+                                              <div className="flex flex-col md:flex-row gap-6 relative z-10">
                                                 <div className="flex-shrink-0 flex items-center justify-center md:items-start">
-                                                  <img
-                                                    src={profile.image}
-                                                    alt={profile.name}
-                                                    className="w-32 h-32 rounded-lg object-cover object-top shadow-md"
-                                                  />
+                                                  <div className="relative group/avatar">
+                                                    <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 via-teal-500 to-cyan-500 rounded-2xl blur opacity-75 group-hover/avatar:opacity-100 transition duration-300"></div>
+                                                    <div className="relative">
+                                                      <img
+                                                        src={profile.image}
+                                                        alt={profile.name}
+                                                        className="w-36 h-36 rounded-xl object-cover object-top shadow-xl ring-4 ring-white"
+                                                      />
+                                                      <div className="absolute -bottom-2 -right-2 bg-gradient-to-r from-cyan-500 to-teal-500 text-white p-2 rounded-lg shadow-lg">
+                                                        <User className="w-4 h-4" />
+                                                      </div>
+                                                    </div>
+                                                  </div>
                                                 </div>
-                                                <div className="flex-grow">
-                                                  <h5 className="text-lg font-bold text-gray-900 mb-1">{profile.name}</h5>
-                                                  <p className="text-sm font-semibold text-teal-600 mb-3">{profile.title}</p>
+                                                <div className="flex-grow space-y-3">
+                                                  <div>
+                                                    <h5 className="text-xl font-extrabold text-gray-900 mb-1 flex items-center gap-2">
+                                                      {profile.name}
+                                                      <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-gradient-to-r from-cyan-500 to-teal-500 text-white shadow-sm">
+                                                        <Sparkles className="w-3 h-3 mr-1" />
+                                                        Ponente
+                                                      </span>
+                                                    </h5>
+                                                    <p className="text-sm font-semibold bg-gradient-to-r from-cyan-600 to-teal-600 bg-clip-text text-transparent mb-2">{profile.title}</p>
+                                                  </div>
+                                                  <div className="h-px bg-gradient-to-r from-transparent via-teal-300 to-transparent"></div>
                                                   <p className="text-sm text-gray-700 leading-relaxed text-justify">{profile.bio}</p>
                                                 </div>
                                               </div>
@@ -243,18 +264,39 @@ const ProgramPage = () => {
                                         <ChevronDown className={`w-3.5 h-3.5 transition-transform ${isProfileExpanded ? 'rotate-180' : ''}`} />
                                       </button>
                                       {isProfileExpanded && (
-                                        <div className="ml-5 mt-2 p-4 bg-white rounded-lg shadow-lg border-2 border-teal-100 animate-fadeIn">
-                                          <div className="flex flex-col md:flex-row gap-4">
+                                        <div className="ml-5 mt-2 p-6 bg-gradient-to-br from-white via-cyan-50/30 to-teal-50/40 rounded-2xl shadow-2xl border border-teal-200/50 animate-fadeIn relative overflow-hidden">
+                                          {/* Decorative elements */}
+                                          <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-cyan-400/10 to-teal-400/10 rounded-full blur-3xl"></div>
+                                          <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-teal-400/10 to-cyan-400/10 rounded-full blur-2xl"></div>
+
+                                          <div className="flex flex-col md:flex-row gap-6 relative z-10">
                                             <div className="flex-shrink-0 flex items-center justify-center md:items-start">
-                                              <img
-                                                src={profile.image}
-                                                alt={profile.name}
-                                                className="w-32 h-32 rounded-lg object-cover object-top shadow-md"
-                                              />
+                                              <div className="relative group/avatar">
+                                                <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 via-teal-500 to-cyan-500 rounded-2xl blur opacity-75 group-hover/avatar:opacity-100 transition duration-300"></div>
+                                                <div className="relative">
+                                                  <img
+                                                    src={profile.image}
+                                                    alt={profile.name}
+                                                    className="w-36 h-36 rounded-xl object-cover object-top shadow-xl ring-4 ring-white"
+                                                  />
+                                                  <div className="absolute -bottom-2 -right-2 bg-gradient-to-r from-cyan-500 to-teal-500 text-white p-2 rounded-lg shadow-lg">
+                                                    <User className="w-4 h-4" />
+                                                  </div>
+                                                </div>
+                                              </div>
                                             </div>
-                                            <div className="flex-grow">
-                                              <h5 className="text-lg font-bold text-gray-900 mb-1">{profile.name}</h5>
-                                              <p className="text-sm font-semibold text-teal-600 mb-3">{profile.title}</p>
+                                            <div className="flex-grow space-y-3">
+                                              <div>
+                                                <h5 className="text-xl font-extrabold text-gray-900 mb-1 flex items-center gap-2">
+                                                  {profile.name}
+                                                  <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-gradient-to-r from-cyan-500 to-teal-500 text-white shadow-sm">
+                                                    <Sparkles className="w-3 h-3 mr-1" />
+                                                    Ponente
+                                                  </span>
+                                                </h5>
+                                                <p className="text-sm font-semibold bg-gradient-to-r from-cyan-600 to-teal-600 bg-clip-text text-transparent mb-2">{profile.title}</p>
+                                              </div>
+                                              <div className="h-px bg-gradient-to-r from-transparent via-teal-300 to-transparent"></div>
                                               <p className="text-sm text-gray-700 leading-relaxed text-justify">{profile.bio}</p>
                                             </div>
                                           </div>

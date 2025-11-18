@@ -13,6 +13,7 @@ import UsefulInfo from './components/UsefulInfo';
 import ContactSection from './components/ContactSection';
 import AdminNewsPanel from './components/AdminNewsPanel';
 import StartupCompetition from './components/StartupCompetition';
+import ParticipantsGallery from './components/ParticipantsGallery';
 import CookieConsent from './components/CookieConsent';
 import CookiePolicy from './components/CookiePolicy';
 import PrivacyPolicy from './components/PrivacyPolicy';
@@ -56,6 +57,9 @@ function MainContent() {
         </div>
         <div className="section-bg wind-rotate">
           <Sponsors />
+        </div>
+        <div className="section-bg water-effect">
+          <ParticipantsGallery />
         </div>
         <div className="section-bg solar-shimmer">
           <UsefulInfo />

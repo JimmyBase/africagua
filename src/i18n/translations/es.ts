@@ -362,7 +362,7 @@ export default {
             },
             {
               time: '13:30',
-              title: 'Cóctel y fin del evento',
+              title: 'Almuerzo networking',
               type: 'break'
             }
           ]

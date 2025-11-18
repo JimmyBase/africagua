@@ -91,6 +91,7 @@ const ProgramPage = () => {
     const sessionId = `${dayKey}-${venueKey}-${index}`;
     const isExpanded = expandedSessions.includes(sessionId);
     const hasDetails = session.moderator || (session.participants && session.participants.length > 0) || session.description;
+    const isWelcomeCocktail = session.title.includes('Cóctel de bienvenida') || session.title.includes('Welcome cocktail');
 
     return (
       <div
@@ -98,8 +99,8 @@ const ProgramPage = () => {
         className={`rounded-xl p-5 sm:p-6 transition-all duration-300 ${getSessionColor(session.type)}`}
       >
         <div
-          className={`${hasDetails ? 'cursor-pointer' : ''} flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3 sm:gap-4`}
-          onClick={hasDetails ? () => toggleSession(sessionId) : undefined}
+          className={`${hasDetails && !isWelcomeCocktail ? 'cursor-pointer' : ''} flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3 sm:gap-4`}
+          onClick={hasDetails && !isWelcomeCocktail ? () => toggleSession(sessionId) : undefined}
         >
           <div className="flex items-start gap-3 sm:gap-4 flex-grow">
             <div className="flex-grow min-w-0 space-y-2">
@@ -109,12 +110,18 @@ const ProgramPage = () => {
               <h3 className="text-lg sm:text-xl font-bold text-gray-900 leading-tight">{session.title}</h3>
             </div>
           </div>
-          {hasDetails && (
+          {hasDetails && !isWelcomeCocktail && (
             <button className="self-start p-2 rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-700 transition-all duration-200 flex-shrink-0 border border-gray-300">
               {isExpanded ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
             </button>
           )}
         </div>
+
+        {session.description && isWelcomeCocktail && (
+          <div className="mt-4 p-4 bg-gradient-to-r from-teal-50 to-cyan-50 rounded-lg border border-teal-200">
+            <p className="text-gray-800 leading-relaxed text-sm sm:text-base">{session.description}</p>
+          </div>
+        )}
 
         {session.location && session.mapLink && (
           <div className="mt-4 p-4 bg-gradient-to-r from-cyan-50 to-blue-50 rounded-lg border border-cyan-200">
@@ -137,7 +144,7 @@ const ProgramPage = () => {
           </div>
         )}
 
-        {hasDetails && isExpanded && (
+        {hasDetails && !isWelcomeCocktail && isExpanded && (
           <div className="mt-6 pt-6 border-t border-gray-300 animate-fadeIn">
             {session.description && (
               <div className="mb-6 p-4 sm:p-5 bg-gray-50 rounded-lg border border-gray-200">

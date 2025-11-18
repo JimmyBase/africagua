@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Calendar, MapPin, Clock, Users, Coffee, Award, Presentation, ChevronDown, ChevronUp, Sparkles, User, Globe, Linkedin, Mail, ExternalLink } from 'lucide-react';
+import { Calendar, MapPin, Clock, Users, Coffee, Award, Presentation, ChevronDown, ChevronUp, Sparkles, User, Globe, Linkedin, Mail, ExternalLink, X, Trophy } from 'lucide-react';
 import CookiePolicy from './CookiePolicy';
 import PrivacyPolicy from './PrivacyPolicy';
 import LegalNotice from './LegalNotice';
@@ -15,6 +15,7 @@ const ProgramPage = () => {
   const [isPrivacyPolicyOpen, setIsPrivacyPolicyOpen] = useState(false);
   const [isLegalNoticeOpen, setIsLegalNoticeOpen] = useState(false);
   const [isProfileModalOpen, setIsProfileModalOpen] = useState(false);
+  const [selectedJuryMember, setSelectedJuryMember] = useState<any>(null);
 
   const programData = t('program_page', { returnObjects: true });
   const speakerProfiles = t('speaker_profiles', { returnObjects: true }) as Record<string, any>;
@@ -300,43 +301,59 @@ const ProgramPage = () => {
 
         {isJuryDeliberation && isExpanded && (
           <div className="mt-6 pt-6 border-t border-gray-300 animate-fadeIn">
-            <div className="mb-4">
-              <h4 className="font-bold text-lg text-gray-900 mb-2">{t('startup_competition.jury.title')}</h4>
-              <p className="text-sm text-gray-600 mb-6">{t('startup_competition.jury.description')}</p>
+            <div className="mb-8">
+              <div className="inline-flex items-center justify-center gap-3 px-6 py-2 bg-gradient-to-r from-teal-50 to-blue-50 rounded-full text-teal-600 font-medium mb-6">
+                <Trophy className="w-5 h-5" />
+                {t('startup_competition.jury.expert_panel')}
+              </div>
+              <h4 className="font-bold text-2xl text-gray-900 mb-2">{t('startup_competition.jury.title')}</h4>
+              <p className="text-base text-gray-600 mb-6">{t('startup_competition.jury.description')}</p>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid lg:grid-cols-2 gap-8">
               {juryMembers.map((member: any, idx: number) => (
                 <div
                   key={idx}
-                  className="bg-white rounded-lg border border-gray-200 overflow-hidden hover:shadow-lg transition-all duration-300 group"
+                  className="group bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-[1.02] transition-all duration-300"
                 >
-                  <div className="relative h-48 overflow-hidden">
-                    <img
-                      src={member.image}
-                      alt={member.name}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                      style={{
-                        objectPosition: member.name === "Patricia Fraile Romero" ||
-                                      member.name === "Gema Báez Espino" ||
-                                      member.name === "Pablo Martín Carbajal" ||
-                                      member.name === "Luis Suárez León" ||
-                                      member.name === "Ana Torrent Acosta" ||
-                                      member.name === "María Delgado Segura"
-                                      ? "center top" : "center center"
-                      }}
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
-                    <div className="absolute bottom-3 left-3 right-3">
-                      <span className="inline-block px-2 py-1 bg-teal-600 text-white text-xs rounded-full">
-                        {member.expertise}
-                      </span>
+                  <div className="flex flex-col md:flex-row h-full">
+                    <div className="md:w-2/5 relative overflow-hidden h-[350px] md:h-auto">
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/20 to-transparent group-hover:from-black/50 transition-all duration-300"></div>
+                      <img
+                        src={member.image}
+                        alt={member.name}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                        style={{
+                          objectPosition: "center 20%",
+                          minHeight: "350px"
+                        }}
+                      />
+                      <div className="absolute bottom-0 left-0 right-0 p-4 transform translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+                        <div className="flex items-center gap-2 text-white/90 text-sm">
+                          <span>{t('startup_competition.jury.expert_in')} {member.expertise}</span>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                  <div className="p-4">
-                    <h5 className="font-bold text-gray-900 text-base mb-1">{member.name}</h5>
-                    <p className="text-sm text-gray-600 mb-3 line-clamp-2">{member.position}</p>
-                    <p className="text-xs text-gray-500 line-clamp-3">{member.bio}</p>
+                    <div className="md:w-3/5 p-8 flex flex-col">
+                      <div className="flex-grow">
+                        <div className="flex items-start justify-between gap-4 mb-4">
+                          <div>
+                            <h3 className="text-xl font-bold text-gray-900">{member.name}</h3>
+                            <p className="text-teal-600 font-medium text-sm">{member.position}</p>
+                          </div>
+                        </div>
+                        <p className="text-gray-600 text-sm leading-relaxed line-clamp-4 mb-6">
+                          {member.bio}
+                        </p>
+                      </div>
+                      <button
+                        onClick={() => setSelectedJuryMember(member)}
+                        className="inline-flex items-center gap-2 text-teal-600 hover:text-teal-700 text-sm font-medium transition-colors group/btn"
+                      >
+                        {t('startup_competition.jury.view_full_bio')}
+                        <ExternalLink className="w-4 h-4 transform group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform" />
+                      </button>
+                    </div>
                   </div>
                 </div>
               ))}
@@ -512,6 +529,32 @@ const ProgramPage = () => {
         isOpen={isProfileModalOpen}
         onClose={() => setIsProfileModalOpen(false)}
       />
+
+      {selectedJuryMember && (
+        <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+          <div className="bg-white rounded-2xl shadow-xl w-full max-w-3xl max-h-[90vh] overflow-y-auto">
+            <div className="sticky top-0 bg-white z-10 p-6 border-b flex justify-between items-center">
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900">{selectedJuryMember.name}</h3>
+                <p className="text-teal-600 font-medium">{selectedJuryMember.position}</p>
+              </div>
+              <button
+                onClick={() => setSelectedJuryMember(null)}
+                className="text-gray-500 hover:text-gray-700 transition-colors"
+              >
+                <X className="w-6 h-6" />
+              </button>
+            </div>
+            <div className="p-6">
+              <div className="prose max-w-none">
+                <p className="text-gray-600 leading-relaxed">
+                  {selectedJuryMember.fullBio || selectedJuryMember.bio}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

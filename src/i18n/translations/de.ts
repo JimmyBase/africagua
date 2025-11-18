@@ -497,8 +497,8 @@ export default {
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FDANIEL%20JACOBO%20OREA.png?alt=media&token=c0141f5a-a255-4b56-ab15-7d491d1da744',
         bio: 'Er trat 2016 in den Körper der Handelstechniker und Staatsökonomen ein. Im Jahr 2021 trat er in das Staatssekretariat für Internationale Zusammenarbeit des MAEC ein und arbeitete zwischen 2022 und 2024 als Direktor der Abteilung für Evaluierung von Politiken für nachhaltige Entwicklung. Seitdem ist er als Wirtschafts- und Handelsberater der spanischen Botschaft in Dakar tätig, mit Zuständigkeit für Senegal, Mauretanien, Kap Verde, Gambia, Mali und Guinea-Bissau.'
       },
-      'Eva González': {
-        name: 'Eva González',
+      'Eva González Moreno': {
+        name: 'Eva González Moreno',
         title: 'Finanzdirektorin von Acciona',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FEva%20Gonz%C3%A1lez%20Moreno.png?alt=media&token=2e14761c-cf5e-42c4-be53-b7375ca9a799',
         bio: 'Sie verfügt über mehr als 12 Jahre Erfahrung im internationalen Energiesektor, spezialisiert auf Finanzstrukturierung, Projektfinanzierung und Unternehmensführung. Sie hat ihre Karriere in Kolumbien, Frankreich, Spanien und derzeit in Marokko entwickelt und Schlüsselstellen in Finanzabteilungen führender Unternehmen des Sektors besetzt. Derzeit leitet sie die Finanzabteilung von Al Baidaa Desalination Company, dem Unternehmen, das für das Entsalzungsprojekt von Casablanca verantwortlich ist, eines der wichtigsten in Afrika in seiner Kategorie.'

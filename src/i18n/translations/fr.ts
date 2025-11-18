@@ -268,7 +268,7 @@ export default {
                   'Sous-directrice Générale Adjointe des Instruments Financiers pour l\'Internationalisation de FIEM | María Soledad Sendagorta Fernández-Durán',
                   'Sous-directrice des Financements Structurés de COFIDES | Ane Sáenz de Zaitegui Bermeo',
                   'Technicienne du Secteur de Gestion des Fonds d\'État pour l\'Internationalisation de l\'ICO | Iciar La Casta Muñoa',
-                  'Acciona Water Casablanca | Adelaida Fernández (En attente de confirmation)'
+                  'Acciona, Directrice Financière | Eva González Moreno'
                 ]
               },
               {

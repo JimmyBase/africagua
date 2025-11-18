@@ -269,7 +269,7 @@ export default {
                   'Deputy General Director of Financial Instruments for Internationalization of FIEM | María Soledad Sendagorta Fernández-Durán',
                   'Deputy Financial Director of the Investment Area at COFIDES | Ane Sáenz de Zaitegui Bermeo',
                   'Technician of the State Funds Management Area for Internationalization at ICO | Iciar La Casta Muñoa',
-                  'Acciona, Chief Financial Officer | Eva González'
+                  'Acciona, Chief Financial Officer | Eva González Moreno'
                 ]
               },
               {

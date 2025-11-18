@@ -269,7 +269,7 @@ export default {
                   'Subdirectora General Adjunta de Instrumentos Financieros para la Internacionalización de FIEM | María Soledad Sendagorta Fernández-Durán',
                   'Subdirectora Financiera del Área de Inversiones de COFIDES | Ane Sáenz de Zaitegui Bermeo',
                   'Técnico del Área de Gestión de Fondos del Estado para la Internacionalización de ICO | Iciar La Casta Muñoa',
-                  'Acciona , Directora Financiera | Eva González'
+                  'Acciona, Directora Financiera | Eva González Moreno'
                 ]
               },
               {

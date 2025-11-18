@@ -268,7 +268,7 @@ export default {
                   'Stellvertretende Generaldirektorin für Finanzinstrumente zur Internationalisierung von FIEM | María Soledad Sendagorta Fernández-Durán',
                   'Stellvertretende Direktorin für Strukturierte Finanzierungen bei COFIDES | Ane Sáenz de Zaitegui Bermeo',
                   'Technikerin im Bereich Verwaltung von Staatsfonds für Internationalisierung beim ICO | Iciar La Casta Muñoa',
-                  'Acciona Water Casablanca | Adelaida Fernández (Bestätigung ausstehend)'
+                  'Acciona, Finanzdirektorin | Eva González Moreno'
                 ]
               },
               {

@@ -171,13 +171,15 @@ const ProgramPage = () => {
                                           {isProfileExpanded && (
                                             <div className="ml-0 mt-4 mb-3 p-5 bg-gray-50 rounded-lg border border-gray-200 animate-fadeIn">
                                               <div className="flex flex-col md:flex-row gap-5">
-                                                <div className="flex-shrink-0 flex items-center justify-center md:items-start">
-                                                  <img
-                                                    src={profile.image}
-                                                    alt={profile.name}
-                                                    className="w-32 h-32 rounded-lg object-cover object-top border-2 border-gray-300"
-                                                  />
-                                                </div>
+                                                {profile.image && profile.image.trim() !== '' && (
+                                                  <div className="flex-shrink-0 flex items-center justify-center md:items-start">
+                                                    <img
+                                                      src={profile.image}
+                                                      alt={profile.name}
+                                                      className="w-32 h-32 rounded-lg object-cover object-top border-2 border-gray-300"
+                                                    />
+                                                  </div>
+                                                )}
                                                 <div className="flex-grow space-y-2">
                                                   <div>
                                                     <h5 className="text-lg font-bold text-gray-900 mb-1">
@@ -228,13 +230,15 @@ const ProgramPage = () => {
                                       {isProfileExpanded && (
                                         <div className="ml-0 mt-4 mb-3 p-5 bg-gray-50 rounded-lg border border-gray-200 animate-fadeIn">
                                           <div className="flex flex-col md:flex-row gap-5">
-                                            <div className="flex-shrink-0 flex items-center justify-center md:items-start">
-                                              <img
-                                                src={profile.image}
-                                                alt={profile.name}
-                                                className="w-32 h-32 rounded-lg object-cover object-top border-2 border-gray-300"
-                                              />
-                                            </div>
+                                            {profile.image && profile.image.trim() !== '' && (
+                                              <div className="flex-shrink-0 flex items-center justify-center md:items-start">
+                                                <img
+                                                  src={profile.image}
+                                                  alt={profile.name}
+                                                  className="w-32 h-32 rounded-lg object-cover object-top border-2 border-gray-300"
+                                                />
+                                              </div>
+                                            )}
                                             <div className="flex-grow space-y-2">
                                               <div>
                                                 <h5 className="text-lg font-bold text-gray-900 mb-1">

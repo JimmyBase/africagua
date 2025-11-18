@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Calendar, MapPin, Clock, Users, Coffee, Award, Presentation, ChevronDown, ChevronUp, Sparkles, User, Globe, Linkedin, Mail, ExternalLink, X, Trophy } from 'lucide-react';
+import { Calendar, MapPin, Clock, Users, Coffee, Award, Presentation, ChevronDown, ChevronUp, Sparkles, User, Globe, Linkedin, Mail, ExternalLink, X, Trophy, Download } from 'lucide-react';
 import CookiePolicy from './CookiePolicy';
 import PrivacyPolicy from './PrivacyPolicy';
 import LegalNotice from './LegalNotice';
@@ -404,6 +404,18 @@ const ProgramPage = () => {
           <h1 className="text-6xl sm:text-7xl lg:text-8xl font-black text-white mb-8 leading-tight tracking-wider">
             PROGRAMA
           </h1>
+
+          <div className="flex justify-center mt-8">
+            <a
+              href="https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FPrograma%20Africagua%202025%20(21).pdf?alt=media&token=c8a83239-40ac-4e2e-b94b-de8dfead2249"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-teal-500 to-cyan-600 hover:from-teal-600 hover:to-cyan-700 text-white font-bold rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
+            >
+              <Download className="w-5 h-5" />
+              Descargar Programa
+            </a>
+          </div>
         </div>
 
         <div className="mb-16">

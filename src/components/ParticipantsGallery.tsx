@@ -13,6 +13,13 @@ interface Participant {
   expertise?: string[];
 }
 
+const isValidImage = (imageUrl: string): boolean => {
+  if (!imageUrl || imageUrl.trim() === '') return false;
+  if (imageUrl.includes('via.placeholder.com')) return false;
+  if (imageUrl.includes('token=placeholder')) return false;
+  return true;
+};
+
 interface ParticipantModalProps {
   participant: Participant | null;
   onClose: () => void;
@@ -20,6 +27,8 @@ interface ParticipantModalProps {
 
 const ParticipantModal: React.FC<ParticipantModalProps> = ({ participant, onClose }) => {
   if (!participant) return null;
+
+  const hasValidImage = isValidImage(participant.image);
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/70 backdrop-blur-md animate-fadeIn">
@@ -34,20 +43,22 @@ const ParticipantModal: React.FC<ParticipantModalProps> = ({ participant, onClos
 
         <div className="p-8 md:p-12">
           <div className="flex flex-col md:flex-row gap-8 mb-8">
-            <div className="flex-shrink-0">
-              <div className="relative">
+            {hasValidImage && (
+              <div className="flex-shrink-0">
                 <div className="relative">
-                  <img
-                    src={participant.image}
-                    alt={participant.name}
-                    className="w-56 h-56 rounded-xl object-cover object-top shadow-lg ring-4 ring-slate-100"
-                  />
-                  <div className="absolute -bottom-3 -right-3 bg-gradient-to-br from-slate-700 to-slate-900 text-white px-4 py-2 rounded-lg shadow-lg">
-                    <User className="w-5 h-5" />
+                  <div className="relative">
+                    <img
+                      src={participant.image}
+                      alt={participant.name}
+                      className="w-56 h-56 rounded-xl object-cover object-top shadow-lg ring-4 ring-slate-100"
+                    />
+                    <div className="absolute -bottom-3 -right-3 bg-gradient-to-br from-slate-700 to-slate-900 text-white px-4 py-2 rounded-lg shadow-lg">
+                      <User className="w-5 h-5" />
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
+            )}
 
             <div className="flex-grow space-y-5">
               <div>
@@ -210,65 +221,80 @@ const ParticipantsGallery = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredParticipants.map((participant, index) => (
-            <div
-              key={index}
-              onClick={() => setSelectedParticipant(participant)}
-              className="group relative bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer overflow-hidden border border-slate-200 hover:border-slate-400"
-            >
-              <div className="relative p-6">
-                <div className="flex items-start gap-4 mb-4">
-                  <div className="relative flex-shrink-0">
-                    <img
-                      src={participant.image}
-                      alt={participant.name}
-                      className="w-24 h-24 rounded-lg object-cover object-top shadow-sm ring-2 ring-slate-100 group-hover:ring-slate-300 transition-all duration-300"
-                    />
+          {filteredParticipants.map((participant, index) => {
+            const hasValidImage = isValidImage(participant.image);
+
+            return (
+              <div
+                key={index}
+                onClick={() => setSelectedParticipant(participant)}
+                className="group relative bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer overflow-hidden border border-slate-200 hover:border-slate-400"
+              >
+                <div className="relative p-6">
+                  {hasValidImage ? (
+                    <div className="flex items-start gap-4 mb-4">
+                      <div className="relative flex-shrink-0">
+                        <img
+                          src={participant.image}
+                          alt={participant.name}
+                          className="w-24 h-24 rounded-lg object-cover object-top shadow-sm ring-2 ring-slate-100 group-hover:ring-slate-300 transition-all duration-300"
+                        />
+                      </div>
+
+                      <div className="flex-grow min-w-0">
+                        <h3 className="text-lg font-bold text-slate-900 mb-1.5 group-hover:text-slate-700 transition-colors line-clamp-2 leading-tight">
+                          {participant.name}
+                        </h3>
+                        <p className="text-sm text-slate-600 font-medium line-clamp-2 leading-relaxed">
+                          {participant.title}
+                        </p>
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="mb-4">
+                      <h3 className="text-lg font-bold text-slate-900 mb-2 group-hover:text-slate-700 transition-colors leading-tight">
+                        {participant.name}
+                      </h3>
+                      <p className="text-sm text-slate-600 font-medium line-clamp-3 leading-relaxed">
+                        {participant.title}
+                      </p>
+                    </div>
+                  )}
+
+                  <div className="space-y-2.5 mb-4">
+                    {participant.organization && (
+                      <div className="flex items-center gap-2 text-sm text-slate-600">
+                        <Building2 className="w-4 h-4 text-slate-400 flex-shrink-0" />
+                        <span className="line-clamp-1">{participant.organization}</span>
+                      </div>
+                    )}
+                    {participant.country && (
+                      <div className="flex items-center gap-2 text-sm text-slate-600">
+                        <MapPin className="w-4 h-4 text-slate-400 flex-shrink-0" />
+                        <span>{participant.country}</span>
+                      </div>
+                    )}
                   </div>
 
-                  <div className="flex-grow min-w-0">
-                    <h3 className="text-lg font-bold text-slate-900 mb-1.5 group-hover:text-slate-700 transition-colors line-clamp-2 leading-tight">
-                      {participant.name}
-                    </h3>
-                    <p className="text-sm text-slate-600 font-medium line-clamp-2 leading-relaxed">
-                      {participant.title}
-                    </p>
-                  </div>
-                </div>
+                  <div className="flex items-center justify-between">
+                    {participant.role && (
+                      <div className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-gradient-to-r from-amber-500 to-amber-600 text-white text-xs font-semibold rounded-lg shadow-sm">
+                        <Award className="w-3 h-3" />
+                        {participant.role}
+                      </div>
+                    )}
 
-                <div className="space-y-2.5 mb-4">
-                  {participant.organization && (
-                    <div className="flex items-center gap-2 text-sm text-slate-600">
-                      <Building2 className="w-4 h-4 text-slate-400 flex-shrink-0" />
-                      <span className="line-clamp-1">{participant.organization}</span>
-                    </div>
-                  )}
-                  {participant.country && (
-                    <div className="flex items-center gap-2 text-sm text-slate-600">
-                      <MapPin className="w-4 h-4 text-slate-400 flex-shrink-0" />
-                      <span>{participant.country}</span>
-                    </div>
-                  )}
-                </div>
-
-                <div className="flex items-center justify-between">
-                  {participant.role && (
-                    <div className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-gradient-to-r from-amber-500 to-amber-600 text-white text-xs font-semibold rounded-lg shadow-sm">
-                      <Award className="w-3 h-3" />
-                      {participant.role}
-                    </div>
-                  )}
-
-                  <div className="ml-auto opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="flex items-center gap-1 text-xs font-semibold text-slate-700">
-                      Ver más
-                      <ChevronRight className="w-4 h-4" />
+                    <div className="ml-auto opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <div className="flex items-center gap-1 text-xs font-semibold text-slate-700">
+                        Ver más
+                        <ChevronRight className="w-4 h-4" />
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {filteredParticipants.length === 0 && (

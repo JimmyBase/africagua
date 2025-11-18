@@ -116,6 +116,27 @@ const ProgramPage = () => {
           )}
         </div>
 
+        {session.location && session.mapLink && (
+          <div className="mt-4 p-4 bg-gradient-to-r from-cyan-50 to-blue-50 rounded-lg border border-cyan-200">
+            <div className="flex items-start gap-3">
+              <MapPin className="w-5 h-5 text-cyan-600 flex-shrink-0 mt-0.5" />
+              <div className="flex-grow">
+                <h4 className="font-bold text-gray-900 mb-1">{session.location}</h4>
+                <p className="text-sm text-gray-700 mb-2">{session.locationAddress}</p>
+                <a
+                  href={session.mapLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm font-medium text-cyan-700 hover:text-cyan-900 transition-colors"
+                >
+                  <ExternalLink className="w-4 h-4" />
+                  {t('program_page.view_on_map')}
+                </a>
+              </div>
+            </div>
+          </div>
+        )}
+
         {hasDetails && isExpanded && (
           <div className="mt-6 pt-6 border-t border-gray-300 animate-fadeIn">
             {session.description && (

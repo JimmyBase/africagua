@@ -209,6 +209,7 @@ export default {
     program_page: {
       title: 'Programma Africagua 2025',
       subtitle: 'IX Forum Internazionale dell\'Acqua e delle Energie Rinnovabili',
+      view_on_map: 'Visualizza su Google Maps',
       days: {
         day1: {
           date: '20 novembre 2025',
@@ -297,7 +298,10 @@ export default {
                 time: '20:30',
                 title: 'Cocktail di benvenuto',
                 type: 'break',
-                description: 'Cocktail di benvenuto per i partecipanti all\'evento. Si terrà presso l\'Hotel Sheraton Fuerteventura Beach, Golf & Spa Resort, Av. de las Marismas, 1, 35610 Antigua, Las Palmas. Nella Sala Tenerife alle 20:45.'
+                description: 'Cocktail di benvenuto per i partecipanti all\'evento. Si terrà presso l\'Hotel Sheraton Fuerteventura Beach, Golf & Spa Resort, Av. de las Marismas, 1, 35610 Antigua, Las Palmas. Nella Sala Tenerife alle 20:45.',
+                location: 'Hotel Sheraton Fuerteventura Beach, Golf & Spa Resort',
+                locationAddress: 'Av. de las Marismas, 1, 35610 Antigua, Las Palmas',
+                mapLink: 'https://www.google.com/maps/place/Sheraton+Fuerteventura+Beach,+Golf+%26+Spa+Resort/@28.3872431,-13.8686424,17z/data=!3m1!4b1!4m9!3m8!1s0xc46bfdb9a5c6c5d:0x8c9e1c9e1c9e1c9e!5m2!4m1!1i2!8m2!3d28.3872431!4d-13.8660675!16s%2Fg%2F1tdxr3l1?entry=ttu'
               }
             ]
           }

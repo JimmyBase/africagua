@@ -18,6 +18,7 @@ const ProgramPage = () => {
 
   const programData = t('program_page', { returnObjects: true });
   const speakerProfiles = t('speaker_profiles', { returnObjects: true }) as Record<string, any>;
+  const juryMembers = t('startup_competition.jury.members', { returnObjects: true }) as any[];
 
   const toggleSession = (sessionId: string) => {
     setExpandedSessions(prev =>
@@ -92,6 +93,7 @@ const ProgramPage = () => {
     const isExpanded = expandedSessions.includes(sessionId);
     const hasDetails = session.moderator || (session.participants && session.participants.length > 0) || session.description;
     const isWelcomeCocktail = session.title.includes('Cóctel de bienvenida') || session.title.includes('Welcome cocktail');
+    const isJuryDeliberation = session.title.includes('Deliberación jurado') || session.title.includes('Jury deliberation') || session.title.includes('Délibération du jury');
 
     return (
       <div
@@ -99,8 +101,8 @@ const ProgramPage = () => {
         className={`rounded-xl p-5 sm:p-6 transition-all duration-300 ${getSessionColor(session.type)}`}
       >
         <div
-          className={`${hasDetails && !isWelcomeCocktail ? 'cursor-pointer' : ''} flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3 sm:gap-4`}
-          onClick={hasDetails && !isWelcomeCocktail ? () => toggleSession(sessionId) : undefined}
+          className={`${(hasDetails && !isWelcomeCocktail) || isJuryDeliberation ? 'cursor-pointer' : ''} flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3 sm:gap-4`}
+          onClick={(hasDetails && !isWelcomeCocktail) || isJuryDeliberation ? () => toggleSession(sessionId) : undefined}
         >
           <div className="flex items-start gap-3 sm:gap-4 flex-grow">
             <div className="flex-grow min-w-0 space-y-2">
@@ -110,7 +112,7 @@ const ProgramPage = () => {
               <h3 className="text-lg sm:text-xl font-bold text-gray-900 leading-tight">{session.title}</h3>
             </div>
           </div>
-          {hasDetails && !isWelcomeCocktail && (
+          {((hasDetails && !isWelcomeCocktail) || isJuryDeliberation) && (
             <button className="self-start p-2 rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-700 transition-all duration-200 flex-shrink-0 border border-gray-300">
               {isExpanded ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
             </button>
@@ -293,6 +295,52 @@ const ProgramPage = () => {
                 </ul>
               </div>
             )}
+          </div>
+        )}
+
+        {isJuryDeliberation && isExpanded && (
+          <div className="mt-6 pt-6 border-t border-gray-300 animate-fadeIn">
+            <div className="mb-4">
+              <h4 className="font-bold text-lg text-gray-900 mb-2">{t('startup_competition.jury.title')}</h4>
+              <p className="text-sm text-gray-600 mb-6">{t('startup_competition.jury.description')}</p>
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {juryMembers.map((member: any, idx: number) => (
+                <div
+                  key={idx}
+                  className="bg-white rounded-lg border border-gray-200 overflow-hidden hover:shadow-lg transition-all duration-300 group"
+                >
+                  <div className="relative h-48 overflow-hidden">
+                    <img
+                      src={member.image}
+                      alt={member.name}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      style={{
+                        objectPosition: member.name === "Patricia Fraile Romero" ||
+                                      member.name === "Gema Báez Espino" ||
+                                      member.name === "Pablo Martín Carbajal" ||
+                                      member.name === "Luis Suárez León" ||
+                                      member.name === "Ana Torrent Acosta" ||
+                                      member.name === "María Delgado Segura"
+                                      ? "center top" : "center center"
+                      }}
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+                    <div className="absolute bottom-3 left-3 right-3">
+                      <span className="inline-block px-2 py-1 bg-teal-600 text-white text-xs rounded-full">
+                        {member.expertise}
+                      </span>
+                    </div>
+                  </div>
+                  <div className="p-4">
+                    <h5 className="font-bold text-gray-900 text-base mb-1">{member.name}</h5>
+                    <p className="text-sm text-gray-600 mb-3 line-clamp-2">{member.position}</p>
+                    <p className="text-xs text-gray-500 line-clamp-3">{member.bio}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         )}
       </div>

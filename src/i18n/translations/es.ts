@@ -552,8 +552,8 @@ export default {
       'Tarik Hamane': {
         name: 'Tarik Hamane',
         title: 'Director General de la Oficina Nacional de Electricidad y Agua Potable de Marruecos (ONEE)',
-        image: 'https://via.placeholder.com/400x400?text=Tarik+Hamane',
-        bio: 'Biografía pendiente de actualización.'
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FTARIK%20HAMANE.png?alt=media&token=bb65c530-f183-408a-ab18-967f95d44c4e',
+        bio: 'Tarik Hamane es un reconocido experto del sector energético y actual Director General de la ONEE, tras haber sido CEO interino de Masen. Ha ocupado cargos de alto nivel en empresas globales como TOTAL Energies, donde dirigió el desarrollo mundial del hidrógeno verde, y TOTAL Eren para el norte de África. Ha desempeñado funciones clave en Masen y en la ONEE, además de haber iniciado su carrera en investigación en el CNRS y en el CERN. Paralelamente, ocupa importantes responsabilidades internacionales: es Gobernador del World Water Council, Vicepresidente de AfWASA y Co-Presidente de OMEC. También preside AMEPA y ha liderado entidades como la Asociación de Servicios Públicos de Electricidad de África y la Unión Árabe de Electricidad. Es ingeniero eléctrico y automático por el INSA Lyon, con un máster en Sistemas de Información Industrial.'
       },
       'Jean Michel Sené': {
         name: 'Jean Michel Sené',

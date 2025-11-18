@@ -515,6 +515,12 @@ export default {
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FEl%20Hadi%20Ada%20Ndao.png?alt=media&token=85d3ffe1-8b77-421c-bb78-de3612dd9b95',
         bio: 'Il est ingénieur de conception en génie civil, diplômé de l\'École Polytechnique de Thiès (Sénégal). Il compte 30 ans d\'expérience dans la gestion de l\'eau, dont 10 ans d\'expérience en tant que directeur à la Société Nationale des Eaux du Sénégal, au cours desquels il a dirigé des projets de développement avec des banques bilatérales et multilatérales (BM, AFD, BEI, BID, BAD, JICA, BOAD) dans les phases d\'identification, d\'études de faisabilité technico-économique, d\'évaluations environnementales et sociales, d\'études détaillées, de recherche de financement, de négociation d\'accords de financement, ainsi que dans la gestion des travaux et/ou la direction de projets.'
       },
+      'Tarik Hamane': {
+        name: 'Tarik Hamane',
+        title: 'Directeur Général de l\'Office National de l\'Électricité et de l\'Eau Potable du Maroc (ONEE)',
+        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FTARIK%20HAMANE.png?alt=media&token=bb65c530-f183-408a-ab18-967f95d44c4e',
+        bio: 'Tarik Hamane est un expert reconnu du secteur énergétique et actuel Directeur Général de l\'ONEE, après avoir été PDG par intérim de Masen. Il a occupé des postes de haut niveau dans des entreprises mondiales comme TOTAL Energies, où il a dirigé le développement mondial de l\'hydrogène vert, et TOTAL Eren pour l\'Afrique du Nord. Il a exercé des fonctions clés à Masen et à l\'ONEE, et a débuté sa carrière dans la recherche au CNRS et au CERN. Parallèlement, il occupe d\'importantes responsabilités internationales : il est Gouverneur du Conseil Mondial de l\'Eau, Vice-président d\'AfWASA et Co-président de l\'OMEC. Il préside également AMEPA et a dirigé des entités telles que l\'Association des Services Publics d\'Électricité d\'Afrique et l\'Union Arabe de l\'Électricité. Il est ingénieur électrique et automatique diplômé de l\'INSA Lyon, avec un master en Systèmes d\'Information Industrielle.'
+      },
       'Juan Jesús Rodríguez Marichal': {
         name: 'Juan Jesús Rodríguez Marichal',
         title: 'Président de la Chambre de Commerce de Fuerteventura',

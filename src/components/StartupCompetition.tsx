@@ -171,21 +171,15 @@ const StartupCompetition = () => {
                 className="group bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-[1.02] transition-all duration-300"
               >
                 <div className="flex flex-col md:flex-row h-full">
-                  <div className="md:w-2/5 relative overflow-hidden">
+                  <div className="md:w-2/5 relative overflow-hidden h-[350px] md:h-auto">
                     <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/20 to-transparent group-hover:from-black/50 transition-all duration-300"></div>
                     <img
                       src={member.image}
                       alt={member.name}
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                       style={{
-                        objectPosition: member.name === "Patricia Fraile Romero" || 
-                                      member.name === "Gema Báez Espino" || 
-                                      member.name === "Pablo Martín Carbajal" ||
-                                      member.name === "Luis Suárez León" ||
-                                      member.name === "Ana Torrent Acosta" ||
-                                      member.name === "María Delgado Segura"
-                                      ? "center top" : "center center",
-                        height: "400px"
+                        objectPosition: "center 20%",
+                        minHeight: "350px"
                       }}
                     />
                     <div className="absolute bottom-0 left-0 right-0 p-4 transform translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">

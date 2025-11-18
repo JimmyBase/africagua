@@ -37,25 +37,19 @@ const Navbar = () => {
     <nav className={navClasses}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
-          {/* Logo and Marquee */}
-          <div className="flex items-center gap-4 lg:gap-6">
-            <Link 
-              to="/" 
+          {/* Logo */}
+          <div className="flex items-center">
+            <Link
+              to="/"
               className="flex-shrink-0 flex items-center transform hover:scale-105 transition-transform duration-300"
              title="Africagua - Inicio"
             >
-              <img 
+              <img
                 src="https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/LOGO%20AFRICAGUA.png?alt=media&token=9e8c68b1-211e-4bb4-ac6c-d00193fb057e"
                 alt="Logo Africagua - Foro Internacional de Agua y Energías Renovables"
                 className="h-10 w-auto"
               />
             </Link>
-            
-            <div className="hidden lg:block">
-              <div className="text-sm text-teal-600 font-medium whitespace-nowrap">
-              
-              </div>
-            </div>
           </div>
           
           {/* Desktop menu */}

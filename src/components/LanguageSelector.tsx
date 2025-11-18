@@ -42,15 +42,15 @@ const LanguageSelector = () => {
 
   return (
     <div className="relative group">
-      <button 
+      <button
         className="flex items-center gap-2 text-gray-700 hover:text-teal-600 py-2 px-3 rounded-lg hover:bg-gray-50 transition-all duration-200 border border-transparent hover:border-gray-200 shadow-sm hover:shadow-md"
         title={`Idioma actual: ${currentLanguage.name}`}
       >
         <div className="relative">
-          <img 
-            src={currentLanguage.flagUrl} 
+          <img
+            src={currentLanguage.flagUrl}
             alt={currentLanguage.flagAlt}
-            className="w-5 h-4 rounded-sm object-cover shadow-sm border border-gray-200"
+            className="w-7 h-5 rounded-sm object-cover shadow-md border-2 border-gray-300"
             loading="lazy"
           />
         </div>
@@ -79,10 +79,10 @@ const LanguageSelector = () => {
               title={`Cambiar a ${lang.name}`}
             >
               <div className="flex-shrink-0">
-                <img 
-                  src={lang.flagUrl} 
+                <img
+                  src={lang.flagUrl}
                   alt={lang.flagAlt}
-                  className="w-5 h-4 rounded-sm object-cover shadow-sm border border-gray-200"
+                  className="w-6 h-4 rounded-sm object-cover shadow-md border border-gray-300"
                   loading="lazy"
                 />
               </div>

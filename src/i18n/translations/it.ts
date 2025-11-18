@@ -287,6 +287,17 @@ export default {
                   'Coordinatore del Gruppo di Ricerca sui Sistemi Energetici Rinnovabili dell\'ULPGC | Pedro Jesús Cabrera Santana',
                   'Óscar Luengo, Direttore Generale Welysis'
                 ]
+              },
+              {
+                time: '16:30',
+                title: 'Chiusura della giornata',
+                type: 'break'
+              },
+              {
+                time: '20:30',
+                title: 'Cocktail di benvenuto',
+                type: 'break',
+                description: 'Cocktail di benvenuto per i partecipanti all\'evento. Si terrà presso l\'Hotel Sheraton Fuerteventura Beach, Golf & Spa Resort, Av. de las Marismas, 1, 35610 Antigua, Las Palmas. Nella Sala Tenerife alle 20:45.'
               }
             ]
           }

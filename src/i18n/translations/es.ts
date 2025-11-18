@@ -298,7 +298,8 @@ export default {
               {
                 time: '20:30',
                 title: 'Cóctel de bienvenida',
-                type: 'break'
+                type: 'break',
+                description: 'Cóctel de bienvenida para los asistentes del evento. Tendrá lugar en el Hotel Sheraton Fuerteventura Beach, Golf & Spa Resort, Av. de las Marismas, 1, 35610 Antigua, Las Palmas. En el Salón Tenerife a las 20:45 horas.'
               }
             ]
           }

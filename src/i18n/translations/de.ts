@@ -440,7 +440,7 @@ export default {
       'María Soledad Sendagorta Fernández-Durán': {
         name: 'María Soledad Sendagorta Fernández-Durán',
         title: 'Stellvertretende Generaldirektorin für Finanzinstrumente zur Internationalisierung bei FIEM',
-        image: 'https://via.placeholder.com/400x400?text=Maria+Soledad+Sendagorta',
+        image: '',
         bio: 'Stellvertretende Generaldirektorin in der Generaldirektion für Finanzinstrumente zur Internationalisierung. Verantwortlich für die Strukturierung und Verwaltung von Projekten mit FIEM-Beteiligung unter Project-Finance-Schemata, umfasst ihre Arbeit auch die Beteiligung an internationalen Verhandlungen sowohl auf europäischer Ebene als auch im Rahmen der OECD. Diese Einheit ist verantwortlich für die Koordinierung des Systems von Finanzinstrumenten, das das Staatssekretariat für Handel spanischen Unternehmen zur Verfügung stellt, um sie bei ihren Export- und Investitionsprojekten zu unterstützen. Diese Instrumente umfassen die direkte Finanzierung durch den Fonds zur Internationalisierung von Unternehmen (FIEM) sowie die von COFIDES verwalteten Fonds FIEX und FONPYME und die vom Staat übernommene, von Cesce verwaltete Risikodeckung.'
       },
       'Ane Sáenz de Zaitegui Bermeo': {

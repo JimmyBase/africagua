@@ -440,7 +440,7 @@ export default {
       'María Soledad Sendagorta Fernández-Durán': {
         name: 'María Soledad Sendagorta Fernández-Durán',
         title: 'Sottodirrettrice Generale Aggiunta degli Strumenti Finanziari per l\'Internazionalizzazione di FIEM',
-        image: 'https://via.placeholder.com/400x400?text=Maria+Soledad+Sendagorta',
+        image: '',
         bio: 'Sottodirrettrice Generale Aggiunta nella Sottodirezione Generale degli Strumenti Finanziari per l\'Internazionalizzazione. Responsabile della strutturazione e gestione di progetti con partecipazione del FIEM secondo schemi di project finance, il suo lavoro comprende anche l\'intervento in negoziazioni internazionali sia a livello europeo che nell\'ambito dell\'OCSE. Questa è l\'unità responsabile del coordinamento del sistema di strumenti finanziari che la Segreteria di Stato per il Commercio mette a disposizione delle imprese spagnole per sostenerle nei loro progetti di esportazione e investimento. Questi strumenti includono il finanziamento diretto fornito dal Fondo per l\'Internazionalizzazione dell\'Impresa (FIEM) così come i fondi FIEX e FONPYME gestiti da COFIDES e la copertura dei rischi per conto dello Stato gestita da Cesce.'
       },
       'Ane Sáenz de Zaitegui Bermeo': {

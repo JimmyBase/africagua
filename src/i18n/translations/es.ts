@@ -465,6 +465,12 @@ export default {
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FHyacinth%20Elayo.png?alt=media&token=e44136b3-89c5-4679-b6dc-e18409bcb366',
         bio: 'Hyacinth Elayo es Responsable de Políticas de Energía Sostenible en el Centro de Energías Renovables y Eficiencia Energética de la CEDEAO (ECREEE), con sede en Praia, Cabo Verde. Lidera el Programa de Políticas de Energía Sostenible de la CEDEAO, impulsando iniciativas que fomentan inversiones en energía sostenible en los estados miembros de la CEDEAO. Con más de 15 años de experiencia en el sector energético, cuenta con amplias competencias en investigación, formulación de políticas energéticas y promoción de soluciones energéticas asequibles para impulsar el desarrollo socioeconómico. Posee una Maestría en Relaciones Internacionales por la Universidad de Lancaster y una Maestría en Estudios Energéticos por la Universidad de Dundee.'
       },
+      'María Soledad Sendagorta Fernández-Durán': {
+        name: 'María Soledad Sendagorta Fernández-Durán',
+        title: 'Subdirectora General Adjunta de Instrumentos Financieros para la Internacionalización de FIEM',
+        image: 'https://via.placeholder.com/400x400?text=Maria+Soledad+Sendagorta',
+        bio: 'Subdirectora General Adjunta en la Subdirección General de Instrumentos Financieros para la Internacionalización. Responsable en la estructuración y gestión de proyectos con participación de FIEM bajo esquemas de project finance, su trabajo abarca asimismo la intervención en negociaciones internacionales a nivel tanto europeo como en el ámbito de la OCDE. Esta es la unidad responsable de la coordinación del sistema de instrumentos financieros que la Secretaría de Estado de Comercio pone a disposición de las empresas españolas para apoyarlas en sus proyectos de exportación e inversión. Estos instrumentos incluyen la financiación directa proporcionada por el Fondo para la Internacionalización de la Empresa (FIEM) así como los fondos FIEX y FONPYME gestionados por COFIDES y la cobertura de riesgos por cuenta del Estado gestionada por Cesce.'
+      },
       'Ane Sáenz de Zaitegui Bermeo': {
         name: 'Ane Sáenz de Zaitegui Bermeo',
         title: 'Subdirectora Financiera del Área de Inversiones de COFIDES',

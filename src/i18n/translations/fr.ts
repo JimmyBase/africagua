@@ -437,6 +437,12 @@ export default {
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FHyacinth%20Elayo.png?alt=media&token=e44136b3-89c5-4679-b6dc-e18409bcb366',
         bio: 'Hyacinth Elayo est Responsable des Politiques d\'Énergie Durable au Centre de la CEDEAO pour les Énergies Renouvelables et l\'Efficacité Énergétique (ECREEE), basé à Praia, au Cap-Vert. Elle dirige le Programme de Politiques d\'Énergie Durable de la CEDEAO, conduisant des initiatives qui favorisent les investissements en énergie durable dans les États membres de la CEDEAO. Avec plus de 15 ans d\'expérience dans le secteur de l\'énergie, elle possède une vaste expertise en recherche, formulation de politiques énergétiques et promotion de solutions énergétiques abordables pour stimuler le développement socio-économique. Elle détient une maîtrise en Relations Internationales de l\'Université de Lancaster et une maîtrise en Études Énergétiques de l\'Université de Dundee.'
       },
+      'María Soledad Sendagorta Fernández-Durán': {
+        name: 'María Soledad Sendagorta Fernández-Durán',
+        title: 'Sous-directrice Générale Adjointe des Instruments Financiers pour l\'Internationalisation de FIEM',
+        image: 'https://via.placeholder.com/400x400?text=Maria+Soledad+Sendagorta',
+        bio: 'Sous-directrice Générale Adjointe à la Sous-direction Générale des Instruments Financiers pour l\'Internationalisation. Responsable de la structuration et de la gestion de projets avec participation du FIEM sous des schémas de financement de projets, son travail couvre également l\'intervention dans les négociations internationales au niveau européen ainsi que dans le cadre de l\'OCDE. Cette unité est responsable de la coordination du système d\'instruments financiers que le Secrétariat d\'État au Commerce met à la disposition des entreprises espagnoles pour les soutenir dans leurs projets d\'exportation et d\'investissement. Ces instruments comprennent le financement direct fourni par le Fonds pour l\'Internationalisation de l\'Entreprise (FIEM) ainsi que les fonds FIEX et FONPYME gérés par COFIDES et la couverture des risques pour le compte de l\'État gérée par Cesce.'
+      },
       'Ane Sáenz de Zaitegui Bermeo': {
         name: 'Ane Sáenz de Zaitegui Bermeo',
         title: 'Sous-directrice des Financements Structurés de COFIDES',

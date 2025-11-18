@@ -437,6 +437,12 @@ export default {
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FHyacinth%20Elayo.png?alt=media&token=e44136b3-89c5-4679-b6dc-e18409bcb366',
         bio: 'Hyacinth Elayo ist Beauftragte für Nachhaltige Energiepolitik beim ECOWAS-Zentrum für Erneuerbare Energien und Energieeffizienz (ECREEE) mit Sitz in Praia, Kap Verde. Sie leitet das ECOWAS-Programm für Nachhaltige Energiepolitik und fördert Initiativen, die Investitionen in nachhaltige Energie in den ECOWAS-Mitgliedstaaten unterstützen. Mit über 15 Jahren Erfahrung im Energiesektor verfügt sie über umfassende Kenntnisse in Forschung, Formulierung von Energiepolitik und Förderung erschwinglicher Energielösungen zur Förderung der sozioökonomischen Entwicklung. Sie besitzt einen Master-Abschluss in Internationalen Beziehungen von der Lancaster University und einen Master-Abschluss in Energiestudien von der University of Dundee.'
       },
+      'María Soledad Sendagorta Fernández-Durán': {
+        name: 'María Soledad Sendagorta Fernández-Durán',
+        title: 'Stellvertretende Generaldirektorin für Finanzinstrumente zur Internationalisierung bei FIEM',
+        image: 'https://via.placeholder.com/400x400?text=Maria+Soledad+Sendagorta',
+        bio: 'Stellvertretende Generaldirektorin in der Generaldirektion für Finanzinstrumente zur Internationalisierung. Verantwortlich für die Strukturierung und Verwaltung von Projekten mit FIEM-Beteiligung unter Project-Finance-Schemata, umfasst ihre Arbeit auch die Beteiligung an internationalen Verhandlungen sowohl auf europäischer Ebene als auch im Rahmen der OECD. Diese Einheit ist verantwortlich für die Koordinierung des Systems von Finanzinstrumenten, das das Staatssekretariat für Handel spanischen Unternehmen zur Verfügung stellt, um sie bei ihren Export- und Investitionsprojekten zu unterstützen. Diese Instrumente umfassen die direkte Finanzierung durch den Fonds zur Internationalisierung von Unternehmen (FIEM) sowie die von COFIDES verwalteten Fonds FIEX und FONPYME und die vom Staat übernommene, von Cesce verwaltete Risikodeckung.'
+      },
       'Ane Sáenz de Zaitegui Bermeo': {
         name: 'Ane Sáenz de Zaitegui Bermeo',
         title: 'Stellvertretende Direktorin für Strukturierte Finanzierungen bei COFIDES',

@@ -449,6 +449,12 @@ export default {
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FHyacinth%20Elayo.png?alt=media&token=e44136b3-89c5-4679-b6dc-e18409bcb366',
         bio: 'Hyacinth Elayo is the Sustainable Energy Policy Officer at the ECOWAS Centre for Renewable Energy and Energy Efficiency (ECREEE), based in Praia, Cape Verde. She leads the ECOWAS Sustainable Energy Policy Programme, driving initiatives that promote sustainable energy investments in ECOWAS member states. With over 15 years of experience in the energy sector, she has extensive expertise in research, energy policy formulation, and promoting affordable energy solutions to drive socio-economic development. She holds a Master\'s degree in International Relations from Lancaster University and a Master\'s degree in Energy Studies from the University of Dundee.'
       },
+      'María Soledad Sendagorta Fernández-Durán': {
+        name: 'María Soledad Sendagorta Fernández-Durán',
+        title: 'Deputy General Director of Financial Instruments for Internationalization at FIEM',
+        image: 'https://via.placeholder.com/400x400?text=Maria+Soledad+Sendagorta',
+        bio: 'Deputy General Director in the General Subdirectorate of Financial Instruments for Internationalization. Responsible for the structuring and management of projects with FIEM participation under project finance schemes, her work also encompasses intervention in international negotiations at both European and OECD levels. This unit is responsible for coordinating the system of financial instruments that the State Secretariat for Trade makes available to Spanish companies to support them in their export and investment projects. These instruments include direct financing provided by the Fund for the Internationalization of the Company (FIEM) as well as the FIEX and FONPYME funds managed by COFIDES and State-backed risk coverage managed by Cesce.'
+      },
       'Ane Sáenz de Zaitegui Bermeo': {
         name: 'Ane Sáenz de Zaitegui Bermeo',
         title: 'Deputy Financial Director of the Investment Area at COFIDES',

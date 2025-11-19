@@ -271,7 +271,7 @@ export default {
                 time: '12:30 – 13:30',
                 title: 'Project Financing. A practical case: the Casablanca desalination plant',
                 type: 'panel',
-                moderator: 'Loreto Taborga, territorial director of Foreign Trade and ICEX delegate in Las Palmas',
+                moderator: 'Loreto Taborga Curto, territorial director of Foreign Trade and ICEX delegate in Las Palmas',
                 participants: [
                   'Deputy General Director of Financial Instruments for Internationalization of FIEM | María Soledad Sendagorta Fernández-Durán',
                   'Deputy Financial Director of the Investment Area at COFIDES | Ane Sáenz de Zaitegui Bermeo',

@@ -271,7 +271,7 @@ export default {
                 time: '12:30 – 13:30',
                 title: 'Finanziamento di Progetti. Un caso pratico: il dissalatore di Casablanca',
                 type: 'panel',
-                moderator: 'Loreto Taborga, direttrice territoriale del Commercio Estero e delegata ICEX a Las Palmas',
+                moderator: 'Loreto Taborga Curto, direttrice territoriale del Commercio Estero e delegata ICEX a Las Palmas',
                 participants: [
                   'Sottodirrettrice Generale Aggiunta degli Strumenti Finanziari per l\'Internazionalizzazione di FIEM | María Soledad Sendagorta Fernández-Durán',
                   'Vicedirettrice dei Finanziamenti Strutturati di COFIDES | Ane Sáenz de Zaitegui Bermeo',

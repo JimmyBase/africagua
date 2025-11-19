@@ -291,7 +291,7 @@ export default {
                 moderator: 'María José Miranda Martel, Direttrice del Trasferimento di Conoscenze e Relazioni con le Imprese dell\'Università di Las Palmas de Gran Canaria',
                 participants: [
                   'Co-presidente del Comitato Bilaterale Mauritania-Spagna | Ana Suárez Calvo',
-                  'Direttore di R&S&I dell\'Istituto Tecnologico delle Canarie (ITC) | Gonzalo Piernavieja',
+                  'Direttore di R&S&I dell\'Istituto Tecnologico delle Canarie (ITC) | Gonzalo Piernavieja Izquierdo',
                   'Coordinatore del Gruppo di Ricerca sui Sistemi Energetici Rinnovabili dell\'ULPGC | Pedro Jesús Cabrera Santana',
                   'Óscar Luengo, Direttore Generale Welysis'
                 ]

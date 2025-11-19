@@ -474,7 +474,7 @@ export default {
       'Iciar La Casta Muñoa': {
         name: 'Iciar La Casta Muñoa',
         title: 'Tecnico dell\'Area di Gestione dei Fondi dello Stato per l\'Internazionalizzazione dell\'Istituto di Credito Ufficiale di Spagna',
-        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FIc%C3%ADar%20La%20Casta%20Mu%C3%B1oa.png?alt=media&token=5436d2e8-1df0-4d9c-88a4-a782fb3e782f',
+        image: '',
         bio: 'Laureata in Scienze Economiche e Aziendali presso CUNEF, è Tecnico nell\'Area di Gestione dei Fondi dello Stato per l\'Internazionalizzazione dell\'Istituto di Credito Ufficiale di Spagna, nel suo ruolo di Agenzia Finanziaria dello Stato, area in cui lavora nel Front Office delle operazioni dei Fondi dello Stato (FIEM e FEDES) da dieci anni. In precedenza, dal 2009 al 2015, è stata Responsabile del Dipartimento di Politiche e Ammissione dei Rischi di Credito dell\'ICO, nel suo ruolo di Banca Nazionale di Promozione, e Membro del Comitato di Investimento di FOND ICO PYME de AXIS, del Gruppo ICO, dopo nove anni in Analisi dei Rischi di Credito, sia Corporate che Project Finance, presso l\'Istituto e, prima di entrare in ICO, presso l\'istituzione finanziaria BNP Paribas. In BNP Paribas, è stata Responsabile della Divisione Controllo Rischi e Reporting e, in precedenza, Responsabile del Team di Audit presso KPMG.'
       },
       'Ana Suárez': {

@@ -491,7 +491,7 @@ export default {
       'Iciar La Casta Muñoa': {
         name: 'Iciar La Casta Muñoa',
         title: 'Técnico del Área de Gestión de Fondos del Estado para la Internacionalización del Instituto de Crédito Oficial de España',
-        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FIc%C3%ADar%20La%20Casta%20Mu%C3%B1oa.png?alt=media&token=5436d2e8-1df0-4d9c-88a4-a782fb3e782f',
+        image: '',
         bio: 'Licenciada en Ciencias Económicas y Empresariales por CUNEF, es Técnico en el Área de Gestión de los Fondos del Estado para la Internacionalización del Instituto de Crédito Oficial de España, en su vertiente de Agencia Financiera del Estado, Área en la que trabaja en el Front Office de las operaciones de Fondos del Estado (FIEM y FEDES) desde hace diez años. Previamente fue, de 2009 a 2015, Jefa del Departamento de Políticas y Admisión de Riesgos de Crédito del ICO, en su vertiente de Banco Nacional de Promoción, y Miembro del Comité de Inversiones de FOND ICO PYME de AXIS, del Grupo ICO, después de nueve años en Análisis de Riesgos de Crédito, tanto Corporativos como Project Finance, en el Instituto y, antes de incorporarse al ICO, en la entidad financiera BNP Paribas. En BNP Paribas, fue Jefa de la División de Control de Riesgos y Reporting y, anteriormente, fue Jefe de Equipo de Auditoría en KPMG.'
       },
       'Ana Suárez': {

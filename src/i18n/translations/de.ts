@@ -474,7 +474,7 @@ export default {
       'Iciar La Casta Muñoa': {
         name: 'Iciar La Casta Muñoa',
         title: 'Technikerin im Bereich Verwaltung von Staatsfonds für Internationalisierung beim Offiziellen Kreditinstitut Spaniens',
-        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FIc%C3%ADar%20La%20Casta%20Mu%C3%B1oa.png?alt=media&token=5436d2e8-1df0-4d9c-88a4-a782fb3e782f',
+        image: '',
         bio: 'Absolventin der Wirtschafts- und Betriebswissenschaften an der CUNEF, ist Technikerin im Bereich Verwaltung von Staatsfonds für Internationalisierung beim Offiziellen Kreditinstitut Spaniens in seiner Funktion als Staatliche Finanzagentur, wo sie seit zehn Jahren im Front Office der Staatsfonds-Operationen (FIEM und FEDES) arbeitet. Zuvor war sie von 2009 bis 2015 Leiterin der Abteilung für Kreditrisikopolitik und -zulassung des ICO in seiner Funktion als Nationale Förderbank und Mitglied des Investitionsausschusses von FOND ICO PYME de AXIS der ICO-Gruppe, nach neun Jahren in der Kreditrisikoanalyse, sowohl Corporate als auch Project Finance, am Institut und, bevor sie zur ICO kam, beim Finanzinstitut BNP Paribas. Bei BNP Paribas war sie Leiterin der Abteilung Risikokontrolle und Reporting und zuvor Teamleiterin Audit bei KPMG.'
       },
       'Ana Suárez': {

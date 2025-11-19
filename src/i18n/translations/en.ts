@@ -227,7 +227,7 @@ export default {
               type: 'opening',
               participants: [
                 'His Excellency Mr. Fernando Clavijo Batlle, President of the Government of the Canary Islands',
-                'His Excellency Mr. Nani Juwara, Minister of Energy, Petroleum and Mines of Gambia',
+                'His Excellency Mr. Lamin Camara, Permanent Secretary of the Ministry of Petroleum and Energy of Gambia',
                 'Her Excellency Mrs. Lola García Martínez, President of the Fuerteventura Island Council',
                 'His Excellency Mr. Cristóbal David de Vera Cabrera, Mayor of Puerto del Rosario',
                 'President of the Official Chamber of Commerce, Industry, Services and Navigation of Fuerteventura | Juan Jesús Rodríguez Marichal'

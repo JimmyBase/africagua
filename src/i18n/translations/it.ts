@@ -477,7 +477,7 @@ export default {
         image: '',
         bio: 'Laureata in Scienze Economiche e Aziendali presso CUNEF, è Tecnico nell\'Area di Gestione dei Fondi dello Stato per l\'Internazionalizzazione dell\'Istituto di Credito Ufficiale di Spagna, nel suo ruolo di Agenzia Finanziaria dello Stato, area in cui lavora nel Front Office delle operazioni dei Fondi dello Stato (FIEM e FEDES) da dieci anni. In precedenza, dal 2009 al 2015, è stata Responsabile del Dipartimento di Politiche e Ammissione dei Rischi di Credito dell\'ICO, nel suo ruolo di Banca Nazionale di Promozione, e Membro del Comitato di Investimento di FOND ICO PYME de AXIS, del Gruppo ICO, dopo nove anni in Analisi dei Rischi di Credito, sia Corporate che Project Finance, presso l\'Istituto e, prima di entrare in ICO, presso l\'istituzione finanziaria BNP Paribas. In BNP Paribas, è stata Responsabile della Divisione Controllo Rischi e Reporting e, in precedenza, Responsabile del Team di Audit presso KPMG.'
       },
-      'Ana Suárez': {
+      'Ana Suárez Calvo': {
         name: 'Ana B. Suárez Calvo',
         title: 'Copresidente del Comitato Bilaterale Spagna-Mauritania e Presidente del Consiglio Sociale dell\'ULPGC',
         image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FANA%20SUAREZ%20CALVO.png?alt=media&token=c3a2ad83-b315-4f87-91a9-000216df5414',

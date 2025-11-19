@@ -271,7 +271,7 @@ export default {
                 time: '12:30 – 13:30',
                 title: 'Projektfinanzierung. Ein praktischer Fall: die Entsalzungsanlage von Casablanca',
                 type: 'panel',
-                moderator: 'Loreto Taborga, territoriale Direktorin für Außenhandel und ICEX-Delegierte in Las Palmas',
+                moderator: 'Loreto Taborga Curto, territoriale Direktorin für Außenhandel und ICEX-Delegierte in Las Palmas',
                 participants: [
                   'Stellvertretende Generaldirektorin für Finanzinstrumente zur Internationalisierung von FIEM | María Soledad Sendagorta Fernández-Durán',
                   'Stellvertretende Direktorin für Strukturierte Finanzierungen bei COFIDES | Ane Sáenz de Zaitegui Bermeo',

@@ -38,7 +38,7 @@ const LocationSection = () => {
 
             <div className="relative overflow-hidden rounded-3xl shadow-2xl group">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3543.699!2d-13.863879!3d28.390160!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDIzJzI0LjYiTiAxM8KwNTEnNTAuMCJX!5e0!3m2!1sen!2ses!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3543.699254!2d-13.8638789!3d28.3901599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc40a1c92d3f88b7%3A0x3c0b30f3e4b59cc3!2sSheraton%20Fuerteventura%20Beach%2C%20Golf%20%26%20Spa%20Resort!5e0!3m2!1sen!2ses!4v1700000000000!5m2!1sen!2ses"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}

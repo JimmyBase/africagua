@@ -290,7 +290,7 @@ export default {
                 type: 'panel',
                 moderator: 'María José Miranda Martel, Director of Knowledge Transfer and Business Relations at the University of Las Palmas de Gran Canaria',
                 participants: [
-                  'Co-president of the Mauritania-Spain Bilateral Committee | Ana Suárez',
+                  'Co-president of the Mauritania-Spain Bilateral Committee | Ana Suárez Calvo',
                   'Director of R&D&I at the Canary Islands Institute of Technology (ITC) | Gonzalo Piernavieja',
                   'Coordinator of the Renewable Energy Systems Research Group at ULPGC | Pedro Jesús Cabrera Santana',
                   'Óscar Luengo, General Director Welysis'

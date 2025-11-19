@@ -271,7 +271,7 @@ export default {
                 time: '12:30 – 13:30',
                 title: 'Financement de Projets. Un cas pratique : la station de dessalement de Casablanca',
                 type: 'panel',
-                moderator: 'Loreto Taborga, directrice territoriale du Commerce Extérieur et déléguée d\'ICEX à Las Palmas',
+                moderator: 'Loreto Taborga Curto, directrice territoriale du Commerce Extérieur et déléguée d\'ICEX à Las Palmas',
                 participants: [
                   'Sous-directrice Générale Adjointe des Instruments Financiers pour l\'Internationalisation de FIEM | María Soledad Sendagorta Fernández-Durán',
                   'Sous-directrice des Financements Structurés de COFIDES | Ane Sáenz de Zaitegui Bermeo',

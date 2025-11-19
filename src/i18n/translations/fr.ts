@@ -261,8 +261,9 @@ export default {
                 type: 'panel',
                 moderator: 'Luis Padilla Macabeo, Directeur Général des Relations avec l\'Afrique du Gouvernement des Canaries',
                 participants: [
-                  'Directeur de l\'Agence Sénégalaise d\'Électricité Rurale (ASER) | Jean Michel Sené Lat Ndame Ndiaye',
-                  'Ministre de l\'Énergie, du Pétrole et des Mines de Gambie | Nani Juwara',
+                  'Secrétaire Permanent du Ministère du Pétrole et de l\'Énergie de Gambie | Lamin Camara',
+                  'Directeur de l\'Agence Sénégalaise d\'Électricité Rurale (ASER) | Jean Michel Sené',
+                  'Vice-président de la Fédération de l\'Énergie et de l\'Électricité de Mauritanie et Directeur Général du Groupe SOMACOS S.A | Moktar Mohamed el Moctar',
                   'Responsable des Politiques d\'Énergie Durable, Centre de la CEDEAO pour les Énergies Renouvelables et l\'Efficacité Énergétique (ECREEE) | Hyacinth Elayo'
                 ]
               },

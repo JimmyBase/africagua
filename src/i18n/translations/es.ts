@@ -261,7 +261,7 @@ export default {
                 type: 'panel',
                 moderator: 'Luis Padilla Macabeo, Director General de Relaciones con África del Gobierno de Canarias',
                 participants: [
-                  'Ministro de Energía, Petróleo y Minas de Gambia | Nani Juwara',
+                  'Secretario Permanente del Ministerio de Petróleo y Energía de Gambia | Lamin Camara',
                   'Director de la Agencia Senegalesa de Electricidad Rural de Senegal (ASER) | Jean Michel Sené',
                   'Vicepresidente de la Federación de Energía y Electricidad de Mauritania y Director general del Grupo SOMACOS S.A | Moktar Mohamed el Moctar',
                   'Oficial de Política y regulaciones del Centro del la CEDEAO para Energías Renovables y Eficiencia Energética (ECREEE) | Elayo Hyacinth'

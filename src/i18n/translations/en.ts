@@ -261,7 +261,7 @@ export default {
                 type: 'panel',
                 moderator: 'Luis Padilla Macabeo, General Director of Relations with Africa of the Government of the Canary Islands',
                 participants: [
-                  'Minister of Energy, Petroleum and Mines of Gambia | Nani Juwara',
+                  'Permanent Secretary of the Ministry of Petroleum and Energy of Gambia | Lamin Camara',
                   'Director of the Senegalese Rural Electricity Agency (ASER) | Jean Michel Sené',
                   'Vice President of the Energy and Electricity Federation of Mauritania and Managing Director of the SOMACOS S.A Group | Moktar Mohamed el Moctar',
                   'Policy and Regulation Officer of the ECOWAS Centre for Renewable Energy and Energy Efficiency (ECREEE) | Elayo Hyacinth'

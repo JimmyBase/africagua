@@ -308,7 +308,7 @@ export default {
                 description: 'Cocktail de bienvenue pour les participants à l\'événement. Il aura lieu à l\'Hôtel Sheraton Fuerteventura Beach, Golf & Spa Resort, Av. de las Marismas, 1, 35610 Antigua, Las Palmas. Dans le Salon Tenerife à 20h45.',
                 location: 'Hôtel Sheraton Fuerteventura Beach, Golf & Spa Resort',
                 locationAddress: 'Av. de las Marismas, 1, 35610 Antigua, Las Palmas',
-                mapLink: 'https://maps.app.goo.gl/3qrMjsbEUPfSAHa57'
+                mapLink: 'https://www.google.com/maps/place/Sheraton+Fuerteventura+Beach,+Golf+%26+Spa+Resort/@28.3872431,-13.8686424,17z/data=!3m1!4b1!4m9!3m8!1s0xc46bfdb9a5c6c5d:0x8c9e1c9e1c9e1c9e!5m2!4m1!1i2!8m2!3d28.3872431!4d-13.8660675!16s%2Fg%2F1tdxr3l1?entry=ttu'
               }
             ]
           }

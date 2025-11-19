@@ -309,7 +309,7 @@ export default {
                 description: 'Cóctel de bienvenida para los asistentes del evento. Tendrá lugar en el Hotel Sheraton Fuerteventura Beach, Golf & Spa Resort, Av. de las Marismas, 1, 35610 Antigua, Las Palmas. En el Salón Tenerife a las 20:45 horas.',
                 location: 'Hotel Sheraton Fuerteventura Beach, Golf & Spa Resort',
                 locationAddress: 'Av. de las Marismas, 1, 35610 Antigua, Las Palmas',
-                mapLink: 'https://maps.app.goo.gl/3qrMjsbEUPfSAHa57'
+                mapLink: 'https://www.google.com/maps/place/Sheraton+Fuerteventura+Beach,+Golf+%26+Spa+Resort/@28.3872431,-13.8686424,17z/data=!3m1!4b1!4m9!3m8!1s0xc46bfdb9a5c6c5d:0x8c9e1c9e1c9e1c9e!5m2!4m1!1i2!8m2!3d28.3872431!4d-13.8660675!16s%2Fg%2F1tdxr3l1?entry=ttu'
               }
             ]
           }
@@ -732,9 +732,9 @@ export default {
     map: {
       loading: 'Cargando mapa...',
       error_title: 'Error al cargar el mapa',
-      loading_error: 'No se pudo cargar el mapa. Por favor, verifica tu conexión a internet.',
-      routing_error: 'No se pudo calcular la ruta. Por favor, inténtalo de nuevo.',
-      search_error: 'No se pudieron buscar lugares cercanos. Por favor, inténtalo de nuevo.',
+      loading_error: 'No se pudo cargar Google Maps. Por favor, verifica tu conexión a internet.',
+      api_key_missing: 'Falta la clave API de Google Maps. Por favor, configura VITE_GOOGLE_MAPS_API_KEY en el archivo .env',
+      setup_instructions: 'Consulta el archivo .env.example para obtener instrucciones sobre cómo configurar la API de Google Maps.',
       view_in_google_maps: 'Ver en Google Maps',
       show_route: 'Mostrar ruta desde el aeropuerto',
       airport_route: 'Ruta Aeropuerto',
@@ -748,13 +748,7 @@ export default {
       simple_map: 'Mapa Simple',
       nearby_restaurant: 'Restaurantes Cercanos',
       nearby_parking: 'Aparcamientos Cercanos',
-      nearby_gas_station: 'Gasolineras Cercanas',
-      airport: 'Aeropuerto de Fuerteventura',
-      distance: 'Distancia',
-      duration: 'Duración',
-      minutes: 'min',
-      from_hotel: 'desde el hotel',
-      unnamed_place: 'Lugar sin nombre'
+      nearby_gas_station: 'Gasolineras Cercanas'
     }
   }
 };

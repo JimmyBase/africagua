@@ -293,7 +293,7 @@ export default {
                   'Co-presidente del Comitato Bilaterale Mauritania-Spagna | Ana Suárez Calvo',
                   'Direttore di R&S&I dell\'Istituto Tecnologico delle Canarie (ITC) | Gonzalo Piernavieja Izquierdo',
                   'Coordinatore del Gruppo di Ricerca sui Sistemi Energetici Rinnovabili dell\'ULPGC | Pedro Jesús Cabrera Santana',
-                  'Óscar Luengo, Direttore Generale Welysis'
+                  'Óscar Luengo Barrera, Direttore Generale Welysis'
                 ]
               },
               {

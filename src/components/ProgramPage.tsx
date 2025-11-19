@@ -6,7 +6,7 @@ import PrivacyPolicy from './PrivacyPolicy';
 import LegalNotice from './LegalNotice';
 import ProfileModal from './ProfileModal';
 import Avatar from './Avatar';
-import GoogleMapInteractive from './GoogleMapInteractive';
+import OpenStreetMapInteractive from './OpenStreetMapInteractive';
 
 const ProgramPage = () => {
   const { t } = useTranslation();
@@ -149,7 +149,7 @@ const ProgramPage = () => {
             </div>
 
             <div className="mt-4 overflow-hidden rounded-2xl border-2 border-cyan-200 shadow-lg">
-              <GoogleMapInteractive showFullControls={false} />
+              <OpenStreetMapInteractive showFullControls={false} />
             </div>
           </>
         )}

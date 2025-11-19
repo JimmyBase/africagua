@@ -720,9 +720,9 @@ export default {
     map: {
       loading: 'Loading map...',
       error_title: 'Error loading map',
-      loading_error: 'Could not load Google Maps. Please check your internet connection.',
-      api_key_missing: 'Google Maps API key is missing. Please configure VITE_GOOGLE_MAPS_API_KEY in the .env file',
-      setup_instructions: 'See the .env.example file for instructions on how to set up the Google Maps API.',
+      loading_error: 'Could not load map. Please check your internet connection.',
+      routing_error: 'Could not calculate route. Please try again.',
+      search_error: 'Could not search nearby places. Please try again.',
       view_in_google_maps: 'View on Google Maps',
       show_route: 'Show route from airport',
       airport_route: 'Airport Route',
@@ -736,7 +736,13 @@ export default {
       simple_map: 'Simple Map',
       nearby_restaurant: 'Nearby Restaurants',
       nearby_parking: 'Nearby Parking',
-      nearby_gas_station: 'Nearby Gas Stations'
+      nearby_gas_station: 'Nearby Gas Stations',
+      airport: 'Fuerteventura Airport',
+      distance: 'Distance',
+      duration: 'Duration',
+      minutes: 'min',
+      from_hotel: 'from hotel',
+      unnamed_place: 'Unnamed place'
     }
   }
 };

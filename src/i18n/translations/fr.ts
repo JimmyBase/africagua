@@ -552,13 +552,13 @@ export default {
       'Moktar Mohamed el Moctar': {
         name: 'Moktar Mohamed el Moctar',
         title: 'Vice-président de la Fédération de l\'Énergie et de l\'Électricité de Mauritanie et Directeur Général du Groupe SOMACOS S.A',
-        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FMoktar%20Mohamed%20el%20Moctar.png?alt=media&token=placeholder',
+        image: '',
         bio: 'Vice-président de la Fédération de l\'Énergie et de l\'Électricité de Mauritanie et Directeur Général du Groupe SOMACOS S.A. Leader d\'entreprise possédant une vaste expérience dans le secteur énergétique mauritanien, spécialisé dans la gestion et le développement d\'infrastructures électriques. Son parcours se caractérise par la promotion de projets de modernisation énergétique et la promotion de la coopération régionale dans le secteur de l\'énergie et de l\'électricité.'
       },
       'Jean Michel Sené': {
         name: 'Jean Michel Sené',
         title: 'Directeur de l\'Agence Sénégalaise d\'Électrification Rurale (ASER)',
-        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FJean%20Michel%20Sen%C3%A9.png?alt=media&token=placeholder',
+        image: '',
         bio: 'Directeur de l\'Agence Sénégalaise d\'Électrification Rurale (ASER), institution clé dans l\'électrification des zones rurales au Sénégal. Avec une solide formation technique et une expérience dans le secteur énergétique, il dirige des projets d\'accès à l\'électricité dans les communautés rurales, promouvant le développement durable et l\'intégration des énergies renouvelables dans les zones traditionnellement mal desservies.'
       },
       'Elayo Hyacinth': {

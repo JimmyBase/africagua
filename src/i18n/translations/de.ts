@@ -552,13 +552,13 @@ export default {
       'Moktar Mohamed el Moctar': {
         name: 'Moktar Mohamed el Moctar',
         title: 'Vizepräsident der Energie- und Elektrizitätsföderation Mauretaniens und Geschäftsführer der SOMACOS S.A Gruppe',
-        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FMoktar%20Mohamed%20el%20Moctar.png?alt=media&token=placeholder',
+        image: '',
         bio: 'Vizepräsident der Energie- und Elektrizitätsföderation Mauretaniens und Geschäftsführer der SOMACOS S.A Gruppe. Unternehmensführer mit umfangreicher Erfahrung im mauretanischen Energiesektor, spezialisiert auf das Management und die Entwicklung elektrischer Infrastruktur. Seine Karriere ist gekennzeichnet durch die Förderung von Energiemodernisierungsprojekten und die Förderung der regionalen Zusammenarbeit im Energie- und Elektrizitätssektor.'
       },
       'Jean Michel Sené': {
         name: 'Jean Michel Sené',
         title: 'Direktor der Senegalesischen Agentur für Ländliche Elektrifizierung (ASER)',
-        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FJean%20Michel%20Sen%C3%A9.png?alt=media&token=placeholder',
+        image: '',
         bio: 'Direktor der Senegalesischen Agentur für Ländliche Elektrifizierung (ASER), einer Schlüsselinstitution bei der Elektrifizierung ländlicher Gebiete im Senegal. Mit solider technischer Ausbildung und Erfahrung im Energiesektor leitet er Elektrifizierungsprojekte in ländlichen Gemeinden und fördert nachhaltige Entwicklung und die Integration erneuerbarer Energien in traditionell unterversorgten Gebieten.'
       },
       'Elayo Hyacinth': {

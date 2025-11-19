@@ -563,13 +563,13 @@ export default {
       'Moktar Mohamed el Moctar': {
         name: 'Moktar Mohamed el Moctar',
         title: 'Vice President of the Energy and Electricity Federation of Mauritania and Managing Director of the SOMACOS S.A Group',
-        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FMoktar%20Mohamed%20el%20Moctar.png?alt=media&token=placeholder',
+        image: '',
         bio: 'Vice President of the Energy and Electricity Federation of Mauritania and Managing Director of the SOMACOS S.A Group. Business leader with extensive experience in the Mauritanian energy sector, specialized in the management and development of electrical infrastructure. His career is characterized by driving energy modernization projects and promoting regional cooperation in the energy and electricity sector.'
       },
       'Jean Michel Sené': {
         name: 'Jean Michel Sené',
         title: 'Director of the Senegalese Rural Electricity Agency (ASER)',
-        image: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PONENTES%20NUEVOS%20PARA%20LA%20WEB%2FSEGUNDA%20TANDA%2FJean%20Michel%20Sen%C3%A9.png?alt=media&token=placeholder',
+        image: '',
         bio: 'Director of the Senegalese Rural Electricity Agency (ASER), a key institution in the electrification of rural areas in Senegal. With solid technical training and experience in the energy sector, he leads electricity access projects in rural communities, promoting sustainable development and the integration of renewable energy in traditionally underserved areas.'
       },
       'Elayo Hyacinth': {

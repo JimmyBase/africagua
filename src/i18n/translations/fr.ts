@@ -692,6 +692,27 @@ export default {
           }
         ]
       }
+    },
+    map: {
+      loading: 'Chargement de la carte...',
+      error_title: 'Erreur de chargement de la carte',
+      loading_error: 'Impossible de charger Google Maps. Veuillez vérifier votre connexion Internet.',
+      api_key_missing: 'La clé API Google Maps est manquante. Veuillez configurer VITE_GOOGLE_MAPS_API_KEY dans le fichier .env',
+      setup_instructions: 'Consultez le fichier .env.example pour obtenir des instructions sur la configuration de l\'API Google Maps.',
+      view_in_google_maps: 'Voir sur Google Maps',
+      show_route: 'Afficher l\'itinéraire depuis l\'aéroport',
+      airport_route: 'Itinéraire Aéroport',
+      restaurants: 'Restaurants',
+      parking: 'Parking',
+      gas_stations: 'Stations-service',
+      reset: 'Réinitialiser',
+      fullscreen: 'Plein écran',
+      exit_fullscreen: 'Quitter le plein écran',
+      interactive_map: 'Carte Interactive',
+      simple_map: 'Carte Simple',
+      nearby_restaurant: 'Restaurants à Proximité',
+      nearby_parking: 'Parkings à Proximité',
+      nearby_gas_station: 'Stations-service à Proximité'
     }
   }
 };

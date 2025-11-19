@@ -1,10 +1,12 @@
-import React from 'react';
-import { MapPin, Sun, Shield, TrendingUp, ExternalLink } from 'lucide-react';
+import React, { useState } from 'react';
+import { MapPin, Sun, Shield, TrendingUp, ExternalLink, Map } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import GoogleMapInteractive from './GoogleMapInteractive';
 
 const LocationSection = () => {
   const { t } = useTranslation();
   const venue = t('location.venue', { returnObjects: true });
+  const [showInteractiveMap, setShowInteractiveMap] = useState(false);
 
   return (
     <section className="py-32 bg-gradient-to-b from-white to-gray-50" id="location">
@@ -36,19 +38,40 @@ const LocationSection = () => {
               </div>
             </div>
 
-            <div className="relative overflow-hidden rounded-3xl shadow-2xl group">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3543.699254!2d-13.8638789!3d28.3901599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc40a1c92d3f88b7%3A0x3c0b30f3e4b59cc3!2sSheraton%20Fuerteventura%20Beach%2C%20Golf%20%26%20Spa%20Resort!5e0!3m2!1sen!2ses!4v1700000000000!5m2!1sen!2ses"
-                width="100%"
-                height="400"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-3xl"
-                title="Hotel Sheraton Fuerteventura Location"
-              ></iframe>
-              <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent pointer-events-none"></div>
+            <div className="relative overflow-hidden rounded-3xl shadow-2xl">
+              {!showInteractiveMap ? (
+                <>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3543.699254!2d-13.8638789!3d28.3901599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc40a1c92d3f88b7%3A0x3c0b30f3e4b59cc3!2sSheraton%20Fuerteventura%20Beach%2C%20Golf%20%26%20Spa%20Resort!5e0!3m2!1sen!2ses!4v1700000000000!5m2!1sen!2ses"
+                    width="100%"
+                    height="400"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    className="rounded-3xl"
+                    title="Hotel Sheraton Fuerteventura Location"
+                  ></iframe>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent pointer-events-none"></div>
+                  <button
+                    onClick={() => setShowInteractiveMap(true)}
+                    className="absolute bottom-4 right-4 px-6 py-3 bg-gradient-to-r from-teal-600 to-blue-600 text-white rounded-xl font-semibold hover:from-teal-700 hover:to-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 flex items-center gap-2 z-10"
+                  >
+                    <Map className="w-5 h-5" />
+                    {t('map.interactive_map')}
+                  </button>
+                </>
+              ) : (
+                <div className="relative">
+                  <GoogleMapInteractive showFullControls={true} />
+                  <button
+                    onClick={() => setShowInteractiveMap(false)}
+                    className="absolute top-4 right-20 px-4 py-2 bg-white rounded-xl font-medium text-gray-700 hover:bg-gray-100 transition-all duration-200 shadow-lg z-10"
+                  >
+                    {t('map.simple_map')}
+                  </button>
+                </div>
+              )}
             </div>
           </div>
 

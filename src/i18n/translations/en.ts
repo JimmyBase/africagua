@@ -716,6 +716,27 @@ export default {
           }
         ]
       }
+    },
+    map: {
+      loading: 'Loading map...',
+      error_title: 'Error loading map',
+      loading_error: 'Could not load Google Maps. Please check your internet connection.',
+      api_key_missing: 'Google Maps API key is missing. Please configure VITE_GOOGLE_MAPS_API_KEY in the .env file',
+      setup_instructions: 'See the .env.example file for instructions on how to set up the Google Maps API.',
+      view_in_google_maps: 'View on Google Maps',
+      show_route: 'Show route from airport',
+      airport_route: 'Airport Route',
+      restaurants: 'Restaurants',
+      parking: 'Parking',
+      gas_stations: 'Gas Stations',
+      reset: 'Reset',
+      fullscreen: 'Fullscreen',
+      exit_fullscreen: 'Exit fullscreen',
+      interactive_map: 'Interactive Map',
+      simple_map: 'Simple Map',
+      nearby_restaurant: 'Nearby Restaurants',
+      nearby_parking: 'Nearby Parking',
+      nearby_gas_station: 'Nearby Gas Stations'
     }
   }
 };

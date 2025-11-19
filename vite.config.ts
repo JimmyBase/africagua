@@ -44,6 +44,7 @@ export default defineConfig({
   ],
   optimizeDeps: {
     exclude: ['lucide-react'],
+    include: ['react-leaflet', 'leaflet']
   },
   publicDir: 'public',
 });

@@ -49,6 +49,12 @@ export default {
     location: {
       title: 'Warum findet es auf Fuerteventura statt?',
       description: 'Fuerteventura ist aufgrund seiner geostrategischen Lage Tor und Brücke zu Afrika. Darüber hinaus genießen die Kanarischen Inseln politische Stabilität, Rechtssicherheit und ein von der Europäischen Union genehmigtes differenziertes Steuersystem, das dieses Gebiet zu einem Schlüsselpunkt der Vereinigung und Vereinbarung für diese Art von Initiativen macht.',
+      venue: {
+        title: 'Veranstaltungsort',
+        name: 'Hotel Sheraton Fuerteventura Beach, Golf & Spa Resort',
+        address: 'Av. de las Marismas, 1, 35610 Antigua, Las Palmas',
+        viewOnMaps: 'Auf Google Maps anzeigen'
+      },
       advantages: [
         {
           title: 'Strategische Lage',

@@ -49,6 +49,12 @@ export default {
     location: {
       title: 'Pourquoi à Fuerteventura ?',
       description: "Fuerteventura est une porte d'entrée et un pont vers l'Afrique en raison de sa situation géostratégique. De plus, les îles Canaries bénéficient d'une stabilité politique, d'une sécurité juridique et d'un régime fiscal différencié approuvé par l'Union européenne, faisant de ce territoire un point clé d'union et d'accord pour ce type d'initiatives.",
+      venue: {
+        title: 'Lieu de l\'événement',
+        name: 'Hotel Sheraton Fuerteventura Beach, Golf & Spa Resort',
+        address: 'Av. de las Marismas, 1, 35610 Antigua, Las Palmas',
+        viewOnMaps: 'Voir sur Google Maps'
+      },
       advantages: [
         {
           title: 'Emplacement Stratégique',

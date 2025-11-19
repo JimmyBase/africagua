@@ -49,6 +49,12 @@ export default {
     location: {
       title: 'Why is it held in Fuerteventura?',
       description: 'Fuerteventura is a gateway and bridge to Africa due to its geostrategic location. Furthermore, the Canary Islands enjoy political stability, legal security, and a differentiated tax regime approved by the European Union, making this territory a key point of union and agreement for these types of initiatives.',
+      venue: {
+        title: 'Event Venue',
+        name: 'Hotel Sheraton Fuerteventura Beach, Golf & Spa Resort',
+        address: 'Av. de las Marismas, 1, 35610 Antigua, Las Palmas',
+        viewOnMaps: 'View on Google Maps'
+      },
       advantages: [
         {
           title: 'Strategic Location',

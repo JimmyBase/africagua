@@ -49,6 +49,12 @@ export default {
     location: {
       title: 'Perché si celebra a Fuerteventura?',
       description: 'Fuerteventura è porta e ponte con l\'Africa per la sua situazione geostrategica. Inoltre, le isole Canarie godono di una situazione di stabilità politica, sicurezza giuridica e un regime fiscale differenziato e approvato dall\'Unione Europea che rendono questo territorio un punto chiave di unione e accordo per questo tipo di iniziative.',
+      venue: {
+        title: 'Sede dell\'evento',
+        name: 'Hotel Sheraton Fuerteventura Beach, Golf & Spa Resort',
+        address: 'Av. de las Marismas, 1, 35610 Antigua, Las Palmas',
+        viewOnMaps: 'Vedi su Google Maps'
+      },
       advantages: [
         {
           title: 'Ubicazione Strategica',

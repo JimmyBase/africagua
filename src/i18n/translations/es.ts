@@ -290,7 +290,7 @@ export default {
                 type: 'panel',
                 moderator: 'María José Miranda Martel, Directora de Transferencia de Conocimiento y Relaciones con las Empresas de la Universidad de las Palmas de Gran Canaria',
                 participants: [
-                  'Copresidenta del Comité Bilateral Mauritania – España y Presidenta del Consejo Social de la ULPGC | Ana Suárez',
+                  'Copresidenta del Comité Bilateral Mauritania – España y Presidenta del Consejo Social de la ULPGC | Ana Suárez Calvo',
                   'Director de I+D+I del Instituto Tecnológico de Canarias (ITC) | Gonzalo Piernavieja',
                   'Coordinador de Grupo de Investigación de Sistemas Energéticos Renovables de la ULPGC | Pedro Jesús Cabrera Santana',
                   'Óscar Luengo, Director de Desarrollo Internacional Welysis',

@@ -13,7 +13,6 @@ import UsefulInfo from './components/UsefulInfo';
 import ContactSection from './components/ContactSection';
 import AdminNewsPanel from './components/AdminNewsPanel';
 import StartupCompetition from './components/StartupCompetition';
-import ParticipantsGallery from './components/ParticipantsGallery';
 import CookieConsent from './components/CookieConsent';
 import CookiePolicy from './components/CookiePolicy';
 import PrivacyPolicy from './components/PrivacyPolicy';
@@ -46,25 +45,22 @@ function MainContent() {
         <div className="section-bg solar-shimmer">
           <HistoricalSection />
         </div>
-        <div className="section-bg solar-shimmer">
+        <div className="section-bg water-effect">
           <LocationSection />
         </div>
-        <div className="section-bg wind-rotate">
+        <div className="section-bg solar-shimmer">
           <B2BMeetings />
         </div>
-        <div className="section-bg energy-pulse">
+        <div className="section-bg water-effect">
           <NewsSection onAdminClick={handleAdminClick} />
         </div>
-        <div className="section-bg wind-rotate">
+        <div className="section-bg solar-shimmer">
           <Sponsors />
         </div>
         <div className="section-bg water-effect">
-          <ParticipantsGallery />
-        </div>
-        <div className="section-bg solar-shimmer">
           <UsefulInfo />
         </div>
-        <div className="section-bg water-effect">
+        <div className="section-bg solar-shimmer">
           <ContactSection />
         </div>
 

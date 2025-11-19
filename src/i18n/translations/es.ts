@@ -293,7 +293,7 @@ export default {
                   'Copresidenta del Comité Bilateral Mauritania – España y Presidenta del Consejo Social de la ULPGC | Ana Suárez Calvo',
                   'Director de I+D+I del Instituto Tecnológico de Canarias (ITC) | Gonzalo Piernavieja Izquierdo',
                   'Coordinador de Grupo de Investigación de Sistemas Energéticos Renovables de la ULPGC | Pedro Jesús Cabrera Santana',
-                  'Óscar Luengo, Director de Desarrollo Internacional Welysis',
+                  'Óscar Luengo Barrera, Director de Desarrollo Internacional Welysis',
                   'Catedrático de Química Inorgánica de la Universidad de Granada | Jorge Andrés Rodríguez Navarro'
                 ]
               },

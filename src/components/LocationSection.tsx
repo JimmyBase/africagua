@@ -24,7 +24,7 @@ const LocationSection = () => {
                   <p className="text-xl font-semibold text-teal-600 mb-2">{venue.name}</p>
                   <p className="text-gray-600 mb-4">{venue.address}</p>
                   <a
-                    href="https://maps.app.goo.gl/qHqSWWDGFSWgvcso6"
+                    href="https://maps.app.goo.gl/3qrMjsbEUPfSAHa57"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-teal-600 to-blue-600 text-white rounded-xl font-semibold hover:from-teal-700 hover:to-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
@@ -38,7 +38,7 @@ const LocationSection = () => {
 
             <div className="relative overflow-hidden rounded-3xl shadow-2xl group">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3543.7!2d-13.863814!3d28.390084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDIzJzI0LjMiTiAxM8KwNTEnNDkuNyJX!5e0!3m2!1sen!2ses!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3543.699!2d-13.863879!3d28.390160!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDIzJzI0LjYiTiAxM8KwNTEnNTAuMCJX!5e0!3m2!1sen!2ses!4v1234567890"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}

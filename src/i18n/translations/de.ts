@@ -290,7 +290,7 @@ export default {
                 type: 'panel',
                 moderator: 'María José Miranda Martel, Direktorin für Wissenstransfer und Unternehmensbeziehungen der Universität Las Palmas de Gran Canaria',
                 participants: [
-                  'Co-Präsidentin des Bilateralen Ausschusses Mauretanien-Spanien | Ana Suárez',
+                  'Co-Präsidentin des Bilateralen Ausschusses Mauretanien-Spanien | Ana Suárez Calvo',
                   'Direktor für F&E&I des Technologischen Instituts der Kanaren (ITC) | Gonzalo Piernavieja',
                   'Koordinator der Forschungsgruppe für Erneuerbare Energiesysteme der ULPGC | Pedro Jesús Cabrera Santana',
                   'Óscar Luengo, Generaldirektor Welysis'

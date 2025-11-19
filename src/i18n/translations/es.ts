@@ -271,7 +271,7 @@ export default {
                 time: '12:30 – 13:30',
                 title: 'Financiación de Proyectos. Un caso práctico: la desaladora de Casablanca',
                 type: 'panel',
-                moderator: 'Loreto Taborga, Directora Territorial de Comercio Exterior y Delegada de ICEX en Las Palmas',
+                moderator: 'Loreto Taborga Curto, Directora Territorial de Comercio Exterior y Delegada de ICEX en Las Palmas',
                 participants: [
                   'Subdirectora General Adjunta de Instrumentos Financieros para la Internacionalización de FIEM | María Soledad Sendagorta Fernández-Durán',
                   'Subdirectora Financiera del Área de Inversiones de COFIDES | Ane Sáenz de Zaitegui Bermeo',

@@ -13,16 +13,32 @@ const ThankYouCarousel = () => {
       alt: 'Africagua 2025 - International participants with flags'
     },
     {
+      src: '/368 (1).jpg',
+      alt: 'Africagua 2025 - Partnership and collaboration handshake'
+    },
+    {
       src: '/542.jpg',
       alt: 'Africagua 2025 - Award ceremony with participant'
+    },
+    {
+      src: '/202.jpg',
+      alt: 'Africagua 2025 - Business networking and agreement moment'
     },
     {
       src: '/534.jpg',
       alt: 'Africagua 2025 - Global Startup Competition award presentation'
     },
     {
+      src: '/279.jpg',
+      alt: 'Africagua 2025 - Panel discussion on water and renewable energy cooperation'
+    },
+    {
       src: '/521.jpg',
       alt: 'Africagua 2025 - Team collaboration and partnership'
+    },
+    {
+      src: '/232.jpg',
+      alt: 'Africagua 2025 - Women leaders panel on project financing'
     },
     {
       src: '/419.jpg',

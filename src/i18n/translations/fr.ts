@@ -714,6 +714,15 @@ export default {
       nearby_restaurant: 'Restaurants à Proximité',
       nearby_parking: 'Parkings à Proximité',
       nearby_gas_station: 'Stations-service à Proximité'
+    },
+    thankYou: {
+      title: 'Merci !',
+      message: 'Toute l\'équipe d\'Africagua 2025 vous remercie pour votre participation à cette IXe édition du Forum International de l\'Eau et des Énergies Renouvelables.',
+      future: {
+        title: 'À bientôt en 2027',
+        message: 'Nous espérons vous revoir lors de la prochaine édition d\'Africagua Canarias 2027, où nous continuerons à promouvoir la coopération internationale et le développement durable entre l\'Europe et l\'Afrique.'
+      },
+      signature: 'L\'équipe d\'Africagua Canarias'
     }
   }
 };

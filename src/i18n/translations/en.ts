@@ -737,15 +737,6 @@ export default {
       nearby_restaurant: 'Nearby Restaurants',
       nearby_parking: 'Nearby Parking',
       nearby_gas_station: 'Nearby Gas Stations'
-    },
-    thankYou: {
-      title: 'Thank You!',
-      message: 'The entire Africagua 2025 team thanks you for your participation in this IX edition of the International Water and Renewable Energy Forum.',
-      future: {
-        title: 'See you in 2027',
-        message: 'We hope to see you again at the next edition of Africagua Canarias 2027, where we will continue promoting international cooperation and sustainable development between Europe and Africa.'
-      },
-      signature: 'The Africagua Canarias team'
     }
   }
 };

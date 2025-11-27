@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ErrorBoundary from './components/ErrorBoundary';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import ThankYouSection from './components/ThankYouSection';
 import AboutSection from './components/AboutSection';
 import LocationSection from './components/LocationSection';
 import B2BMeetings from './components/B2BMeetings';
@@ -41,7 +40,6 @@ function MainContent() {
     <div className="relative min-h-screen w-full overflow-x-hidden">
       <div className="relative z-10">
         <Hero />
-        <ThankYouSection />
         <div className="section-bg water-effect">
           <AboutSection />
         </div>

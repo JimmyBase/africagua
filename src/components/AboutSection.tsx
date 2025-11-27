@@ -7,16 +7,6 @@ const AboutSection = () => {
 
   return (
     <section className="py-32 relative" id="about">
-      <div className="absolute inset-0 z-0">
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/BUSINESS%20CONTACT.jpg?alt=media&token=d79c931a-c995-46ef-a675-ce9be9652e90"
-          alt="Africagua International Water and Renewable Energy Forum - Business Networking"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-white/80 backdrop-blur-sm"></div>
-        <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-white to-transparent"></div>
-      </div>
-      
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <h1 className="section-title">{t('about.title')}</h1>
         

@@ -21,6 +21,7 @@ import LegalNotice from './components/LegalNotice';
 import ProgramPage from './components/ProgramPage';
 import ProfileModal from './components/ProfileModal';
 import Avatar from './components/Avatar';
+import ThankYouCarousel from './components/ThankYouCarousel';
 
 function MainContent() {
   const [isAdminPanelOpen, setIsAdminPanelOpen] = useState(false);
@@ -40,6 +41,9 @@ function MainContent() {
     <div className="relative min-h-screen w-full overflow-x-hidden">
       <div className="relative z-10">
         <Hero />
+        <div className="section-bg energy-pulse">
+          <ThankYouCarousel />
+        </div>
         <div className="section-bg water-effect">
           <AboutSection />
         </div>

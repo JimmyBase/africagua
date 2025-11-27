@@ -17,6 +17,10 @@ export default {
       register: 'Register',
       program: '2025 Program'
     },
+    thankyou: {
+      title: 'Thank You for Your Participation',
+      message: 'The entire Africagua 2025 team thanks you for your participation. We look forward to seeing you in 2027'
+    },
     about: {
       title: 'What is Africagua?',
       event_section: {

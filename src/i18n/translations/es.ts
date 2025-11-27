@@ -17,6 +17,10 @@ export default {
       register: 'Inscríbete',
       program: 'Programa 2025'
     },
+    thankyou: {
+      title: 'Gracias por su Participación',
+      message: 'Todo el equipo de Africagua 2025 les da las gracias por su participación. Esperamos verles en 2027'
+    },
     about: {
       title: '¿Qué es Africagua?',
       event_section: {

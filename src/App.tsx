@@ -94,15 +94,15 @@ function MainContent() {
             {/* Credit line and Policy Links */}
             <div className="text-center space-y-4">
               <div className="flex items-center justify-center gap-3 text-xs sm:text-sm text-gray-500 px-2">
-                <span>Página web diseñada por J.M Tordeur de la Cámara Oficial de Comercio, Industria y Navegación de Fuerteventura</span>
+                <span>Página web diseñada por Jean Michel Jimmy Tordeur (J.M Tordeur) - Ingeniero Informático de la Cámara Oficial de Comercio, Industria y Navegación de Fuerteventura</span>
                 <button
                   onClick={() => setIsProfileModalOpen(true)}
                   className="transition-transform hover:scale-110"
-                  aria-label="Ver perfil de J.M Tordeur"
+                  aria-label="Ver perfil profesional de Jean Michel Jimmy Tordeur"
                 >
                   <Avatar
-                    src="/Captura de pantalla 2025-10-21 090729.png"
-                    alt="J.M Tordeur"
+                    src="/moi.png"
+                    alt="Jean Michel Jimmy Tordeur - Ingeniero Informático Desarrollador Web Fuerteventura"
                     name="Jean Michel Jimmy Tordeur"
                     size="medium"
                     className="cursor-pointer"

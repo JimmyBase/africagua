@@ -27,8 +27,8 @@ export default function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
           <div className="flex flex-col items-center">
             <div className="mb-6 shadow-lg">
               <Avatar
-                src="/Captura de pantalla 2025-10-21 090729.png"
-                alt="Jean Michel Jimmy Tordeur"
+                src="/moi.png"
+                alt="Jean Michel Jimmy Tordeur - Ingeniero Informático Cámara de Comercio Fuerteventura"
                 name="Jean Michel Jimmy Tordeur"
                 size="large"
               />
@@ -37,6 +37,9 @@ export default function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
             <h3 className="text-xl font-semibold text-red-600 mb-6">
               Jean Michel Jimmy Tordeur
             </h3>
+            <p className="text-sm text-gray-500 mb-6 text-center">
+              J.M Tordeur | Jimmy Tordeur | JM Tordeur
+            </p>
 
             <div className="w-full space-y-3 text-sm">
               <div className="flex">
@@ -46,7 +49,7 @@ export default function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
 
               <div className="flex">
                 <span className="font-semibold text-gray-700 min-w-[130px]">Especialización:</span>
-                <span className="text-gray-600">Software, Web Ap, Web Designer, Ingeniería de hardware</span>
+                <span className="text-gray-600">Software, Web App, Web Designer, Ingeniería de hardware</span>
               </div>
 
               <div className="flex">

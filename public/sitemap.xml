@@ -6,7 +6,7 @@
   <!-- Home page in all languages -->
   <url>
     <loc>https://www.africaguacanarias.com/</loc>
-    <lastmod>2024-03-14</lastmod>
+    <lastmod>2025-12-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.africaguacanarias.com/"/>
@@ -19,6 +19,11 @@
       <image:loc>https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/LOGO%20AFRICAGUA.png?alt=media&token=9e8c68b1-211e-4bb4-ac6c-d00193fb057e</image:loc>
       <image:title>Africagua - Foro Internacional de Agua y Energías Renovables</image:title>
       <image:caption>Logo oficial de Africagua - Principal Foro Internacional de Agua y Energías Renovables en Fuerteventura</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.africaguacanarias.com/moi.png</image:loc>
+      <image:title>Jean Michel Jimmy Tordeur - Ingeniero Informático</image:title>
+      <image:caption>Jean Michel Jimmy Tordeur (J.M Tordeur, Jimmy Tordeur) - Responsable Informático y Desarrollo Tecnológico de la Cámara de Comercio de Fuerteventura. Desarrollador del sitio web Africagua 2025.</image:caption>
     </image:image>
   </url>
 

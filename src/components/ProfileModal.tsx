@@ -27,7 +27,7 @@ export default function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
           <div className="flex flex-col items-center">
             <div className="mb-6 shadow-lg">
               <Avatar
-                src="/moi.png"
+                src="https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/Captura%20de%20pantalla%202025-10-21%20090729.png?alt=media&token=2a2e6a99-5dfa-42ec-8cb0-23e9c0d77797"
                 alt="Jean Michel Jimmy Tordeur - Ingeniero Informático Cámara de Comercio Fuerteventura"
                 name="Jean Michel Jimmy Tordeur"
                 size="large"

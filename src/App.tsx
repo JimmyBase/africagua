@@ -101,7 +101,7 @@ function MainContent() {
                   aria-label="Ver perfil profesional de Jean Michel Jimmy Tordeur"
                 >
                   <Avatar
-                    src="/moi.png"
+                    src="https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/Captura%20de%20pantalla%202025-10-21%20090729.png?alt=media&token=2a2e6a99-5dfa-42ec-8cb0-23e9c0d77797"
                     alt="Jean Michel Jimmy Tordeur - Ingeniero Informático Desarrollador Web Fuerteventura"
                     name="Jean Michel Jimmy Tordeur"
                     size="medium"

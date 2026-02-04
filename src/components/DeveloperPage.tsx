@@ -95,7 +95,6 @@ export default function DeveloperPage() {
       "knowsLanguage": [
         { "@type": "Language", "name": "Español" },
         { "@type": "Language", "name": "Alemán" },
-        { "@type": "Language", "name": "Italiano" },
         { "@type": "Language", "name": "Francés" },
         { "@type": "Language", "name": "Inglés" },
         { "@type": "Language", "name": "Neerlandés" }

@@ -16,12 +16,12 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://www.africaguacanarias.com/de/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.africaguacanarias.com/"/>
     <image:image>
-      <image:loc>https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/LOGO%20AFRICAGUA.png?alt=media&token=9e8c68b1-211e-4bb4-ac6c-d00193fb057e</image:loc>
+      <image:loc>https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/LOGO%20AFRICAGUA.png?alt=media&amp;token=9e8c68b1-211e-4bb4-ac6c-d00193fb057e</image:loc>
       <image:title>Africagua - Foro Internacional de Agua y Energías Renovables</image:title>
       <image:caption>Logo oficial de Africagua - Principal Foro Internacional de Agua y Energías Renovables en Fuerteventura</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/Captura%20de%20pantalla%202025-10-21%20090729.png?alt=media&token=2a2e6a99-5dfa-42ec-8cb0-23e9c0d77797</image:loc>
+      <image:loc>https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/Captura%20de%20pantalla%202025-10-21%20090729.png?alt=media&amp;token=2a2e6a99-5dfa-42ec-8cb0-23e9c0d77797</image:loc>
       <image:title>Jean Michel Jimmy Tordeur - Ingeniero Informático</image:title>
       <image:caption>Jean Michel Jimmy Tordeur (J.M Tordeur, Jimmy Tordeur) - Responsable Informático y Desarrollo Tecnológico de la Cámara de Comercio de Fuerteventura. Desarrollador del sitio web Africagua 2025.</image:caption>
     </image:image>
@@ -86,7 +86,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/GLOBAL%20STARTUP%2FDise%C3%B1o%20sin%20t%C3%ADtulo%20(1).png?alt=media&token=f52dfccd-d300-43fb-b2e9-e57f1ddff009</image:loc>
+      <image:loc>https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/GLOBAL%20STARTUP%2FDise%C3%B1o%20sin%20t%C3%ADtulo%20(1).png?alt=media&amp;token=f52dfccd-d300-43fb-b2e9-e57f1ddff009</image:loc>
       <image:title>Africagua Global Startup Competition</image:title>
       <image:caption>Competición global de startups de agua y energías renovables - Africagua</image:caption>
     </image:image>
@@ -99,7 +99,7 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://firebasestorage.googleapis.com/v0/b/ccf-web-59053.firebasestorage.app/o/moi%2FCaptura%20de%20pantalla%202025-10-21%20090729.png?alt=media&token=8fbf7467-a01d-4995-918f-74afaaa28d5b</image:loc>
+      <image:loc>https://firebasestorage.googleapis.com/v0/b/ccf-web-59053.firebasestorage.app/o/moi%2FCaptura%20de%20pantalla%202025-10-21%20090729.png?alt=media&amp;token=8fbf7467-a01d-4995-918f-74afaaa28d5b</image:loc>
       <image:title>Jean Michel Tordeur - Jimmy Tordeur - Ingeniero Informático Fuerteventura</image:title>
       <image:caption>Jean Michel Tordeur (conocido como Jimmy Tordeur, JM Tordeur, J.M Tordeur) - Responsable Informático y Desarrollo Tecnológico de la Cámara de Comercio de Fuerteventura. Ingeniero de software especializado en desarrollo web full-stack, bases de datos, hardware, sistemas e inteligencia artificial. Desarrollador React, TypeScript, Python en Canarias.</image:caption>
     </image:image>

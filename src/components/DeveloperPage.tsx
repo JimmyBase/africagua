@@ -267,20 +267,20 @@ export default function DeveloperPage() {
 
             {/* Introduction */}
             <div className="prose prose-lg max-w-none mb-8">
-              <p className="text-lg leading-relaxed">
+              <p className="text-lg leading-relaxed text-justify">
                 <strong>Jean Michel Tordeur</strong> (conocido como <strong>JM Tordeur</strong> o <strong>Jimmy Tordeur</strong>) es un ingeniero informático con amplia experiencia en el desarrollo de soluciones tecnológicas integrales. Actualmente se desempeña como Responsable Informático y de Desarrollo Tecnológico en la Cámara Oficial de Comercio, de Industria y de Navegación de Fuerteventura.
               </p>
-              <p className="text-base leading-relaxed text-gray-700">
+              <p className="text-base leading-relaxed text-gray-700 text-justify">
                 Con una sólida formación en ingeniería de hardware y software, Jean Michel Jimmy Tordeur ha desarrollado numerosas plataformas web empresariales, sistemas de gestión de eventos y aplicaciones especializadas para el sector empresarial.
               </p>
-              <p className="text-base leading-relaxed text-gray-700">
+              <p className="text-base leading-relaxed text-gray-700 text-justify">
                 La trayectoria profesional de Jean Michel Jimmy Tordeur se ha caracterizado por una constante evolución y adaptación a las nuevas tecnologías. Su expertise abarca desde el desarrollo frontend con React, TypeScript y Tailwind CSS, hasta la implementación de backends robustos con Node.js, Express y bases de datos como Supabase, Firebase y PostgreSQL. Esta versatilidad técnica le permite diseñar arquitecturas completas de aplicaciones, desde la concepción hasta el despliegue en producción.
               </p>
             </div>
 
             {/* Quote */}
             <blockquote className="border-l-4 border-teal-500 bg-gray-50 pl-6 pr-4 py-4 my-8 italic text-gray-700">
-              <p className="mb-2">
+              <p className="mb-2 text-justify">
                 "Como ingeniero informático en Fuerteventura, Jimmy Tordeur (Jean Michel Tordeur, también conocido como JM Tordeur, J.M Tordeur y J M Tordeur) ha dedicado más de 2 años al desarrollo de soluciones tecnológicas innovadoras para instituciones públicas y privadas en Canarias. Su trabajo como ingeniero informático y diseñador web ha transformado la manera en que las organizaciones de Fuerteventura interactúan con la tecnología. Jimmy Tordeur es reconocido en Canarias por su experiencia en desarrollo web, inteligencia artificial y formación tecnológica."
               </p>
               <footer className="text-sm text-gray-600 not-italic mt-2">
@@ -310,7 +310,7 @@ export default function DeveloperPage() {
               <h2 className="text-3xl font-serif font-bold text-gray-900 mb-4 border-b-2 border-gray-200 pb-2">
                 Biografía profesional
               </h2>
-              <div className="space-y-4 text-gray-700 leading-relaxed">
+              <div className="space-y-4 text-gray-700 leading-relaxed text-justify">
                 <p>
                   En el ámbito del hardware y sistemas, JM Tordeur posee conocimientos profundos en arquitectura de redes, administración de servidores, configuración de sistemas cloud y gestión de infraestructuras IT. Esta combinación única de habilidades software y hardware le permite diagnosticar y resolver problemas desde múltiples ángulos, optimizando tanto el código como la infraestructura subyacente.
                 </p>
@@ -327,7 +327,7 @@ export default function DeveloperPage() {
               <h2 className="text-3xl font-serif font-bold text-gray-900 mb-4 border-b-2 border-gray-200 pb-2">
                 Filosofía de desarrollo
               </h2>
-              <div className="space-y-4 text-gray-700 leading-relaxed">
+              <div className="space-y-4 text-gray-700 leading-relaxed text-justify">
                 <p>
                   La filosofía de trabajo de JM Tordeur se fundamenta en tres pilares esenciales: código limpio, escalabilidad y mantenibilidad. Cada proyecto que desarrolla está diseñado pensando no solo en las necesidades inmediatas, sino también en su evolución futura. Esto implica el uso de patrones de diseño probados, arquitecturas modulares y documentación exhaustiva que permita a otros desarrolladores comprender y extender el código fácilmente.
                 </p>
@@ -351,7 +351,7 @@ export default function DeveloperPage() {
                 <p className="text-teal-600 font-semibold mb-4">
                   Cámara Oficial de Comercio, de Industria y de Navegación de Fuerteventura
                 </p>
-                <p className="text-gray-700">
+                <p className="text-gray-700 text-justify">
                   JM Tordeur lidera el departamento de tecnología, diseñando e implementando soluciones digitales que modernizan los procesos empresariales de la Cámara de Comercio. Responsable del desarrollo de plataformas web, aplicaciones móviles y sistemas de gestión integral.
                 </p>
               </div>
@@ -414,21 +414,21 @@ export default function DeveloperPage() {
               <div className="space-y-6">
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-3">Desarrollo Full Stack</h3>
-                  <p className="text-gray-700 leading-relaxed">
+                  <p className="text-gray-700 leading-relaxed text-justify">
                     Jean Michel Tordeur domina el stack completo de desarrollo web moderno. En el frontend, trabaja principalmente con React y TypeScript, utilizando herramientas como Vite para un desarrollo ultrarrápido. Su código se caracteriza por componentes reutilizables, hooks personalizados optimizados y gestión eficiente del estado mediante Context API y hooks modernos de React. En el backend, JM Tordeur implementa APIs REST robustas con Node.js y Express, aplicando principios de arquitectura limpia y patrones como MVC.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-3">Bases de Datos</h3>
-                  <p className="text-gray-700 leading-relaxed">
+                  <p className="text-gray-700 leading-relaxed text-justify">
                     La experiencia de Jimmy Tordeur en bases de datos abarca desde SQL tradicional hasta plataformas modernas como Supabase y Firebase. Diseña esquemas relacionales normalizados, implementa índices optimizados y crea consultas complejas con joins, subconsultas y procedimientos almacenados. Su conocimiento de PostgreSQL le permite aprovechar características avanzadas como triggers, funciones PL/pgSQL y políticas de Row Level Security.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-3">Hardware y Sistemas</h3>
-                  <p className="text-gray-700 leading-relaxed">
+                  <p className="text-gray-700 leading-relaxed text-justify">
                     Como ingeniero de hardware, Jean Michel Tordeur posee conocimientos profundos en arquitectura de computadoras, configuración de redes empresariales y administración de servidores Linux/Windows. Ha diseñado e implementado infraestructuras de red completas, incluyendo configuración de routers, switches, firewalls y VPNs para acceso remoto seguro.
                   </p>
                 </div>
@@ -444,7 +444,7 @@ export default function DeveloperPage() {
                   <h3 className="text-xl font-bold text-gray-900 mb-2">
                     Plataforma Integral de Gestión de Eventos Empresariales
                   </h3>
-                  <p className="text-gray-700 mb-3 leading-relaxed">
+                  <p className="text-gray-700 mb-3 leading-relaxed text-justify">
                     Jean Michel Tordeur diseñó y desarrolló desde cero una plataforma completa para la gestión de eventos de la Cámara de Comercio de Fuerteventura. El sistema incluye un frontend responsive construido con React y TypeScript, un backend robusto con Supabase implementando políticas de seguridad RLS, y funcionalidades avanzadas como registro online, generación automática de credenciales PDF con códigos QR, calendario interactivo y panel de administración completo.
                   </p>
                   <div className="flex flex-wrap gap-2">
@@ -461,7 +461,7 @@ export default function DeveloperPage() {
                   <h3 className="text-xl font-bold text-gray-900 mb-2">
                     Sistema Avanzado de Credencialización Digital
                   </h3>
-                  <p className="text-gray-700 mb-3 leading-relaxed">
+                  <p className="text-gray-700 mb-3 leading-relaxed text-justify">
                     JM Tordeur implementó un sistema innovador para la creación automatizada de credenciales personalizadas para eventos. La aplicación permite a los usuarios ingresar sus datos, previsualizar su credencial en tiempo real con un editor visual, y descargar el resultado final en formato PDF de alta calidad. El sistema genera códigos QR únicos para cada asistente que pueden ser escaneados para registro rápido en eventos.
                   </p>
                   <div className="flex flex-wrap gap-2">
@@ -476,7 +476,7 @@ export default function DeveloperPage() {
                   <h3 className="text-xl font-bold text-gray-900 mb-2">
                     Portal Web Corporativo con Optimización SEO
                   </h3>
-                  <p className="text-gray-700 mb-3 leading-relaxed">
+                  <p className="text-gray-700 mb-3 leading-relaxed text-justify">
                     Jimmy Tordeur lideró el rediseño completo del sitio web institucional de la Cámara de Comercio de Fuerteventura. El proyecto incluyó arquitectura moderna basada en componentes React, implementación de lazy loading para optimización de velocidad, sitemap dinámico, Schema.org markup completo y meta tags optimizados. El sitio ha mejorado el posicionamiento orgánico en buscadores en más del 300%.
                   </p>
                   <div className="flex flex-wrap gap-2">
@@ -491,7 +491,7 @@ export default function DeveloperPage() {
                   <h3 className="text-xl font-bold text-gray-900 mb-2">
                     Sistema de Automatización con Inteligencia Artificial
                   </h3>
-                  <p className="text-gray-700 mb-3 leading-relaxed">
+                  <p className="text-gray-700 mb-3 leading-relaxed text-justify">
                     Jean Michel Tordeur desarrolló herramientas de automatización basadas en IA para optimizar procesos internos. El sistema incluye clasificación automática de documentos mediante machine learning, análisis de sentimientos en encuestas, generación automática de reportes y predicción de tendencias. Los modelos de IA lograron precisión superior al 92% en tareas de clasificación, reduciendo el tiempo de procesamiento en un 75%.
                   </p>
                   <div className="flex flex-wrap gap-2">
@@ -508,10 +508,10 @@ export default function DeveloperPage() {
               <h2 className="text-3xl font-serif font-bold text-gray-900 mb-4 border-b-2 border-gray-200 pb-2">
                 Conocimiento técnico
               </h2>
-              <p className="text-gray-700 mb-4">
+              <p className="text-gray-700 mb-4 text-justify">
                 JM Tordeur ha documentado su conocimiento técnico en diversas áreas del desarrollo de software:
               </p>
-              <ul className="space-y-2 list-disc list-inside text-gray-700">
+              <ul className="space-y-2 list-disc list-inside text-gray-700 text-justify">
                 <li><strong>Optimización de Rendimiento en Aplicaciones React</strong> - Técnicas avanzadas para optimizar el rendimiento incluyendo memoización con useMemo y useCallback, code splitting con React.lazy, y estrategias de carga diferida de componentes.</li>
                 <li><strong>Seguridad en Bases de Datos con Row Level Security</strong> - Implementación de políticas de seguridad robustas en Supabase y PostgreSQL, incluyendo políticas condicionales basadas en roles y autenticación JWT.</li>
                 <li><strong>Arquitectura de Aplicaciones Modernas</strong> - Análisis comparativo entre arquitecturas monolíticas y microservicios, consideraciones sobre containerización con Docker y gestión de bases de datos distribuidas.</li>
@@ -536,7 +536,7 @@ export default function DeveloperPage() {
               <h2 className="text-3xl font-serif font-bold text-gray-900 mb-4 border-b-2 border-gray-200 pb-2">
                 Vida personal y aficiones
               </h2>
-              <div className="space-y-4 text-gray-700 leading-relaxed">
+              <div className="space-y-4 text-gray-700 leading-relaxed text-justify">
                 <p>
                   Más allá de su dedicación profesional a la tecnología, Jean Michel Tordeur cultiva una vida personal activa y diversa, con aficiones que complementan su perfil multidisciplinar. Su pasión por el motociclismo y el automovilismo refleja su interés por la mecánica, la ingeniería de precisión y el rendimiento técnico, conectando directamente con su formación en hardware y sistemas.
                 </p>

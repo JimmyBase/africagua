@@ -581,7 +581,7 @@ export default function DeveloperPage() {
                   </a>
                 </li>
                 <li>
-                  <a href="https://infuerteventura.es" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-teal-600 hover:text-teal-700 transition-colors">
+                  <a href="https://infuerteventura.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-teal-600 hover:text-teal-700 transition-colors">
                     <ExternalLink className="w-4 h-4" />
                     inFuerteventura
                   </a>

@@ -599,7 +599,7 @@ export default function DeveloperPage() {
                   </a>
                 </li>
                 <li>
-                  <a href="https://subvencionesyresoluciones.es" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-teal-600 hover:text-teal-700 transition-colors">
+                  <a href="https://subvencionesyresoluciones.netlify.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-teal-600 hover:text-teal-700 transition-colors">
                     <ExternalLink className="w-4 h-4" />
                     Subvenciones y Resoluciones
                   </a>

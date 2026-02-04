@@ -9,6 +9,8 @@ Allow: /fr/
 Allow: /it/
 Allow: /de/
 Allow: /startup-competition
+Allow: /developer
+Allow: /developer.html
 
 # Allow search engines to discover the alternate language versions
 Allow: /*?lang=es

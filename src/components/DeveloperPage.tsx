@@ -8,6 +8,188 @@ export default function DeveloperPage() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
+
+    // Update meta tags for SEO
+    document.title = 'Jean Michel Tordeur - Jimmy Tordeur | Ingeniero Informático Fuerteventura | JM Tordeur Desarrollador Web';
+
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Jean Michel Tordeur (Jimmy Tordeur, JM Tordeur, J.M Tordeur) - Ingeniero informático y desarrollador web en Fuerteventura, Canarias. Responsable de desarrollo tecnológico de la Cámara de Comercio de Fuerteventura. Especialista en React, TypeScript, Python, IA y desarrollo full-stack.');
+    }
+
+    const metaKeywords = document.querySelector('meta[name="keywords"]');
+    if (metaKeywords) {
+      metaKeywords.setAttribute('content', 'Jean Michel Tordeur, Jimmy Tordeur, JM Tordeur, J.M Tordeur, J. Michel Tordeur, Jean Tordeur, Tordeur, Ingeniero Informático Fuerteventura, Desarrollador Web Fuerteventura, Programador Fuerteventura, Ingeniero Informático Canarias, Desarrollador Web Canarias, React Developer Fuerteventura, TypeScript Developer Canarias, Python Developer Fuerteventura, Full Stack Developer Canarias, Cámara de Comercio Fuerteventura');
+    }
+
+    // Update Open Graph tags
+    let ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle) {
+      ogTitle.setAttribute('content', 'Jean Michel Tordeur - Jimmy Tordeur | Ingeniero Informático Fuerteventura');
+    }
+
+    let ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) {
+      ogDescription.setAttribute('content', 'Jean Michel Tordeur (Jimmy Tordeur, JM Tordeur) - Ingeniero informático y desarrollador web en Fuerteventura, Canarias. Responsable de desarrollo tecnológico de la Cámara de Comercio de Fuerteventura.');
+    }
+
+    let ogUrl = document.querySelector('meta[property="og:url"]');
+    if (ogUrl) {
+      ogUrl.setAttribute('content', 'https://www.africaguacanarias.com/developer');
+    }
+
+    let ogType = document.querySelector('meta[property="og:type"]');
+    if (ogType) {
+      ogType.setAttribute('content', 'profile');
+    }
+
+    // Update canonical URL
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical) {
+      canonical.setAttribute('href', 'https://www.africaguacanarias.com/developer');
+    } else {
+      canonical = document.createElement('link');
+      canonical.setAttribute('rel', 'canonical');
+      canonical.setAttribute('href', 'https://www.africaguacanarias.com/developer');
+      document.head.appendChild(canonical);
+    }
+
+    // Add structured data
+    const structuredDataPerson = {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Jean Michel Tordeur",
+      "alternateName": ["Jimmy Tordeur", "J.M Tordeur", "JM Tordeur", "J. Michel Tordeur", "Jean Tordeur", "Jean Michel Jimmy Tordeur"],
+      "givenName": "Jean Michel",
+      "additionalName": "Jimmy",
+      "familyName": "Tordeur",
+      "birthDate": "1980-05-30",
+      "birthPlace": {
+        "@type": "Place",
+        "name": "Créon, Francia"
+      },
+      "nationality": [
+        { "@type": "Country", "name": "Bélgica" },
+        { "@type": "Country", "name": "Francia" }
+      ],
+      "jobTitle": "Responsable Informático y Desarrollo Tecnológico",
+      "description": "Jean Michel Tordeur (conocido como JM Tordeur o Jimmy Tordeur) es un ingeniero informático especializado en desarrollo web full-stack, bases de datos, hardware y sistemas. Responsable de desarrollo tecnológico en la Cámara de Comercio de Fuerteventura.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://firebasestorage.googleapis.com/v0/b/ccf-web-59053.firebasestorage.app/o/moi%2FCaptura%20de%20pantalla%202025-10-21%20090729.png?alt=media&token=8fbf7467-a01d-4995-918f-74afaaa28d5b",
+        "caption": "Jean Michel Tordeur (Jimmy Tordeur) - Ingeniero Informático en 2025"
+      },
+      "url": "https://www.africaguacanarias.com/developer",
+      "email": "j.tordeur@camarafuerteventura.org",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Cámara Oficial de Comercio, Industria y Navegación de Fuerteventura",
+        "url": "https://www.camarafuerteventura.org"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Puerto del Rosario",
+        "addressRegion": "Fuerteventura, Islas Canarias",
+        "addressCountry": "ES"
+      },
+      "knowsLanguage": [
+        { "@type": "Language", "name": "Español" },
+        { "@type": "Language", "name": "Alemán" },
+        { "@type": "Language", "name": "Italiano" },
+        { "@type": "Language", "name": "Francés" },
+        { "@type": "Language", "name": "Inglés" },
+        { "@type": "Language", "name": "Neerlandés" }
+      ],
+      "knowsAbout": [
+        "Desarrollo Web Full-Stack", "React", "TypeScript", "JavaScript", "Node.js", "Python",
+        "Inteligencia Artificial", "Machine Learning", "Bases de Datos", "PostgreSQL",
+        "Supabase", "Firebase", "HTML5", "CSS3", "Tailwind CSS", "Vite", "Express", "SQL",
+        "Diseño Web", "UX/UI Design", "Ingeniería de Hardware", "Redes",
+        "Administración de Sistemas", "Linux", "Docker", "DevOps", "Cloud Computing"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/jean-tordeur-620625278",
+        "https://www.africaguacanarias.com/developer",
+        "https://www.camarafuerteventura.org"
+      ]
+    };
+
+    const structuredDataProfilePage = {
+      "@context": "https://schema.org",
+      "@type": "ProfilePage",
+      "mainEntity": {
+        "@type": "Person",
+        "name": "Jean Michel Tordeur",
+        "alternateName": ["Jimmy Tordeur", "J.M Tordeur", "JM Tordeur", "J. Michel Tordeur"],
+        "jobTitle": "Responsable Informático y Desarrollo Tecnológico",
+        "url": "https://www.africaguacanarias.com/developer"
+      },
+      "name": "Perfil Profesional de Jean Michel Tordeur (Jimmy Tordeur)",
+      "description": "Página de perfil profesional de Jean Michel Tordeur (Jimmy Tordeur, JM Tordeur), ingeniero informático y desarrollador web en Fuerteventura, Canarias.",
+      "url": "https://www.africaguacanarias.com/developer",
+      "dateModified": "2026-02-04"
+    };
+
+    const structuredDataWebPage = {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Jean Michel Tordeur - Jimmy Tordeur | Ingeniero Informático Fuerteventura",
+      "description": "Página de perfil profesional de Jean Michel Tordeur (conocido como Jimmy Tordeur o JM Tordeur), ingeniero informático especializado en desarrollo web, bases de datos y sistemas en Fuerteventura, Canarias.",
+      "url": "https://www.africaguacanarias.com/developer",
+      "mainEntity": { "@type": "Person", "name": "Jean Michel Tordeur" },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://www.africaguacanarias.com" },
+          { "@type": "ListItem", "position": 2, "name": "Jean Michel Tordeur - Desarrollador", "item": "https://www.africaguacanarias.com/developer" }
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Cámara de Comercio de Fuerteventura"
+      },
+      "datePublished": "2026-02-04",
+      "dateModified": "2026-02-04",
+      "inLanguage": "es"
+    };
+
+    // Add or update structured data scripts
+    let scriptPerson = document.getElementById('schema-person');
+    if (!scriptPerson) {
+      scriptPerson = document.createElement('script');
+      scriptPerson.id = 'schema-person';
+      scriptPerson.type = 'application/ld+json';
+      document.head.appendChild(scriptPerson);
+    }
+    scriptPerson.textContent = JSON.stringify(structuredDataPerson);
+
+    let scriptProfilePage = document.getElementById('schema-profilepage');
+    if (!scriptProfilePage) {
+      scriptProfilePage = document.createElement('script');
+      scriptProfilePage.id = 'schema-profilepage';
+      scriptProfilePage.type = 'application/ld+json';
+      document.head.appendChild(scriptProfilePage);
+    }
+    scriptProfilePage.textContent = JSON.stringify(structuredDataProfilePage);
+
+    let scriptWebPage = document.getElementById('schema-webpage');
+    if (!scriptWebPage) {
+      scriptWebPage = document.createElement('script');
+      scriptWebPage.id = 'schema-webpage';
+      scriptWebPage.type = 'application/ld+json';
+      document.head.appendChild(scriptWebPage);
+    }
+    scriptWebPage.textContent = JSON.stringify(structuredDataWebPage);
+
+    // Cleanup function
+    return () => {
+      // Remove structured data scripts when component unmounts
+      const scripts = ['schema-person', 'schema-profilepage', 'schema-webpage'];
+      scripts.forEach(id => {
+        const script = document.getElementById(id);
+        if (script) script.remove();
+      });
+    };
   }, []);
 
   useEffect(() => {

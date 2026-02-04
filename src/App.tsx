@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 import ErrorBoundary from './components/ErrorBoundary';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -19,11 +19,13 @@ import CookiePolicy from './components/CookiePolicy';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import LegalNotice from './components/LegalNotice';
 import ProgramPage from './components/ProgramPage';
+import DeveloperPage from './components/DeveloperPage';
 import ProfileModal from './components/ProfileModal';
 import Avatar from './components/Avatar';
 import ThankYouCarousel from './components/ThankYouCarousel';
 
 function MainContent() {
+  const navigate = useNavigate();
   const [isAdminPanelOpen, setIsAdminPanelOpen] = useState(false);
   const [isCookiePolicyOpen, setIsCookiePolicyOpen] = useState(false);
   const [isPrivacyPolicyOpen, setIsPrivacyPolicyOpen] = useState(false);
@@ -35,6 +37,10 @@ function MainContent() {
     if (password === import.meta.env.VITE_ADMIN_PASSWORD) {
       setIsAdminPanelOpen(true);
     }
+  };
+
+  const handleAvatarClick = () => {
+    navigate('/developer');
   };
 
   return (
@@ -96,7 +102,7 @@ function MainContent() {
               <div className="flex items-center justify-center gap-3 text-xs sm:text-sm text-gray-500 px-2">
                 <span>Página web diseñada por Jean Michel Jimmy Tordeur (J.M Tordeur) - Ingeniero Informático de la Cámara Oficial de Comercio, Industria y Navegación de Fuerteventura</span>
                 <button
-                  onClick={() => setIsProfileModalOpen(true)}
+                  onClick={handleAvatarClick}
                   className="transition-transform hover:scale-110"
                   aria-label="Ver perfil profesional de Jean Michel Jimmy Tordeur"
                 >
@@ -173,6 +179,7 @@ function App() {
           <Route path="/" element={<MainContent />} />
           <Route path="/startup-competition" element={<StartupCompetition />} />
           <Route path="/program" element={<ProgramPage />} />
+          <Route path="/developer" element={<DeveloperPage />} />
         </Routes>
       </Router>
     </ErrorBoundary>

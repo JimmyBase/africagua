@@ -605,7 +605,7 @@ export default function DeveloperPage() {
                   </a>
                 </li>
                 <li>
-                  <a href="https://agenciadecolocacionccf.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-teal-600 hover:text-teal-700 transition-colors">
+                  <a href="https://agenciadecolocacionccf.netlify.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-teal-600 hover:text-teal-700 transition-colors">
                     <ExternalLink className="w-4 h-4" />
                     Agencia de Colocación CCF
                   </a>

@@ -1,63 +1,23 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Download, ArrowLeft, FileText, Globe, Database, Shield, Smartphone, Layout, Users, Calendar, Award } from 'lucide-react';
-import jsPDF from 'jspdf';
-import html2canvas from 'html2canvas';
+import { generateMemoriaPDF } from '../lib/pdfGenerator';
 
 const MemoriaPage: React.FC = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
-  const contentRef = useRef<HTMLDivElement>(null);
   const [isGenerating, setIsGenerating] = useState(false);
   const [progress, setProgress] = useState(0);
 
   const generatePDF = async () => {
-    if (!contentRef.current) return;
-
     setIsGenerating(true);
-    setProgress(10);
+    setProgress(0);
 
     try {
-      const content = contentRef.current;
-      const canvas = await html2canvas(content, {
-        scale: 2,
-        useCORS: true,
-        logging: false,
-        backgroundColor: '#ffffff',
+      await generateMemoriaPDF((newProgress) => {
+        setProgress(newProgress);
       });
-
-      setProgress(50);
-
-      const imgData = canvas.toDataURL('image/png');
-      const pdf = new jsPDF('p', 'mm', 'a4');
-      const pdfWidth = pdf.internal.pageSize.getWidth();
-      const pdfHeight = pdf.internal.pageSize.getHeight();
-      const imgWidth = canvas.width;
-      const imgHeight = canvas.height;
-      const ratio = Math.min(pdfWidth / imgWidth, pdfHeight / imgHeight);
-      const imgX = (pdfWidth - imgWidth * ratio) / 2;
-      const imgY = 0;
-
-      setProgress(75);
-
-      let heightLeft = imgHeight * ratio;
-      let position = 0;
-      let page = 1;
-
-      pdf.addImage(imgData, 'PNG', imgX, imgY, imgWidth * ratio, imgHeight * ratio);
-      heightLeft -= pdfHeight;
-
-      while (heightLeft >= 0) {
-        position = heightLeft - imgHeight * ratio;
-        pdf.addPage();
-        page++;
-        pdf.addImage(imgData, 'PNG', imgX, position, imgWidth * ratio, imgHeight * ratio);
-        heightLeft -= pdfHeight;
-      }
-
-      setProgress(100);
-      pdf.save('Memoria_Tecnica_Africagua_2025.pdf');
     } catch (error) {
       console.error('Error generating PDF:', error);
       alert('Error al generar el PDF. Por favor, inténtelo de nuevo.');
@@ -93,7 +53,7 @@ const MemoriaPage: React.FC = () => {
       </div>
 
       <div className="container mx-auto px-4 py-20 max-w-5xl">
-        <div ref={contentRef} className="bg-white rounded-2xl shadow-2xl p-8 md:p-12">
+        <div className="bg-white rounded-2xl shadow-2xl p-8 md:p-12">
 
           {/* Portada */}
           <div className="text-center mb-16 border-b-4 border-teal-600 pb-12">

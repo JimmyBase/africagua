@@ -21,6 +21,7 @@ import LegalNotice from './components/LegalNotice';
 import ProgramPage from './components/ProgramPage';
 import DeveloperPage from './components/DeveloperPage';
 import ProfileModal from './components/ProfileModal';
+import MemoriaPage from './components/MemoriaPage';
 import Avatar from './components/Avatar';
 import ThankYouCarousel from './components/ThankYouCarousel';
 
@@ -116,23 +117,29 @@ function MainContent() {
                 </button>
               </div>
               <div className="flex flex-wrap justify-center gap-2 sm:gap-4 text-xs sm:text-sm px-2">
-                <button 
+                <button
                   onClick={() => setIsCookiePolicyOpen(true)}
                   className="text-teal-600 hover:text-teal-700 transition-colors py-1"
                 >
                   Política de cookies
                 </button>
-                <button 
+                <button
                   onClick={() => setIsPrivacyPolicyOpen(true)}
                   className="text-teal-600 hover:text-teal-700 transition-colors py-1"
                 >
                   Política de privacidad
                 </button>
-                <button 
+                <button
                   onClick={() => setIsLegalNoticeOpen(true)}
                   className="text-teal-600 hover:text-teal-700 transition-colors py-1"
                 >
                   Aviso legal
+                </button>
+                <button
+                  onClick={() => navigate('/memoria')}
+                  className="text-teal-600 hover:text-teal-700 transition-colors py-1 font-semibold"
+                >
+                  Memoria Técnica
                 </button>
               </div>
             </div>
@@ -180,6 +187,7 @@ function App() {
           <Route path="/startup-competition" element={<StartupCompetition />} />
           <Route path="/program" element={<ProgramPage />} />
           <Route path="/developer" element={<DeveloperPage />} />
+          <Route path="/memoria" element={<MemoriaPage />} />
         </Routes>
       </Router>
     </ErrorBoundary>

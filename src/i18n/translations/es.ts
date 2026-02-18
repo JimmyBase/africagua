@@ -753,6 +753,12 @@ export default {
       nearby_restaurant: 'Restaurantes Cercanos',
       nearby_parking: 'Aparcamientos Cercanos',
       nearby_gas_station: 'Gasolineras Cercanas'
+    },
+    memoria: {
+      title: 'Memoria Técnica',
+      subtitle: 'Documentación del Proyecto Web Africagua 2025',
+      download_pdf: 'Descargar PDF',
+      back: 'Volver'
     }
   }
 };

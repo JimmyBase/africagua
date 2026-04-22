@@ -1,6 +1,6 @@
 import { initializeApp } from 'firebase/app';
 import { getDatabase, ref as dbRef, get, push, set, remove, update } from 'firebase/database';
-import { getStorage, ref as storageRef, deleteObject } from 'firebase/storage';
+import { getStorage, ref as storageRef, deleteObject, listAll, getDownloadURL } from 'firebase/storage';
 import { getAnalytics, Analytics } from 'firebase/analytics';
 
 const validateFirebaseConfig = () => {
@@ -136,6 +136,19 @@ export const deleteNews = async (newsId: string, imageUrl: string) => {
   } catch (error) {
     console.error('Error deleting news:', error);
     throw error;
+  }
+};
+
+// Fetch all image download URLs from a Firebase Storage folder
+export const fetchSlidePhotos = async (folderPath: string): Promise<string[]> => {
+  try {
+    const folderRef = storageRef(storage, folderPath);
+    const result = await listAll(folderRef);
+    const urls = await Promise.all(result.items.map((item) => getDownloadURL(item)));
+    return urls;
+  } catch (error) {
+    console.error('Error fetching slide photos:', error);
+    return [];
   }
 };
 

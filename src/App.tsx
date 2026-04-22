@@ -24,6 +24,7 @@ import ProfileModal from './components/ProfileModal';
 import MemoriaPage from './components/MemoriaPage';
 import Avatar from './components/Avatar';
 import ThankYouCarousel from './components/ThankYouCarousel';
+import PhotoSlideshow from './components/PhotoSlideshow';
 
 function MainContent() {
   const navigate = useNavigate();
@@ -62,6 +63,9 @@ function MainContent() {
         </div>
         <div className="section-bg wind-rotate">
           <B2BMeetings />
+        </div>
+        <div className="section-bg solar-shimmer">
+          <PhotoSlideshow />
         </div>
         <div className="section-bg energy-pulse">
           <NewsSection onAdminClick={handleAdminClick} />

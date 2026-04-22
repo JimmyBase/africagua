@@ -40,7 +40,7 @@ const PhotoSlideshow = () => {
   };
 
   const titles: Record<string, { heading: string; sub: string }> = {
-    es: { heading: 'Galería de Imágenes', sub: 'Momentos destacados de Africagua 2025' },
+    es: { heading: 'Galería de Imágenes.', sub: 'Momentos destacados de Africagua 2025' },
     en: { heading: 'Photo Gallery', sub: 'Highlights from Africagua 2025' },
     fr: { heading: 'Galerie Photos', sub: 'Moments forts d\'Africagua 2025' },
     de: { heading: 'Fotogalerie', sub: 'Höhepunkte von Africagua 2025' },

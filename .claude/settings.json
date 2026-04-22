@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd /tmp/cc-agent/40064391/project && python3 scripts/github_sync.py 2>&1 || true",
+            "timeout": 300,
+            "statusMessage": "Syncing changes to GitHub..."
+          }
+        ]
+      }
+    ]
+  }
+}

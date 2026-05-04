@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ArrowRight, ChevronLeft, ChevronRight, MapPin } from 'lucide-react';
+import { ChevronLeft, ChevronRight, MapPin } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import NewsModal from './NewsModal';
 
@@ -113,18 +113,6 @@ const Hero = () => {
           ))}
         </div>
 
-        {/* Registration Button */}
-        <div className="absolute bottom-8 right-8 z-10">
-          <a
-            href="https://eventosccf.netlify.app/eventos/-OJJMdGgVrnpZVJJdFDL"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-white/90 backdrop-blur-sm hover:bg-white/95 text-teal-600 font-medium text-base px-6 py-3 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 group"
-          >
-            <span>{t('hero.register')}</span>
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </a>
-        </div>
 
         {/* Slides Container */}
         <div className="relative w-full h-full">
@@ -215,17 +203,6 @@ const Hero = () => {
         </div>
 
         {/* Registration Button */}
-        <div className="absolute bottom-4 right-4 z-10">
-          <a
-            href="https://eventosccf.netlify.app/eventos/-OJJMdGgVrnpZVJJdFDL"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 bg-white/90 backdrop-blur-sm hover:bg-white/95 text-teal-600 font-medium text-sm px-4 py-2 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 group"
-          >
-            <span>{t('hero.register')}</span>
-            <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-          </a>
-        </div>
 
         {/* Slides Container */}
         <div className="relative w-full h-full">

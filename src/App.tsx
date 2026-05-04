@@ -53,6 +53,9 @@ function MainContent() {
       <div className="relative min-h-screen w-full overflow-x-hidden">
         <div className="relative z-10">
           <Hero2027 />
+          <div className="section-bg energy-pulse">
+            <NewsSection onAdminClick={handleAdminClick} />
+          </div>
         </div>
       </div>
     );

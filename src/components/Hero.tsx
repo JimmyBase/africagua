@@ -59,7 +59,7 @@ const Hero = () => {
   return (
     <>
       {/* Africagua 2027 Senegal Announcement */}
-      <div className="relative overflow-hidden bg-gradient-to-r from-teal-800 via-teal-700 to-amber-600">
+      <div className="relative overflow-hidden bg-gradient-to-r from-teal-800 via-teal-700 to-amber-600 pt-20">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(255,255,255,0.2),transparent_70%)]" />
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,rgba(251,191,36,0.3),transparent_50%)]" />

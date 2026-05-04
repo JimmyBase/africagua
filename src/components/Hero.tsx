@@ -58,6 +58,28 @@ const Hero = () => {
 
   return (
     <>
+      {/* Africagua 2027 Senegal Announcement */}
+      <div className="relative overflow-hidden bg-gradient-to-r from-teal-800 via-teal-700 to-amber-600">
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(255,255,255,0.2),transparent_70%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,rgba(251,191,36,0.3),transparent_50%)]" />
+        </div>
+        <div className="relative max-w-5xl mx-auto px-4 py-12 md:py-16 text-center">
+          <div className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm rounded-full px-4 py-1.5 mb-6 animate-pulse">
+            <MapPin className="w-4 h-4 text-amber-300" />
+            <span className="text-amber-100 text-sm font-medium tracking-wide uppercase">Destino 2027</span>
+          </div>
+          <h2 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-4 drop-shadow-lg">
+            Africagua 2027
+            <span className="block text-amber-300 mt-2">Rumbo a Senegal</span>
+          </h2>
+          <p className="text-lg md:text-xl text-teal-100 max-w-2xl mx-auto leading-relaxed">
+            La proxima edicion cruza fronteras. El foro internacional de agua y energias renovables
+            desembarca en Senegal. Una nueva era comienza.
+          </p>
+        </div>
+      </div>
+
       {/* Desktop Version */}
       <div className="relative hidden md:block h-screen overflow-hidden">
         {/* Navigation Arrows */}
@@ -252,28 +274,6 @@ const Hero = () => {
               />
             </div>
           </div>
-        </div>
-      </div>
-
-      {/* Africagua 2027 Senegal Announcement */}
-      <div className="relative overflow-hidden bg-gradient-to-r from-teal-800 via-teal-700 to-amber-600">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(255,255,255,0.2),transparent_70%)]" />
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,rgba(251,191,36,0.3),transparent_50%)]" />
-        </div>
-        <div className="relative max-w-5xl mx-auto px-4 py-12 md:py-16 text-center">
-          <div className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm rounded-full px-4 py-1.5 mb-6 animate-pulse">
-            <MapPin className="w-4 h-4 text-amber-300" />
-            <span className="text-amber-100 text-sm font-medium tracking-wide uppercase">Destino 2027</span>
-          </div>
-          <h2 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-4 drop-shadow-lg">
-            Africagua 2027
-            <span className="block text-amber-300 mt-2">Rumbo a Senegal</span>
-          </h2>
-          <p className="text-lg md:text-xl text-teal-100 max-w-2xl mx-auto leading-relaxed">
-            La proxima edicion cruza fronteras. El foro internacional de agua y energias renovables
-            desembarca en Senegal. Una nueva era comienza.
-          </p>
         </div>
       </div>
 

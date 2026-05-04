@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ChevronLeft, ChevronRight, MapPin } from 'lucide-react';
+import { ChevronLeft, ChevronRight, MapPin, Volume2, VolumeX } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import NewsModal from './NewsModal';
 
@@ -10,6 +10,14 @@ const Hero = () => {
   const totalSlides = 2;
   const videoRef = useRef<HTMLVideoElement>(null);
   const mobileVideoRef = useRef<HTMLVideoElement>(null);
+  const [isMuted, setIsMuted] = useState(true);
+
+  const toggleMute = () => {
+    const newMuted = !isMuted;
+    setIsMuted(newMuted);
+    if (videoRef.current) videoRef.current.muted = newMuted;
+    if (mobileVideoRef.current) mobileVideoRef.current.muted = newMuted;
+  };
 
   const nobelArticle = {
     title: 'El Nobel de Química 2025 premia una innovación clave para el futuro del agua y la sostenibilidad',
@@ -139,6 +147,15 @@ const Hero = () => {
               />
               Tu navegador no soporta el video de Africagua 2025.
             </video>
+            {currentSlide === 0 && (
+              <button
+                onClick={toggleMute}
+                className="absolute bottom-6 left-6 z-10 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full backdrop-blur-sm transition-all duration-300"
+                aria-label={isMuted ? 'Activar audio' : 'Desactivar audio'}
+              >
+                {isMuted ? <VolumeX className="w-5 h-5" /> : <Volume2 className="w-5 h-5" />}
+              </button>
+            )}
           </div>
 
           {/* Slide 2: Nobel Image */}
@@ -229,6 +246,15 @@ const Hero = () => {
               />
               Tu navegador no soporta el video de Africagua 2025.
             </video>
+            {currentSlide === 0 && (
+              <button
+                onClick={toggleMute}
+                className="absolute bottom-4 left-4 z-10 bg-black/50 hover:bg-black/70 text-white p-2.5 rounded-full backdrop-blur-sm transition-all duration-300"
+                aria-label={isMuted ? 'Activar audio' : 'Desactivar audio'}
+              >
+                {isMuted ? <VolumeX className="w-4 h-4" /> : <Volume2 className="w-4 h-4" />}
+              </button>
+            )}
           </div>
 
           {/* Slide 2: Nobel Image */}

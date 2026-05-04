@@ -17,6 +17,12 @@ export default {
       register: 'Register',
       program: '2025 Program'
     },
+    hero2027: {
+      badge: 'Destination 2027',
+      title: 'Africagua 2027',
+      subtitle: 'Heading to Senegal',
+      description: 'The next edition crosses borders. The international water and renewable energy forum lands in Senegal. A new era begins.'
+    },
     thankyou: {
       title: 'Thank You for Your Participation',
       message: 'The entire Africagua 2025 team thanks you for your participation. We look forward to seeing you in 2027'

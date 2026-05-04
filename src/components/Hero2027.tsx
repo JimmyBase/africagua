@@ -1,7 +1,9 @@
 import React, { useState, useRef } from 'react';
 import { MapPin, Volume2, VolumeX } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Hero2027 = () => {
+  const { t } = useTranslation();
   const videoRef = useRef<HTMLVideoElement>(null);
   const mobileVideoRef = useRef<HTMLVideoElement>(null);
   const [isMuted, setIsMuted] = useState(true);
@@ -24,15 +26,14 @@ const Hero2027 = () => {
         <div className="relative max-w-5xl mx-auto px-4 py-12 md:py-16 text-center">
           <div className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm rounded-full px-4 py-1.5 mb-6 animate-pulse">
             <MapPin className="w-4 h-4 text-amber-300" />
-            <span className="text-amber-100 text-sm font-medium tracking-wide uppercase">Destino 2027</span>
+            <span className="text-amber-100 text-sm font-medium tracking-wide uppercase">{t('hero2027.badge')}</span>
           </div>
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-4 drop-shadow-lg">
-            Africagua 2027
-            <span className="block text-amber-300 mt-2">Rumbo a Senegal</span>
+            {t('hero2027.title')}
+            <span className="block text-amber-300 mt-2">{t('hero2027.subtitle')}</span>
           </h2>
           <p className="text-lg md:text-xl text-teal-100 max-w-2xl mx-auto leading-relaxed">
-            La proxima edicion cruza fronteras. El foro internacional de agua y energias renovables
-            desembarca en Senegal. Una nueva era comienza.
+            {t('hero2027.description')}
           </p>
         </div>
       </div>

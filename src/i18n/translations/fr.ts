@@ -17,6 +17,12 @@ export default {
       register: "S'inscrire",
       program: 'Programme 2025'
     },
+    hero2027: {
+      badge: 'Destination 2027',
+      title: 'Africagua 2027',
+      subtitle: 'Cap sur le Sénégal',
+      description: "La prochaine édition traverse les frontières. Le forum international de l'eau et des énergies renouvelables débarque au Sénégal. Une nouvelle ère commence."
+    },
     thankyou: {
       title: 'Merci pour Votre Participation',
       message: "Toute l'équipe d'Africagua 2025 vous remercie pour votre participation. Nous espérons vous voir en 2027"

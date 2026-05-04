@@ -17,6 +17,12 @@ export default {
       register: 'Inscríbete',
       program: 'Programa 2025'
     },
+    hero2027: {
+      badge: 'Destino 2027',
+      title: 'Africagua 2027',
+      subtitle: 'Rumbo a Senegal',
+      description: 'La próxima edición cruza fronteras. El foro internacional de agua y energías renovables desembarca en Senegal. Una nueva era comienza.'
+    },
     thankyou: {
       title: 'Gracias por su Participación',
       message: 'Todo el equipo de Africagua 2025 les da las gracias por su participación. Esperamos verles en 2027'

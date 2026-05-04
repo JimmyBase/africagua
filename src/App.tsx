@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate, useNavigate } from 'react-router-dom';
 import ErrorBoundary from './components/ErrorBoundary';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+import Hero2025 from './components/Hero2025';
+import Hero2027 from './components/Hero2027';
 import AboutSection from './components/AboutSection';
 import LocationSection from './components/LocationSection';
 import B2BMeetings from './components/B2BMeetings';
@@ -25,6 +26,7 @@ import MemoriaPage from './components/MemoriaPage';
 import Avatar from './components/Avatar';
 import ThankYouCarousel from './components/ThankYouCarousel';
 import PhotoSlideshow from './components/PhotoSlideshow';
+import { YearProvider, useYear } from './contexts/YearContext';
 
 function MainContent() {
   const navigate = useNavigate();
@@ -33,6 +35,7 @@ function MainContent() {
   const [isPrivacyPolicyOpen, setIsPrivacyPolicyOpen] = useState(false);
   const [isLegalNoticeOpen, setIsLegalNoticeOpen] = useState(false);
   const [isProfileModalOpen, setIsProfileModalOpen] = useState(false);
+  const { year } = useYear();
 
   const handleAdminClick = () => {
     const password = prompt('Introduce la clave de administrador:');
@@ -45,10 +48,20 @@ function MainContent() {
     navigate('/developer');
   };
 
+  if (year === '2027') {
+    return (
+      <div className="relative min-h-screen w-full overflow-x-hidden">
+        <div className="relative z-10">
+          <Hero2027 />
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="relative min-h-screen w-full overflow-x-hidden">
       <div className="relative z-10">
-        <Hero />
+        <Hero2025 />
         <div className="section-bg energy-pulse">
           <ThankYouCarousel />
         </div>
@@ -88,7 +101,7 @@ function MainContent() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             {/* Logos */}
             <div className="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-12 mb-6 sm:mb-8">
-              <img 
+              <img
                 src="https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/LOGO%20AFRICAGUA.png?alt=media&token=9e8c68b1-211e-4bb4-ac6c-d00193fb057e"
                 alt="Africagua Logo"
                 className="h-12 sm:h-16 w-auto"
@@ -101,7 +114,7 @@ function MainContent() {
                 />
               </a>
             </div>
-            
+
             {/* Credit line and Policy Links */}
             <div className="text-center space-y-4">
               <div className="flex items-center justify-center gap-3 text-xs sm:text-sm text-gray-500 px-2">
@@ -151,14 +164,14 @@ function MainContent() {
         </footer>
       </div>
 
-      <AdminNewsPanel 
+      <AdminNewsPanel
         isOpen={isAdminPanelOpen}
-        onClose={() => setIsAdminPanelOpen(false)} 
+        onClose={() => setIsAdminPanelOpen(false)}
       />
-      
+
       <CookieConsent onOpenCookiePolicy={() => setIsCookiePolicyOpen(true)} />
-      
-      <CookiePolicy 
+
+      <CookiePolicy
         isOpen={isCookiePolicyOpen}
         onClose={() => setIsCookiePolicyOpen(false)}
       />
@@ -181,19 +194,37 @@ function MainContent() {
   );
 }
 
+function AppRoutes() {
+  const { year } = useYear();
+
+  return (
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<MainContent />} />
+        {year === '2025' ? (
+          <>
+            <Route path="/startup-competition" element={<StartupCompetition />} />
+            <Route path="/program" element={<ProgramPage />} />
+            <Route path="/developer" element={<DeveloperPage />} />
+            <Route path="/memoria" element={<MemoriaPage />} />
+          </>
+        ) : (
+          <Route path="*" element={<Navigate to="/" replace />} />
+        )}
+      </Routes>
+    </>
+  );
+}
+
 function App() {
   return (
     <ErrorBoundary>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<MainContent />} />
-          <Route path="/startup-competition" element={<StartupCompetition />} />
-          <Route path="/program" element={<ProgramPage />} />
-          <Route path="/developer" element={<DeveloperPage />} />
-          <Route path="/memoria" element={<MemoriaPage />} />
-        </Routes>
-      </Router>
+      <YearProvider>
+        <Router>
+          <AppRoutes />
+        </Router>
+      </YearProvider>
     </ErrorBoundary>
   );
 }

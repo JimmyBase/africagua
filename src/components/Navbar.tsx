@@ -3,6 +3,8 @@ import { Menu, X } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Link, useLocation } from 'react-router-dom';
 import LanguageSelector from './LanguageSelector';
+import YearSelector from './YearSelector';
+import { useYear } from '../contexts/YearContext';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,6 +12,7 @@ const Navbar = () => {
   const { t } = useTranslation();
   const location = useLocation();
   const isHome = location.pathname === '/';
+  const { year } = useYear();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -32,6 +35,35 @@ const Navbar = () => {
   }`;
 
   const linkClasses = "text-gray-700 hover:text-teal-600 transition-colors duration-300 text-sm whitespace-nowrap px-3 py-2 rounded-lg hover:bg-gray-50/80";
+
+  if (year === '2027') {
+    return (
+      <nav className={navClasses}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-20">
+            <div className="flex items-center flex-shrink-0">
+              <Link
+                to="/"
+                className="flex items-center transform hover:scale-105 transition-transform duration-300"
+                title="Africagua - Inicio"
+              >
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/LOGO%20AFRICAGUA.png?alt=media&token=9e8c68b1-211e-4bb4-ac6c-d00193fb057e"
+                  alt="Logo Africagua - Foro Internacional de Agua y Energías Renovables"
+                  className="h-12 w-auto"
+                />
+              </Link>
+            </div>
+
+            <div className="flex items-center gap-4">
+              <YearSelector />
+              <LanguageSelector />
+            </div>
+          </div>
+        </div>
+      </nav>
+    );
+  }
 
   return (
     <nav className={navClasses}>
@@ -84,13 +116,15 @@ const Navbar = () => {
             </Link>
           </div>
 
-          {/* Language Selector - Right side */}
-          <div className="hidden lg:flex items-center flex-shrink-0 ml-8">
+          {/* Year Selector + Language Selector - Right side */}
+          <div className="hidden lg:flex items-center flex-shrink-0 ml-8 gap-4">
+            <YearSelector />
             <LanguageSelector />
           </div>
 
           {/* Mobile menu button */}
-          <div className="lg:hidden flex items-center ml-auto">
+          <div className="lg:hidden flex items-center ml-auto gap-3">
+            <YearSelector />
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="inline-flex items-center justify-center p-2 rounded-lg text-gray-700 hover:text-teal-600 hover:bg-gray-100 focus:outline-none transition-colors duration-300"
@@ -103,7 +137,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile menu */}
-      <div 
+      <div
         className={`md:hidden absolute top-full left-0 right-0 transition-all duration-300 transform ${
           isOpen ? 'translate-y-0 opacity-100' : '-translate-y-4 opacity-0 pointer-events-none'
         }`}

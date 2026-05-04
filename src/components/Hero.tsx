@@ -124,7 +124,7 @@ const Hero = () => {
               aria-label="Video promocional de Africagua 2025"
             >
               <source
-                src="https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PORTADA%2FV1.%20Promo%20Africagua%202025%20-%20VIDEO.mp4?alt=media&token=186a474a-9d76-4b6b-9ae6-bc7105583f8c"
+                src="https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/ACTU%20AFRICAGUA%2FIMG_5079.MP4?alt=media&token=a8e923f9-3a47-436c-9e82-5cd025691b22"
                 type="video/mp4"
               />
               Tu navegador no soporta el video de Africagua 2025.
@@ -225,7 +225,7 @@ const Hero = () => {
               aria-label="Video promocional de Africagua 2025"
             >
               <source
-                src="https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PORTADA%2FV1%20movil%20version.mp4?alt=media&token=bed9d732-863a-4c36-8ad8-0294cd613846"
+                src="https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/ACTU%20AFRICAGUA%2FIMG_5079.MP4?alt=media&token=a8e923f9-3a47-436c-9e82-5cd025691b22"
                 type="video/mp4"
               />
               Tu navegador no soporta el video de Africagua 2025.

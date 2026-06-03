@@ -106,7 +106,6 @@ const Hero2025 = () => {
               playsInline
               onEnded={handleVideoEnded}
               className="w-full h-full object-cover"
-              poster="https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PORTADA%2FV1.%20Promo%20Africagua%202025%20-%20VIDEO.jpg?alt=media&token=186a474a-9d76-4b6b-9ae6-bc7105583f8c"
               title="Africagua 2025 - IX Foro Internacional de Agua y Energías Renovables"
               aria-label="Video promocional de Africagua 2025"
             >
@@ -194,7 +193,6 @@ const Hero2025 = () => {
               playsInline
               onEnded={handleVideoEnded}
               className="w-full h-full object-cover"
-              poster="https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/PORTADA%2FV1.%20Promo%20Africagua%202025%20-%20VIDEO.jpg?alt=media&token=186a474a-9d76-4b6b-9ae6-bc7105583f8c"
               title="Africagua 2025 - IX Foro Internacional de Agua y Energías Renovables"
               aria-label="Video promocional de Africagua 2025"
             >

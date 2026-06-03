@@ -52,7 +52,7 @@ const Hero2027 = () => {
           aria-label="Video promocional de Africagua 2027"
         >
           <source
-            src="https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/ACTU%20AFRICAGUA%2FIMG_5079.MP4?alt=media&token=a8e923f9-3a47-436c-9e82-5cd025691b22"
+            src="https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/NUEVOS%20VIDEOS%2F2027.mp4?alt=media&token=dfdaa9eb-fb32-4e6b-aa75-bc0260f21040"
             type="video/mp4"
           />
           Tu navegador no soporta el video.
@@ -80,7 +80,7 @@ const Hero2027 = () => {
           aria-label="Video promocional de Africagua 2027"
         >
           <source
-            src="https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/ACTU%20AFRICAGUA%2FIMG_5079.MP4?alt=media&token=a8e923f9-3a47-436c-9e82-5cd025691b22"
+            src="https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/NUEVOS%20VIDEOS%2F2027.mp4?alt=media&token=dfdaa9eb-fb32-4e6b-aa75-bc0260f21040"
             type="video/mp4"
           />
           Tu navegador no soporta el video.

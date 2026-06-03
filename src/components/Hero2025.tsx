@@ -95,7 +95,7 @@ const Hero2025 = () => {
         <div className="relative w-full h-full">
           {/* Slide 1: Video */}
           <div
-            className={`absolute inset-0 transition-opacity duration-700 ${
+            className={`absolute inset-0 bg-black transition-opacity duration-700 ${
               currentSlide === 0 ? 'opacity-100' : 'opacity-0 pointer-events-none'
             }`}
           >
@@ -110,7 +110,7 @@ const Hero2025 = () => {
               aria-label="Video promocional de Africagua 2025"
             >
               <source
-                src="https://firebasestorage.googleapis.com/v0/b/ccf-web-59053.firebasestorage.app/o/AFRI%20CIERRE%2FAFRICAGUA%202025%20CIERRE2.mp4?alt=media&token=7696b0cb-86d8-4e6f-b3b1-95f6b7a3785e"
+                src="https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/NUEVOS%20VIDEOS%2FAFRICAGUA%202025%20CIERRE.mp4?alt=media&token=726cae8e-098e-41fb-9e68-5739abb827e8"
                 type="video/mp4"
               />
               Tu navegador no soporta el video de Africagua 2025.
@@ -182,7 +182,7 @@ const Hero2025 = () => {
         <div className="relative w-full h-full">
           {/* Slide 1: Video */}
           <div
-            className={`absolute inset-0 transition-opacity duration-700 ${
+            className={`absolute inset-0 bg-black transition-opacity duration-700 ${
               currentSlide === 0 ? 'opacity-100' : 'opacity-0 pointer-events-none'
             }`}
           >

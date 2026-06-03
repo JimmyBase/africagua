@@ -110,7 +110,7 @@ const Hero2025 = () => {
               aria-label="Video promocional de Africagua 2025"
             >
               <source
-                src="https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/NUEVOS%20VIDEOS%2FAFRICAGUA%202025%20CIERRE2.mp4?alt=media&token=bf7bf6a2-9592-401b-90ae-cefcdf2149cb"
+                src="https://firebasestorage.googleapis.com/v0/b/ccf-web-59053.firebasestorage.app/o/AFRI%20CIERRE%2FAFRICAGUA%202025%20CIERRE2.mp4?alt=media&token=7696b0cb-86d8-4e6f-b3b1-95f6b7a3785e"
                 type="video/mp4"
               />
               Tu navegador no soporta el video de Africagua 2025.

@@ -55,28 +55,32 @@ export const fetchNews = async (language = 'es') => {
   try {
     const newsRef = dbRef(db, 'news');
     const snapshot = await get(newsRef);
-    
+
     if (snapshot.exists()) {
       const newsData = [];
       snapshot.forEach((child) => {
         const data = child.val();
-        
-        // Check if the news has translations
+
+        // Check if the news has manual translations (legacy field)
         let title = data.title;
         let content = data.content;
-        
+        let summary = data.summary || '';
+
         if (data.translations && data.translations[language]) {
           title = data.translations[language].title || data.title;
           content = data.translations[language].content || data.content;
+          summary = data.translations[language].summary || summary;
         }
-        
+
         newsData.push({
           id: child.key,
           title,
+          summary,
           content,
           imageUrl: data.imageUrl,
           createdAt: new Date(data.createdAt || Date.now()),
           originalTitle: data.title,
+          originalSummary: data.summary || '',
           originalContent: data.content,
           translations: data.translations || {}
         });

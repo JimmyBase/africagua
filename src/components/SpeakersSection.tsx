@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Info, ChevronDown, User, Briefcase, Award, ExternalLink } from 'lucide-react';
+import { useState } from 'react';
+import { Info, ChevronDown, User, Briefcase, Award } from 'lucide-react';
 
 const SpeakersSection = () => {
   const [isOpen, setIsOpen] = useState(false);

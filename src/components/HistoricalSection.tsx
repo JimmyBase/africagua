@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Award, Globe as Globe2, Video, Users, ChevronDown, Calendar, MapPin, Building2, Target } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
@@ -80,7 +80,7 @@ const HistoricalSection = () => {
             </div>
             <p className="text-gray-700 mb-6">{t('history.impact.description')}</p>
             <ul className="space-y-3">
-              {t('history.impact.objectives', { returnObjects: true }).map((objective, index) => (
+              {(t('history.impact.objectives', { returnObjects: true }) as string[]).map((objective, index) => (
                 <li key={index} className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-teal-600 rounded-full flex-shrink-0 mt-2"></div>
                   <span className="text-gray-700">{objective}</span>

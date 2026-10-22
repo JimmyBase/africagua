@@ -3,6 +3,17 @@ import { getDatabase, ref as dbRef, get, push, set, remove, update } from 'fireb
 import { getStorage, ref as storageRef, deleteObject, listAll, getDownloadURL } from 'firebase/storage';
 import { getAnalytics, Analytics } from 'firebase/analytics';
 
+interface NewsItem {
+  id: string | null;
+  title: string;
+  content: string;
+  imageUrl?: string;
+  createdAt: Date;
+  originalTitle: string;
+  originalContent: string;
+  translations: Record<string, { title?: string; content?: string }>;
+}
+
 const validateFirebaseConfig = () => {
   const requiredVars = [
     'VITE_FIREBASE_API_KEY',
@@ -57,7 +68,7 @@ export const fetchNews = async (language = 'es') => {
     const snapshot = await get(newsRef);
     
     if (snapshot.exists()) {
-      const newsData = [];
+      const newsData: NewsItem[] = [];
       snapshot.forEach((child) => {
         const data = child.val();
         
@@ -92,7 +103,7 @@ export const fetchNews = async (language = 'es') => {
 };
 
 // Helper function to add news with translations
-export const addNews = async (newsData) => {
+export const addNews = async (newsData: Record<string, unknown>) => {
   try {
     const newsRef = dbRef(db, 'news');
     const newNewsRef = push(newsRef);

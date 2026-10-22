@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ArrowLeft, ExternalLink, Mail, Globe, User, Briefcase, GraduationCap, MapPin, Languages, Calendar } from 'lucide-react';
+import { ArrowLeft, ExternalLink, Mail, Globe, Briefcase, GraduationCap, MapPin, Languages, Calendar } from 'lucide-react';
 
 export default function DeveloperPage() {
   const navigate = useNavigate();
@@ -153,7 +153,7 @@ export default function DeveloperPage() {
     };
 
     // Add or update structured data scripts
-    let scriptPerson = document.getElementById('schema-person');
+    let scriptPerson = document.getElementById('schema-person') as HTMLScriptElement | null;
     if (!scriptPerson) {
       scriptPerson = document.createElement('script');
       scriptPerson.id = 'schema-person';
@@ -162,7 +162,7 @@ export default function DeveloperPage() {
     }
     scriptPerson.textContent = JSON.stringify(structuredDataPerson);
 
-    let scriptProfilePage = document.getElementById('schema-profilepage');
+    let scriptProfilePage = document.getElementById('schema-profilepage') as HTMLScriptElement | null;
     if (!scriptProfilePage) {
       scriptProfilePage = document.createElement('script');
       scriptProfilePage.id = 'schema-profilepage';
@@ -171,7 +171,7 @@ export default function DeveloperPage() {
     }
     scriptProfilePage.textContent = JSON.stringify(structuredDataProfilePage);
 
-    let scriptWebPage = document.getElementById('schema-webpage');
+    let scriptWebPage = document.getElementById('schema-webpage') as HTMLScriptElement | null;
     if (!scriptWebPage) {
       scriptWebPage = document.createElement('script');
       scriptWebPage.id = 'schema-webpage';

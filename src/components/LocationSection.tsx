@@ -1,4 +1,3 @@
-import React from 'react';
 import { MapPin, Sun, Shield, TrendingUp } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
@@ -20,7 +19,7 @@ const LocationSection = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
-          {t('location.advantages', { returnObjects: true }).map((advantage, index) => (
+          {(t('location.advantages', { returnObjects: true }) as { title: string; description: string }[]).map((advantage, index) => (
             <div
               key={index}
               className="modern-card p-8 text-center"

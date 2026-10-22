@@ -1,4 +1,3 @@
-import React from 'react';
 import { Wind, Sun, Droplets } from 'lucide-react';
 
 const AnimatedBackground = () => {

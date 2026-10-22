@@ -1,4 +1,3 @@
-import React from 'react';
 import { Leaf, Lightbulb, Users, Building2 } from 'lucide-react';
 
 const ProgramSection = () => {

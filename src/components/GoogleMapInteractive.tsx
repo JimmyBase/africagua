@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Loader } from '@googlemaps/js-api-loader';
+import { setOptions, importLibrary } from '@googlemaps/js-api-loader';
 import { MapPin, Navigation, Search, X, Loader2, AlertCircle, Maximize2, Minimize2 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
@@ -23,7 +23,6 @@ const HOTEL_LOCATION = { lat: 28.3901599, lng: -13.8638789 };
 const AIRPORT_LOCATION = { lat: 28.4527612, lng: -13.8637971 };
 
 const GoogleMapInteractive: React.FC<GoogleMapInteractiveProps> = ({
-  onClose,
   showFullControls = true
 }) => {
   const { t } = useTranslation();
@@ -37,7 +36,6 @@ const GoogleMapInteractive: React.FC<GoogleMapInteractiveProps> = ({
   const [nearbyPlaces, setNearbyPlaces] = useState<NearbyPlace[]>([]);
   const [directionsRenderer, setDirectionsRenderer] = useState<google.maps.DirectionsRenderer | null>(null);
   const [nearbyMarkers, setNearbyMarkers] = useState<google.maps.Marker[]>([]);
-  const [hotelMarker, setHotelMarker] = useState<google.maps.Marker | null>(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
 
   useEffect(() => {
@@ -49,14 +47,15 @@ const GoogleMapInteractive: React.FC<GoogleMapInteractiveProps> = ({
       return;
     }
 
-    const loader = new Loader({
-      apiKey: apiKey,
-      version: 'weekly',
-      libraries: ['places', 'geometry']
-    });
+    setOptions({ key: apiKey, v: 'weekly' });
 
-    loader
-      .load()
+    Promise.all([
+      importLibrary('maps'),
+      importLibrary('marker'),
+      importLibrary('routes'),
+      importLibrary('places'),
+      importLibrary('geometry')
+    ])
       .then(() => {
         if (mapRef.current) {
           const mapInstance = new google.maps.Map(mapRef.current, {
@@ -77,7 +76,7 @@ const GoogleMapInteractive: React.FC<GoogleMapInteractiveProps> = ({
             map: mapInstance,
             title: 'Hotel Sheraton Fuerteventura Beach, Golf & Spa Resort',
             icon: {
-              url: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png',
+              url: 'https://maps.google.com/mapfiles/ms/icons/red-dot.png',
               scaledSize: new google.maps.Size(40, 40)
             }
           });
@@ -110,12 +109,11 @@ const GoogleMapInteractive: React.FC<GoogleMapInteractiveProps> = ({
             infoWindow.open(mapInstance, marker);
           });
 
-          setHotelMarker(marker);
           setMap(mapInstance);
           setLoading(false);
         }
       })
-      .catch((e) => {
+      .catch((e: unknown) => {
         console.error('Error loading Google Maps:', e);
         setError(t('map.loading_error'));
         setLoading(false);
@@ -235,14 +233,14 @@ const GoogleMapInteractive: React.FC<GoogleMapInteractiveProps> = ({
 
   const getCategoryIcon = (category: string): string => {
     const icons: Record<string, string> = {
-      restaurant: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png',
-      cafe: 'http://maps.google.com/mapfiles/ms/icons/yellow-dot.png',
-      parking: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
-      gas_station: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png',
-      atm: 'http://maps.google.com/mapfiles/ms/icons/purple-dot.png',
-      pharmacy: 'http://maps.google.com/mapfiles/ms/icons/pink-dot.png'
+      restaurant: 'https://maps.google.com/mapfiles/ms/icons/red-dot.png',
+      cafe: 'https://maps.google.com/mapfiles/ms/icons/yellow-dot.png',
+      parking: 'https://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+      gas_station: 'https://maps.google.com/mapfiles/ms/icons/green-dot.png',
+      atm: 'https://maps.google.com/mapfiles/ms/icons/purple-dot.png',
+      pharmacy: 'https://maps.google.com/mapfiles/ms/icons/pink-dot.png'
     };
-    return icons[category] || 'http://maps.google.com/mapfiles/ms/icons/red-dot.png';
+    return icons[category] || 'https://maps.google.com/mapfiles/ms/icons/red-dot.png';
   };
 
   const resetView = () => {

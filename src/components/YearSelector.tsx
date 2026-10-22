@@ -1,4 +1,3 @@
-import React from 'react';
 import { useYear } from '../contexts/YearContext';
 
 const YearSelector = () => {

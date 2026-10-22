@@ -23,7 +23,8 @@ interface AdminNewsPanelProps {
 
 const AdminNewsPanel = ({ isOpen, onClose, editingNews }: AdminNewsPanelProps) => {
   const [title, setTitle] = useState('');
-  const [content, setContent] = useState('');
+  // The editor's HTML is read from editorRef when publishing; this state only mirrors it.
+  const [, setContent] = useState('');
   const [image, setImage] = useState<File | null>(null);
   const [imagePreview, setImagePreview] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -189,7 +190,7 @@ const AdminNewsPanel = ({ isOpen, onClose, editingNews }: AdminNewsPanelProps) =
     }
   };
 
-  const execCommand = (command: string, value: string | null = null) => {
+  const execCommand = (command: string, value?: string) => {
     document.execCommand(command, false, value);
     editorRef.current?.focus();
   };

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Car, Bus, Stethoscope, Phone, Clock, Globe } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
@@ -56,7 +55,7 @@ const UsefulInfo = () => {
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-6">{t('useful_info.taxis.title')}</h3>
             <div className="space-y-6">
-              {t('useful_info.taxis.items', { returnObjects: true }).map((taxi, index) => (
+              {(t('useful_info.taxis.items', { returnObjects: true }) as { name: string; phone: string; info: string }[]).map((taxi, index) => (
                 <div key={index} className="border-b border-gray-100 last:border-0 pb-4 last:pb-0">
                   <h4 className="font-medium text-gray-900">{taxi.name}</h4>
                   <div className="flex items-center gap-2 text-sm text-gray-500 mb-1">
@@ -76,7 +75,7 @@ const UsefulInfo = () => {
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-6">{t('useful_info.buses.title')}</h3>
             <div className="space-y-6">
-              {t('useful_info.buses.items', { returnObjects: true }).map((bus, index) => (
+              {(t('useful_info.buses.items', { returnObjects: true }) as { line: string; route: string; frequency: string }[]).map((bus, index) => (
                 <div key={index} className="border-b border-gray-100 last:border-0 pb-4 last:pb-0">
                   <h4 className="font-medium text-gray-900">{bus.line}</h4>
                   <p className="text-sm text-gray-600 mb-1">{bus.route}</p>

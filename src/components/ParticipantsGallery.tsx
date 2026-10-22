@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Search, Filter, MapPin, Briefcase, Award, User, X, ChevronRight, Building2 } from 'lucide-react';
+import { Search, Filter, MapPin, Award, User, X, ChevronRight, Building2 } from 'lucide-react';
 
 interface Participant {
   name: string;

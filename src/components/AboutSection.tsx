@@ -1,4 +1,3 @@
-import React from 'react';
 import { Droplets, Wind, Globe2, LineChart } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
@@ -37,7 +36,7 @@ const AboutSection = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {t('about.objectives', { returnObjects: true }).slice(0, 3).map((objective, index) => (
+          {(t('about.objectives', { returnObjects: true }) as { title: string; description: string }[]).slice(0, 3).map((objective, index) => (
             <div 
               key={index} 
               className="modern-card p-8"

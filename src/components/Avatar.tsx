@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { User } from 'lucide-react';
+import { useState } from 'react';
 
 interface AvatarProps {
   src?: string;

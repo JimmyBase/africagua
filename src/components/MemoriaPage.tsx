@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
-import { Download, ArrowLeft, FileText, Globe, Database, Shield, Smartphone, Layout, Users, Calendar, Award } from 'lucide-react';
+import { Download, ArrowLeft, FileText, Globe, Database, Shield, Smartphone, Layout, Users, Award } from 'lucide-react';
 import { generateMemoriaPDF } from '../lib/pdfGenerator';
 
 const MemoriaPage: React.FC = () => {
-  const { t } = useTranslation();
   const navigate = useNavigate();
   const [isGenerating, setIsGenerating] = useState(false);
   const [progress, setProgress] = useState(0);

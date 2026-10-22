@@ -1,11 +1,21 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Calendar, MapPin, Clock, Users, Coffee, Award, Presentation, ChevronDown, ChevronUp, Sparkles, User, Globe, Linkedin, Mail, ExternalLink, X, Trophy, Download } from 'lucide-react';
+import { MapPin, ChevronDown, ChevronUp, User, ExternalLink, X, Trophy, Download } from 'lucide-react';
 import CookiePolicy from './CookiePolicy';
 import PrivacyPolicy from './PrivacyPolicy';
 import LegalNotice from './LegalNotice';
 import ProfileModal from './ProfileModal';
 import Avatar from './Avatar';
+
+interface ProgramDay {
+  date: string;
+  sessions: any[];
+  sala_a?: { venue: string; sessions: any[] };
+}
+
+interface ProgramData {
+  days: { day1: ProgramDay; day2: ProgramDay };
+}
 
 const ProgramPage = () => {
   const { t } = useTranslation();
@@ -17,7 +27,7 @@ const ProgramPage = () => {
   const [isProfileModalOpen, setIsProfileModalOpen] = useState(false);
   const [selectedJuryMember, setSelectedJuryMember] = useState<any>(null);
 
-  const programData = t('program_page', { returnObjects: true });
+  const programData = t('program_page', { returnObjects: true }) as ProgramData;
   const speakerProfiles = t('speaker_profiles', { returnObjects: true }) as Record<string, any>;
   const juryMembers = t('startup_competition.jury.members', { returnObjects: true }) as any[];
 
@@ -61,23 +71,6 @@ const ProgramPage = () => {
 
   const getSpeakerProfile = (speakerName: string) => {
     return speakerProfiles[speakerName] || null;
-  };
-
-  const getSessionIcon = (type: string) => {
-    switch (type) {
-      case 'opening':
-        return <Award className="w-5 h-5 text-cyan-400" />;
-      case 'panel':
-        return <Users className="w-5 h-5 text-cyan-500" />;
-      case 'break':
-        return <Coffee className="w-5 h-5 text-slate-400" />;
-      case 'presentation':
-        return <Presentation className="w-5 h-5 text-cyan-400" />;
-      case 'awards':
-        return <Award className="w-5 h-5 text-cyan-300" />;
-      default:
-        return <Clock className="w-5 h-5 text-slate-500" />;
-    }
   };
 
   const getSessionColor = (type: string) => {

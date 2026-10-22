@@ -1,26 +1,22 @@
-import React, { useState } from 'react';
-import { Euro, Rocket, MapPin, Download, ArrowRight, Users, Trophy, ExternalLink, X } from 'lucide-react';
+import { useState } from 'react';
+import { Euro, Rocket, Download, ArrowRight, Trophy, ExternalLink, X } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+
+interface JuryMember {
+  name: string;
+  position: string;
+  expertise: string;
+  image: string;
+  bio: string;
+  fullBio?: string;
+}
 
 const StartupCompetition = () => {
   const { t } = useTranslation();
-  const { i18n } = useTranslation();
-  const [selectedJuryMember, setSelectedJuryMember] = useState(null);
+  const [selectedJuryMember, setSelectedJuryMember] = useState<JuryMember | null>(null);
   
   // Get jury members from translations
-  const juryMembers = t('startup_competition.jury.members', { returnObjects: true });
-
-  // Map language codes to their respective PDF download URLs
-  const downloadUrls = {
-    es: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/GLOBAL%20STARTUP%2FBASES%2001-08-25%2FBASES%20ESP.pdf?alt=media&token=66a9d278-2188-479b-a378-9ce18c4b8577',
-    en: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/GLOBAL%20STARTUP%2FBASES%2001-08-25%2FBASES%20GB.pdf?alt=media&token=f937eac8-789f-4ecd-9d50-0ac3a33c0560',
-    fr: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/GLOBAL%20STARTUP%2FBASES%2001-08-25%2FBASES%20FR.pdf?alt=media&token=e6876708-5664-4441-950e-cb589b2099cf',
-    it: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/GLOBAL%20STARTUP%2FBASES%2001-08-25%2FBASES%20IT.pdf?alt=media&token=50307f06-5ea5-4bb5-b179-f2118a3ea4e5',
-    de: 'https://firebasestorage.googleapis.com/v0/b/africagua-eb795.firebasestorage.app/o/GLOBAL%20STARTUP%2FBASES%2001-08-25%2FBASES%20DE.pdf?alt=media&token=e76db9dc-3513-4b28-8961-d769ddcacd3c'
-  };
-
-  // Get the current language, fallback to Spanish if not found
-  const currentDownloadUrl = downloadUrls[i18n.language] || downloadUrls.es;
+  const juryMembers = t('startup_competition.jury.members', { returnObjects: true }) as JuryMember[];
 
   return (
     <div className="min-h-screen">

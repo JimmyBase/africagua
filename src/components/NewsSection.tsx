@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { fetchNews, deleteNews } from '../lib/firebase';
 import { Calendar, Lock, Trash2, Loader, CreditCard as Edit } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
@@ -20,7 +20,9 @@ interface NewsProps {
   onAdminClick: () => void;
 }
 
-const NewsSection = ({ onAdminClick }: NewsProps) => {
+// onAdminClick is still passed by App.tsx; the admin button is not shown here for now.
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const NewsSection = (_props: NewsProps) => {
   const { t, i18n } = useTranslation();
   const [news, setNews] = useState<NewsItem[]>([]);
   const [loading, setLoading] = useState(true);

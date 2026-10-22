@@ -1,4 +1,3 @@
-import React from 'react';
 import { Users } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
@@ -49,7 +48,7 @@ const B2BMeetings = () => {
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-            {t('b2b.participation.steps', { returnObjects: true }).slice(0, 3).map((step, index) => (
+            {(t('b2b.participation.steps', { returnObjects: true }) as string[]).slice(0, 3).map((step, index) => (
               <div 
                 key={index} 
                 className="modern-card p-8"
@@ -64,7 +63,7 @@ const B2BMeetings = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {t('b2b.participation.steps', { returnObjects: true }).slice(3).map((step, index) => (
+            {(t('b2b.participation.steps', { returnObjects: true }) as string[]).slice(3).map((step, index) => (
               <div 
                 key={index + 3} 
                 className="modern-card p-8"

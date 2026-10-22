@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Cookies from 'js-cookie';
 import { X, Settings, Check } from 'lucide-react';
 

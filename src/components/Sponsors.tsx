@@ -1,4 +1,3 @@
-import React from 'react';
 import { Star, Award, Globe as Globe2, TrendingUp, Users } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
@@ -31,7 +30,7 @@ const Sponsors = () => {
                 <h2 className="text-2xl font-bold text-gray-900">Beneficios de Patrocinar Africagua</h2>
               </div>
               <div className="space-y-4">
-                {t('sponsors.benefits.list', { returnObjects: true }).map((benefit, index) => (
+                {(t('sponsors.benefits.list', { returnObjects: true }) as string[]).map((benefit, index) => (
                   <div 
                     key={index}
                     className="flex items-start gap-4 p-4 rounded-lg hover:bg-teal-50/50 transition-colors"
@@ -46,7 +45,7 @@ const Sponsors = () => {
 
           {/* Why Sponsor Card */}
           <div className="space-y-8">
-            {t('sponsors.why_sponsor', { returnObjects: true }).map((item, index) => (
+            {(t('sponsors.why_sponsor', { returnObjects: true }) as { title: string; description: string }[]).map((item, index) => (
               <div 
                 key={index}
                 className="bg-white/90 backdrop-blur-sm p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02]"
